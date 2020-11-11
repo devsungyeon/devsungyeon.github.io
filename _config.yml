@@ -16,20 +16,20 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko"
-title                    : "Shryu8902's Blog"
+title                    : "Devsungyeon's Blog"
 title_separator          : "-"
-name                     : "Seunghyoung Ryu"
+name                     : "Sungyeon Lee"
 description              : "개인 블로그입니다."
-url                      : "https://shryu8902.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://devsungyeon.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "shryu8902/shryu8902.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "devsungyeon/devsungyeon.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : "shryu8902" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "Devsungyeon" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
