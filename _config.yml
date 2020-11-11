@@ -103,7 +103,7 @@ author:
   name             : "이성연"
   avatar           : #"/assets/images/new_bio.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : #"한국원자력연구원 지능형컴퓨팅연구실"
-  location         : #"세종특별자치시"
+  location         : "부산광역시"
   email            : "sungyeonlee1103@gmail.com"
   uri              : #"https://scholar.google.co.kr/citations?user=eRyqoEcAAAAJ&hl=en"
   home             : # null (default), "absolute or relative url to link to author home"
