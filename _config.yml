@@ -111,15 +111,15 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "seunghyoungryu"
+  facebook         : # "seunghyoungryu"
   foursquare       :
   github           : "devsungyeon"
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        : "seunghyoung_ryu"
+  instagram        : # "seunghyoung_ryu"
   lastfm           :
-  linkedin         : "seunghyoung-ryu-775a73a0" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : # "seunghyoung-ryu-775a73a0" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
