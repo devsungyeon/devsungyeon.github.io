@@ -1,16 +1,16 @@
 ---
-title: "[Machine Learning]d 기계의 학습법"
-strapline: "How the machidne learns."
-description: "기계 학습d d(Machine learning) 프레임워크에 기반한 공부 방법론"
+title: "[Google Analytics] Github 방문자 통계 분석"
+strapline: "구글 애널리틱스 통계 분석"
+description: "Google Analytics Github 적용."
 header:
- overlay_image: /assets/images/triangular.jpeg
+ overlay_image: /assets/images/bright.jpg
 categories:
-  - "asdf"
+  - "Github 블로그"
 tag:
-  - "머신닝"
-  - "기계학"
+  - "Google Analytics"
+  - "구글 애널리틱스"
 toc: true
-last_modified_at: 2020-06-20
+last_modified_at: 2020-11-20
 comments: true
 ---
 

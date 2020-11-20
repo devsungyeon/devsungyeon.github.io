@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/asdf/machine-learnig-1/</loc>
-<lastmod>2020-06-20T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/_posts/2018-06-18-machine-learnig-1/</loc>
-<lastmod>2020-06-20T00:00:00+09:00</lastmod>
+<loc>http://localhost:4000/asdf/GoogleAnalytics/</loc>
+<lastmod>2020-11-20T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/working/2019-01-11-comment1/</loc>
@@ -19,6 +15,10 @@
 <url>
 <loc>http://localhost:4000/working/2019-08-13-lympo/</loc>
 <lastmod>2019-02-01T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/_posts/2020-11-20-GoogleAnalytics/</loc>
+<lastmod>2020-11-20T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
