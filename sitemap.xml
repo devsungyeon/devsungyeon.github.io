@@ -1,39 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
-<!-- www.check-domains.com sitemap generator -->
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
-   <loc>https://devsungyeon.github.io/</loc>
-   <lastmod>2020-11-20T09:54:06+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>1.0000</priority>
+  <loc>https://devsungyeon.github.io/</loc>
+  <lastmod>2020-11-20T13:53:42+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-   <loc>https://devsungyeon.github.io/feed.xml</loc>
-   <lastmod>2020-11-20T13:07:39+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.8000</priority>
+  <loc>https://devsungyeon.github.io/categories/</loc>
+  <lastmod>2020-11-20T13:53:42+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-   <loc>https://devsungyeon.github.io/categories/</loc>
-   <lastmod>2020-11-20T09:54:06+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.8000</priority>
+  <loc>https://devsungyeon.github.io/tags/</loc>
+  <lastmod>2020-11-20T13:53:42+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-   <loc>https://devsungyeon.github.io/tags/</loc>
-   <lastmod>2020-11-20T09:54:06+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.8000</priority>
+  <loc>https://devsungyeon.github.io/github%20blog/Google-analytics/</loc>
+  <lastmod>2020-11-20T13:53:42+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-<url>
-   <loc>https://devsungyeon.github.io/asdf/machine-learnig-1/</loc>
-   <lastmod>2020-11-20T09:54:06+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.8000</priority>
-</url>
+
+
 </urlset>
