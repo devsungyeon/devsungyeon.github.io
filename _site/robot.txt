@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://devsungyeon.github.io/sitemap.xml
