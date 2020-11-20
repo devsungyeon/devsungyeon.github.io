@@ -94,6 +94,7 @@ social:
 analytics:
   provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
+<<<<<<< HEAD
     tracking_id          : UA-183634269-1
     anonymize_ip         : false # true, false (default)
 
