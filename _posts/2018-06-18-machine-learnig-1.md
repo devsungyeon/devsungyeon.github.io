@@ -1,26 +1,22 @@
 ---
-title: "[Google Analytics] Github 방문자 통계 분석"
-strapline: "구글 애널리틱스 통계 분석"
-description: "Google Analytics Github 적용."
+title: "[Machine Learning] 기계의 학습법"
+strapline: "How the machine learns."
+description: "기계 학습 (Machine learning) 프레임워크에 기반한 공부 방법론"
 header:
- overlay_image: /assets/images/bright.jpg
+ overlay_image: /assets/images/triangular.jpeg
 categories:
-  - "Github 블로그"
+  - "Machine Learning"
 tag:
-  - "Google Analytics"
-  - "구글 애널리틱스"
+  - "머신러닝"
+  - "기계학습"
 toc: true
-last_modified_at: 2020-11-20
+last_modified_at: 2018-06-19
 comments: true
 ---
 
 
 
 2016년 3월, 불가능 할 것으로 여겨졌던 바둑이 인공 지능 (Artificial Intelligence, AI)에 의해 정복당했다.  구글 딥마인드 (Google DeepMind)가 개발한 인공 지능 바둑 프로그램인 알파고 (AlphaGo)는 바둑천재 이세돌을 상대로 4승 1패의 성공적인 결과를 얻었다.
-
-
-
-
 
 흔히 바둑에서 가능한 경우의 수는 우주의 원자 수보다 많다고 한다.  무한대에 가까운 경우의 수로 인해 바둑은 인공 지능이 인간을 능가하기가 매우 어려운 문제로 여겨졌으나, 알파고는 이를 극복하고 나아가 스타크래프트 2와 같은 더욱 고차원의 상황 판단 능력과 행동을 필요로 하는 게임으로의 도전을 이어나가고 있다.  오히려 인공지능의 급격한 발전을 통해, 인공지능이 인간의 한계를 뛰어넘는 존재가되는 기술적 특이점 까지 우려하는 시선들 또한 나타나고 있다.
 
