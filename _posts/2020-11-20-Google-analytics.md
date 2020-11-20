@@ -1,16 +1,16 @@
 ---
-title: "[Machine Learning] 기계의 학습법"
-strapline: "How the machine learns."
-description: "기계 학습 (Machine learning) 프레임워크에 기반한 공부 방법론"
+title: "[Google Analytics] Github에 Google Analytics 방문자 분석"
+strapline: "Google Analytics"
+description: "Google Analytics로 방문자 분석"
 header:
- overlay_image: /assets/images/triangular.jpeg
+ overlay_image: /assets/images/bright.jpg
 categories:
-  - "Machine Learning"
+  - "Github Blog"
 tag:
-  - "머신러닝"
-  - "기계학습"
+  - "Github Blog"
+  - "Google Analytics"
 toc: true
-last_modified_at: 2018-06-19
+last_modified_at: 2020-11-20
 comments: true
 ---
 
