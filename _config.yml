@@ -94,11 +94,11 @@ social:
 analytics:
   provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : UA-120931108-1
+    tracking_id          : UA-183634269-1
     anonymize_ip         : false # true, false (default)
 
 
-# Site Author
+# Site Author/
 author:
   name             : "이성연"
   avatar           : #"/assets/images/new_bio.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"

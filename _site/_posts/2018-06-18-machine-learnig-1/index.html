@@ -1,0 +1,539 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.11.2 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="ko" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>[Machine Learning]d 기계의 학습법 - Devsungyeon’s Blog</title>
+<meta name="description" content="기계 학습d d(Machine learning) 프레임워크에 기반한 공부 방법론">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko">
+<meta property="og:site_name" content="Devsungyeon's Blog">
+<meta property="og:title" content="[Machine Learning]d 기계의 학습법">
+<meta property="og:url" content="http://localhost:4000/_posts/2018-06-18-machine-learnig-1/">
+
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/triangular.jpeg">
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/_posts/2018-06-18-machine-learnig-1/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Sungyeon Lee",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+  <meta name="naver-site-verification" content="88f4049b5e09dab33c8f4f9e19efeac2d73da493">
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Devsungyeon's Blog Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/">Devsungyeon's Blog</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/" >Home</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/categories/" >Posts</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/tags/" >Tags</a>
+            </li>
+          
+        </ul>
+        
+        <button class="search__toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">토글 메뉴</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: url('/assets/images/triangular.jpeg');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          [Machine Learning]d 기계의 학습법
+
+        
+      </h1>
+      
+        <p class="page__lead">How the machidne learns.
+</p>
+      
+      
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">이성연</h3>
+    
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">팔로우</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">부산광역시</span>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:sungyeonlee1103@gmail.com">
+            <meta itemprop="email" content="sungyeonlee1103@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> 이메일
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/devsungyeon" itemprop="sameAs">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="[Machine Learning]d 기계의 학습법">
+    
+    
+    <meta itemprop="dateModified" content="June 20, 2020">
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On This Page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#1-인공지능의-형태">1. 인공지능의 형태</a></li>
+  <li><a href="#2-인공지능-첫-걸음">2. 인공지능 첫 걸음</a></li>
+  <li><a href="#3-기계-학습과-딥-러닝">3. 기계 학습과 딥 러닝</a></li>
+  <li><a href="#4-인공-신경망과-기계-학습">4. 인공 신경망과 기계 학습</a></li>
+</ul>
+            </nav>
+          </aside>
+        
+        <p>2016년 3월, 불가능 할 것으로 여겨졌던 바둑이 인공 지능 (Artificial Intelligence, AI)에 의해 정복당했다.  구글 딥마인드 (Google DeepMind)가 개발한 인공 지능 바둑 프로그램인 알파고 (AlphaGo)는 바둑천재 이세돌을 상대로 4승 1패의 성공적인 결과를 얻었다.</p>
+
+<p>흔히 바둑에서 가능한 경우의 수는 우주의 원자 수보다 많다고 한다.  무한대에 가까운 경우의 수로 인해 바둑은 인공 지능이 인간을 능가하기가 매우 어려운 문제로 여겨졌으나, 알파고는 이를 극복하고 나아가 스타크래프트 2와 같은 더욱 고차원의 상황 판단 능력과 행동을 필요로 하는 게임으로의 도전을 이어나가고 있다.  오히려 인공지능의 급격한 발전을 통해, 인공지능이 인간의 한계를 뛰어넘는 존재가되는 기술적 특이점 까지 우려하는 시선들 또한 나타나고 있다.</p>
+
+<h2 id="1-인공지능의-형태">1. 인공지능의 형태</h2>
+
+<p>최근 알파고로 대변되는 인공 지능은 종종 기계 학습 (Machine Learning)이나 인공 신경망 (Artificial Neural Network)으로 혼용되기도 한다. 사실 각 용어가 의미하는 바는 다르지만, 그만큼 서로 밀접한 관계를 맺고 있다.</p>
+
+<p>흔히 일반인들이 생각하는 인공 지능이란 영화 (<strong>2001 스페이스 오디세이</strong> 의 <strong>HAL9000</strong>, <strong>엑스 마키나</strong> 의 <strong>에이바</strong> ,<strong>프로메테우스</strong> 의 <strong>데이빗</strong>) 나 만화 (<strong>철완 아톰</strong>, <strong>도라에몽</strong>) 등의 각종 대중 매체에서 보여지는 모습일 것이다. 이러한 대중 매체 속에서의 인공 지능은 대부분 기계적 구조의 육체와 <strong>인공적 (Artificial)</strong> 으로 만들어진 인간과 같은 혹은 그보다 발달한 수준의 <strong>지능 (Intelligence)</strong> 을 갖는 존재들로 묘사된다. 인간 수준의 지능을 가지고 있기때문에, 인공지능은 정형화된 문제뿐 아니라 다양한 사건, 사고를 해결 할 수 있는데, 이러한 형태의 범용적인  사고 능력을 가진 인공지능을 <strong>강인공지능 (Strong AI)</strong> 이라 한다.</p>
+
+<p>반면에 알파고를 필두로한 4차 산업 혁명에서의 인공지능은 특정한 문제와 목적을 갖고 그 목적 안에서 지능적인 행동을 수행하는 <strong>약인공지능 (Weak AI)</strong> 이다.  각 분야의 대표적인 인공지능 모델들은 다음과 같다.</p>
+
+<ul>
+  <li>인공지능 바둑 소프트웨어 : <strong>알파고 (구글), 절예 (텐센트)</strong></li>
+  <li>인공지능 비서 : <strong>알렉사 (아마존)</strong>, <strong>시리 (애플)</strong>, <strong>코타나 (마이크로소프트)</strong></li>
+  <li>헬스케어 및 법률 : <strong>왓슨 (IBM)</strong></li>
+  <li>자율주행 자동차</li>
+</ul>
+
+<p>물론 강인공지능이 이러한 약인공지능의 단순 통합으로 이뤄지진 않는다. 하지만 약인공지능 기술의 발전이 범용적 인공지능 탄생의 주춧돌이 될 것은 분명할 것이다.</p>
+
+<h2 id="2-인공지능-첫-걸음">2. 인공지능 첫 걸음</h2>
+
+<p>그렇다면 특정 목적을 수행하는 약인공지능은 어떻게 만들 수 있을까? 가장 간단한 방법은 해당 문제에 대해 잘 알고 있는 사람이  보유한 지식을 활용하여 특정 상황에서 어떻게 행동 할 것인지에 대한 규칙을 만들어 볼 수 있을 것이다.</p>
+
+<p>예를 들어 버스와 승용차를 구분하는 인공지능 프로그램을 만들어야 한다고 생각해보자. 우리의 경험에 비추어 볼 때 바퀴의 크기, 차체 길이, 탑승 가능 인원 등을 버스와 승용차를 구분 할 수 있는 기준으로 설정 할 수 있을 것이다. 이와 같은 체계화 된 기준에 따른 판단 과정을 시스템적으로 구성하여 문제를 해결 하는 방법을 전문가 시스템 (Expert system)이라고 한다.</p>
+
+<p>위와 같은 간단한 문제 (사실 우리에겐 간단한 문제인 것처럼 보이지만 실제로 기계에게는 어려운 문제일 수 도 있다.)에 대해서는, 수개의 규칙으로도 주어진 임무를 잘 수행 할 수 있을 것이다. 하지만 운전과 같이 더욱 복잡한 임무를 수행해야 하는 경우에는 규칙을 설정하는 것부터 매우 어려운 과정이 될 것이다. 사실 위의 문제에서 바퀴 지름, 차체 길이 등과 같은 정형화된 데이터 아닌 사진을 통해서 버스와 승용차를 구별하는 문제로 바뀌는 것 만으로도 위의 문제는 충분히 복잡한 문제가 되어버린다. (사진으로부터 바퀴의 크기, 수 등을 추론해야 하는 새로운 인공지능이 필요할 것이다.)</p>
+
+<h2 id="3-기계-학습과-딥-러닝">3. 기계 학습과 딥 러닝</h2>
+
+<p>그런데 사람은 상대적으로 위의 문제들을 쉽게 수행한다. 그 차이를 만들어내는 결정적인 요인 중 하나는 학습일 것이다. 누군가 직접적으로 규칙들을 입력해 주는 것이라기보다, 관찰 가능한 데이터를 바탕으로 규칙뿐만 아니라 규칙에 필요한 데이터 혹은 특징 (Feature)까지 배우고 생성하게 되는 것이다.</p>
+
+<p>이러한 학습의 과정을 인공지능 개발에 적용하여, 데이터를 통해 컴퓨터가 학습 할 수 있도록 하는 알고리즘과 기술을 통틀어 <strong>기계 학습</strong> 이라 한다. 규칙이나 원리를  지정하는 것이 아닌, 데이터로부터 학습하는 것이다. 나아가 딥 러닝 (Deep learning)은 앞서 언급한 예제처럼 추론에 필요한 특징들 (사진으로 부터 필요한 정보들을 얻는 과정)까지 학습을 통해서 얻는 것을 딥러닝 이라고 말한다.  (인공신경망의 레이어가 많을때 심층 신경망 (Deep neural network)라하고 과거에는 이러한 심층 신경망을 사용한 머신 러닝을 딥러닝이라 이야기했다.)</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/assets/images/fig1.png" alt="alt" /></td>
+    </tr>
+    <tr>
+      <td><em>머신 러닝 프레임워크. 정형화된 데이터로부터 추론 능력을 학습한다.</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/assets/images/fig2.png" alt="alt" /></td>
+    </tr>
+    <tr>
+      <td><em>딥 러닝 프레임워크. 깊은 인공신경망을 통해 가공 전 데이터로부터 추론에 필요한 특성까지 학습한다.</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="4-인공-신경망과-기계-학습">4. 인공 신경망과 기계 학습</h2>
+
+<p>그렇다면 인공신경망과 기계학습의 차이는 무엇일까? 간단하게 말해서 인공신경망은 기계 학습의 다양한 알고리즘 중 하나이다. 앞서 기계 학습이란 데이터를 통해 기계가 학습하는 프레임워크라고 이야기했다. 이를 인간의 학습과정에 비추어보았을 때 눈, 귀, 코 등의 감각기관을 통해 데이터가 들어오면 그 데이터를 통해 학습을 수행하는 주체는 인간의 뇌라고 볼 수 있다. 따라서 기계 학습에서의 인간의 뇌에 해당하는 존재를 인공신경망으로 이해하면 편할 것이다.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><img src="/assets/images/neuron_cell.png" alt="alt" /></td>
+    </tr>
+    <tr>
+      <td><em>뇌신경 구조도 (출처 : <a href="https://en.wikipedia.org/wiki/Neuron">위키피디아</a>)</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>실제로 <strong>인공신경망</strong> 은 뇌신경의 동작을 수학적으로 모사한 인공 신경들로 구성된 네트워크로 일종의 전자두뇌 역할을 하고 있으며, 최종적으로는 인공 신경 네트워크와 그 학습을 다룬 기계학습 알고리즘이다. 인공신경망은 최근들어 인공지능과 함께 주목받은 것처럼 보이지만 실제로는 꽤 오래전부터 연구되어왔던 분야이다. <strong>1950년대</strong> 부터 실질적인 인공신경망의 개념이 등장하고, 흥망의 과정을 거쳤다.</p>
+
+<p>최근의 인공지능 붐은 2006년에 인공신경망을 깊게 구성하여 좀 더 고차원적인 특징을 판단할 수 있는 심층 신경망 (Deep Neural Network)의 효율적인 학습 방법이 개발되면서 이루어진것으로 보아도 과언이 아니다. 컴퓨터 비젼에 사용되는 CNN (Convolutional Neural Network), 음성인식에 사용되는 RNN (Recurrent Neural Network) 등도 모두 인공신경망에 속하며 인공신경망에 대한 기초적인 내용에 대해서는 차후에 살펴볼 것이다.</p>
+
+<p>지금까지 인공 지능, 기계 학습, 인공 신경망의 의미와 차이점에 대해 간단하게 살펴보았다. 앞으로의 이야기하고자 하는 내용은 기계 학습에서 사용하는 실질적인 코드나 알고리즘, 수학에 관한 내용이 아니다. 기계 학습의 프레임워크를 반대로 사람에게 적용하여 기계 학습에 대한 직관적인 이해 (특히 인공신경망에 기반하여)와 함께 효율적인 공부 방법에 대한 이야기가 될 것이다.</p>
+
+        
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <div align="center" style="margin: 1em 0;">
+        <ins class="adsbygoogle"
+             style="display:block; border-bottom: initial;"
+             data-ad-client="ca-pub-9089895411733030"
+             data-ad-format="auto"></ins>
+        </div>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#asdf" class="page__taxonomy-item" rel="tag">asdf</a>
+    
+    </span>
+  </p>
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time datetime="2020-06-20">June 20, 2020</time></p>
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div align="center" style="margin: 1em 0;">
+    <ins class="adsbygoogle"
+         style="display:block; border-bottom: initial;"
+         data-ad-client="ca-pub-9089895411733030"
+         data-ad-format="auto"></ins>
+    </div>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><input type="text" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+    <div id="results" class="results"></div></div>
+      </div>
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>팔로우:</strong></li>
+    
+    
+    
+    
+      <li><a href="https://github.com/devsungyeon"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> 피드</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Sungyeon Lee. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br /><br />
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="크리에이티브 커먼즈 라이선스" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /><br />이 저작물은 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">크리에이티브 커먼즈 저작자표시-비영리-변경금지 4.0 국제 라이선스</a>에 따라 이용할 수 있습니다. </div>
+
+      </footer>
+    </div>
+
+    
+
+
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/_posts/2018-06-18-machine-learnig-1/";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = ""; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://Devsungyeon.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+  </body>
+</html>
