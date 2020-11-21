@@ -142,7 +142,7 @@ UA- 항목에서 바로 **추적ID(Tracking ID)인 UA-코드**를 확인할 수 
 
 **관리** 클릭.
 
-![image-20201121111717261](C:\Users\LSY\AppData\Roaming\Typora\typora-user-images\image-20201121111717261.png)
+![image-20201121111717261](/assets/images/image-20201121111717261.png)
 
 가운데 속성에서 **추적ID(UA-)** 를 확인할 수 있다.
 
