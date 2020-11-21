@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-21T11:39:09+09:00</updated><id>http://localhost:4000/</id><title type="html">Devsungyeon’s Blog</title><subtitle>개인 블로그입니다.</subtitle><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><entry><title type="html">[구글 애널리틱스] 추적 ID UA- 코드 만들기 GA4</title><link href="http://localhost:4000/github%20blog/Google-analytics/" rel="alternate" type="text/html" title="[구글 애널리틱스] 추적 ID UA- 코드 만들기 GA4" /><published>2020-11-20T00:00:00+09:00</published><updated>2020-11-20T00:00:00+09:00</updated><id>http://localhost:4000/github%20blog/Google-analytics</id><content type="html" xml:base="http://localhost:4000/github%20blog/Google-analytics/">&lt;h1 id=&quot;추적-코드id-ua-xxxxxxxx-x-만들기&quot;&gt;추적 코드(ID) UA-xxxxxxxx-x 만들기&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-21T13:10:25+09:00</updated><id>http://localhost:4000/</id><title type="html">Devsungyeon’s Blog</title><subtitle>개인 블로그입니다.</subtitle><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><entry><title type="html">[구글 애널리틱스] 추적 ID UA- 코드 만들기 GA4</title><link href="http://localhost:4000/github%20blog/Google-analytics/" rel="alternate" type="text/html" title="[구글 애널리틱스] 추적 ID UA- 코드 만들기 GA4" /><published>2020-11-20T00:00:00+09:00</published><updated>2020-11-20T00:00:00+09:00</updated><id>http://localhost:4000/github%20blog/Google-analytics</id><content type="html" xml:base="http://localhost:4000/github%20blog/Google-analytics/">&lt;h1 id=&quot;추적-코드id-ua-xxxxxxxx-x-만들기&quot;&gt;추적 코드(ID) UA-xxxxxxxx-x 만들기&lt;/h1&gt;
 
 &lt;p&gt;Google Analytics 버전 4(GA4)가 출시되었다.&lt;/p&gt;
 
 &lt;p&gt;웹, iOS Android 등에서 접속되는 모든 부분을 분석 용으로 사용이 가능하다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121104904273.png&quot; alt=&quot;image-20201121104904273&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121104904273.png&quot; alt=&quot;image-20201121104904273&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;GA4가 출시되며, 여러 추적을 단일 속성으로 통합하여 기능을 제공하지만, &lt;strong&gt;추적ID(Tracking ID)&lt;/strong&gt;가 &lt;strong&gt;측정ID&lt;/strong&gt;로 바뀌며 &lt;strong&gt;G-xxxxxxxxxx(측정 ID)&lt;/strong&gt;로 변경되었으며 &lt;strong&gt;UA-xxxxxxx-x(추적 ID)&lt;/strong&gt; 코드를 찾기가 쉽지 않은 어려움을 겪었다.&lt;/p&gt;
 
@@ -14,19 +14,19 @@
 
 &lt;p&gt;필자는 크롬을 사용하였고, Google 계정에 로그인한 상태이다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121105311252.png&quot; alt=&quot;image-20201121105311252&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121105311252.png&quot; alt=&quot;image-20201121105311252&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;구글에 &lt;strong&gt;google analytics&lt;/strong&gt;을 검색하고, &lt;strong&gt;Google Analytics&lt;/strong&gt; 클릭.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121105625675.png&quot; alt=&quot;image-20201121105625675&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121105625675.png&quot; alt=&quot;image-20201121105625675&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;측정 시작&lt;/strong&gt; 클릭&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121105800090.png&quot; alt=&quot;image-20201121105800090&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121105800090.png&quot; alt=&quot;image-20201121105800090&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;계정 이름(필수)&lt;/strong&gt; 입력 후, &lt;strong&gt;다음&lt;/strong&gt; 클릭&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121105911544.png&quot; alt=&quot;image-20201121105911544&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121105911544.png&quot; alt=&quot;image-20201121105911544&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;속성 이름&lt;/strong&gt; 입력 (선택사항 : 시간대 및 통화 변경)&lt;/p&gt;
 
@@ -34,27 +34,27 @@
 
 &lt;p&gt;고급 옵션 보기 클릭&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121110155673.png&quot; alt=&quot;image-20201121110155673&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121110155673.png&quot; alt=&quot;image-20201121110155673&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;유니버설 애널리틱스 속성 만들기&lt;/strong&gt; 클릭&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121110305827.png&quot; alt=&quot;image-20201121110305827&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121110305827.png&quot; alt=&quot;image-20201121110305827&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;웹사이트 URL에 __.github.io 또는 주소 URL 입력.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121110421120.png&quot; alt=&quot;image-20201121110421120&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121110421120.png&quot; alt=&quot;image-20201121110421120&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Google 애널리틱스 4 속성과 유니버설 애널리틱스 속성 둘 다 만들기&lt;/strong&gt; 클릭 후 다음.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121110517760.png&quot; alt=&quot;image-20201121110517760&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121110517760.png&quot; alt=&quot;image-20201121110517760&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;비지니스 정보는 상황에 맞게 선택 후 &lt;strong&gt;만들기&lt;/strong&gt; 클릭&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121110815149.png&quot; alt=&quot;image-20201121110815149&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121110815149.png&quot; alt=&quot;image-20201121110815149&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;서비스 약관 계약&lt;/strong&gt; 동의 후 &lt;strong&gt;동의함&lt;/strong&gt; 클릭.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121110858116.png&quot; alt=&quot;image-20201121110858116&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121110858116.png&quot; alt=&quot;image-20201121110858116&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;완료 후 &lt;strong&gt;측정 ID(G-)&lt;/strong&gt; 를 확인할 수 있다.&lt;/p&gt;
 
@@ -62,64 +62,64 @@
 
 &lt;p&gt;관리 항목에서도 &lt;strong&gt;측정 ID&lt;/strong&gt;를 찾을 수 있다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121111144281.png&quot; alt=&quot;image-20201121111144281&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121111144281.png&quot; alt=&quot;image-20201121111144281&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;좌측 상단에 애널리틱스 옆 &lt;strong&gt;모든 계정&lt;/strong&gt;을 클릭&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121111239839.png&quot; alt=&quot;image-20201121111239839&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121111239839.png&quot; alt=&quot;image-20201121111239839&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;test-GA4(GA4항목)&lt;/strong&gt; 클릭&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121111611179.png&quot; alt=&quot;image-20201121111611179&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121111611179.png&quot; alt=&quot;image-20201121111611179&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;좌측 하단 &lt;strong&gt;&amp;gt;&lt;/strong&gt; 클릭&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121111646640.png&quot; alt=&quot;image-20201121111646640&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121111646640.png&quot; alt=&quot;image-20201121111646640&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;관리&lt;/strong&gt; 클릭.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121111912878.png&quot; alt=&quot;image-20201121111912878&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121111912878.png&quot; alt=&quot;image-20201121111912878&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;데이터 스트림&lt;/strong&gt; 클릭&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121111936959.png&quot; alt=&quot;image-20201121111936959&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121111936959.png&quot; alt=&quot;image-20201121111936959&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;본인이 만든 &lt;strong&gt;스트림&lt;/strong&gt; 클릭&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121111958660.png&quot; alt=&quot;image-20201121111958660&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121111958660.png&quot; alt=&quot;image-20201121111958660&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;측정 ID(G-)&lt;/strong&gt; 를 확인할 수 있다.&lt;/p&gt;
 
 &lt;h2 id=&quot;3-추적-idtracking-id-ua--찾기&quot;&gt;3 추적 ID(Tracking ID) UA- 찾기&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121111144281.png&quot; alt=&quot;image-20201121111144281&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121111144281.png&quot; alt=&quot;image-20201121111144281&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;좌측 상단에 애널리틱스 옆 &lt;strong&gt;모든 계정&lt;/strong&gt;을 클릭&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121111239839.png&quot; alt=&quot;image-20201121111239839&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121111239839.png&quot; alt=&quot;image-20201121111239839&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;UA- 항목에서 바로 &lt;strong&gt;추적ID(Tracking ID)인 UA-코드&lt;/strong&gt;를 확인할 수 있다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121111333845.png&quot; alt=&quot;image-20201121111333845&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121111333845.png&quot; alt=&quot;image-20201121111333845&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;혹은 &lt;strong&gt;UA 속성&lt;/strong&gt;에서 &lt;strong&gt;속성 보기&lt;/strong&gt;로 들어가 &lt;strong&gt;열기&lt;/strong&gt;를 클릭 후,&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;관리&lt;/strong&gt;에서도 확인할 수 있다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121111611179.png&quot; alt=&quot;image-20201121111611179&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121111611179.png&quot; alt=&quot;image-20201121111611179&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;좌측 하단 &lt;strong&gt;&amp;gt;&lt;/strong&gt; 클릭&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121111646640.png&quot; alt=&quot;image-20201121111646640&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121111646640.png&quot; alt=&quot;image-20201121111646640&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;관리&lt;/strong&gt; 클릭.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;C:\Users\LSY\AppData\Roaming\Typora\typora-user-images\image-20201121111717261.png&quot; alt=&quot;image-20201121111717261&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121111717261.png&quot; alt=&quot;image-20201121111717261&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;가운데 속성에서 &lt;strong&gt;추적ID(UA-)&lt;/strong&gt; 를 확인할 수 있다.&lt;/p&gt;
 
 &lt;p&gt;혹은 &lt;strong&gt;추적 정보&lt;/strong&gt; 탭을 클릭하면 아래와 같은 &lt;strong&gt;추적 코드&lt;/strong&gt;에 들어가서도 확인이 가능하다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\assets\images\image-20201121112715341.png&quot; alt=&quot;image-20201121112715341&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2020-11-20-Google-analytics/image-20201121112715341.png&quot; alt=&quot;image-20201121112715341&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! “:)”&lt;/p&gt;</content><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><category term="Github Blog" /><category term="Google Analytics" /><summary type="html">추적 코드(ID) UA-xxxxxxxx-x 만들기</summary></entry></feed>
+&lt;p&gt;궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! “:)”&lt;/p&gt;</content><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><category term="Github Blog" /><category term="Google Analytics" /><category term="구글 추적ID(TrackingID)" /><summary type="html">추적 코드(ID) UA-xxxxxxxx-x 만들기</summary></entry></feed>
