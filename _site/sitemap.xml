@@ -1,46 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc>http://localhost:4000/github%20blog/Google-analytics/</loc>
-<lastmod>2020-11-20T00:00:00+09:00</lastmod>
+  <loc>https://devsungyeon.github.io/</loc>
+  <lastmod>2020-11-20T13:53:42+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>http://localhost:4000/working/2019-01-11-comment1/</loc>
-<lastmod>2018-01-11T00:00:00+09:00</lastmod>
+  <loc>https://devsungyeon.github.io/categories/</loc>
+  <lastmod>2020-11-20T13:53:42+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/working/2019-02-01-overfit/</loc>
-<lastmod>2019-02-01T00:00:00+09:00</lastmod>
+  <loc>https://devsungyeon.github.io/tags/</loc>
+  <lastmod>2020-11-20T13:53:42+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/working/2019-08-13-lympo/</loc>
-<lastmod>2019-02-01T00:00:00+09:00</lastmod>
+  <loc>https://devsungyeon.github.io/github%20blog/Google-analytics/</loc>
+  <lastmod>2020-11-20T13:53:42+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-<url>
-<loc>http://localhost:4000/_posts/2020-11-20-Google-analytics/</loc>
-<lastmod>2020-11-20T00:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/about/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/categories/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/sitemap/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/tags/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/googlee495b37a7d6f137c.html</loc>
-<lastmod>2020-11-20T22:42:36+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/googleee0c5ced63ff9595.html</loc>
-<lastmod>2020-11-20T18:03:44+09:00</lastmod>
-</url>
+
+
 </urlset>
