@@ -1,4 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-21T13:18:06+09:00</updated><id>http://localhost:4000/</id><title type="html">Devsungyeon’s Blog</title><subtitle>개인 블로그입니다.</subtitle><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><entry><title type="html">[구글 애널리틱스] 추적 ID UA- 코드 만들기 GA4</title><link href="http://localhost:4000/github%20blog/Google-analytics/" rel="alternate" type="text/html" title="[구글 애널리틱스] 추적 ID UA- 코드 만들기 GA4" /><published>2020-11-20T00:00:00+09:00</published><updated>2020-11-20T00:00:00+09:00</updated><id>http://localhost:4000/github%20blog/Google-analytics</id><content type="html" xml:base="http://localhost:4000/github%20blog/Google-analytics/">&lt;h1 id=&quot;추적-코드id-ua-xxxxxxxx-x-만들기&quot;&gt;추적 코드(ID) UA-xxxxxxxx-x 만들기&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-24T20:26:24+09:00</updated><id>http://localhost:4000/</id><title type="html">Devsungyeon’s Blog</title><subtitle>개인 블로그입니다.</subtitle><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><entry><title type="html">2020년 9급 전산직 컴퓨터일반 풀이</title><link href="http://localhost:4000/9%EA%B8%89%20%EC%BB%B4%ED%93%A8%ED%84%B0%EC%9D%BC%EB%B0%98/Level9-computerbasic-y2020/" rel="alternate" type="text/html" title="2020년 9급 전산직 컴퓨터일반 풀이" /><published>2020-11-24T00:00:00+09:00</published><updated>2020-11-21T00:00:00+09:00</updated><id>http://localhost:4000/9%EA%B8%89%20%EC%BB%B4%ED%93%A8%ED%84%B0%EC%9D%BC%EB%B0%98/Level9-computerbasic-y2020</id><content type="html" xml:base="http://localhost:4000/9%EA%B8%89%20%EC%BB%B4%ED%93%A8%ED%84%B0%EC%9D%BC%EB%B0%98/Level9-computerbasic-y2020/">&lt;h1 id=&quot;2020년-9급-전산직-컴퓨터일반-풀이&quot;&gt;2020년 9급 전산직 컴퓨터일반 풀이&lt;/h1&gt;
+
+&lt;p&gt;궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! “:)”&lt;/p&gt;
+
+&lt;h2 id=&quot;1--아날로그-신호를-디지털-신호로-변조하기-위한-펄스부호변조pcm-과정으로-옳지-않은-것은&quot;&gt;1.  아날로그 신호를 디지털 신호로 변조하기 위한 펄스부호변조(PCM) 과정으로 옳지 않은 것은?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_1\2020_9L_1.jpg&quot; alt=&quot;2020_9L_1&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-dbms를-사용하는-이점으로-옳지-않은-것은&quot;&gt;2. DBMS를 사용하는 이점으로 옳지 않은 것은?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_2\2020_9L_2.jpg&quot; alt=&quot;2020_9L_2&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3--cpu-내의-레지스터에-대한-설명으로-옳지-않은-것은&quot;&gt;3.  CPU 내의 레지스터에 대한 설명으로 옳지 않은 것은?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_3\2020_9L_3.jpg&quot; alt=&quot;2020_9L_3&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;4-소프트웨어-개발-프로세스-중-원형prototyping-모델의-단계별-진행-과정을-올바르게-나열한-것은&quot;&gt;4. 소프트웨어 개발 프로세스 중 원형(Prototyping) 모델의 단계별 진행 과정을 올바르게 나열한 것은?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_4\2020_9L_4.jpg&quot; alt=&quot;2020_9L_4&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;5-네트워크-토폴로지에-대한-설명으로-옳지-않은-것은&quot;&gt;5. 네트워크 토폴로지에 대한 설명으로 옳지 않은 것은?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_5\2020_9L_5.jpg&quot; alt=&quot;2020_9L_5&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;6-raidredundant-array-of-independent-disks-레벨에-대한-설명으로-옳지-않은-것은&quot;&gt;6. RAID(Redundant Array of Independent Disks) 레벨에 대한 설명으로 옳지 않은 것은?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_6\2020_9L_6.jpg&quot; alt=&quot;2020_9L_6&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;7-다중-스레드multi-thread-프로그래밍의-이점에-대한-설명으로-옳지-않은-것은&quot;&gt;7. 다중 스레드(Multi Thread) 프로그래밍의 이점에 대한 설명으로 옳지 않은 것은?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_7\2020_9L_7.jpg&quot; alt=&quot;2020_9L_7&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;8-osiopen-systems-interconnect-모델에-대한-설명으로-옳지-않은-것은&quot;&gt;8. OSI(Open Systems Interconnect) 모델에 대한 설명으로 옳지 않은 것은?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_8\2020_9L_8.jpg&quot; alt=&quot;2020_9L_8&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;9-캐시기억장치-교체-알고리즘에-대한-설명으로-옳지-않은-것은&quot;&gt;9. 캐시기억장치 교체 알고리즘에 대한 설명으로 옳지 않은 것은?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_9\2020_9L_9.jpg&quot; alt=&quot;2020_9L_9&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;10-8진수-123321을-16진수로-변환한-것은&quot;&gt;10. 8진수 123.321을 16진수로 변환한 것은?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_10\2020_9L_10.jpg&quot; alt=&quot;2020_9L_10&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;11--암호화-기술에-대한-설명으로-옳은-것은&quot;&gt;11.  암호화 기술에 대한 설명으로 옳은 것은?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_11\2020_9L_11.jpg&quot; alt=&quot;2020_9L_11&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;12-cpu를-다른-프로세스로-교환하려면-이전-프로세스의-상태를-보관하고-새로운-프로세스의-보관된-상태로-복구하는-작업이-필요하다-이-작업으로-옳은-것은&quot;&gt;12. CPU를 다른 프로세스로 교환하려면 이전 프로세스의 상태를 보관하고 새로운 프로세스의 보관된 상태로 복구하는 작업이 필요하다. 이 작업으로 옳은 것은?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_12\2020_9L_12.jpg&quot; alt=&quot;2020_9L_12&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;13-응용프로그램-제작에-필요한-개발환경-skd-등-플랫폼-자체를-서비스-형태로-제공하는-클라우드-컴퓨팅-서비스-모델은&quot;&gt;13. 응용프로그램 제작에 필요한 개발환경, SKD 등 플랫폼 자체를 서비스 형태로 제공하는 클라우드 컴퓨팅 서비스 모델은?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_13\2020_9L_13.jpg&quot; alt=&quot;2020_9L_13&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;14-다음-프로그램의-실행-결과로-옳은-것은&quot;&gt;14. 다음 프로그램의 실행 결과로 옳은 것은?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_14\2020_9L_14.jpg&quot; alt=&quot;2020_9L_14&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;15-다음-프로그램은-연결-리스트를-만들기-위한-코드의-일부분이다-아래-그림과-같이-두-개의-노드-first-second가-연결되었다고-가정하고-위의-코드를-참조하여-노드-tmp를-노드-first와-노드-second-사이에-삽입하고자-할-때-프로그램-코드로-옳은-것은&quot;&gt;15. 다음 프로그램은 연결 리스트를 만들기 위한 코드의 일부분이다. 아래 그림과 같이 두 개의 노드 first, second가 연결되었다고 가정하고, 위의 코드를 참조하여 노드 tmp를 노드 first와 노드 second 사이에 삽입하고자 할 때, 프로그램 코드로 옳은 것은?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_15\2020_9L_15.jpg&quot; alt=&quot;2020_9L_15&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;16-다음-c-프로그램의-결과로-옳은-것은&quot;&gt;16. 다음 C 프로그램의 결과로 옳은 것은?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_16\2020_9L_16.jpg&quot; alt=&quot;2020_9L_16&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;17-다음-이진-트리에-대하여-후위-순회를-하는-경우-다섯-번째-방문하는-노드는&quot;&gt;17. 다음 이진 트리에 대하여 후위 순회를 하는 경우 다섯 번째 방문하는 노드는?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_17\2020_9L_17.jpg&quot; alt=&quot;2020_9L_17&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;18-프세스-스케줄링에-대한-설명으로-옳지-않은-것은&quot;&gt;18. 프세스 스케줄링에 대한 설명으로 옳지 않은 것은?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_18\2020_9L_18.jpg&quot; alt=&quot;2020_9L_18&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;19-tcpip-프로토콜-스택에-대한-설명으로-옳은-것은&quot;&gt;19. TCP/IP 프로토콜 스택에 대한 설명으로 옳은 것은?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_19\2020_9L_19.jpg&quot; alt=&quot;2020_9L_19&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;20-다음-테이블-인스턴스instance들에-대하여-오류-없이-동작하는-sqlstructured-query-language-문장은&quot;&gt;20. 다음 테이블 인스턴스(Instance)들에 대하여 오류 없이 동작하는 SQL(Structured Query Language) 문장은?&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L_20\2020_9L_20.jpg&quot; alt=&quot;2020_9L_20&quot; /&gt;&lt;/p&gt;</content><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><category term="9급" /><category term="컴퓨터일반" /><category term="9급공무원" /><summary type="html">2020년 9급 전산직 컴퓨터일반 풀이</summary></entry><entry><title type="html">[구글 애널리틱스] 추적 ID UA- 코드 만들기 GA4</title><link href="http://localhost:4000/github%20blog/Google-analytics/" rel="alternate" type="text/html" title="[구글 애널리틱스] 추적 ID UA- 코드 만들기 GA4" /><published>2020-11-20T00:00:00+09:00</published><updated>2020-11-20T00:00:00+09:00</updated><id>http://localhost:4000/github%20blog/Google-analytics</id><content type="html" xml:base="http://localhost:4000/github%20blog/Google-analytics/">&lt;h1 id=&quot;추적-코드id-ua-xxxxxxxx-x-만들기&quot;&gt;추적 코드(ID) UA-xxxxxxxx-x 만들기&lt;/h1&gt;
 
 &lt;p&gt;Google Analytics 버전 4(GA4)가 출시되었다.&lt;/p&gt;
 
