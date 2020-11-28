@@ -1,5 +1,5 @@
 ---
- v ntitle: "2020년 9급 전산직 컴퓨터일반 풀이"
+title: "2020년 9급 전산직 컴퓨터일반 풀이"
 strapline: "컴퓨터일반 풀이"
 description: "2020년 9급 전산직 컴퓨터일반 풀이"
 header:
@@ -25,7 +25,7 @@ comments: true
 
 1. 아날로그 신호를 디지털 신호로 변조하기 위한 펄스부호변조(PCM) 과정으로 옳지 않은 것은?
 
-![2020_9L_1](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_1.jpg)
+![2020_9L_1](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_1.jpg)
 
 **답 : ①**
 
@@ -41,13 +41,13 @@ comments: true
 
 2. DBMS를 사용하는 이점으로 옳지 않은 것은?
 
-![2020_9L_2](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_2.jpg)
+![2020_9L_2](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_2.jpg)
 
 |                     | DBMS                                                         | 파일시스템                                                   |
 | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 중복                | 중복을 **최소화**<br /> ==> 일관성 유지                      |                                                              |
 | 공유<br />여러 사람 | O                                                            | X                                                            |
-| Data                | <img src="/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2_program+data.png" alt="2_program+data" style="zoom:33%;" /><br />프로그램과 데이터 분리. **독립성** | <img src="/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2_(program+data).png" alt="2_(program+data)" style="zoom: 33%;" /><br />프로그램과 데이터 연결. **종속성** |
+| Data                | <img src="c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2_program+data.png" alt="2_program+data" style="zoom:33%;" /><br />프로그램과 데이터 분리. **독립성** | <img src="c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2_(program+data).png" alt="2_(program+data)" style="zoom: 33%;" /><br />프로그램과 데이터 연결. **종속성** |
 | 장점                | 무결성, 보안성                                               | 속도↑                                                        |
 
 **답 : ③**
@@ -64,7 +64,7 @@ comments: true
 
 3. CPU 내의 레지스터에 대한 설명으로 옳지 않은 것은?
 
-![2020_9L_3](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_3.jpg)
+![2020_9L_3](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_3.jpg)
 
 **답 : ③**
 
@@ -78,13 +78,13 @@ comments: true
 
 ---
 
-![3_CPU_REGISTER_MEMORY](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\3_CPU_REGISTER_MEMORY.png)
+![3_CPU_REGISTER_MEMORY](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\3_CPU_REGISTER_MEMORY.png)
 
 - CPU, Memory, 보조기억장치 간 흐름.
 
 ---
 
-![3_REGISTER](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\3_REGISTER.png)
+![3_REGISTER](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\3_REGISTER.png)
 
 ---
 
@@ -101,7 +101,7 @@ comments: true
 
 4. 소프트웨어 개발 프로세스 중 원형(Prototyping) 모델의 단계별 진행 과정을 올바르게 나열한 것은?
 
-![2020_9L_4](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_4.jpg)
+![2020_9L_4](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_4.jpg)
 
 **답 : ②**
 
@@ -127,7 +127,7 @@ comments: true
 
 5. 네트워크 토폴로지에 대한 설명으로 옳지 않은 것은?
 
-![2020_9L_5](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_5.jpg)
+![2020_9L_5](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_5.jpg)
 
 **답 : ③**
 
@@ -139,11 +139,11 @@ comments: true
 
 | 종류           | 모양                                                         | 장점                                                         | 단점                                                         |
 | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 버스=bus       | ![5_bus](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\5_bus.png) | 설치가 간단<br />비용이 저렴                                 | 장애발견이 어려움<br />중앙 통신선 장애 시 전체 네트워크 문제 발생 |
-| 링=ring        | ![5_ring](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\5_ring.png) | 모든 장치가 토큰에 접근 가능<br />순차적인 네트워크<br />컴퓨터 간 연결을 위한 네트워크 서버 불필요 | 한 노드 장애가 전체 망에 문제 발생<br />장치를 추가, 변경 시 네트워크 영향 |
-| 트리=계층=tree | ![5_tree](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\5_tree.png) | 제어가 간단<br />네트워크 확장 용이                          | 병목 현상 가능<br />상위 노드에 트래픽 집중되어 병목 현상<br />상위 노드가 장애 발생되면, 하위 네트워크 장애 |
-| 스타=성=star   | ![5_star](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\5_star.png) | 장애 발견이 용이<br />Netword 관리가 용이<br />한 노드 장애는 전체 영향 없음 | 중앙 노드 장애 발생시 전체 네트워크 문제 발생<br />많은 양의 케이블을 사용하므로 높은 비용 |
-| 메시=mesh      | ![5_mesh](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\5_mesh.png) | 장애에 가장 강함<br />한 경로에 장애가 발생해도 다른 경로로 통신 가능<br /> | 연결선이 가장 많아 가장 높은 비용<br />네트워크 관리 어려움  |
+| 버스=bus       | ![5_bus](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\5_bus.png) | 설치가 간단<br />비용이 저렴                                 | 장애발견이 어려움<br />중앙 통신선 장애 시 전체 네트워크 문제 발생 |
+| 링=ring        | ![5_ring](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\5_ring.png) | 모든 장치가 토큰에 접근 가능<br />순차적인 네트워크<br />컴퓨터 간 연결을 위한 네트워크 서버 불필요 | 한 노드 장애가 전체 망에 문제 발생<br />장치를 추가, 변경 시 네트워크 영향 |
+| 트리=계층=tree | ![5_tree](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\5_tree.png) | 제어가 간단<br />네트워크 확장 용이                          | 병목 현상 가능<br />상위 노드에 트래픽 집중되어 병목 현상<br />상위 노드가 장애 발생되면, 하위 네트워크 장애 |
+| 스타=성=star   | ![5_star](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\5_star.png) | 장애 발견이 용이<br />Netword 관리가 용이<br />한 노드 장애는 전체 영향 없음 | 중앙 노드 장애 발생시 전체 네트워크 문제 발생<br />많은 양의 케이블을 사용하므로 높은 비용 |
+| 메시=mesh      | ![5_mesh](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\5_mesh.png) | 장애에 가장 강함<br />한 경로에 장애가 발생해도 다른 경로로 통신 가능<br /> | 연결선이 가장 많아 가장 높은 비용<br />네트워크 관리 어려움  |
 
 
 
@@ -153,7 +153,7 @@ comments: true
 
 6. RAID(Redundant Array of Independent Disks) 레벨에 대한 설명으로 옳지 않은 것은?
 
-![2020_9L_6](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_6.jpg)
+![2020_9L_6](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_6.jpg)
 
 **답 : ④**
 
@@ -165,15 +165,15 @@ comments: true
 
 | RAID Level | 모양                                                         | 설명                                             | 장점                                                         | 단점                                                         | 디스크 용량 계산                                             |
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 0          | ![6_raid_0](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\6_raid_0.png) | 스트라이핑(Striping)<br />최상의 성능            | 데이터 사용 시 I/O를 분할하여 속도 향상                      | 스트라이핑 구 시 기존 데이터를 삭제                          | 최소 디스크 : 2<br />계산식 = 디스크수 * 디스크용량          |
-| 1          | ![6_raid_1](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\6_raid_1.png) | 미러링(Mirroring)<br />데이터 저장소를 복제      | 한 디스크 장애 시 복제 디스크로 복구 가능<br />높은 가용성   | 디스크 용량이 사용량의 두 배 필요<br />복제 디스크에도 사용해야 되므로 쓰기 속도가 느려짐 | 최소 디스크 : 2<br />계산식 = 디스크수/2 * 디스크용량        |
-| 2          | ![6_raid_2](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\6_raid_2.png) | 해밍 코드 ECC를 가진 비트 레벨 스트라이핑        | ECC를 통한 오류 검사 및 수정                                 | ECC를 위한 드라이브가 손상되면 문제 발생                     | 최소 디스크 : 3<br />계산식 = (디스크수-1) * 디스크용량      |
-| 3          | ![6_raid_3](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\6_raid_3.png) | 전용 패리티를 가진 **바이트** 레벨 스트라이핑    | 높은 가용성                                                  | 전용 패리티 디스크의 병목 현상 발생<br />패리티를 저장한 디스크에 문제가 발생되면 데이터 손실 | 최소 디스크 : 3<br />계산식 = (디스크수-1) * 디스크용량      |
-| 4          | ![6_raid_4](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\6_raid_4.png) | 전용 패리티를 이용한 **블록** 레벨 스트라이핑    | 성능 향상<br />높은 결함 허용도<br />3과 동일                | 3과 동일                                                     | 최소 디스크 : 3<br />계산식 = (디스크수-1) * 디스크용량      |
-| 5          | ![6_raid_5](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\6_raid_5.png) | 분산 패리티를 가진 **블록** 레벨 스트라이핑      | 전용 패리티 드라이브 사용 **안함!**<br />병목현상을 제거하여 성능 향상<br />높은 가용성 |                                                              | 최소 디스크 : 3<br />계산식 = (디스크수-1) * 디스크용량      |
-| 6          | ![6_raid_6](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\6_raid_6.png) | 이중 분산 패리티를 가진 **블록** 레벨 스트라이핑 | 높은 가용성                                                  | 높은 비용                                                    | 최소 디스크 : 4<br />계산식 = (디스크수-2) * 디스크용량      |
-| 0+1        | ![6_raid_0+1](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\6_raid_0+1.png) | 패리티 없이 이중 스트라이핑하고 미러링           | 결함 허용도<br />가용성                                      | 높은 비용                                                    | 최소 디스크 : 4,6,8<br />계산식 = (디스크수/2) * 디스크용량  |
-| 1+0        | ![6_raid_1+0](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\6_raid_1+0.png) | 패리티 없이 미러링하고 스트라이핑                | 높은 결함 허용도<br />성능 우수                              | 높은 비용                                                    | 최소 디스크 : 6,8,10<br />계산식 = (디스크수/2) * 디스크용량 |
+| 0          | ![6_raid_0](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\6_raid_0.png) | 스트라이핑(Striping)<br />최상의 성능            | 데이터 사용 시 I/O를 분할하여 속도 향상                      | 스트라이핑 구 시 기존 데이터를 삭제                          | 최소 디스크 : 2<br />계산식 = 디스크수 * 디스크용량          |
+| 1          | ![6_raid_1](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\6_raid_1.png) | 미러링(Mirroring)<br />데이터 저장소를 복제      | 한 디스크 장애 시 복제 디스크로 복구 가능<br />높은 가용성   | 디스크 용량이 사용량의 두 배 필요<br />복제 디스크에도 사용해야 되므로 쓰기 속도가 느려짐 | 최소 디스크 : 2<br />계산식 = 디스크수/2 * 디스크용량        |
+| 2          | ![6_raid_2](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\6_raid_2.png) | 해밍 코드 ECC를 가진 비트 레벨 스트라이핑        | ECC를 통한 오류 검사 및 수정                                 | ECC를 위한 드라이브가 손상되면 문제 발생                     | 최소 디스크 : 3<br />계산식 = (디스크수-1) * 디스크용량      |
+| 3          | ![6_raid_3](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\6_raid_3.png) | 전용 패리티를 가진 **바이트** 레벨 스트라이핑    | 높은 가용성                                                  | 전용 패리티 디스크의 병목 현상 발생<br />패리티를 저장한 디스크에 문제가 발생되면 데이터 손실 | 최소 디스크 : 3<br />계산식 = (디스크수-1) * 디스크용량      |
+| 4          | ![6_raid_4](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\6_raid_4.png) | 전용 패리티를 이용한 **블록** 레벨 스트라이핑    | 성능 향상<br />높은 결함 허용도<br />3과 동일                | 3과 동일                                                     | 최소 디스크 : 3<br />계산식 = (디스크수-1) * 디스크용량      |
+| 5          | ![6_raid_5](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\6_raid_5.png) | 분산 패리티를 가진 **블록** 레벨 스트라이핑      | 전용 패리티 드라이브 사용 **안함!**<br />병목현상을 제거하여 성능 향상<br />높은 가용성 |                                                              | 최소 디스크 : 3<br />계산식 = (디스크수-1) * 디스크용량      |
+| 6          | ![6_raid_6](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\6_raid_6.png) | 이중 분산 패리티를 가진 **블록** 레벨 스트라이핑 | 높은 가용성                                                  | 높은 비용                                                    | 최소 디스크 : 4<br />계산식 = (디스크수-2) * 디스크용량      |
+| 0+1        | ![6_raid_0+1](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\6_raid_0+1.png) | 패리티 없이 이중 스트라이핑하고 미러링           | 결함 허용도<br />가용성                                      | 높은 비용                                                    | 최소 디스크 : 4,6,8<br />계산식 = (디스크수/2) * 디스크용량  |
+| 1+0        | ![6_raid_1+0](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L\6_raid_1+0.png) | 패리티 없이 미러링하고 스트라이핑                | 높은 결함 허용도<br />성능 우수                              | 높은 비용                                                    | 최소 디스크 : 6,8,10<br />계산식 = (디스크수/2) * 디스크용량 |
 
 
 
@@ -185,7 +185,7 @@ comments: true
 
 7. 다중 스레드(Multi Thread) 프로그래밍의 이점에 대한 설명으로 옳지 않은 것은?
 
-![2020_9L_7](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_7.jpg)
+![2020_9L_7](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_7.jpg)
 
 **답 : ④**
 
@@ -193,7 +193,10 @@ comments: true
 
   한 스레드에 문제 발생 시 전체 프로세스에 영향을 미친다.
 
+- Process 안에서 각각의 Thread들이 서로 공유하며 연산한다.
+- Process들끼리 데이터를 공유하며 연산한다.
 
+![7_MUTLI_THREAD](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L\7_MUTLI_THREAD.png)
 
 
 
@@ -203,9 +206,59 @@ comments: true
 
 8. OSI(Open Systems Interconnect) 모델에 대한 설명으로 옳지 않은 것은?
 
-![2020_9L_8](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_8.jpg)
+![2020_9L_8](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_8.jpg)
 
 **답 : ①**
+
+① 네트워크 계층은 데이터 전송에 관한 서비스를 제공하는 계층으로 송신 측과 수신 측 사이의 실제적인 ~~연결 설정 및 유지, 오류 복구와 흐름 제어 등을 수행~~한다.
+
+**데이터 링크 계층(Data Link Layer) : 흐름제어기능, 동기화 기능, 오류제어 기능, 순서제어 기능.**
+
+---
+
+- OSI vs TCP/IP
+
+![8_3](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L\8_3.jpg)
+
+1. OSI 7 Layer
+   - 네트워크 통신을 다루는 OSI 표준. 개방시스템 상호연결(OSI) 모델
+   - 개방시스템(Open System) ; 기반구조와 관계없이 시스템간의 통신을 제공
+   - 계층구조, 데이터의 움직임 파악 가능, 트러블슈팅 용이, 호환성
+2. TCP/IP
+   - 인터넷에서 컴퓨터들이 서로 정보를 주고받는데 쓰이는 통신규약(프로토콜)
+   - 하드웨어, 운영체제, 접속매체에 관계없이 동작할 수 있는 개방성.
+3. OSI 7 Layer vs TCP/IP
+   - 두 모델 모두 계층형
+   - TCP/IP는 인터넷 개발 이후 계속 표준화되어 신뢰성이 우수. OSI 7 Layer는 구현되는 예가 없어 신뢰성 저하.
+   - OSI 7 Layer : 장비 개발과 통신 자체를 어떻게 표준으로 잡을지 사용
+   - TCP/IP : 실질적인 통신 자체에 사용
+
+---
+
+- OSI 7 Layer
+
+![8_5](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L\8_5.jpg)
+
+| Layer | 명칭             | 설명                                                         | 전송 단위 |
+| ----- | ---------------- | ------------------------------------------------------------ | --------- |
+| 1     | 물리 계층        | 물리적 전송 매체와 전송 신호 방식을 정의.                    | Bit       |
+| 2     | 데이터 링크 계층 | 흐름 제어 기능(송신 측과 수신 측의 속도 차이 해결)<br />프레임의 동기화 기능<br />오류제어 기능<br />순서제어 기능 | Frame     |
+| 3     | 네트워크 계층    | 네트워크 연결을 관리, 데이터의 교환 및 중계 기능<br />경로 설정(Routing), 데이터 교환 및 중계, 트래픽 제어, 패킷 정보 전송 | Packet    |
+| 4     | 전송 계층        | 종단 시스템(End-to-End) 간에 투명한 데이터 전송을 가능하게 함<br />주소 설정, 다중화, 오류제어, 흐름제어기능<br />TCP(신뢰성), UDP(비신뢰성) | Segment   |
+| 5     | 세션 계층        | 세션을 구축하고 관리.<br />송,수신 측 간의 동기를 위해 체크섬. | Message   |
+| 6     | 표현 계층        | 서로 다른 데이터 표현을 갖는 시스템 간의 상호 접속을 위함.<br />코드 변환, 데이터 암호화, 데이터 압축, 정보 형식 변환 | Message   |
+| 7     | 응용 계층        | 사용자가 OSI 환경에 접근할 수 있도록 서비스 제공.            | Message   |
+
+---
+
+- TCP/IP
+
+| Layer                | 각 계층 Protocol                                             |
+| -------------------- | ------------------------------------------------------------ |
+| Network Access Layer | 이더넷                                                       |
+| Internet Layer       | IP(Internet Protocol)<br />ICMP(Internet Control Message Protocol)<br />IGMP(Internet Group Message Protocol)<br />ARP(Address Resolution Protocol)<br />RARP(Reverse Address Resolution Protocol) |
+| Transport Layer      | TCP(Transmission Control Protocol)<br />UDP(User Datagram Protocol)<br />SCTP(Stream Control Transmission Protocol) |
+| Application Layer    | FTP(File Transfer Protocol)<br />VSFTP(Very Secure File Transfer Protocol)<br />SNMP(Simple Network Management Protocol)<br />SMTP(Simple Mail Transfer Protocol)<br />HTTP(Hyper Text Transfer Protocol)<br />HTTPs(Hyper Text Transfer Protocol Secure)<br />DNS(Domain Name System) |
 
 ---
 
@@ -213,9 +266,28 @@ comments: true
 
 9. 캐시기억장치 교체 알고리즘에 대한 설명으로 옳지 않은 것은?
 
-![2020_9L_9](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_9.jpg)
+![2020_9L_9](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_9.jpg)
 
 **답 : ③**
+
+③ LFU는 캐시 블록마다 참조 횟수를 기록함으로써 ~~가장 많이 참조된 블록을 교체하는 방법~~이다.
+
+  LFU는 **가장 적게 참조된 블록을 교체하는 방법**이다.
+
+
+
+- 교체(Replacement) 정책
+  1. 최적화 원칙(the principle of optimality)
+  2. 무작위 page 교체(random page replacement)
+  3. FIFO(First-In First-Out)
+  4. SCR(Second Change Replacement)
+  5. LRU(Lease Recently Used)
+  6. NUR(Not Used Recently)
+  7. LFU(Lease Frequence Used)
+  8. Working Set
+  9. PFF(Page Fault Frequency)
+
+
 
 ---
 
@@ -223,9 +295,15 @@ comments: true
 
 10. 8진수 123.321을 16진수로 변환한 것은?
 
-![2020_9L_10](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_10.jpg)
+![2020_9L_10](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_10.jpg)
 
 **답 : ④**
+
+**8진수 -> 2진수 -> 16진수**
+
+![10_1](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2020_9L\10_1.jpg)
+
+
 
 ---
 
@@ -233,9 +311,31 @@ comments: true
 
 11. 암호화 기술에 대한 설명으로 옳은 것은?
 
-![2020_9L_11](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_11.jpg)
+![2020_9L_11](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_11.jpg)
 
 **답 : ②**
+
+① 공개키 암호화는 암호화하거나 복호화하는 데 ~~동일한 키를 사용~~한다.
+
+  암호화키와 복호화키가 다르다.
+
+③ 공개키 암호화의 대표적인 알고리즘에는 ~~데이터 암호화 표준(Data Encryption Standard)~~이 있다.
+
+  공개키 암호화의 대표적인 알고리즘은 RSA, ECC, Elgamal, Rabin이 있다.
+
+④ 비밀키 암호화는 암호화와 복호화 과정에서 ~~서로 다른 키를 사용하는 비대칭 암호화(asymmetric encryption)~~다.
+
+  비밀키 암호화는 암호화키와 복호화키가 동일하다.
+
+|          | 공개키 = 비대칭키                      | 비공개키 = 대칭키 = 비밀키 |
+| -------- | -------------------------------------- | -------------------------- |
+| 알고리즘 | RSA, ECC, Elgamal, Rabin               | DES, SEED, Rijndael        |
+| 설명     | 암호화키 <> 복호화키<br />두 키가 다름 | 암호화키 = 복호화키        |
+| 속도     | 느림                                   | 빠름                       |
+
+
+
+
 
 ---
 
@@ -243,9 +343,25 @@ comments: true
 
 12. CPU를 다른 프로세스로 교환하려면 이전 프로세스의 상태를 보관하고 새로운 프로세스의 보관된 상태로 복구하는 작업이 필요하다. 이 작업으로 옳은 것은?
 
-![2020_9L_12](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_12.jpg)
+![2020_9L_12](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_12.jpg)
 
 **답 : ④**
+
+① 세마포어(Semaphore)
+
+ ; 동시에 리소스에 접근 허용이 접근 허용이 가능한 개수를 가진 counter
+
+② 모니터(Monitor)
+
+ ; 공유 객체, 임계 영역이 코딩된 프로세저, 초기화 코드로 구성된 모듈
+
+③ 상호배제(Mutual Exclusion)
+
+ ; 병행성을 보장하기 위한 것으로 어떤 특정한 시점에 하나의 자원에는 하나의 프로세스만 접근할 수 있게 나머지의 접근은 배제시키는 것
+
+④ 문맥교환(Context Switching)
+
+ ; 인터럽트가 발생되었을 때 실행중이던 프로세스가 작업을 멈추었다가 다시 실행될 때 이전 작업을 다시 수행하기 위해 이전 작업 내용과 프로세스의 정보들을 PCB에 저장하는 것
 
 ---
 
@@ -253,9 +369,25 @@ comments: true
 
 13. 응용프로그램 제작에 필요한 개발환경, SKD 등 플랫폼 자체를 서비스 형태로 제공하는 클라우드 컴퓨팅 서비스 모델은?
 
-![2020_9L_13](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_13.jpg)
+![2020_9L_13](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_13.jpg)
 
 **답 : ②**
+
+① DNS(Domain Name System)
+
+ ; 호스트의 도메인 이름(www.naver.com)을 호스트의 네트워크 주소(xxx.xxx.xxx.xxx)로 바꾸거나 반대의 변환을 수행하는 것을 도움.
+
+② Paas(Platform as a service)
+
+ ; 서비스를 개발할 수 있는 안정적인 환경(Platform)과 그 환경을 이용하는 응용 프로그램을 개발할 수 있는 API를 제공.
+
+③ Saas(Software as a service)
+
+ ; Cloud 환경에서 동작하는 응용프로그램을 서비스 형태로 제공.
+
+④ IaaS(Infrastructure as a service)
+
+ ; 서버를 운영하기 위한 인프라를 구축하기 위한 서버자원, IP, Network, Storage, 전력 등을 가상의 환경에서 쉽고 편하게 이용할 수 있게 서비스 형태로 제공.
 
 
 
@@ -265,7 +397,7 @@ comments: true
 
 14. 다음 프로그램의 실행 결과로 옳은 것은?
 
-![2020_9L_14](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_14.jpg)
+![2020_9L_14](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_14.jpg)
 
 **답 : ④**
 
@@ -277,7 +409,7 @@ comments: true
 
 15. 다음 프로그램은 연결 리스트를 만들기 위한 코드의 일부분이다. 아래 그림과 같이 두 개의 노드 first, second가 연결되었다고 가정하고, 위의 코드를 참조하여 노드 tmp를 노드 first와 노드 second 사이에 삽입하고자 할 때, 프로그램 코드로 옳은 것은?
 
-![2020_9L_15](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_15.jpg)
+![2020_9L_15](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_15.jpg)
 
 **답 : ②**
 
@@ -289,7 +421,7 @@ comments: true
 
 16. 다음 C 프로그램의 결과로 옳은 것은?
 
-![2020_9L_16](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_16.jpg)
+![2020_9L_16](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_16.jpg)
 
 **답 : ①**
 
@@ -301,7 +433,7 @@ comments: true
 
 17. 다음 이진 트리에 대하여 후위 순회를 하는 경우 다섯 번째 방문하는 노드는?
 
-![2020_9L_17](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_17.jpg)
+![2020_9L_17](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_17.jpg)
 
 **답 : ④**
 
@@ -313,7 +445,7 @@ comments: true
 
 18. 프세스 스케줄링에 대한 설명으로 옳지 않은 것은?
 
-![2020_9L_18](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_18.jpg)
+![2020_9L_18](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_18.jpg)
 
 **답 : ①**
 
@@ -329,7 +461,7 @@ comments: true
 
 19. TCP/IP 프로토콜 스택에 대한 설명으로 옳은 것은?
 
-![2020_9L_19](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_19.jpg)
+![2020_9L_19](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_19.jpg)
 
 **답 : ③**
 
@@ -341,7 +473,7 @@ comments: true
 
 20. 다음 테이블 인스턴스(Instance)들에 대하여 오류 없이 동작하는 SQL(Structured Query Language) 문장은?
 
-![2020_9L_20](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_20.jpg)
+![2020_9L_20](c:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_20.jpg)
 
 **답 : ③**
 
