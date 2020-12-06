@@ -9,19 +9,21 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Posts by Category - Devsungyeon’s Blog</title>
-<meta name="description" content="개인 블로그입니다.">
+<!-- begin _includes/seo.html --><title>파일명 일괄 변경하기(Linux, VS code) - Devsungyeon’s Blog</title>
+<meta name="description" content="Linux 및 VS Code에서 pipeline 명령어로 하위디렉토리 및 파일명 일괄 변경">
 
 
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ko">
 <meta property="og:site_name" content="Devsungyeon's Blog">
-<meta property="og:title" content="Posts by Category">
-<meta property="og:url" content="http://localhost:4000/categories/">
+<meta property="og:title" content="파일명 일괄 변경하기(Linux, VS code)">
+<meta property="og:url" content="http://localhost:4000/_posts/2020-12-06-Linux-File-naming-pipeline-command/">
 
 
 
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/bright.jpg">
 
 
 
@@ -36,7 +38,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/categories/">
+<link rel="canonical" href="http://localhost:4000/_posts/2020-12-06-Linux-File-naming-pipeline-command/">
 
 
 
@@ -103,7 +105,7 @@
 
   </head>
 
-  <body class="layout--categories">
+  <body class="layout--single">
 
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
@@ -151,6 +153,41 @@
 
     <div class="initial-content">
       
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: url('/assets/images/bright.jpg');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          파일명 일괄 변경하기(Linux, VS code)
+
+        
+      </h1>
+      
+        <p class="page__lead">Pipeline 명령어를 이용한 파일명 일괄 변경
+</p>
+      
+      
+      
+    </div>
+  
+  
+</div>
+
+
 
 
 
@@ -258,210 +295,126 @@
   </div>
 
 
-  <div class="archive">
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="파일명 일괄 변경하기(Linux, VS code)">
     
-      <h1 id="page-title" class="page__title">Posts by Category</h1>
     
-    
+    <meta itemprop="dateModified" content="December 06, 2020">
 
+    <div class="page__inner-wrap">
+      
 
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On This Page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#명령어">명령어</a></li>
+  <li><a href="#1-error-발생하는-경우">1) Error 발생하는 경우</a></li>
+  <li><a href="#2-error-해결">2) Error 해결</a></li>
+</ul>
+            </nav>
+          </aside>
+        
+        <h1 id="파일명-일괄-변경하기linux-vs-code">파일명 일괄 변경하기(Linux, VS code)</h1>
 
+<p>궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! “:)”</p>
 
+<h2 id="명령어">명령어</h2>
 
-<ul class="taxonomy__index">
-  
-    
-      
-    
-      
-        <li>
-          <a href="#9level-computerbasic">
-            <strong>9Level_computerbasic</strong> <span class="taxonomy__count">2</span>
-          </a>
-        </li>
-      
-    
-      
-    
-  
-    
-      
-        <li>
-          <a href="#github-blog">
-            <strong>Github Blog</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-      
-    
-      
-        <li>
-          <a href="#useful">
-            <strong>Useful</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-  
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find ./ <span class="nt">-name</span> <span class="s2">"*from*"</span>  | <span class="nb">sed</span> <span class="nt">-e</span> <span class="s1">'p'</span> <span class="nt">-e</span> <span class="s2">"s/from/to/g"</span> |xargs <span class="nt">-n</span> 2 <span class="nb">mv</span>
+</code></pre></div></div>
+
+<p>현 위치 폴더 내부의 모든 하위 폴더를 탐색하여 “from”이 포함된 부분을 “to”로 변경한다.</p>
+
+<p>ex)</p>
+
+<p>file : 2020_from_1.py  ==&gt;  2020_to_1.py</p>
+
+<p>directory : 2020_from/  ==&gt;  2020_to/</p>
+
+<h2 id="1-error-발생하는-경우">1) Error 발생하는 경우</h2>
+
+<p>폴더 명과 이름에 모두 from이 있는 경우</p>
+
+<p>2020_from/2020_from_1.py  ==&gt;  2020_to/2020_to_1.py</p>
+
+<ul>
+  <li>폴더명이 상위에 있으므로 폴더명을 먼저 변경하므로, 2020_to/2020_from_1.py로 변경된다.</li>
+  <li>폴더명으로 변경되면 기존 경로와 달라지게 되므로 오류 발생!</li>
 </ul>
 
+<h2 id="2-error-해결">2) Error 해결</h2>
 
-  
-    
-  
-    
-      <section id="9level-computerbasic" class="taxonomy__section">
-        <h2 class="archive__subtitle">9Level_computerbasic</h2>
-        <div class="entries-list">
-          
-            
+<p>명령어를 첫 번째 실행한 후(Error 발생),</p>
 
+<p>한 번 더 실행시켜준다.</p>
 
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/9level_computerbasic/Level9-computerbasic-y2019/" rel="permalink">2019년 9급 전산직 컴퓨터일반 풀이
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  7 분 소요
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">2019년 9급 전산직 컴퓨터일반 풀이
-
-</p>
-  </article>
-</div>
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/9level_computerbasic/Level9-computerbasic-y2020/" rel="permalink">2020년 9급 전산직 컴퓨터일반 풀이
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  10 분 소요
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">2020년 9급 전산직 컴퓨터일반 풀이
-
-</p>
-  </article>
-</div>
-          
+        
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <div align="center" style="margin: 1em 0;">
+        <ins class="adsbygoogle"
+             style="display:block; border-bottom: initial;"
+             data-ad-client="ca-pub-9089895411733030"
+             data-ad-format="auto"></ins>
         </div>
-        <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       </section>
-    
+
+      <footer class="page__meta">
+        
+        
+
+
   
-    
+
+
+  
+  
   
 
-  
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 카테고리: </strong>
+    <span itemprop="keywords">
     
-      <section id="github-blog" class="taxonomy__section">
-        <h2 class="archive__subtitle">Github Blog</h2>
-        <div class="entries-list">
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/github%20blog/Google-analytics/" rel="permalink">[구글 애널리틱스] 추적 ID UA- 코드 만들기 GA4
-</a>
       
-    </h2>
+      <a href="/categories/#useful" class="page__taxonomy-item" rel="tag">Useful</a>
     
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+    </span>
+  </p>
 
 
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time datetime="2020-12-06">December 06, 2020</time></p>
+        
 
+      </footer>
 
-  1 분 소요
-</p>
+      
+
+      
+    </div>
+
     
-    <p class="archive__item-excerpt" itemprop="description">추적 코드(ID) UA-xxxxxxxx-x 만들기
-
-</p>
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">댓글남기기</h4>
+      <section id="disqus_thread"></section>
+    
+</div>
+    
   </article>
-</div>
-          
-        </div>
-        <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
-      </section>
-    
+
   
-    
   
-    
-      <section id="useful" class="taxonomy__section">
-        <h2 class="archive__subtitle">Useful</h2>
-        <div class="entries-list">
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/useful/Linux-File-naming-pipeline-command/" rel="permalink">파일명 일괄 변경하기(Linux, VS code)
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  최대 1 분 소요
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">파일명 일괄 변경하기(Linux, VS code)
-
-</p>
-  </article>
 </div>
-          
-        </div>
-        <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
-      </section>
-    
-  
 
-
-  </div>
-</div>
     </div>
 
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -524,6 +477,25 @@
 <script src="/assets/js/lunr/lunr-en.js"></script>
 
 
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/_posts/2020-12-06-Linux-File-naming-pipeline-command/";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = ""; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://devsungyeon.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
 
 
 

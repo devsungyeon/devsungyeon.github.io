@@ -1,10 +1,730 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-24T21:40:54+09:00</updated><id>http://localhost:4000/</id><title type="html">Devsungyeon’s Blog</title><subtitle>개인 블로그입니다.</subtitle><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><entry><title type="html">2020년 9급 전산직 컴퓨터일반 풀이</title><link href="http://localhost:4000/9level_computerbasic/Level9-computerbasic-y2020/" rel="alternate" type="text/html" title="2020년 9급 전산직 컴퓨터일반 풀이" /><published>2020-11-24T00:00:00+09:00</published><updated>2020-11-21T00:00:00+09:00</updated><id>http://localhost:4000/9level_computerbasic/Level9-computerbasic-y2020</id><content type="html" xml:base="http://localhost:4000/9level_computerbasic/Level9-computerbasic-y2020/">&lt;h1 id=&quot;2020년-9급-전산직-컴퓨터일반-풀이&quot;&gt;2020년 9급 전산직 컴퓨터일반 풀이&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-06T17:41:43+09:00</updated><id>http://localhost:4000/</id><title type="html">Devsungyeon’s Blog</title><subtitle>개인 블로그입니다.</subtitle><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><entry><title type="html">파일명 일괄 변경하기(Linux, VS code)</title><link href="http://localhost:4000/useful/Linux-File-naming-pipeline-command/" rel="alternate" type="text/html" title="파일명 일괄 변경하기(Linux, VS code)" /><published>2020-12-06T00:00:00+09:00</published><updated>2020-12-06T00:00:00+09:00</updated><id>http://localhost:4000/useful/Linux-File-naming-pipeline-command</id><content type="html" xml:base="http://localhost:4000/useful/Linux-File-naming-pipeline-command/">&lt;h1 id=&quot;파일명-일괄-변경하기linux-vs-code&quot;&gt;파일명 일괄 변경하기(Linux, VS code)&lt;/h1&gt;
 
 &lt;p&gt;궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! “:)”&lt;/p&gt;
 
-&lt;h2 id=&quot;1--아날로그-신호를-디지털-신호로-변조하기-위한-펄스부호변조pcm-과정으로-옳지-않은-것은&quot;&gt;1.  아날로그 신호를 디지털 신호로 변조하기 위한 펄스부호변조(PCM) 과정으로 옳지 않은 것은?&lt;/h2&gt;
+&lt;h2 id=&quot;명령어&quot;&gt;명령어&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;find ./ &lt;span class=&quot;nt&quot;&gt;-name&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;*from*&quot;&lt;/span&gt;  | &lt;span class=&quot;nb&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'p'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;s/from/to/g&quot;&lt;/span&gt; |xargs &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 2 &lt;span class=&quot;nb&quot;&gt;mv&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;현 위치 폴더 내부의 모든 하위 폴더를 탐색하여 “from”이 포함된 부분을 “to”로 변경한다.&lt;/p&gt;
+
+&lt;p&gt;ex)&lt;/p&gt;
+
+&lt;p&gt;file : 2020_from_1.py  ==&amp;gt;  2020_to_1.py&lt;/p&gt;
+
+&lt;p&gt;directory : 2020_from/  ==&amp;gt;  2020_to/&lt;/p&gt;
+
+&lt;h2 id=&quot;1-error-발생하는-경우&quot;&gt;1) Error 발생하는 경우&lt;/h2&gt;
+
+&lt;p&gt;폴더 명과 이름에 모두 from이 있는 경우&lt;/p&gt;
+
+&lt;p&gt;2020_from/2020_from_1.py  ==&amp;gt;  2020_to/2020_to_1.py&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;폴더명이 상위에 있으므로 폴더명을 먼저 변경하므로, 2020_to/2020_from_1.py로 변경된다.&lt;/li&gt;
+  &lt;li&gt;폴더명으로 변경되면 기존 경로와 달라지게 되므로 오류 발생!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2-error-해결&quot;&gt;2) Error 해결&lt;/h2&gt;
+
+&lt;p&gt;명령어를 첫 번째 실행한 후(Error 발생),&lt;/p&gt;
+
+&lt;p&gt;한 번 더 실행시켜준다.&lt;/p&gt;</content><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><category term="Linux" /><category term="VS Code" /><category term="pipeline" /><category term="파일명일괄변경" /><summary type="html">파일명 일괄 변경하기(Linux, VS code)</summary></entry><entry><title type="html">2019년 9급 전산직 컴퓨터일반 풀이</title><link href="http://localhost:4000/9level_computerbasic/Level9-computerbasic-y2019/" rel="alternate" type="text/html" title="2019년 9급 전산직 컴퓨터일반 풀이" /><published>2020-12-05T00:00:00+09:00</published><updated>2020-12-05T00:00:00+09:00</updated><id>http://localhost:4000/9level_computerbasic/Level9-computerbasic-y2019</id><content type="html" xml:base="http://localhost:4000/9level_computerbasic/Level9-computerbasic-y2019/">&lt;h1 id=&quot;2019년-9급-전산직-컴퓨터일반-풀이&quot;&gt;2019년 9급 전산직 컴퓨터일반 풀이&lt;/h1&gt;
+
+&lt;p&gt;궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! “:)”&lt;/p&gt;
+
+&lt;h2 id=&quot;1--cpu-내부-레지스터로-옳지-않은-것은&quot;&gt;1.  CPU 내부 레지스터로 옳지 않은 것은?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;CPU 내부 레지스터로 옳지 않은 것은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_1.jpg&quot; alt=&quot;2019_9L_1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ②&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CPU ; 누산기, 프로그램 카운터, 메모리 버퍼 레지스터 ..&lt;/li&gt;
+  &lt;li&gt;캐시 메모리 ; CPU와 메모리 사이의 속도 차이 해결.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-다음-전위prefix-표기식의-계산-결과는&quot;&gt;2. 다음 전위(prefix) 표기식의 계산 결과는?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;다음 전위(prefix) 표기식의 계산 결과는?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_2.jpg&quot; alt=&quot;2019_9L_2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ④&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;- 5 4 x 4 7&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;( + (- 5 4) (x 4 7) )&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;**( + (5 - 4) (4 x 7) **&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;( (5 - 4) + (4 x 7) ) = 1 + 28 = 29&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3--사진이나-동영상-등의-디지털-콘텐츠에&quot;&gt;3.  사진이나 동영상 등의 디지털 콘텐츠에…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;사진이나 동영상 등의 디지털 콘텐츠에 저작권자나 판매자 정보를 삽입하여 원본의 출처 정보를 제공하는 기술은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_3.jpg&quot; alt=&quot;2019_9L_3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;**답 : ②&lt;/p&gt;
+
+&lt;p&gt;① 디지털 사이니지 : 공공장소 및 상업 공간에 네트워크로 제어가 가능한 디지털 디스플레이를 통하여 다양한 정보 및 광고를 전달하는 디지털 미디어&lt;/p&gt;
+
+&lt;p&gt;② 디지털 워터마킹 : &lt;strong&gt;저작자 혹은 판매자&lt;/strong&gt; 정보 삽입.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;사진이나 동영상 등의 디지털 콘텐츠에 저작권자나 판매자 정보를 삽입하여 원본의 출처 정보를 제공하는 기술.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;③ 디지털 핑거프린팅 : &lt;strong&gt;구매자&lt;/strong&gt; 정보 삽입.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;사용자 혹은 구매자의 정보를 멀티미디어 콘텐츠 내에 삽입하는 기술&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;④ 콘텐츠 필터링 : 자료 이용시 데이터의 접근을 제한하거나 필터링. ex) 자녀보호기능(앱, 게임, 영화 등 연령제한).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;검색어 기반 필터링, 해시 기반 필터링, 특징 기반 필터링
+    &lt;ul&gt;
+      &lt;li&gt;검색어 기반 필터링 ; 검색어를 데이터베이스로 디지털콘텐츠의 검색을 차단.&lt;/li&gt;
+      &lt;li&gt;해시 기반 필터링 ; 해시함수를 이용해 콘텐츠 고유 값을 데이터베이스로 하여 해당 콘텐츠를 인식해 차단.&lt;/li&gt;
+      &lt;li&gt;특징 기반 필터링 ; 음악, 영화 등의 콘텐츠가 갖고 있는 고유한 특징을 추출해 그 정보를 데이터베이스로 하여 해당 콘텐츠를 인식해 차단.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;4-1k-x-4bit-ram-칩을-사용하여-8k-x-16bit&quot;&gt;4. 1K x 4bit RAM 칩을 사용하여 8K x 16bit…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;1K x 4bit RAM 칩을 사용하여 8K x 16bit 기억장치 모듈을 설계할 때 필요한 RAM 칩의 최소 개수는?&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_4.jpg&quot; alt=&quot;2019_9L_4&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ④&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1K x 4bit RAM 칩을 사용하여 8K x 16bit 모듈 설계&lt;/p&gt;
+
+&lt;p&gt;1K x 4bit x N  &lt;strong&gt;=&lt;/strong&gt;  8K x 16bit 모듈 설계&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;K ; 8배차이, bit ; 4배차이.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;8 x 4 = 32개&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;5-프로세스와-스레드thread에-대한&quot;&gt;5. 프로세스와 스레드(thread)에 대한…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;프로세스와 스레드(thread)에 대한 설명으로 옳지 않은 것은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_5.jpg&quot; alt=&quot;2019_9L_5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ①&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;① 하나의 스레드는 여러 프로세스에 &lt;del&gt;포함될 수 있다.&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;==&amp;gt; 하나의 스레드는 반드시 하나의 프로세스에만 포함된다.&lt;/p&gt;
+
+&lt;p&gt;==&amp;gt; 하나의 프로세스는 여러 개의 스레드를 포함할 수 있다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;6-보이스-코드-정규형bcnf-boyce-codd-normal-form을&quot;&gt;6. 보이스 코드 정규형(BCNF: Boyce-Codd Normal Form)을…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;보이스 코드 정규형(BCNF: Boyce-Codd Normal Form)을 만족하기 위한 조건에 해당하지 않는 것은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_6.jpg&quot; alt=&quot;2019_9L_6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ①&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;① &lt;del&gt;조인(join) 종속성이 없어야 한다.&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;==&amp;gt; &lt;strong&gt;조인(join) 종속성이 없어야 한다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;정규형&lt;/th&gt;
+      &lt;th&gt;속성&lt;/th&gt;
+      &lt;th&gt;그림&lt;/th&gt;
+      &lt;th&gt;암기법&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1정규형&lt;/td&gt;
+      &lt;td&gt;모든 속성은 반드시 하나의 값을 가져야 함.&lt;br /&gt;도메인이 반드시 원자값.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;도&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2정규형&lt;/td&gt;
+      &lt;td&gt;부분 함수 종속을 제거&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/6-1.png&quot; alt=&quot;6-1&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;부&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3정규형&lt;/td&gt;
+      &lt;td&gt;이행적 함수 종속 제거 = 완전함수종속&lt;br /&gt;기본키 중에 특정 컬럼에 종속된 컬럼(부분적 종속)이 없어야 한다.&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/6-2.png&quot; alt=&quot;6-2&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;이&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;보이스코드 정규형&lt;/td&gt;
+      &lt;td&gt;결정자이면서 후보키가 아닌 것 제거&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/6-3.png&quot; alt=&quot;6-3&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;결&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4정규형&lt;/td&gt;
+      &lt;td&gt;다치 종속 제거&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;다&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5정규형&lt;/td&gt;
+      &lt;td&gt;조인 종속성 제거.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;조&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;7-udpuser-datagram-protocol에-대한&quot;&gt;7. UDP(User Datagram Protocol)에 대한…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;UDP(User Datagram Protocol)에 대한 설명으로 옳은 것만을 모두 고르면?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_7.jpg&quot; alt=&quot;2019_9L_7&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ③&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ㄹ. 혼잡제어 메커니즘을 이용하여 링크가 과도하게 혼잡해지는 것을 방지한다.&lt;/p&gt;
+
+&lt;p&gt;==&amp;gt; &lt;strong&gt;TCP&lt;/strong&gt;에 대한 설명이다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;TCP&lt;/th&gt;
+      &lt;th&gt;UDP&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;연결지향&lt;/td&gt;
+      &lt;td&gt;비연결지향&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;신뢰성(안정적)&lt;/td&gt;
+      &lt;td&gt;비신뢰성&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;혼잡제어, 흐름제어&lt;/td&gt;
+      &lt;td&gt;&lt;del&gt;혼잡제어, 흐름제어&lt;/del&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;순서 보장&lt;/td&gt;
+      &lt;td&gt;비순서&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;바이트(byte) 스트림을 통한 연결&lt;/td&gt;
+      &lt;td&gt;메시지(message) 스트림을 통한 연결&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;TCP packet ; Segment&lt;/td&gt;
+      &lt;td&gt;UDP packet ; Datagram&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;HTTP, Email, File transfer 에 사용&lt;/td&gt;
+      &lt;td&gt;DNS, Broadcasting&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;8-다음-논리-회로의-출력과&quot;&gt;8. 다음 논리 회로의 출력과…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;다음 논리 회로의 출력과 동일한 것은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_8.jpg&quot; alt=&quot;2019_9L_8&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ③&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/8-1.jpg&quot; alt=&quot;8-1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/8-3.png&quot; alt=&quot;8-3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;~x1*(x2 + x3) + ~x3&lt;/p&gt;
+
+&lt;p&gt;= ~x1*x2 + ~x1*x3 + ~x3&lt;/p&gt;
+
+&lt;p&gt;= ~x1*x2 + (~x1*x3 + ~x3)&lt;/p&gt;
+
+&lt;p&gt;= ~x1*x2 + ( (~x1+~x3)*(x3 + ~x3) ) // x3 + ~x3 = True = 1&lt;/p&gt;
+
+&lt;p&gt;= ~x1*x2 + (~x1+~x3)&lt;/p&gt;
+
+&lt;p&gt;= (~x1*x2 + ~x1) + ~x3&lt;/p&gt;
+
+&lt;p&gt;= (~x1*(x2 + 1)) + ~x3&lt;/p&gt;
+
+&lt;p&gt;= ~x1 + ~x3&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;9-다음-java-프로그램의-출력&quot;&gt;9. 다음 Java 프로그램의 출력…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;다음 Java 프로그램의 출력 결과는?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_9.jpg&quot; alt=&quot;2019_9L_9&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ①&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Class A가 Class P를 상속받는다. ==&amp;gt; 자동으로 Overriding(재정의).&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ClassP&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;func1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;func2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;func3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ClassA&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ClassP&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;func1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;func2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;func3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;ClassP&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;P&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ClassA&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;P&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;func1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;, &quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 둘 모두 int 형이므로 ClassA의 func1을 실행(Overriding)&lt;/span&gt;
+                        &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;P&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;func2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;, &quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 둘 모두 int 형이므로 ClassP의 func1을 실행&lt;/span&gt;
+                        &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;P&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;func3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 둘 모두 int 형이므로 ClassA의 func1을 실행(Overriding)&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;10-ipv4에서-데이터-크기가-6000&quot;&gt;10. IPv4에서 데이터 크기가 6,000…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;IPv4에서 데이터 크기가 6,000 바이트인 데이터그램이 3개로 단편화(fragmentation)될 때, 단편화 오프셋(offset) 값으로 가능한 것만을 모두 고르면?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_10.jpg&quot; alt=&quot;2019_9L_10&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ①&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;데이터 크기가 6,000바이트&lt;/strong&gt;인데 데이터그램이 &lt;strong&gt;3개로 단편화&lt;/strong&gt;되므로, &lt;strong&gt;하나당 2,000바이트&lt;/strong&gt;를 가진다.&lt;/p&gt;
+
+&lt;p&gt;따라서 각 데이터그램은 0~1999바이트, 2000~3999바이트, 4000~5999바이트로 구성된다.&lt;/p&gt;
+
+&lt;p&gt;각 데이터그램의 시작 값을 8로 나누어주면,&lt;/p&gt;
+
+&lt;p&gt;0 ; 0/8 = 0&lt;/p&gt;
+
+&lt;p&gt;2000 ; 2000/8 = 250&lt;/p&gt;
+
+&lt;p&gt;4000 ; 4000/8 = 500&lt;/p&gt;
+
+&lt;p&gt;따라서, 단편화 오프셋 값으로 가능한 것은 &lt;strong&gt;0, 250, 500&lt;/strong&gt;이다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;11-go-back-n-프로토콜에서-6번째&quot;&gt;11. Go-Back-N 프로토콜에서 6번째…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Go-Back-N 프로토콜에서 6번째 프레임까지 전송한 후 4번째 프레임에서 오류가 있음을 알았을 때, 재전송 대상이 되는 프레임의 개수는?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_11.jpg&quot; alt=&quot;2019_9L_11&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ③&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go-Back-N 프로토콜은 전송 중에 오류가 발생한 지점부터 재전송한다.&lt;/p&gt;
+
+    &lt;p&gt;==&amp;gt; 4번째 프레임에서 오류가 발생. 4,5,6프레임만을 재전송한다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;12-0--6410-1에-해당하는-정수를-&quot;&gt;12. 0 ~ (64&lt;sup&gt;10&lt;/sup&gt;-1)에 해당하는 정수를 …&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;0 ~ (64&lt;sup&gt;10&lt;/sup&gt;-1)에 해당하는 정수를 이진코드로 표현하기 위해 필요한 최소 비트 수는?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_12.jpg&quot; alt=&quot;2019_9L_12&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ②&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;0 ~ (64&lt;sup&gt;10&lt;/sup&gt;-1) = 64&lt;sup&gt;10&lt;/sup&gt;개&lt;/p&gt;
+
+&lt;p&gt;64&lt;sup&gt;10&lt;/sup&gt;개 = 2&lt;sup&gt;6&lt;sup&gt;10&lt;/sup&gt;&lt;/sup&gt; = 2&lt;sup&gt;60&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;따라서 60 비트.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;13-의료용-심장-모니터링-시스템과-&quot;&gt;13. 의료용 심장 모니터링 시스템과 …&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;의료용 심장 모니터링 시스템과 같이 정해진 짧은 시간 내에 응답해야 하는 시스템은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_13.jpg&quot; alt=&quot;2019_9L_13&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ③&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;==&amp;gt; 의료용 심장 모니터링 시스템과 같은 정해진 짧은 시간 내에 응답해야 하는 시스템은 &lt;strong&gt;실시간 시스템&lt;/strong&gt;이다.&lt;/p&gt;
+
+&lt;p&gt;① 다중프로그래밍 시스템 ; 컴퓨터의 주기억장치 상에 2개 이상의 프로그램이 적재되어, 하나의 프로그램이 CPU를 사용하다가 입출력 동작을 하게되면 상대적으로 느린 &lt;strong&gt;&lt;em&gt;입출력 장치를 수행시키는 동안 CPU로 하여금 다른 프로그램을 수행&lt;/em&gt;&lt;/strong&gt;하여 컴퓨터의 효율을 증대시키고자 하는 방법.&lt;/p&gt;
+
+&lt;p&gt;② 시분할 시스템 ; CPU 스케줄링과 다중 프로그래밍을 이용해서 각 사용자들에게 컴퓨터 자원을 시간적으로 분할하여 사용할 수 있게 해준다.&lt;/p&gt;
+
+&lt;p&gt;④ 일괄 처리 시스템 ; 컴퓨터 프로그램 흐름에 따라 순차적으로 자료를 처리하는 방식.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;14-fifo-페이지-교체-알고리즘을-&quot;&gt;14. FIFO 페이지 교체 알고리즘을 …&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;FIFO 페이지 교체 알고리즘을 사용하는 가상메모리에서 프로세스 P가 다음과 같은 페이지 번호 순서대로 페이지에 접근할 때, 페이지 부재(page-fault) 발생 횟수는? (단, 프로세스 P가 사용하는 페이지 프레임은 총 4개이고, 빈 상태에서 시작한다)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_14.jpg&quot; alt=&quot;2019_9L_14&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ③&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;회차&lt;/th&gt;
+      &lt;th&gt;1&lt;/th&gt;
+      &lt;th&gt;2&lt;/th&gt;
+      &lt;th&gt;3&lt;/th&gt;
+      &lt;th&gt;4&lt;/th&gt;
+      &lt;th&gt;5&lt;/th&gt;
+      &lt;th&gt;6&lt;/th&gt;
+      &lt;th&gt;7&lt;/th&gt;
+      &lt;th&gt;8&lt;/th&gt;
+      &lt;th&gt;9&lt;/th&gt;
+      &lt;th&gt;10&lt;/th&gt;
+      &lt;th&gt;11&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;페이지 번호&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;프레임1&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;프레임2&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;프레임3&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;프레임4&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Page-Fault&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;&lt;em&gt;8회 발생&lt;/em&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;15-재배치-가능한-형태의-기계어로&quot;&gt;15. 재배치 가능한 형태의 기계어로…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;재배치 가능한 형태의 기계어로 된 오브젝트 코드나 라이브러리 등을 입력받아 이를 묶어 실행 가능한 로드 모듈로 만드는 번역기는?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_15.jpg&quot; alt=&quot;2019_9L_15&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ①&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;① 링커(linker) ; 재배치 가능한 형태의 기계어로 된 오브젝트 코드나 라이브러리 등을 입력받아 이를 묶어 실행 가능한 로드 모듈로 만드는 번역기.&lt;/p&gt;
+
+&lt;p&gt;② 어셈블러(assembler) ; 어셈블리어를 기계어 형태의 오베직트 코드로 해석해주는 컴퓨터 언어 번역 프로그램&lt;/p&gt;
+
+&lt;p&gt;③ 컴파일러(complier) ; 특정 프로그래밍 언어로 쓰여 잇는 문서를 다른 프로그래밍 언어로 옮기는 프로그램.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- 원래 문서 ; 소스코드 혹은 원시코드
+- 출력 문서 ; 목적 코드
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;④ 프리프로세서(preprocessor) ; 고급언어를 또 다른 고급언어로 번역하는 고급언어 변역기.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; - 컴파일보다 먼저 실행되어 미리 처리. 다양한 언어로 각 모듈을 구축할 수 있게 됨.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;16-이메일-erp-crm-등-다양한&quot;&gt;16. 이메일, ERP, CRM 등 다양한…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;이메일, ERP, CRM 등 다양한 응용 프로그램을 서비스 형태로 제공하는 클라우드 서비스는?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_16.jpg&quot; alt=&quot;2019_9L_16&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ④&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;클라우드 서비스&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;① IaaS(Infrastructure as a Service) ; 서버 혹은 저장장치 등 같은 IT 하드웨어 자원을 클라우드 서비스&lt;/p&gt;
+
+&lt;p&gt;② NaaS(Network as a Service) ; &lt;strong&gt;Network as a service&lt;/strong&gt; (&lt;strong&gt;NaaS&lt;/strong&gt;) describes services for network transport connectivity.[&lt;a href=&quot;https://en.wikipedia.org/wiki/Network_as_a_service#cite_note-focus-1&quot;&gt;1]&lt;/a&gt; NaaS involves the optimization of resource allocations by considering network and computing resources as a unified whole.[&lt;a href=&quot;https://en.wikipedia.org/wiki/Network_as_a_service#cite_note-2&quot;&gt;2]&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;③ PaaS(Platform as a Service) ; 업무에 필요한 소프트웨어를 개발할 수 있는 환경을 클라우드 서비스&lt;/p&gt;
+
+&lt;p&gt;④ SaaS(Software as a Service) ; 소프트웨어 자체를 클라우드 서비스&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;17-다음-c-프로그램의-출력&quot;&gt;17. 다음 C 프로그램의 출력…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;다음 C 프로그램의 출력 결과는?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_17.jpg&quot; alt=&quot;2019_9L_17&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ①&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;msg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello World!! Good Luck!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// i가 2부터 시작한다! msg[i] = 'l'&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;msg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;msg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'a'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;msg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'e'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;msg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'i'&lt;/span&gt;
+            &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;msg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'o'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;msg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'u'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;18-마이크로프로세서에-관한-&quot;&gt;18. 마이크로프로세서에 관한 …&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;마이크로프로세서에 관한 설명으로 옳은 것만을 모두 고르면?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_18.jpg&quot; alt=&quot;2019_9L_18&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ④&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ㄱ. 모든 명령어의 실행시간은 클럭 주기(clock period)보다 &lt;del&gt;작다.&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;==&amp;gt; 클럭 주기는 &lt;strong&gt;가장 오래 걸리는 시간&lt;/strong&gt;으로 설정한다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;19-소프트웨어-규모를-예측하기&quot;&gt;19. 소프트웨어 규모를 예측하기…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;소프트웨어 규모를 예측하기 위한 기능점수(function point)를 산정할 때 고려하지 않는 것은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_19.jpg&quot; alt=&quot;2019_9L_19&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ④&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;LOC는 기능점수(function point) 산정 시 고려되지 않는다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;기능점수(function point) ; 사용자에게 제공되는 기능 단위로 점수를 정량화하여, 소프트웨어 규모 산정.&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt;종류&lt;/th&gt;
+          &lt;th&gt; &lt;/th&gt;
+          &lt;th&gt;설명&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;EI&lt;/td&gt;
+          &lt;td&gt;External Input&lt;/td&gt;
+          &lt;td&gt;외부입력, 외부에서 들어오는 데이터 및 제어정보를 처리하는 단위프로세스&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;EO&lt;/td&gt;
+          &lt;td&gt;External Output&lt;/td&gt;
+          &lt;td&gt;외부출력, 데이터 및 제어정보의 조회 외에 처리 로직을 통해서 사용자에게 정보를 제공.&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;EQ&lt;/td&gt;
+          &lt;td&gt;External inQuiry&lt;/td&gt;
+          &lt;td&gt;외부조회, 응용시스템 외부에 데이터나 제어정보를 보내는 단위프로세스&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;ILF&lt;/td&gt;
+          &lt;td&gt;Internal Logical File&lt;/td&gt;
+          &lt;td&gt;내부논리파일, 측정 대상 어플리케이션 내에 있는 논리적 데이터&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;EIF&lt;/td&gt;
+          &lt;td&gt;External Interface File&lt;/td&gt;
+          &lt;td&gt;외부연계파일, 측정 대상 어플리케이션 내에서 참조하지만, 실질적인 데이터는 외부에 있는 파일&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;20-ltelong-term-evolution-표준에-&quot;&gt;20. LTE(Long-Term Evolution) 표준에 …&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;LTE(Long-Term Evolution) 표준에 대한 설명으로 옳은 것만을 모두 고르면?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2019_9L/2019_9L_20.jpg&quot; alt=&quot;2019_9L_20&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ④&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ㄴ. 4G 무선기술로서 &lt;del&gt;IEEE 802.16&lt;/del&gt; 표준으로도 불린다.&lt;/p&gt;
+
+&lt;p&gt;==&amp;gt; 802.16 ; wireless Broadband&lt;/p&gt;
+
+&lt;p&gt;==&amp;gt; 802.11 ; LTE, Wifi&lt;/p&gt;</content><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><category term="9급" /><category term="컴퓨터일반" /><category term="9급공무원" /><summary type="html">2019년 9급 전산직 컴퓨터일반 풀이</summary></entry><entry><title type="html">2020년 9급 전산직 컴퓨터일반 풀이</title><link href="http://localhost:4000/9level_computerbasic/Level9-computerbasic-y2020/" rel="alternate" type="text/html" title="2020년 9급 전산직 컴퓨터일반 풀이" /><published>2020-11-24T00:00:00+09:00</published><updated>2020-11-21T00:00:00+09:00</updated><id>http://localhost:4000/9level_computerbasic/Level9-computerbasic-y2020</id><content type="html" xml:base="http://localhost:4000/9level_computerbasic/Level9-computerbasic-y2020/">&lt;h1 id=&quot;2020년-9급-전산직-컴퓨터일반-풀이&quot;&gt;2020년 9급 전산직 컴퓨터일반 풀이&lt;/h1&gt;
+
+&lt;p&gt;궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! “:)”&lt;/p&gt;
+
+&lt;h2 id=&quot;1--아날로그-신호를-디지털-신호로&quot;&gt;1.  아날로그 신호를 디지털 신호로…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;아날로그 신호를 디지털 신호로 변조하기 위한 펄스부호변조(PCM) 과정으로 옳지 않은 것은?&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_1.jpg&quot; alt=&quot;2020_9L_1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ①&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;PCM(Pulse-code modulation) ; 아날로그 신호를 디지털 신호로 변조.&lt;/li&gt;
@@ -14,7 +734,11 @@
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;2-dbms를-사용하는-이점으로-옳지-않은-것은&quot;&gt;2. DBMS를 사용하는 이점으로 옳지 않은 것은?&lt;/h2&gt;
+&lt;h2 id=&quot;2-dbms를-사용하는-이점으로&quot;&gt;2. DBMS를 사용하는 이점으로…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;DBMS를 사용하는 이점으로 옳지 않은 것은?&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_2.jpg&quot; alt=&quot;2020_9L_2&quot; /&gt;&lt;/p&gt;
 
@@ -50,119 +774,854 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;p&gt;&lt;strong&gt;답 : ③&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;③ &lt;del&gt;데이터의 중복을 허용&lt;/del&gt;하여 데이터의 일관성을 유지한다.&lt;/p&gt;
 
 &lt;p&gt;​	DBMS는 &lt;strong&gt;데이터의 중복을 최소화&lt;/strong&gt;한다.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;3--cpu-내의-레지스터에-대한-설명으로-옳지-않은-것은&quot;&gt;3.  CPU 내의 레지스터에 대한 설명으로 옳지 않은 것은?&lt;/h2&gt;
+&lt;h2 id=&quot;3--cpu-내의-레지스터에-대한&quot;&gt;3.  CPU 내의 레지스터에 대한…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;CPU 내의 레지스터에 대한 설명으로 옳지 않은 것은?&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_3.jpg&quot; alt=&quot;2020_9L_3&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;CPU 내 레지스터&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;답 : ③&lt;/strong&gt;&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;③ Memory Address Register(MAR)&lt;/dt&gt;
+  &lt;dd&gt;
+    &lt;p&gt;주기억장치(Main Memory)에서 선택될 주소를 기억하는 레지스터&lt;/p&gt;
+  &lt;/dd&gt;
+  &lt;dt&gt;③ IR(Instruction Register)&lt;/dt&gt;
+  &lt;dd&gt;
+    &lt;p&gt;가장 최근에 인출한 명령어를 보관하는 레지스터&lt;/p&gt;
+  &lt;/dd&gt;
+&lt;/dl&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;4-소프트웨어-개발-프로세스-중-원형prototyping-모델의-단계별-진행-과정을-올바르게-나열한-것은&quot;&gt;4. 소프트웨어 개발 프로세스 중 원형(Prototyping) 모델의 단계별 진행 과정을 올바르게 나열한 것은?&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/\3_CPU_REGISTER_MEMORY.png&quot; alt=&quot;3_CPU_REGISTER_MEMORY&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CPU, Memory, 보조기억장치 간 흐름.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/\3_REGISTER.png&quot; alt=&quot;3_REGISTER&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Register(기억장치) : CPU 내에서 컴퓨터의 작동에 필요한 데이터와 명령어를 저장.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;PC(Program Counter, 계수기) : &lt;strong&gt;다음에 실행할 명령의 주소&lt;/strong&gt;를 기억하는 레지스터&lt;/li&gt;
+  &lt;li&gt;MAR(Memory Address Register, 주소 레지스터) : 주기억장치(Main Memory)에서 &lt;strong&gt;선택될 주소를 기억&lt;/strong&gt;하는 레지스터&lt;/li&gt;
+  &lt;li&gt;MBR(Memory Buffer Register, 내용 레지스터) : PC 혹은 MAR이 지정하는 주기억장치의 &lt;strong&gt;내용을 임시로 기억&lt;/strong&gt;하는 레지스터&lt;/li&gt;
+  &lt;li&gt;IR(Instruction Register, 명령 레지스터) : 명령 계수기(PC)가 지정한 주소의 명령을 인출하여 명령 실행이 완료될 때까지 명령을 보관하는 레지스터. &lt;strong&gt;가장 최근에 인출한 명령어를 보관&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;4-소프트웨어-개발-프로세스-중&quot;&gt;4. 소프트웨어 개발 프로세스 중…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;소프트웨어 개발 프로세스 중 원형(Prototyping) 모델의 단계별 진행 과정을 올바르게 나열한 것은?&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_4.jpg&quot; alt=&quot;2020_9L_4&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;답 : ②&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;원형(Prototype) : 우선 만들어 고객의 평가를 받는다.&lt;/p&gt;
+
+&lt;p&gt;요구 사항 분석 → &lt;strong&gt;시제품 설계 → 시제품 개발&lt;/strong&gt; → 고객의 시제품 평가 → 시제품 정제 → 완제품 생산&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;소프트웨어 생명주기 모형&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;생명주기 모형&lt;/th&gt;
+      &lt;th&gt;정의&lt;/th&gt;
+      &lt;th&gt;장점&lt;/th&gt;
+      &lt;th&gt;단점&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;폭포수 모형&lt;br /&gt;=Waterfall Model&lt;br /&gt;=선형순차 모형&lt;/td&gt;
+      &lt;td&gt;체계적인 원리&lt;br /&gt;단계별 결과물이 명확히 나옴&lt;br /&gt;적용사례 많음&lt;br /&gt;가장 오래되었고 널리 사용&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;기존 시스템&lt;/strong&gt;을 보완하는 데 적합&lt;br /&gt;&lt;strong&gt;소규모 시스템&lt;/strong&gt; 개발에 적합&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;신규 시스템 개발에는 부적합&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;문서화&lt;/strong&gt;에 치중&lt;br /&gt;병행되거나 이전 단계로 이동이 불가&lt;br /&gt;검출되지 않은 실수가 큰 손실&lt;br /&gt;개발 중 새로운 요구 반영 어려움&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;프로토타이핑 모형&lt;br /&gt;=Prototyping&lt;br /&gt;원형 모형&lt;/td&gt;
+      &lt;td&gt;모델을 사전에 만듦.&lt;br /&gt;개발자가 사용자의 요구 파악&lt;/td&gt;
+      &lt;td&gt;초기에 &lt;strong&gt;사용자의 의도 파악&lt;/strong&gt; 용이&lt;/td&gt;
+      &lt;td&gt;견본품의 폐기가 가능&lt;br /&gt;사용자는 견본품을 실제품으로 착각&lt;br /&gt;기능이 제한적&lt;br /&gt;낮은 신뢰성&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;나선형 모형&lt;br /&gt;=Spiral Model&lt;/td&gt;
+      &lt;td&gt;폭포수 모형과 원형 모형을 결합&lt;br /&gt;1~4 과정을 반복적으로 수행&lt;br /&gt;1. 계획&lt;br /&gt;2. 위험분석&lt;br /&gt;3. 공학&lt;br /&gt;4. 사용자평가&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;대규모 시스템&lt;/strong&gt; 개발에 적합&lt;br /&gt;개발 시 생기는 위험을 최소화&lt;br /&gt;위험성 평가에 크게 의존&lt;br /&gt;&lt;/td&gt;
+      &lt;td&gt;계속적인 변경은 소프트웨어의 구조를 훼손&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;V-모형&lt;br /&gt;V-Diagram&lt;/td&gt;
+      &lt;td&gt;폭포수 모델의 변형&lt;br /&gt;작업과 결과의 검증에 초점&lt;br /&gt;분석과 설계단계는 왼편(개발)&lt;br /&gt;테스팅과 유지보수단계는 오른편(검증)&lt;/td&gt;
+      &lt;td&gt;오류발견 시, 이전 단계로 이동 가능&lt;br /&gt;신뢰성이 높은 분야에 적합&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;익스트림 프로그래밍&lt;br /&gt;=XP, eXtreme Programming&lt;/td&gt;
+      &lt;td&gt;애자일 기법 중 하나로 점증적 방법 변형&lt;br /&gt;고객의 참여를 극한까지 유도&lt;br /&gt;코드 작성 전, 업무에 대한 시험 준비&lt;br /&gt;&lt;strong&gt;시험 우선 개발&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;점증적인 시험 개발&lt;br /&gt;사용자 참여&lt;br /&gt;&lt;strong&gt;자동화&lt;/strong&gt;된 시험 장치의 사용&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;UP(Unified Process) 모형&lt;/td&gt;
+      &lt;td&gt;유즈케이스(usecase, 사용사례) 기반&lt;br /&gt;구조중심&lt;br /&gt;반복적이고 점증적&lt;br /&gt;개발단계&lt;br /&gt;1. 개념 정립(도입, Inception)&lt;br /&gt;2. 전개(정련, Elaboration)&lt;br /&gt;3. 구축(Construction)&lt;br /&gt;4. 전환(전이, Transition)&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;스크럼(Scrum)&lt;/td&gt;
+      &lt;td&gt;솔루션에 포함할 기능에 대한 우선순위 부여&lt;br /&gt;개발주기는 30일&lt;br /&gt;날마다 15분 회의&lt;br /&gt;항상 팀 단위로 생각&lt;br /&gt;구분 없는 열린 공간. 원활한 의사소통&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;5-네트워크-토폴로지에-대한-설명으로-옳지-않은-것은&quot;&gt;5. 네트워크 토폴로지에 대한 설명으로 옳지 않은 것은?&lt;/h2&gt;
+&lt;h2 id=&quot;5-네트워크-토폴로지에-대한&quot;&gt;5. 네트워크 토폴로지에 대한…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;네트워크 토폴로지에 대한 설명으로 옳지 않은 것은?&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_5.jpg&quot; alt=&quot;2020_9L_5&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;답 : ③&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;③ 트리(tree)형 토폴로지는 허브(hub)에 문제가 발생해도 &lt;del&gt;전체 네트워크에 영향을 주지 않는다.&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;​    허브에 문제가 발생하면 &lt;strong&gt;중간 연결고리가 끊어져&lt;/strong&gt; 전체 네트워크에 문제가 발생한다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;네트워크 토폴로지&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;종류&lt;/th&gt;
+      &lt;th&gt;모양&lt;/th&gt;
+      &lt;th&gt;장점&lt;/th&gt;
+      &lt;th&gt;단점&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;버스=bus&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/\5_bus.png&quot; alt=&quot;5_bus&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;설치가 간단&lt;br /&gt;비용이 저렴&lt;/td&gt;
+      &lt;td&gt;장애발견이 어려움&lt;br /&gt;중앙 통신선 장애 시 전체 네트워크 문제 발생&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;링=ring&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/\5_ring.png&quot; alt=&quot;5_ring&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;모든 장치가 토큰에 접근 가능&lt;br /&gt;순차적인 네트워크&lt;br /&gt;컴퓨터 간 연결을 위한 네트워크 서버 불필요&lt;/td&gt;
+      &lt;td&gt;한 노드 장애가 전체 망에 문제 발생&lt;br /&gt;장치를 추가, 변경 시 네트워크 영향&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;트리=계층=tree&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/\5_tree.png&quot; alt=&quot;5_tree&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;제어가 간단&lt;br /&gt;네트워크 확장 용이&lt;/td&gt;
+      &lt;td&gt;병목 현상 가능&lt;br /&gt;상위 노드에 트래픽 집중되어 병목 현상&lt;br /&gt;상위 노드가 장애 발생되면, 하위 네트워크 장애&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;스타=성=star&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/\5_star.png&quot; alt=&quot;5_star&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;장애 발견이 용이&lt;br /&gt;Netword 관리가 용이&lt;br /&gt;한 노드 장애는 전체 영향 없음&lt;/td&gt;
+      &lt;td&gt;중앙 노드 장애 발생시 전체 네트워크 문제 발생&lt;br /&gt;많은 양의 케이블을 사용하므로 높은 비용&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;메시=mesh&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/\5_mesh.png&quot; alt=&quot;5_mesh&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;장애에 가장 강함&lt;br /&gt;한 경로에 장애가 발생해도 다른 경로로 통신 가능&lt;br /&gt;&lt;/td&gt;
+      &lt;td&gt;연결선이 가장 많아 가장 높은 비용&lt;br /&gt;네트워크 관리 어려움&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;6-raidredundant-array-of-independent-disks-레벨에-대한-설명으로-옳지-않은-것은&quot;&gt;6. RAID(Redundant Array of Independent Disks) 레벨에 대한 설명으로 옳지 않은 것은?&lt;/h2&gt;
+&lt;h2 id=&quot;6-raidredundant-array-of-independent&quot;&gt;6. RAID(Redundant Array of Independent…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;RAID(Redundant Array of Independent Disks) 레벨에 대한 설명으로 옳지 않은 것은?&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_6.jpg&quot; alt=&quot;2020_9L_6&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;답 : ④&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;④ RAID 5 구조는 각 디스크에 데이터와 함께 &lt;del&gt;이중 분산 패리티 정보&lt;/del&gt;를 블록 단위로 분산 저장한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;이중 분산 패리티&lt;/strong&gt; 방식은 &lt;strong&gt;RAID 6&lt;/strong&gt; 구조에서 사용된다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;RAID 0 1 2 3 4 5 6 0+1 1+0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;RAID Level&lt;/th&gt;
+      &lt;th&gt;모양&lt;/th&gt;
+      &lt;th&gt;설명&lt;/th&gt;
+      &lt;th&gt;장점&lt;/th&gt;
+      &lt;th&gt;단점&lt;/th&gt;
+      &lt;th&gt;디스크 용량 계산&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/\6_raid_0.png&quot; alt=&quot;6_raid_0&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;스트라이핑(Striping)&lt;br /&gt;최상의 성능&lt;/td&gt;
+      &lt;td&gt;데이터 사용 시 I/O를 분할하여 속도 향상&lt;/td&gt;
+      &lt;td&gt;스트라이핑 구 시 기존 데이터를 삭제&lt;/td&gt;
+      &lt;td&gt;최소 디스크 : 2&lt;br /&gt;계산식 = 디스크수 * 디스크용량&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/\6_raid_1.png&quot; alt=&quot;6_raid_1&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;미러링(Mirroring)&lt;br /&gt;데이터 저장소를 복제&lt;/td&gt;
+      &lt;td&gt;한 디스크 장애 시 복제 디스크로 복구 가능&lt;br /&gt;높은 가용성&lt;/td&gt;
+      &lt;td&gt;디스크 용량이 사용량의 두 배 필요&lt;br /&gt;복제 디스크에도 사용해야 되므로 쓰기 속도가 느려짐&lt;/td&gt;
+      &lt;td&gt;최소 디스크 : 2&lt;br /&gt;계산식 = 디스크수/2 * 디스크용량&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/\6_raid_2.png&quot; alt=&quot;6_raid_2&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;해밍 코드 ECC를 가진 비트 레벨 스트라이핑&lt;/td&gt;
+      &lt;td&gt;ECC를 통한 오류 검사 및 수정&lt;/td&gt;
+      &lt;td&gt;ECC를 위한 드라이브가 손상되면 문제 발생&lt;/td&gt;
+      &lt;td&gt;최소 디스크 : 3&lt;br /&gt;계산식 = (디스크수-1) * 디스크용량&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/\6_raid_3.png&quot; alt=&quot;6_raid_3&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;전용 패리티를 가진 &lt;strong&gt;바이트&lt;/strong&gt; 레벨 스트라이핑&lt;/td&gt;
+      &lt;td&gt;높은 가용성&lt;/td&gt;
+      &lt;td&gt;전용 패리티 디스크의 병목 현상 발생&lt;br /&gt;패리티를 저장한 디스크에 문제가 발생되면 데이터 손실&lt;/td&gt;
+      &lt;td&gt;최소 디스크 : 3&lt;br /&gt;계산식 = (디스크수-1) * 디스크용량&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/\6_raid_4.png&quot; alt=&quot;6_raid_4&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;전용 패리티를 이용한 &lt;strong&gt;블록&lt;/strong&gt; 레벨 스트라이핑&lt;/td&gt;
+      &lt;td&gt;성능 향상&lt;br /&gt;높은 결함 허용도&lt;br /&gt;3과 동일&lt;/td&gt;
+      &lt;td&gt;3과 동일&lt;/td&gt;
+      &lt;td&gt;최소 디스크 : 3&lt;br /&gt;계산식 = (디스크수-1) * 디스크용량&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/\6_raid_5.png&quot; alt=&quot;6_raid_5&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;분산 패리티를 가진 &lt;strong&gt;블록&lt;/strong&gt; 레벨 스트라이핑&lt;/td&gt;
+      &lt;td&gt;전용 패리티 드라이브 사용 &lt;strong&gt;안함!&lt;/strong&gt;&lt;br /&gt;병목현상을 제거하여 성능 향상&lt;br /&gt;높은 가용성&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;최소 디스크 : 3&lt;br /&gt;계산식 = (디스크수-1) * 디스크용량&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/\6_raid_6.png&quot; alt=&quot;6_raid_6&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;이중 분산 패리티를 가진 &lt;strong&gt;블록&lt;/strong&gt; 레벨 스트라이핑&lt;/td&gt;
+      &lt;td&gt;높은 가용성&lt;/td&gt;
+      &lt;td&gt;높은 비용&lt;/td&gt;
+      &lt;td&gt;최소 디스크 : 4&lt;br /&gt;계산식 = (디스크수-2) * 디스크용량&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0+1&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/\6_raid_0+1.png&quot; alt=&quot;6_raid_0+1&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;패리티 없이 이중 스트라이핑하고 미러링&lt;/td&gt;
+      &lt;td&gt;결함 허용도&lt;br /&gt;가용성&lt;/td&gt;
+      &lt;td&gt;높은 비용&lt;/td&gt;
+      &lt;td&gt;최소 디스크 : 4,6,8&lt;br /&gt;계산식 = (디스크수/2) * 디스크용량&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1+0&lt;/td&gt;
+      &lt;td&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/\6_raid_1+0.png&quot; alt=&quot;6_raid_1+0&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt;패리티 없이 미러링하고 스트라이핑&lt;/td&gt;
+      &lt;td&gt;높은 결함 허용도&lt;br /&gt;성능 우수&lt;/td&gt;
+      &lt;td&gt;높은 비용&lt;/td&gt;
+      &lt;td&gt;최소 디스크 : 6,8,10&lt;br /&gt;계산식 = (디스크수/2) * 디스크용량&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;7-다중-스레드multi-thread-프로그래밍의-이점에-대한-설명으로-옳지-않은-것은&quot;&gt;7. 다중 스레드(Multi Thread) 프로그래밍의 이점에 대한 설명으로 옳지 않은 것은?&lt;/h2&gt;
+&lt;h2 id=&quot;7-다중-스레드multi-thread-프로그래밍&quot;&gt;7. 다중 스레드(Multi Thread) 프로그래밍…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;다중 스레드(Multi Thread) 프로그래밍의 이점에 대한 설명으로 옳지 않은 것은?&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_7.jpg&quot; alt=&quot;2020_9L_7&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;답 : ④&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;④ 다중 스레드는 한 스레드에 문제가 생기더라도 &lt;del&gt;전체 프로세스에 영향을 미치지 않는다.&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;한 스레드에 문제 발생 시 전체 프로세스에 영향을 미친다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Process 안에서 각각의 Thread들이 서로 공유하며 연산한다.&lt;/li&gt;
+  &lt;li&gt;Process들끼리 데이터를 공유하며 연산한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/7_MUTLI_THREAD.png&quot; alt=&quot;7_MUTLI_THREAD&quot; /&gt;&lt;/p&gt;
+
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;8-osiopen-systems-interconnect-모델에-대한-설명으로-옳지-않은-것은&quot;&gt;8. OSI(Open Systems Interconnect) 모델에 대한 설명으로 옳지 않은 것은?&lt;/h2&gt;
+&lt;h2 id=&quot;8-osiopen-systems-interconnect&quot;&gt;8. OSI(Open Systems Interconnect)…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;OSI(Open Systems Interconnect) 모델에 대한 설명으로 옳지 않은 것은?&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_8.jpg&quot; alt=&quot;2020_9L_8&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;답 : ①&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;① 네트워크 계층은 데이터 전송에 관한 서비스를 제공하는 계층으로 송신 측과 수신 측 사이의 실제적인 &lt;del&gt;연결 설정 및 유지, 오류 복구와 흐름 제어 등을 수행&lt;/del&gt;한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;데이터 링크 계층(Data Link Layer) : 흐름제어기능, 동기화 기능, 오류제어 기능, 순서제어 기능.&lt;/strong&gt;&lt;/p&gt;
+
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;9-캐시기억장치-교체-알고리즘에-대한-설명으로-옳지-않은-것은&quot;&gt;9. 캐시기억장치 교체 알고리즘에 대한 설명으로 옳지 않은 것은?&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;OSI vs TCP/IP&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/8_3.jpg&quot; alt=&quot;8_3&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;OSI 7 Layer
+    &lt;ul&gt;
+      &lt;li&gt;네트워크 통신을 다루는 OSI 표준. 개방시스템 상호연결(OSI) 모델&lt;/li&gt;
+      &lt;li&gt;개방시스템(Open System) ; 기반구조와 관계없이 시스템간의 통신을 제공&lt;/li&gt;
+      &lt;li&gt;계층구조, 데이터의 움직임 파악 가능, 트러블슈팅 용이, 호환성&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;TCP/IP
+    &lt;ul&gt;
+      &lt;li&gt;인터넷에서 컴퓨터들이 서로 정보를 주고받는데 쓰이는 통신규약(프로토콜)&lt;/li&gt;
+      &lt;li&gt;하드웨어, 운영체제, 접속매체에 관계없이 동작할 수 있는 개방성.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;OSI 7 Layer vs TCP/IP
+    &lt;ul&gt;
+      &lt;li&gt;두 모델 모두 계층형&lt;/li&gt;
+      &lt;li&gt;TCP/IP는 인터넷 개발 이후 계속 표준화되어 신뢰성이 우수. OSI 7 Layer는 구현되는 예가 없어 신뢰성 저하.&lt;/li&gt;
+      &lt;li&gt;OSI 7 Layer : 장비 개발과 통신 자체를 어떻게 표준으로 잡을지 사용&lt;/li&gt;
+      &lt;li&gt;TCP/IP : 실질적인 통신 자체에 사용&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;OSI 7 Layer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/8_5.jpg&quot; alt=&quot;8_5&quot; /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Layer&lt;/th&gt;
+      &lt;th&gt;명칭&lt;/th&gt;
+      &lt;th&gt;설명&lt;/th&gt;
+      &lt;th&gt;전송 단위&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;물리 계층&lt;/td&gt;
+      &lt;td&gt;물리적 전송 매체와 전송 신호 방식을 정의.&lt;/td&gt;
+      &lt;td&gt;Bit&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;데이터 링크 계층&lt;/td&gt;
+      &lt;td&gt;흐름 제어 기능(송신 측과 수신 측의 속도 차이 해결)&lt;br /&gt;프레임의 동기화 기능&lt;br /&gt;오류제어 기능&lt;br /&gt;순서제어 기능&lt;/td&gt;
+      &lt;td&gt;Frame&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;네트워크 계층&lt;/td&gt;
+      &lt;td&gt;네트워크 연결을 관리, 데이터의 교환 및 중계 기능&lt;br /&gt;경로 설정(Routing), 데이터 교환 및 중계, 트래픽 제어, 패킷 정보 전송&lt;/td&gt;
+      &lt;td&gt;Packet&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;전송 계층&lt;/td&gt;
+      &lt;td&gt;종단 시스템(End-to-End) 간에 투명한 데이터 전송을 가능하게 함&lt;br /&gt;주소 설정, 다중화, 오류제어, 흐름제어기능&lt;br /&gt;TCP(신뢰성), UDP(비신뢰성)&lt;/td&gt;
+      &lt;td&gt;Segment&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;세션 계층&lt;/td&gt;
+      &lt;td&gt;세션을 구축하고 관리.&lt;br /&gt;송,수신 측 간의 동기를 위해 체크섬.&lt;/td&gt;
+      &lt;td&gt;Message&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;표현 계층&lt;/td&gt;
+      &lt;td&gt;서로 다른 데이터 표현을 갖는 시스템 간의 상호 접속을 위함.&lt;br /&gt;코드 변환, 데이터 암호화, 데이터 압축, 정보 형식 변환&lt;/td&gt;
+      &lt;td&gt;Message&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;응용 계층&lt;/td&gt;
+      &lt;td&gt;사용자가 OSI 환경에 접근할 수 있도록 서비스 제공.&lt;/td&gt;
+      &lt;td&gt;Message&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;TCP/IP&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Layer&lt;/th&gt;
+      &lt;th&gt;각 계층 Protocol&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Network Access Layer&lt;/td&gt;
+      &lt;td&gt;이더넷&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Internet Layer&lt;/td&gt;
+      &lt;td&gt;IP(Internet Protocol)&lt;br /&gt;ICMP(Internet Control Message Protocol)&lt;br /&gt;IGMP(Internet Group Message Protocol)&lt;br /&gt;ARP(Address Resolution Protocol)&lt;br /&gt;RARP(Reverse Address Resolution Protocol)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Transport Layer&lt;/td&gt;
+      &lt;td&gt;TCP(Transmission Control Protocol)&lt;br /&gt;UDP(User Datagram Protocol)&lt;br /&gt;SCTP(Stream Control Transmission Protocol)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Application Layer&lt;/td&gt;
+      &lt;td&gt;FTP(File Transfer Protocol)&lt;br /&gt;VSFTP(Very Secure File Transfer Protocol)&lt;br /&gt;SNMP(Simple Network Management Protocol)&lt;br /&gt;SMTP(Simple Mail Transfer Protocol)&lt;br /&gt;HTTP(Hyper Text Transfer Protocol)&lt;br /&gt;HTTPs(Hyper Text Transfer Protocol Secure)&lt;br /&gt;DNS(Domain Name System)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;9-캐시기억장치-교체-알고리즘에-대한&quot;&gt;9. 캐시기억장치 교체 알고리즘에 대한…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;캐시기억장치 교체 알고리즘에 대한 설명으로 옳지 않은 것은?&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_9.jpg&quot; alt=&quot;2020_9L_9&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;답 : ③&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;③ LFU는 캐시 블록마다 참조 횟수를 기록함으로써 &lt;del&gt;가장 많이 참조된 블록을 교체하는 방법&lt;/del&gt;이다.&lt;/p&gt;
+
+&lt;p&gt;LFU는 &lt;strong&gt;가장 적게 참조된 블록을 교체하는 방법&lt;/strong&gt;이다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;교체(Replacement) 정책
+    &lt;ol&gt;
+      &lt;li&gt;최적화 원칙(the principle of optimality)&lt;/li&gt;
+      &lt;li&gt;무작위 page 교체(random page replacement)&lt;/li&gt;
+      &lt;li&gt;FIFO(First-In First-Out)&lt;/li&gt;
+      &lt;li&gt;SCR(Second Change Replacement)&lt;/li&gt;
+      &lt;li&gt;LRU(Lease Recently Used)&lt;/li&gt;
+      &lt;li&gt;NUR(Not Used Recently)&lt;/li&gt;
+      &lt;li&gt;LFU(Lease Frequence Used)&lt;/li&gt;
+      &lt;li&gt;Working Set&lt;/li&gt;
+      &lt;li&gt;PFF(Page Fault Frequency)&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;10-8진수-123321을-16진수로-변환한-것은&quot;&gt;10. 8진수 123.321을 16진수로 변환한 것은?&lt;/h2&gt;
+&lt;h2 id=&quot;10-8진수-123321을-16진수로&quot;&gt;10. 8진수 123.321을 16진수로…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;8진수 123.321을 16진수로 변환한 것은?&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_10.jpg&quot; alt=&quot;2020_9L_10&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;답 : ④&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;8진수 -&amp;gt; 2진수 -&amp;gt; 16진수&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/10_1.jpg&quot; alt=&quot;10_1&quot; /&gt;&lt;/p&gt;
+
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;11--암호화-기술에-대한-설명으로-옳은-것은&quot;&gt;11.  암호화 기술에 대한 설명으로 옳은 것은?&lt;/h2&gt;
+&lt;h2 id=&quot;11--암호화-기술에-대한-설명으로&quot;&gt;11.  암호화 기술에 대한 설명으로…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;암호화 기술에 대한 설명으로 옳은 것은?&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_11.jpg&quot; alt=&quot;2020_9L_11&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;답 : ②&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;① 공개키 암호화는 암호화하거나 복호화하는 데 &lt;del&gt;동일한 키를 사용&lt;/del&gt;한다.&lt;/p&gt;
+
+&lt;p&gt;암호화키와 복호화키가 다르다.&lt;/p&gt;
+
+&lt;p&gt;③ 공개키 암호화의 대표적인 알고리즘에는 &lt;del&gt;데이터 암호화 표준(Data Encryption Standard)&lt;/del&gt;이 있다.&lt;/p&gt;
+
+&lt;p&gt;공개키 암호화의 대표적인 알고리즘은 RSA, ECC, Elgamal, Rabin이 있다.&lt;/p&gt;
+
+&lt;p&gt;④ 비밀키 암호화는 암호화와 복호화 과정에서 &lt;del&gt;서로 다른 키를 사용하는 비대칭 암호화(asymmetric encryption)&lt;/del&gt;다.&lt;/p&gt;
+
+&lt;p&gt;비밀키 암호화는 암호화키와 복호화키가 동일하다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;공개키 = 비대칭키&lt;/th&gt;
+      &lt;th&gt;비공개키 = 대칭키 = 비밀키&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;알고리즘&lt;/td&gt;
+      &lt;td&gt;RSA, ECC, Elgamal, Rabin&lt;/td&gt;
+      &lt;td&gt;DES, SEED, Rijndael&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;설명&lt;/td&gt;
+      &lt;td&gt;암호화키 &amp;lt;&amp;gt; 복호화키&lt;br /&gt;두 키가 다름&lt;/td&gt;
+      &lt;td&gt;암호화키 = 복호화키&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;속도&lt;/td&gt;
+      &lt;td&gt;느림&lt;/td&gt;
+      &lt;td&gt;빠름&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;12-cpu를-다른-프로세스로-교환하려면-이전-프로세스의-상태를-보관하고-새로운-프로세스의-보관된-상태로-복구하는-작업이-필요하다-이-작업으로-옳은-것은&quot;&gt;12. CPU를 다른 프로세스로 교환하려면 이전 프로세스의 상태를 보관하고 새로운 프로세스의 보관된 상태로 복구하는 작업이 필요하다. 이 작업으로 옳은 것은?&lt;/h2&gt;
+&lt;h2 id=&quot;12-cpu를-다른-프로세스로-교환하려면&quot;&gt;12. CPU를 다른 프로세스로 교환하려면…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;CPU를 다른 프로세스로 교환하려면 이전 프로세스의 상태를 보관하고 새로운 프로세스의 보관된 상태로 복구하는 작업이 필요하다. 이 작업으로 옳은 것은?&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_12.jpg&quot; alt=&quot;2020_9L_12&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;답 : ④&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;① 세마포어(Semaphore)&lt;/p&gt;
+
+&lt;p&gt;; 동시에 리소스에 접근 허용이 접근 허용이 가능한 개수를 가진 counter&lt;/p&gt;
+
+&lt;p&gt;② 모니터(Monitor)&lt;/p&gt;
+
+&lt;p&gt;; 공유 객체, 임계 영역이 코딩된 프로세저, 초기화 코드로 구성된 모듈&lt;/p&gt;
+
+&lt;p&gt;③ 상호배제(Mutual Exclusion)&lt;/p&gt;
+
+&lt;p&gt;; 병행성을 보장하기 위한 것으로 어떤 특정한 시점에 하나의 자원에는 하나의 프로세스만 접근할 수 있게 나머지의 접근은 배제시키는 것&lt;/p&gt;
+
+&lt;p&gt;④ 문맥교환(Context Switching)&lt;/p&gt;
+
+&lt;p&gt;; 인터럽트가 발생되었을 때 실행중이던 프로세스가 작업을 멈추었다가 다시 실행될 때 이전 작업을 다시 수행하기 위해 이전 작업 내용과 프로세스의 정보들을 PCB에 저장하는 것&lt;/p&gt;
+
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;13-응용프로그램-제작에-필요한-개발환경-skd-등-플랫폼-자체를-서비스-형태로-제공하는-클라우드-컴퓨팅-서비스-모델은&quot;&gt;13. 응용프로그램 제작에 필요한 개발환경, SKD 등 플랫폼 자체를 서비스 형태로 제공하는 클라우드 컴퓨팅 서비스 모델은?&lt;/h2&gt;
+&lt;h2 id=&quot;13-응용프로그램-제작에-필요한&quot;&gt;13. 응용프로그램 제작에 필요한…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;응용프로그램 제작에 필요한 개발환경, SKD 등 플랫폼 자체를 서비스 형태로 제공하는 클라우드 컴퓨팅 서비스 모델은?&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_13.jpg&quot; alt=&quot;2020_9L_13&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;답 : ②&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;① DNS(Domain Name System)&lt;/p&gt;
+
+&lt;p&gt;; 호스트의 도메인 이름(www.naver.com)을 호스트의 네트워크 주소(xxx.xxx.xxx.xxx)로 바꾸거나 반대의 변환을 수행하는 것을 도움.&lt;/p&gt;
+
+&lt;p&gt;② Paas(Platform as a service)&lt;/p&gt;
+
+&lt;p&gt;; 서비스를 개발할 수 있는 안정적인 환경(Platform)과 그 환경을 이용하는 응용 프로그램을 개발할 수 있는 API를 제공.&lt;/p&gt;
+
+&lt;p&gt;③ Saas(Software as a service)&lt;/p&gt;
+
+&lt;p&gt;; Cloud 환경에서 동작하는 응용프로그램을 서비스 형태로 제공.&lt;/p&gt;
+
+&lt;p&gt;④ IaaS(Infrastructure as a service)&lt;/p&gt;
+
+&lt;p&gt;; 서버를 운영하기 위한 인프라를 구축하기 위한 서버자원, IP, Network, Storage, 전력 등을 가상의 환경에서 쉽고 편하게 이용할 수 있게 서비스 형태로 제공.&lt;/p&gt;
+
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;14-다음-프로그램의-실행-결과로-옳은-것은&quot;&gt;14. 다음 프로그램의 실행 결과로 옳은 것은?&lt;/h2&gt;
+&lt;h2 id=&quot;14-다음-프로그램의-실행-결과로&quot;&gt;14. 다음 프로그램의 실행 결과로…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;다음 프로그램의 실행 결과로 옳은 것은?&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_14.jpg&quot; alt=&quot;2020_9L_14&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;답 : ④&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;300&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ptr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;ptr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;cm&quot;&gt;/*
+    ptr = array
+    *ptr = *array = 100
+    *(ptr+1) = *(array+1) = 200
+    *(ptr+2) = *(array+2) = 300
+    *(ptr+3) = *(array+3) = 400
+    *(ptr+4) = *(array+4) = 500
+    */&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ptr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// *(ptr+3) = 400&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// *(ptr+3) + 100 = 500&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;15-다음-프로그램은-연결-리스트를-만들기-위한-코드의-일부분이다-아래-그림과-같이-두-개의-노드-first-second가-연결되었다고-가정하고-위의-코드를-참조하여-노드-tmp를-노드-first와-노드-second-사이에-삽입하고자-할-때-프로그램-코드로-옳은-것은&quot;&gt;15. 다음 프로그램은 연결 리스트를 만들기 위한 코드의 일부분이다. 아래 그림과 같이 두 개의 노드 first, second가 연결되었다고 가정하고, 위의 코드를 참조하여 노드 tmp를 노드 first와 노드 second 사이에 삽입하고자 할 때, 프로그램 코드로 옳은 것은?&lt;/h2&gt;
+&lt;h2 id=&quot;15-다음-프로그램은-연결-리스트를&quot;&gt;15. 다음 프로그램은 연결 리스트를…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;다음 프로그램은 연결 리스트를 만들기 위한 코드의 일부분이다. 아래 그림과 같이 두 개의 노드 first, second가 연결되었다고 가정하고, 위의 코드를 참조하여 노드 tmp를 노드 first와 노드 second 사이에 삽입하고자 할 때, 프로그램 코드로 옳은 것은?&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_15.jpg&quot; alt=&quot;2020_9L_15&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;답 : ②&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/15_0.png&quot; alt=&quot;15_0&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;16-다음-c-프로그램의-결과로-옳은-것은&quot;&gt;16. 다음 C 프로그램의 결과로 옳은 것은?&lt;/h2&gt;
+&lt;p&gt;① tmp.link = &amp;amp;first;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/15_1.png&quot; alt=&quot;15_1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;​     first.link = &amp;amp;tmp;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/15_2.png&quot; alt=&quot;15_2&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;② tmp.link = first.link;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/15_3.png&quot; alt=&quot;15_3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;​     first.link = &amp;amp;tmp;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/15_4.png&quot; alt=&quot;15_4&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;③ tmp.link = &amp;amp;second;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/15_5.png&quot; alt=&quot;15_5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;​    first.link = second.link;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/15_6.png&quot; alt=&quot;15_6&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;④ tmp.link = NULL;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/15_7.png&quot; alt=&quot;15_7&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;​    second.link = &amp;amp;tmp;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/15_8.png&quot; alt=&quot;15_8&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;16-다음-c-프로그램의-결과로-옳은&quot;&gt;16. 다음 C 프로그램의 결과로 옳은…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;다음 C 프로그램의 결과로 옳은 것은?&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_16.jpg&quot; alt=&quot;2020_9L_16&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;답 : ①&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// a = 2, b = 1&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// &quot;a = 2&quot;는 연산. Error없이 연산이 수행되면 True&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// a = 2, b = 3&lt;/span&gt;
+   	&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%d, %d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;17-다음-이진-트리에-대하여-후위-순회를-하는-경우-다섯-번째-방문하는-노드는&quot;&gt;17. 다음 이진 트리에 대하여 후위 순회를 하는 경우 다섯 번째 방문하는 노드는?&lt;/h2&gt;
+&lt;h2 id=&quot;17-다음-이진-트리에-대하여&quot;&gt;17. 다음 이진 트리에 대하여…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;다음 이진 트리에 대하여 후위 순회를 하는 경우 다섯 번째 방문하는 노드는?&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_17.jpg&quot; alt=&quot;2020_9L_17&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;답 : ④&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Pre-order(C-L-R) : A-B-D-E-G-C-F&lt;/p&gt;
+
+&lt;p&gt;In-order(L-C-R) : D-B-G-E-A-C-F&lt;/p&gt;
+
+&lt;p&gt;Post-order(L-R-C) : D-G-E-B-F-C-A&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/17_0.gif&quot; alt=&quot;17_0&quot; /&gt;&lt;/p&gt;
+
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;18-프세스-스케줄링에-대한-설명으로-옳지-않은-것은&quot;&gt;18. 프세스 스케줄링에 대한 설명으로 옳지 않은 것은?&lt;/h2&gt;
+&lt;h2 id=&quot;18-프세스-스케줄링에-대한-설명으로&quot;&gt;18. 프세스 스케줄링에 대한 설명으로…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;프세스 스케줄링에 대한 설명으로 옳지 않은 것은?&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_18.jpg&quot; alt=&quot;2020_9L_18&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;답 : ①&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;① FCFS(First Come First Served) 스케줄링은 &lt;del&gt;비선점 방식&lt;/del&gt;으로 대화식 시스템에 적합하다.&lt;/p&gt;
+
+&lt;p&gt;FCFC 스케줄링은 &lt;strong&gt;선점 방식&lt;/strong&gt;이다.&lt;/p&gt;
+
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;19-tcpip-프로토콜-스택에-대한-설명으로-옳은-것은&quot;&gt;19. TCP/IP 프로토콜 스택에 대한 설명으로 옳은 것은?&lt;/h2&gt;
+&lt;h2 id=&quot;19-tcpip-프로토콜-스택에-대한&quot;&gt;19. TCP/IP 프로토콜 스택에 대한…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;TCP/IP 프로토콜 스택에 대한 설명으로 옳은 것은?&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_19.jpg&quot; alt=&quot;2020_9L_19&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;답 : ③&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/8_3.jpg&quot; alt=&quot;8_3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;① &lt;del&gt;데이터링크(datalink) 계층, 전송(transport) 계층, 세션(session) 계층 및 응용(application) 계층&lt;/del&gt;으로 구성된다.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;응용계층, 전송계층, 인터넷계층, 네트워크계층&lt;/strong&gt; 으로 구성된다.&lt;/p&gt;
+
+&lt;p&gt;② ICMP는 &lt;del&gt;데이터링크 계층&lt;/del&gt;에서 사용 가능한 프로토콜이다.&lt;/p&gt;
+
+&lt;p&gt;ICMP는 &lt;strong&gt;인터넷 계층&lt;/strong&gt;에서 사용가능하다.&lt;/p&gt;
+
+&lt;p&gt;④ 응용 계층은 &lt;del&gt;데이터가 목적지까지 찾아갈 경로를 설정하기 위해 라우팅(routing) 프로토콜을 운영&lt;/del&gt;한다.&lt;/p&gt;
+
+&lt;p&gt;데이터가 목적지까지 찾아갈 경로를 설정하기 위해 라우팅(routing) 프로토콜을 운영하는 계층은 &lt;strong&gt;인터넷 계층&lt;/strong&gt;이다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Layer&lt;/th&gt;
+      &lt;th&gt;각 계층 Protocol&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Network Access Layer&lt;/td&gt;
+      &lt;td&gt;이더넷&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Internet Layer&lt;/td&gt;
+      &lt;td&gt;IP(Internet Protocol)&lt;br /&gt;ICMP(Internet Control Message Protocol)&lt;br /&gt;IGMP(Internet Group Message Protocol)&lt;br /&gt;ARP(Address Resolution Protocol)&lt;br /&gt;RARP(Reverse Address Resolution Protocol)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Transport Layer&lt;/td&gt;
+      &lt;td&gt;TCP(Transmission Control Protocol)&lt;br /&gt;UDP(User Datagram Protocol)&lt;br /&gt;SCTP(Stream Control Transmission Protocol)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Application Layer&lt;/td&gt;
+      &lt;td&gt;FTP(File Transfer Protocol)&lt;br /&gt;VSFTP(Very Secure File Transfer Protocol)&lt;br /&gt;SNMP(Simple Network Management Protocol)&lt;br /&gt;SMTP(Simple Mail Transfer Protocol)&lt;br /&gt;HTTP(Hyper Text Transfer Protocol)&lt;br /&gt;HTTPs(Hyper Text Transfer Protocol Secure)&lt;br /&gt;DNS(Domain Name System)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;20-다음-테이블-인스턴스instance들에-대하여-오류-없이-동작하는-sqlstructured-query-language-문장은&quot;&gt;20. 다음 테이블 인스턴스(Instance)들에 대하여 오류 없이 동작하는 SQL(Structured Query Language) 문장은?&lt;/h2&gt;
+&lt;h2 id=&quot;20-다음-테이블-인스턴스instance들에&quot;&gt;20. 다음 테이블 인스턴스(Instance)들에…&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_20.jpg&quot; alt=&quot;2020_9L_20&quot; /&gt;&lt;/p&gt;</content><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><category term="9급" /><category term="컴퓨터일반" /><category term="9급공무원" /><summary type="html">2020년 9급 전산직 컴퓨터일반 풀이</summary></entry><entry><title type="html">[구글 애널리틱스] 추적 ID UA- 코드 만들기 GA4</title><link href="http://localhost:4000/github%20blog/Google-analytics/" rel="alternate" type="text/html" title="[구글 애널리틱스] 추적 ID UA- 코드 만들기 GA4" /><published>2020-11-20T00:00:00+09:00</published><updated>2020-11-20T00:00:00+09:00</updated><id>http://localhost:4000/github%20blog/Google-analytics</id><content type="html" xml:base="http://localhost:4000/github%20blog/Google-analytics/">&lt;h1 id=&quot;추적-코드id-ua-xxxxxxxx-x-만들기&quot;&gt;추적 코드(ID) UA-xxxxxxxx-x 만들기&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;li&gt;다음 테이블 인스턴스(Instance)들에 대하여 오류 없이 동작하는 SQL(Structured Query Language) 문장은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_20.jpg&quot; alt=&quot;2020_9L_20&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ③&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;① SELECT deptno, &lt;del&gt;position&lt;/del&gt;, AVG(salary) FROM PROFESSOR GROUP BY deptno;&lt;/p&gt;
+
+&lt;p&gt;deptno 로 GROUP BY로 그룹화가 되었는데 position은 그룹 함수로 사용될 수 없고, 이로 인해 error가 발생한다.&lt;/p&gt;
+
+&lt;p&gt;② (SELECT &lt;strong&gt;studno, name&lt;/strong&gt; FROM STUDENT WHERE deptno = 101) UNION (SELECT &lt;strong&gt;profno, name&lt;/strong&gt; FROM PROFESSOR WHERE deptno = 101);&lt;/p&gt;
+
+&lt;p&gt;UNION은 2개의 쿼리문의 칼럼 갯수, 이름이 모두 같을 때 합칠 수 있다.&lt;/p&gt;
+
+&lt;p&gt;④ SELECT name, grade, height FROM STUDENT WHERE height &amp;gt; (SELECT &lt;del&gt;height, grade&lt;/del&gt; FROM STUDENT WHERE name = ‘홍길동’);&lt;/p&gt;
+
+&lt;p&gt;서브쿼리에서 height와 grade 가 반환되는데, 반환된 두 값으로 비교를 할 수 없으므로 error 가 발생한다.&lt;/p&gt;</content><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><category term="9급" /><category term="컴퓨터일반" /><category term="9급공무원" /><summary type="html">2020년 9급 전산직 컴퓨터일반 풀이</summary></entry><entry><title type="html">[구글 애널리틱스] 추적 ID UA- 코드 만들기 GA4</title><link href="http://localhost:4000/github%20blog/Google-analytics/" rel="alternate" type="text/html" title="[구글 애널리틱스] 추적 ID UA- 코드 만들기 GA4" /><published>2020-11-20T00:00:00+09:00</published><updated>2020-11-20T00:00:00+09:00</updated><id>http://localhost:4000/github%20blog/Google-analytics</id><content type="html" xml:base="http://localhost:4000/github%20blog/Google-analytics/">&lt;h1 id=&quot;추적-코드id-ua-xxxxxxxx-x-만들기&quot;&gt;추적 코드(ID) UA-xxxxxxxx-x 만들기&lt;/h1&gt;
 
 &lt;p&gt;Google Analytics 버전 4(GA4)가 출시되었다.&lt;/p&gt;
 
