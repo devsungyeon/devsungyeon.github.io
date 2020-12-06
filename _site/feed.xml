@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-06T17:41:43+09:00</updated><id>http://localhost:4000/</id><title type="html">Devsungyeon’s Blog</title><subtitle>개인 블로그입니다.</subtitle><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><entry><title type="html">파일명 일괄 변경하기(Linux, VS code)</title><link href="http://localhost:4000/useful/Linux-File-naming-pipeline-command/" rel="alternate" type="text/html" title="파일명 일괄 변경하기(Linux, VS code)" /><published>2020-12-06T00:00:00+09:00</published><updated>2020-12-06T00:00:00+09:00</updated><id>http://localhost:4000/useful/Linux-File-naming-pipeline-command</id><content type="html" xml:base="http://localhost:4000/useful/Linux-File-naming-pipeline-command/">&lt;h1 id=&quot;파일명-일괄-변경하기linux-vs-code&quot;&gt;파일명 일괄 변경하기(Linux, VS code)&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-06T18:37:30+09:00</updated><id>http://localhost:4000/</id><title type="html">Devsungyeon’s Blog</title><subtitle>개인 블로그입니다.</subtitle><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><entry><title type="html">파일명 일괄 변경하기(Linux, VS code)</title><link href="http://localhost:4000/useful/Linux-File-naming-pipeline-command/" rel="alternate" type="text/html" title="파일명 일괄 변경하기(Linux, VS code)" /><published>2020-12-06T00:00:00+09:00</published><updated>2020-12-06T00:00:00+09:00</updated><id>http://localhost:4000/useful/Linux-File-naming-pipeline-command</id><content type="html" xml:base="http://localhost:4000/useful/Linux-File-naming-pipeline-command/">&lt;h1 id=&quot;파일명-일괄-변경하기linux-vs-code&quot;&gt;파일명 일괄 변경하기(Linux, VS code)&lt;/h1&gt;
 
 &lt;p&gt;궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! “:)”&lt;/p&gt;
 
@@ -30,7 +30,45 @@
 
 &lt;p&gt;명령어를 첫 번째 실행한 후(Error 발생),&lt;/p&gt;
 
-&lt;p&gt;한 번 더 실행시켜준다.&lt;/p&gt;</content><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><category term="Linux" /><category term="VS Code" /><category term="pipeline" /><category term="파일명일괄변경" /><summary type="html">파일명 일괄 변경하기(Linux, VS code)</summary></entry><entry><title type="html">2019년 9급 전산직 컴퓨터일반 풀이</title><link href="http://localhost:4000/9level_computerbasic/Level9-computerbasic-y2019/" rel="alternate" type="text/html" title="2019년 9급 전산직 컴퓨터일반 풀이" /><published>2020-12-05T00:00:00+09:00</published><updated>2020-12-05T00:00:00+09:00</updated><id>http://localhost:4000/9level_computerbasic/Level9-computerbasic-y2019</id><content type="html" xml:base="http://localhost:4000/9level_computerbasic/Level9-computerbasic-y2019/">&lt;h1 id=&quot;2019년-9급-전산직-컴퓨터일반-풀이&quot;&gt;2019년 9급 전산직 컴퓨터일반 풀이&lt;/h1&gt;
+&lt;p&gt;한 번 더 실행시켜준다.&lt;/p&gt;</content><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><category term="Linux" /><category term="VS Code" /><category term="pipeline" /><category term="파일명일괄변경" /><summary type="html">파일명 일괄 변경하기(Linux, VS code)</summary></entry><entry><title type="html">모든 하위 빈 폴더들 삭제</title><link href="http://localhost:4000/useful/Linux-EmptyDirectoryDelete/" rel="alternate" type="text/html" title="모든 하위 빈 폴더들 삭제" /><published>2020-12-06T00:00:00+09:00</published><updated>2020-12-06T00:00:00+09:00</updated><id>http://localhost:4000/useful/Linux-EmptyDirectoryDelete</id><content type="html" xml:base="http://localhost:4000/useful/Linux-EmptyDirectoryDelete/">&lt;h1 id=&quot;모든-하위-빈-폴더들-삭제&quot;&gt;모든 하위 빈 폴더들 삭제&lt;/h1&gt;
+
+&lt;p&gt;궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! “:)”&lt;/p&gt;
+
+&lt;h2 id=&quot;명령어&quot;&gt;명령어&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;find &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-type&lt;/span&gt; d &lt;span class=&quot;nt&quot;&gt;-empty&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-print&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-delete&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;현 위치 폴더 내부의 모든 하위 폴더를 탐색하여 빈 폴더들 모두 출력 후 삭제.&lt;/p&gt;
+
+&lt;p&gt;ex)&lt;/p&gt;
+
+&lt;p&gt;file :&lt;/p&gt;
+
+&lt;p&gt;1) C:/2020_from/ (empty)  ==&amp;gt;  “2020_from” 폴더 삭제&lt;/p&gt;
+
+&lt;p&gt;2) C:/2019_from/2020_from_2.py  ==&amp;gt;  폴더 삭제 X&lt;/p&gt;
+
+&lt;p&gt;3) C:/2019_from/test/ (empty)  ==&amp;gt;  “test” 폴더 삭제&lt;/p&gt;</content><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><category term="Linux" /><category term="VS Code" /><category term="pipeline" /><category term="하위빈폴더들삭제" /><summary type="html">모든 하위 빈 폴더들 삭제</summary></entry><entry><title type="html">모든 하위 파일들 상위 폴더로 이동</title><link href="http://localhost:4000/useful/Linux-AllUnderdirectoryFile-to-ParentDir/" rel="alternate" type="text/html" title="모든 하위 파일들 상위 폴더로 이동" /><published>2020-12-06T00:00:00+09:00</published><updated>2020-12-06T00:00:00+09:00</updated><id>http://localhost:4000/useful/Linux-AllUnderdirectoryFile-to-ParentDir</id><content type="html" xml:base="http://localhost:4000/useful/Linux-AllUnderdirectoryFile-to-ParentDir/">&lt;h1 id=&quot;모든-하위-파일들-상위-폴더로-이동&quot;&gt;모든 하위 파일들 상위 폴더로 이동&lt;/h1&gt;
+
+&lt;p&gt;궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! “:)”&lt;/p&gt;
+
+&lt;h2 id=&quot;명령어&quot;&gt;명령어&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;find &lt;span class=&quot;nt&quot;&gt;-type&lt;/span&gt; f &lt;span class=&quot;nt&quot;&gt;-execdir&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;mv&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;{}&quot;&lt;/span&gt; ../ &lt;span class=&quot;se&quot;&gt;\;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;현 위치 폴더 내부의 모든 하위 폴더를 탐색하여 각 폴더의 내부 파일들을 상위 폴더로 이동.&lt;/p&gt;
+
+&lt;p&gt;ex)&lt;/p&gt;
+
+&lt;p&gt;file :&lt;/p&gt;
+
+&lt;p&gt;1) C:/2020_from/2020_from_1.py  ==&amp;gt;  C:/2020_from_1.py&lt;/p&gt;
+
+&lt;p&gt;2) C:/2020_from/2020_from_2.py  ==&amp;gt;  C:/2020_from_2.py&lt;/p&gt;
+
+&lt;p&gt;3) C:/2020_from/test/test.py  ==&amp;gt;  C:/2020_from/test.py&lt;/p&gt;</content><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><category term="Linux" /><category term="VS Code" /><category term="pipeline" /><category term="하위파일들상위폴더로이동" /><summary type="html">모든 하위 파일들 상위 폴더로 이동</summary></entry><entry><title type="html">2019년 9급 전산직 컴퓨터일반 풀이</title><link href="http://localhost:4000/9level_computerbasic/Level9-computerbasic-y2019/" rel="alternate" type="text/html" title="2019년 9급 전산직 컴퓨터일반 풀이" /><published>2020-12-05T00:00:00+09:00</published><updated>2020-12-05T00:00:00+09:00</updated><id>http://localhost:4000/9level_computerbasic/Level9-computerbasic-y2019</id><content type="html" xml:base="http://localhost:4000/9level_computerbasic/Level9-computerbasic-y2019/">&lt;h1 id=&quot;2019년-9급-전산직-컴퓨터일반-풀이&quot;&gt;2019년 9급 전산직 컴퓨터일반 풀이&lt;/h1&gt;
 
 &lt;p&gt;궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! “:)”&lt;/p&gt;
 

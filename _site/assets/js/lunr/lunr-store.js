@@ -14,6 +14,16 @@ var store = [{
         "tags": ["9급","컴퓨터일반","9급공무원"],
         "url": "http://localhost:4000/9level_computerbasic/Level9-computerbasic-y2019/",
         "teaser":null},{
+        "title": "모든 하위 파일들 상위 폴더로 이동",
+        "excerpt":"모든 하위 파일들 상위 폴더로 이동 궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! “:)” 명령어 find -type f -execdir mv \"{}\" ../ \\;현 위치 폴더 내부의 모든 하위 폴더를 탐색하여 각 폴더의 내부 파일들을 상위 폴더로 이동. ex) file : 1) C:/2020_from/2020_from_1.py  ==&gt;  C:/2020_from_1.py 2) C:/2020_from/2020_from_2.py  ==&gt;  C:/2020_from_2.py 3) C:/2020_from/test/test.py  ==&gt;  C:/2020_from/test.py ","categories": ["Useful"],
+        "tags": ["Linux","VS Code","pipeline","하위파일들상위폴더로이동"],
+        "url": "http://localhost:4000/useful/Linux-AllUnderdirectoryFile-to-ParentDir/",
+        "teaser":null},{
+        "title": "모든 하위 빈 폴더들 삭제",
+        "excerpt":"모든 하위 빈 폴더들 삭제 궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! “:)” 명령어 find . -type d -empty -print -delete현 위치 폴더 내부의 모든 하위 폴더를 탐색하여 빈 폴더들 모두 출력 후 삭제. ex) file : 1) C:/2020_from/ (empty)  ==&gt;  “2020_from” 폴더 삭제 2) C:/2019_from/2020_from_2.py  ==&gt;  폴더 삭제 X 3) C:/2019_from/test/ (empty)  ==&gt;  “test” 폴더 삭제 ","categories": ["Useful"],
+        "tags": ["Linux","VS Code","pipeline","하위빈폴더들삭제"],
+        "url": "http://localhost:4000/useful/Linux-EmptyDirectoryDelete/",
+        "teaser":null},{
         "title": "파일명 일괄 변경하기(Linux, VS code)",
         "excerpt":"파일명 일괄 변경하기(Linux, VS code) 궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! “:)” 명령어 find ./ -name \"*from*\"  | sed -e 'p' -e \"s/from/to/g\" |xargs -n 2 mv현 위치 폴더 내부의 모든 하위 폴더를 탐색하여 “from”이 포함된 부분을 “to”로 변경한다. ex) file : 2020_from_1.py  ==&gt;  2020_to_1.py directory : 2020_from/  ==&gt;  2020_to/ 1) Error 발생하는 경우 폴더 명과 이름에 모두 from이 있는 경우 2020_from/2020_from_1.py  ==&gt;  2020_to/2020_to_1.py   폴더명이 상위에 있으므로 폴더명을 먼저 변경하므로, 2020_to/2020_from_1.py로 변경된다.  폴더명으로 변경되면 기존 경로와 달라지게 되므로 오류 발생!2) Error 해결 명령어를 첫 번째 실행한 후(Error 발생), 한 번 더 실행시켜준다. ","categories": ["Useful"],
         "tags": ["Linux","VS Code","pipeline","파일명일괄변경"],
