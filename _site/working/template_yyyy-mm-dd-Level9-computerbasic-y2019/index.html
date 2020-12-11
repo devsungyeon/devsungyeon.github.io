@@ -9,16 +9,16 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>파일명 일괄 변경하기(Linux, VS code) - Devsungyeon’s Blog</title>
-<meta name="description" content="Linux 및 VS Code에서 pipeline 명령어로 하위디렉토리 및 파일명 일괄 변경">
+<!-- begin _includes/seo.html --><title>2019년 9급 전산직 컴퓨터일반 풀이 - Devsungyeon’s Blog</title>
+<meta name="description" content="2019년 9급 전산직 컴퓨터일반 풀이">
 
 
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ko">
 <meta property="og:site_name" content="Devsungyeon's Blog">
-<meta property="og:title" content="파일명 일괄 변경하기(Linux, VS code)">
-<meta property="og:url" content="http://localhost:4000/working/Linux_File_naming_pipeline_command/">
+<meta property="og:title" content="2019년 9급 전산직 컴퓨터일반 풀이">
+<meta property="og:url" content="http://localhost:4000/working/template_yyyy-mm-dd-Level9-computerbasic-y2019/">
 
 
 
@@ -38,7 +38,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/working/Linux_File_naming_pipeline_command/">
+<link rel="canonical" href="http://localhost:4000/working/template_yyyy-mm-dd-Level9-computerbasic-y2019/">
 
 
 
@@ -172,12 +172,12 @@
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
         
-          파일명 일괄 변경하기(Linux, VS code)
+          2019년 9급 전산직 컴퓨터일반 풀이
 
         
       </h1>
       
-        <p class="page__lead">Pipeline 명령어를 이용한 파일명 일괄 변경
+        <p class="page__lead">컴퓨터일반 풀이
 </p>
       
       
@@ -296,10 +296,10 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="파일명 일괄 변경하기(Linux, VS code)">
+    <meta itemprop="headline" content="2019년 9급 전산직 컴퓨터일반 풀이">
     
     
-    <meta itemprop="dateModified" content="December 06, 2020">
+    <meta itemprop="dateModified" content="December 05, 2020">
 
     <div class="page__inner-wrap">
       
@@ -310,46 +310,389 @@
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On This Page</h4></header>
               <ul class="toc__menu">
-  <li><a href="#명령어">명령어</a></li>
-  <li><a href="#1-error-발생하는-경우">1) Error 발생하는 경우</a></li>
-  <li><a href="#2-error-해결">2) Error 해결</a></li>
+  <li><a href="#1">1.</a></li>
+  <li><a href="#2">2.</a></li>
+  <li><a href="#3">3.</a></li>
+  <li><a href="#4">4.</a></li>
+  <li><a href="#5">5.</a></li>
+  <li><a href="#6">6.</a></li>
+  <li><a href="#7">7.</a></li>
+  <li><a href="#8">8.</a></li>
+  <li><a href="#9">9.</a></li>
+  <li><a href="#10">10.</a></li>
+  <li><a href="#11">11.</a></li>
+  <li><a href="#12">12.</a></li>
+  <li><a href="#13">13.</a></li>
+  <li><a href="#14">14.</a></li>
+  <li><a href="#15">15.</a></li>
+  <li><a href="#16">16.</a></li>
+  <li><a href="#17">17.</a></li>
+  <li><a href="#18">18.</a></li>
+  <li><a href="#19">19.</a></li>
+  <li><a href="#20">20.</a></li>
 </ul>
             </nav>
           </aside>
         
-        <h1 id="파일명-일괄-변경하기linux-vs-code">파일명 일괄 변경하기(Linux, VS code)</h1>
+        <h1 id="2019년-9급-전산직-컴퓨터일반-풀이">2019년 9급 전산직 컴퓨터일반 풀이</h1>
 
 <p>궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! “:)”</p>
 
-<h2 id="명령어">명령어</h2>
+<h2 id="1">1.</h2>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find ./ <span class="nt">-name</span> <span class="s2">"*from*"</span>  | <span class="nb">sed</span> <span class="nt">-e</span> <span class="s1">'p'</span> <span class="nt">-e</span> <span class="s2">"s/from/to/g"</span> |xargs <span class="nt">-n</span> 2 <span class="nb">mv</span>
-</code></pre></div></div>
+<ol>
+  <li></li>
+</ol>
 
-<p>현 위치 폴더 내부의 모든 하위 폴더를 탐색하여 “from”이 포함된 부분을 “to”로 변경한다.</p>
+<p>**답 : **</p>
 
-<p>ex)</p>
+<p>①</p>
 
-<p>file : 2020_from_1.py  ==&gt;  2020_to_1.py</p>
+<p>②</p>
 
-<p>directory : 2020_from/  ==&gt;  2020_to/</p>
+<p>③</p>
 
-<h2 id="1-error-발생하는-경우">1) Error 발생하는 경우</h2>
+<p>④</p>
 
-<p>폴더 명과 이름에 모두 from이 있는 경우</p>
+<hr />
 
-<p>2020_from/2020_from_1.py  ==&gt;  2020_to/2020_to_1.py</p>
+<h2 id="2">2.</h2>
 
-<ul>
-  <li>폴더명이 상위에 있으므로 폴더명을 먼저 변경하므로, 2020_to/2020_from_1.py로 변경된다.</li>
-  <li>폴더명으로 변경되면 기존 경로와 달라지게 되므로 오류 발생!</li>
-</ul>
+<ol>
+  <li></li>
+</ol>
 
-<h2 id="2-error-해결">2) Error 해결</h2>
+<p>**답 : **</p>
 
-<p>명령어를 첫 번째 실행한 후(Error 발생),</p>
+<p>①</p>
 
-<p>한 번 더 실행시켜준다.</p>
+<p>②</p>
+
+<p>③</p>
+
+<p>④</p>
+
+<hr />
+
+<h2 id="3">3.</h2>
+
+<ol>
+  <li></li>
+</ol>
+
+<p>**답 : **</p>
+
+<p>①</p>
+
+<p>②</p>
+
+<p>③</p>
+
+<p>④</p>
+
+<hr />
+
+<h2 id="4">4.</h2>
+
+<ol>
+  <li></li>
+</ol>
+
+<p><strong>답 : ④</strong></p>
+
+<p>①</p>
+
+<p>②</p>
+
+<p>③</p>
+
+<p>④</p>
+
+<hr />
+
+<h2 id="5">5.</h2>
+
+<ol>
+  <li></li>
+</ol>
+
+<p>**답 : **</p>
+
+<p>①</p>
+
+<p>②</p>
+
+<p>③</p>
+
+<p>④</p>
+
+<hr />
+
+<h2 id="6">6.</h2>
+
+<ol>
+  <li></li>
+</ol>
+
+<p>**답 : **</p>
+
+<p>①</p>
+
+<p>②</p>
+
+<p>③</p>
+
+<p>④</p>
+
+<h2 id="7">7.</h2>
+
+<ol>
+  <li></li>
+</ol>
+
+<p>**답 : **</p>
+
+<p>①</p>
+
+<p>②</p>
+
+<p>③</p>
+
+<p>④</p>
+
+<hr />
+
+<h2 id="8">8.</h2>
+
+<ol>
+  <li></li>
+</ol>
+
+<p>**답 : **</p>
+
+<p>①</p>
+
+<p>②</p>
+
+<p>③</p>
+
+<p>④</p>
+
+<hr />
+
+<h2 id="9">9.</h2>
+
+<ol>
+  <li></li>
+</ol>
+
+<p><strong>답 : ①</strong></p>
+
+<p>①</p>
+
+<p>②</p>
+
+<p>③</p>
+
+<p>④</p>
+
+<hr />
+
+<h2 id="10">10.</h2>
+
+<ol>
+  <li></li>
+</ol>
+
+<p>**답 : **</p>
+
+<p>①</p>
+
+<p>②</p>
+
+<p>③</p>
+
+<p>④</p>
+
+<hr />
+
+<h2 id="11">11.</h2>
+
+<ol>
+  <li></li>
+</ol>
+
+<p>**답 : **</p>
+
+<p>①</p>
+
+<p>②</p>
+
+<p>③</p>
+
+<p>④</p>
+
+<hr />
+
+<h2 id="12">12.</h2>
+
+<ol>
+  <li></li>
+</ol>
+
+<p>**답 : **</p>
+
+<p>①</p>
+
+<p>②</p>
+
+<p>③</p>
+
+<p>④</p>
+
+<hr />
+
+<h2 id="13">13.</h2>
+
+<ol>
+  <li></li>
+</ol>
+
+<p>**답 : **</p>
+
+<p>①</p>
+
+<p>②</p>
+
+<p>③</p>
+
+<p>④</p>
+
+<hr />
+
+<h2 id="14">14.</h2>
+
+<ol>
+  <li></li>
+</ol>
+
+<p>**답 : **</p>
+
+<p>①</p>
+
+<p>②</p>
+
+<p>③</p>
+
+<p>④</p>
+
+<hr />
+
+<h2 id="15">15.</h2>
+
+<ol>
+  <li></li>
+</ol>
+
+<p>**답 : **</p>
+
+<p>①</p>
+
+<p>②</p>
+
+<p>③</p>
+
+<p>④</p>
+
+<hr />
+
+<h2 id="16">16.</h2>
+
+<ol>
+  <li></li>
+</ol>
+
+<p>**답 : **</p>
+
+<p>①</p>
+
+<p>②</p>
+
+<p>③</p>
+
+<p>④</p>
+
+<hr />
+
+<h2 id="17">17.</h2>
+
+<ol>
+  <li></li>
+</ol>
+
+<p>**답 : **</p>
+
+<p>①</p>
+
+<p>②</p>
+
+<p>③</p>
+
+<p>④</p>
+
+<hr />
+
+<h2 id="18">18.</h2>
+
+<ol>
+  <li></li>
+</ol>
+
+<p>**답 : **</p>
+
+<p>①</p>
+
+<p>②</p>
+
+<p>③</p>
+
+<p>④</p>
+
+<hr />
+
+<h2 id="19">19.</h2>
+
+<ol>
+  <li></li>
+</ol>
+
+<p>**답 : **</p>
+
+<p>①</p>
+
+<p>②</p>
+
+<p>③</p>
+
+<p>④</p>
+
+<hr />
+
+<h2 id="20">20.</h2>
+
+<ol>
+  <li></li>
+</ol>
+
+<p>**답 : **</p>
+
+<p>①</p>
+
+<p>②</p>
+
+<p>③</p>
+
+<p>④</p>
 
         
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -382,14 +725,14 @@
     
       
       
-      <a href="/categories/#useful" class="page__taxonomy-item" rel="tag">Useful</a>
+      <a href="/categories/#9level-computerbasic" class="page__taxonomy-item" rel="tag">9Level_computerbasic</a>
     
     </span>
   </p>
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time datetime="2020-12-06">December 06, 2020</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time datetime="2020-12-05">December 05, 2020</time></p>
         
 
       </footer>
@@ -482,7 +825,7 @@
     
   <script>
     var disqus_config = function () {
-      this.page.url = "http://localhost:4000/working/Linux_File_naming_pipeline_command/";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.url = "http://localhost:4000/working/template_yyyy-mm-dd-Level9-computerbasic-y2019/";  // Replace PAGE_URL with your page's canonical URL variable
       this.page.identifier = ""; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
     (function() { // DON'T EDIT BELOW THIS LINE

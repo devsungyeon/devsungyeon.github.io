@@ -1,32 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
+	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
+<!-- www.check-domains.com sitemap generator -->
 
 <url>
-  <loc>https://devsungyeon.github.io/</loc>
-  <lastmod>2020-11-20T13:53:42+00:00</lastmod>
-  <priority>1.00</priority>
+   <loc>https://devsungyeon.github.io/</loc>
+   <lastmod>2020-12-11T07:06:15+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>1.0000</priority>
 </url>
 <url>
-  <loc>https://devsungyeon.github.io/categories/</loc>
-  <lastmod>2020-11-20T13:53:42+00:00</lastmod>
-  <priority>0.80</priority>
+   <loc>https://devsungyeon.github.io/page2/</loc>
+   <lastmod>2020-12-11T07:06:15+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.8000</priority>
 </url>
 <url>
-  <loc>https://devsungyeon.github.io/tags/</loc>
-  <lastmod>2020-11-20T13:53:42+00:00</lastmod>
-  <priority>0.80</priority>
+   <loc>https://devsungyeon.github.io/feed.xml</loc>
+   <lastmod>2020-12-11T09:25:51+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.8000</priority>
 </url>
 <url>
-  <loc>https://devsungyeon.github.io/github%20blog/Google-analytics/</loc>
-  <lastmod>2020-11-20T13:53:42+00:00</lastmod>
-  <priority>0.80</priority>
+   <loc>https://devsungyeon.github.io/categories/</loc>
+   <lastmod>2020-12-11T07:06:15+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.8000</priority>
 </url>
-
-
+<url>
+   <loc>https://devsungyeon.github.io/tags/</loc>
+   <lastmod>2020-12-11T07:06:15+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://devsungyeon.github.io/9level_computerbasic/Level9-computerbasic-y2018/</loc>
+   <lastmod>2020-12-11T07:06:15+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://devsungyeon.github.io/useful/Linux-File-naming-pipeline-command/</loc>
+   <lastmod>2020-12-11T07:06:15+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://devsungyeon.github.io/useful/Linux-EmptyDirectoryDelete/</loc>
+   <lastmod>2020-12-11T07:06:15+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://devsungyeon.github.io/useful/Linux-AllUnderdirectoryFile-to-ParentDir/</loc>
+   <lastmod>2020-12-11T07:06:15+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://devsungyeon.github.io/9level_computerbasic/Level9-computerbasic-y2019/</loc>
+   <lastmod>2020-12-11T07:06:15+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>https://devsungyeon.github.io/9level_computerbasic/Level9-computerbasic-y2020/</loc>
+   <lastmod>2020-12-11T07:06:15+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://devsungyeon.github.io/github%20blog/Google-analytics/</loc>
+   <lastmod>2020-12-11T07:06:15+00:00</lastmod>
+   <changefreq>always</changefreq>
+   <priority>0.6400</priority>
+</url>
 </urlset>

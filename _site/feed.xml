@@ -1,4 +1,725 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-06T18:37:30+09:00</updated><id>http://localhost:4000/</id><title type="html">Devsungyeon’s Blog</title><subtitle>개인 블로그입니다.</subtitle><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><entry><title type="html">파일명 일괄 변경하기(Linux, VS code)</title><link href="http://localhost:4000/useful/Linux-File-naming-pipeline-command/" rel="alternate" type="text/html" title="파일명 일괄 변경하기(Linux, VS code)" /><published>2020-12-06T00:00:00+09:00</published><updated>2020-12-06T00:00:00+09:00</updated><id>http://localhost:4000/useful/Linux-File-naming-pipeline-command</id><content type="html" xml:base="http://localhost:4000/useful/Linux-File-naming-pipeline-command/">&lt;h1 id=&quot;파일명-일괄-변경하기linux-vs-code&quot;&gt;파일명 일괄 변경하기(Linux, VS code)&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-11T18:11:19+09:00</updated><id>http://localhost:4000/</id><title type="html">Devsungyeon’s Blog</title><subtitle>개인 블로그입니다.</subtitle><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><entry><title type="html">2018년 9급 전산직 컴퓨터일반 풀이</title><link href="http://localhost:4000/9level_computerbasic/Level9-computerbasic-y2018/" rel="alternate" type="text/html" title="2018년 9급 전산직 컴퓨터일반 풀이" /><published>2020-12-11T00:00:00+09:00</published><updated>2020-12-06T00:00:00+09:00</updated><id>http://localhost:4000/9level_computerbasic/Level9-computerbasic-y2018</id><content type="html" xml:base="http://localhost:4000/9level_computerbasic/Level9-computerbasic-y2018/">&lt;h1 id=&quot;2018년-9급-전산직-컴퓨터일반-풀이&quot;&gt;2018년 9급 전산직 컴퓨터일반 풀이&lt;/h1&gt;
+
+&lt;p&gt;궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! “:)”&lt;/p&gt;
+
+&lt;h2 id=&quot;1-유닉스-운영체제에-대한-설명으로&quot;&gt;1. 유닉스 운영체제에 대한 설명으로…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;유닉스 운영체제에 대한 설명으로 옳지 않은 것은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_1.jpg&quot; alt=&quot;2018_9L_1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ②&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;② BSD 유닉스의 모든 코드는 &lt;del&gt;어셈블리 언어&lt;/del&gt;로 작성되었다.&lt;/p&gt;
+
+&lt;p&gt;–&amp;gt; C언어로 작성되었다.&lt;/p&gt;
+
+&lt;p&gt;–&amp;gt; BSD(Berkeley Software Distribution) 미국 캘리포니아 대학교 버클리에서 개발한 유닉스 운영 체제&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-다음에서-설명하는-해킹-공격-&quot;&gt;2. 다음에서 설명하는 해킹 공격 …&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;다음에서 설명하는 해킹 공격 방법은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_2.jpg&quot; alt=&quot;2018_9L_2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ②&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;① 스니핑(Sniffing)&lt;/p&gt;
+
+&lt;p&gt;; “냄새를 맡다”, “킁킁거리다”라는 뜻. 네트워크 상에 지나다니는 패킷들을 캡처하여 그 안에 있는 내용을 들여다보는 기술.&lt;/p&gt;
+
+&lt;p&gt;② 파밍(Pharming)&lt;/p&gt;
+
+&lt;p&gt;; 도메인 네임 시스템(DNS) 또는 프락시 서버의 주소를 변조함으로써 사용자들로 하여금 진짜 사이트로 오인하여 접속하도록 유도하여 개인정보를 훔치는 새로운 컴퓨터 범죄 수법.&lt;/p&gt;
+
+&lt;p&gt;③ 트로이 목마(Trojan Horse)&lt;/p&gt;
+
+&lt;p&gt;; 무언가로 변장해 시스템 방어망을 뚫고 들어가는 악성코드의 한 종류.&lt;/p&gt;
+
+&lt;p&gt;④ 하이재킹(Hijacking)&lt;/p&gt;
+
+&lt;p&gt;; 시스템에 접근할 적법한 사용자 아이디와 패스워드를 모를 경우 공격 대상이 이미 시스템에 접속되어 세션이 연결되어 있는 상태를 가로채기 하는 공격, 아이디와 패스워드를 몰라도 시스템에 접근하여 자원이나 데이터를 사용할 수 있는 공격.&lt;/p&gt;
+
+&lt;p&gt;cf)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;스푸핑(Spoofing) ; ‘속이기’라는 뜻. 외부 악의적 네트워크 침입자가 임의로 웹사이트를 구성하여 일반 사용자들의 방문을 유도. TCP/IP의 구조적 결함을 이요하여 사용자의 시스템 권한을 획득한 뒤 정보를 빼가는 해킹 수법. IP 스푸핑, DNS 스푸핑, 이메일 스푸핑, ARP 스푸핑 등…&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;스누핑(Snooping) ; ‘기웃거리다’, ‘염탐하다’는 뜻. 네트워크 상에 떠도는 중요 정보를 &lt;strong&gt;몰래&lt;/strong&gt; 획득하는 행위.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;스니핑(Sniffing) ; “냄새를 맡다”, “킁킁거리다”라는 뜻. 네트워크 상에 지나다니는 패킷들을 캡처하여 그 안에 있는 내용을 들여다보는 기술.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;스미싱(Smishing) ; 문자메시지(SMS)와 피싱(Phishing)의 합성어, 문자 메시지의 인터넷주소 클릭하면 악성코드가 설치되어 피해자가 모르는 사이에 소액결제 피해 발생 또는 개인·금융정보 탈취하는 수법&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;스머핑(Smurfing) ; 고성능 컴퓨터를 이용해 초당 엄청난 양의 접속신호를 한 사이트에 집중적으로 보냄으로써 상대 컴퓨터의 서버를 접속 불능 상태로 만들어 버리는 해킹 수법. 핑 홍수(ping flood). 도스 공격의 일종으로 ICMP(Internet Control Message Protocol:호스트 서버와 인터넷 게이트웨이 사이에서 메시지를 제어하고 알려주는 프로토콜) 패킷을 말 그대로 홍수처럼 상대 시스템에 퍼붓는 방식&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3-다음-sql-명령어에서-ddldata-&quot;&gt;3. 다음 SQL 명령어에서 DDL(Data …&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;다음 SQL 명령어에서 DDL(Data Definition Language) 명령어만을 모두 고른 것은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_3.jpg&quot; alt=&quot;2018_9L_3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ①&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;DDL ; CREATE, ALTER, DROP&lt;/li&gt;
+  &lt;li&gt;DML ; SELECT, UPDATE, DELETE, INSERT&lt;/li&gt;
+  &lt;li&gt;DCL ; COMMIT, ROLLBACK, GRANT(권한부여), REVOKE(권한취소)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;4-다음-수식에서-이진수-y의-&quot;&gt;4. 다음 수식에서 이진수 Y의 …&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;다음 수식에서 이진수 Y의 값은?(단, 수식의 모든 수는 8 비트 이진수이고 1의 보수로 표현된다)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_4.jpg&quot; alt=&quot;2018_9L_4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ②&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;11110100&lt;sub&gt;(2)&lt;/sub&gt; ==&amp;gt; 00001011&lt;sub&gt;(2)&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;+               Y&lt;sub&gt;(2)&lt;/sub&gt; ==&amp;gt;                 Z&lt;sub&gt;(2)&lt;/sub&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;11011111&lt;sub&gt;(2)&lt;/sub&gt; ==&amp;gt; 00100000&lt;sub&gt;(2)&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;00001011&lt;sub&gt;(2)&lt;/sub&gt; + Z&lt;sub&gt;(2)&lt;/sub&gt; = 00100000&lt;sub&gt;(2)&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;Z&lt;sub&gt;(2)&lt;/sub&gt; = 00100000&lt;sub&gt;(2)&lt;/sub&gt; - 00001011&lt;sub&gt;(2)&lt;/sub&gt; = 00010101&lt;sub&gt;(2)&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;00010101&lt;sub&gt;(2)&lt;/sub&gt; ==&amp;gt; 11101010&lt;sub&gt;(2)&lt;/sub&gt; = Y&lt;sub&gt;(2)&lt;/sub&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;5-다음-진리표를-만족하는-부울&quot;&gt;5. 다음 진리표를 만족하는 부울…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;다음 진리표를 만족하는 부울 함수로 옳은 것은? (단, · 은 AND, ⊕는 XOR, ⊙는 XNOR 연산을 의미한다)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_5.jpg&quot; alt=&quot;2018_9L_5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ②&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;·&lt;/strong&gt; = AND&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;A&lt;/th&gt;
+      &lt;th&gt;B&lt;/th&gt;
+      &lt;th&gt;A·B&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;⊕ = XOR&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt;A&lt;/th&gt;
+          &lt;th&gt;B&lt;/th&gt;
+          &lt;th&gt;A⊕B&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;⊙ = XNOR&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt;A&lt;/th&gt;
+          &lt;th&gt;B&lt;/th&gt;
+          &lt;th&gt;A⊙B&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+          &lt;td&gt;0&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;6-스레싱thrashing에-대한-설명&quot;&gt;6. 스레싱(Thrashing)에 대한 설명…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;스레싱(Thrashing)에 대한 설명으로 옳지 않은 것은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_6.jpg&quot; alt=&quot;2018_9L_6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ③&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;③ 각 프로세스에 설정된 작업 집합 크기와 페이지 프레임 수가 매우 큰 경우 다중 프로그래밍 정도(Degree of Multiprogramming)를 &lt;del&gt;증가&lt;/del&gt;시킨다.&lt;/p&gt;
+
+&lt;p&gt;==&amp;gt; 임계치에 도달하면 다중 프로그래밍 정도가 낮아진다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;스레싱(Thrashing) ; Page Fault(페이지 부재)가 연속적으로 발생하여 프로세스 수행시간보다 페이지 교체 시간이 많은 상태&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;개념도&lt;/th&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;설명&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/6-1&quot; alt=&quot;img&quot; /&gt;&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;다중 프로그래밍 높아짐 ==&amp;gt; 이용률 향상&lt;br /&gt;↓&lt;br /&gt;임계치 도달 후 낮아짐&lt;br /&gt;Multi-Processing System 발생 빈번&lt;br /&gt;처리율 저하, 페이지 폴트 증가&lt;br /&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;7-인공신경망에-대한-설명으로-&quot;&gt;7. 인공신경망에 대한 설명으로 …&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;인공신경망에 대한 설명으로 옳은 것만을 모두 고른 것은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_7.jpg&quot; alt=&quot;2018_9L_7&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ④&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ㄱ. 단층 퍼셉트론은 &lt;del&gt;배타적 합(Exclusive-OR)&lt;/del&gt; 연산자를 학습할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;==&amp;gt; 단층 퍼셉트론은 &lt;strong&gt;XOR&lt;/strong&gt; 연산이 불가능하다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;8-네트워크-기술에-대한-설명으로&quot;&gt;8. 네트워크 기술에 대한 설명으로…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;네트워크 기술에 대한 설명으로 옳지 않은 것은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_8.jpg&quot; alt=&quot;2018_9L_8&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ④&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;④ SMTP(Simple Mail Transfer Protocol)는 &lt;del&gt;사용자 인터페이스 구성방법을 지정하는 전송 계층 프로토콜&lt;/del&gt;이다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;전송 계층 프로토콜 ; TCP, UDP&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;SMTP는 응용 계층 프로토콜이다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;9-다음-java-프로그램의-출력&quot;&gt;9. 다음 Java 프로그램의 출력…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;다음 Java 프로그램의 출력 값은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_9.jpg&quot; alt=&quot;2018_9L_9&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ③&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;public class Test {
+    public static void main(String[] args) {
+        Super s1 = new Super(‘C’); // Super class 내부만 실행
+        &lt;strong&gt;Super s2 = new Sub(‘D’); // 부모 class도 실행&lt;/strong&gt;
+    }
+}&lt;/p&gt;
+
+&lt;p&gt;하위 코드 주석은 코드 실행 순서.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Super&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sc&quot;&gt;'A'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 6&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    
+    &lt;span class=&quot;nc&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 2&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Sub&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Super&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 5&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sc&quot;&gt;'B'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 7&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    
+    &lt;span class=&quot;nc&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 4&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 8&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Test&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;Super&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Super&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sc&quot;&gt;'C'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 1&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;Super&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Sub&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sc&quot;&gt;'D'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 3&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;10-개발자가-사용해야-하는-&quot;&gt;10. 개발자가 사용해야 하는 …&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;개발자가 사용해야 하는 서브시스템의 가장 앞쪽에 위치하면서 서브시스템에 있는 객체들을 사용할 수 있도록 인터페이스 역할을 하는 디자인 패턴은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_10.jpg&quot; alt=&quot;2018_9L_10&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ①&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;① Facade 패턴 ; 서브시스템에 있는 인터페이스 집합에 대해서 하나의 통합된 인터페이스를 제공.&lt;/p&gt;
+
+&lt;p&gt;② Strategy 패턴 ; 각각의 알고리즘을 별도의 클래스로 캡슐화하고 이들을 상호교환이 가능한 것으로 정의. 동일 목정의 여러 알고리즘 중 선택해서 적용가능하게 하는 패턴.&lt;/p&gt;
+
+&lt;p&gt;③ Adapter 패턴 ; 기존 모듈 재사용을 위한 인터페이스 변경&lt;/p&gt;
+
+&lt;p&gt;④ Singleton 패턴 ; 클래스 인스턴스가 하나만 만들어지고 그 인스턴스의 전역접근&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;11-소프트웨어-모듈-평가-기준으로&quot;&gt;11. 소프트웨어 모듈 평가 기준으로…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;소프트웨어 모듈 평가 기준으로 판단할 때, 다음 4명 중 가장 좋게 설계한 사람과 가장 좋지 않게 설계한 사람을 순서대로 바르게 나열한 것은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_11.jpg&quot; alt=&quot;2018_9L_11&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ③&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;이상적 모듈&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;이상적인 모듈화&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;결합도&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;낮을 수록&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;응집도&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;높을 수록&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;자&lt;/th&gt;
+      &lt;th&gt;스&lt;/th&gt;
+      &lt;th&gt;제&lt;/th&gt;
+      &lt;th&gt;외&lt;/th&gt;
+      &lt;th&gt;공&lt;/th&gt;
+      &lt;th&gt;내&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;결합도&lt;/td&gt;
+      &lt;td&gt;자료&lt;/td&gt;
+      &lt;td&gt;스탬프&lt;/td&gt;
+      &lt;td&gt;제어&lt;/td&gt;
+      &lt;td&gt;외부&lt;/td&gt;
+      &lt;td&gt;공통&lt;/td&gt;
+      &lt;td&gt;내용&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;&lt;em&gt;좋음&lt;/em&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;&lt;em&gt;나쁨&lt;/em&gt;&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;우&lt;/th&gt;
+      &lt;th&gt;논&lt;/th&gt;
+      &lt;th&gt;시&lt;/th&gt;
+      &lt;th&gt;절&lt;/th&gt;
+      &lt;th&gt;교&lt;/th&gt;
+      &lt;th&gt;순&lt;/th&gt;
+      &lt;th&gt;기&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;응집도&lt;/td&gt;
+      &lt;td&gt;우연적&lt;/td&gt;
+      &lt;td&gt;논리적&lt;/td&gt;
+      &lt;td&gt;시간적&lt;/td&gt;
+      &lt;td&gt;절차적&lt;/td&gt;
+      &lt;td&gt;교환적&lt;/td&gt;
+      &lt;td&gt;순차적&lt;/td&gt;
+      &lt;td&gt;기능적&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;나쁨&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;좋음&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;12-자료구조에-대한-설명&quot;&gt;12. 자료구조에 대한 설명…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;자료구조에 대한 설명으로 옳지 않은 것은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_12.jpg&quot; alt=&quot;2018_9L_12&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ①&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;① 데크는 삽입과 삭제를 &lt;del&gt;한쪽 끝에서만&lt;/del&gt; 수행한다.&lt;/p&gt;
+
+&lt;p&gt;==&amp;gt; 데크는 삽입과 삭제를 양쪽에서 진행한다.&lt;/p&gt;
+
+&lt;p&gt;Deque = Stack + Queue&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/12-1.png&quot; alt=&quot;12-1&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;13-ipv4가-제공하는-기능만을&quot;&gt;13. IPv4가 제공하는 기능만을…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;IPv4가 제공하는 기능만을 모두 고른 것은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_13.jpg&quot; alt=&quot;2018_9L_13&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ③&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;IPv4는 &lt;strong&gt;비신뢰적&lt;/strong&gt;이고 비연결형인 데이터그램 프로토콜.&lt;/li&gt;
+  &lt;li&gt;최선형 전송 서비스(best-effort delivery service) ; IPv4 패킷이 훼손되거나 손실, 순서에 맞지 않거나 지연되어 도착할 수 있고, 네트워크에 발생시킬 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ㄱ. 혼잡제어 ; 혼잡제어를 위해서, ICMP(Internet Control Message Protocol)을 통해 혼잡 제어 매커니즘을 추가한다.&lt;/p&gt;
+
+&lt;p&gt;ㄷ. 신뢰성 있는 전달 서비스 ; 신뢰성을 위해서는 TCP 처럼 신뢰성 있는 전송 계층 프로토콜과 함께 사용되어야 한다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;14-결정-명령문-내의-각-조건식이&quot;&gt;14. 결정 명령문 내의 각 조건식이…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;결정 명령문 내의 각 조건식이 참, 거짓을 한 번 이상 갖도록 조합하여 테스트 케이스를 설계하는 방법은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_14.jpg&quot; alt=&quot;2018_9L_14&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ②&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;① 문장 검증 기준(Statement Coverage)&lt;/p&gt;
+
+&lt;p&gt;; 모든 실행문의 수행 조사&lt;/p&gt;
+
+&lt;p&gt;② 조건 검증 기준(Condition Coverage)&lt;/p&gt;
+
+&lt;p&gt;;  개별 조건 검사&lt;/p&gt;
+
+&lt;p&gt;③ 분기 검증 기준(Branch Coverage)&lt;/p&gt;
+
+&lt;p&gt;; 분기점 조사&lt;/p&gt;
+
+&lt;p&gt;④ 다중 조건 검증 기준(Multiple Condition Coverage)&lt;/p&gt;
+
+&lt;p&gt;; 전체 조건 검사&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;15-가상-머신virtual-machine에-대한&quot;&gt;15. 가상 머신(Virtual Machine)에 대한…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;가상 머신(Virtual Machine)에 대한 설명으로 옳지 않은 것은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_15.jpg&quot; alt=&quot;2018_9L_15&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ③&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;③ 가상 머신 모니터(Virtual Machine Monitor)를 사용하여 가상화하는 경우 &lt;del&gt;반드시 호스트 운영체제가 필요&lt;/del&gt;하다.&lt;/p&gt;
+
+&lt;p&gt;==&amp;gt; 호스트 운영체제가 반드시 필요한 것은 아니다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;16-ieee-80211-무선-랜에-대한&quot;&gt;16. IEEE 802.11 무선 랜에 대한…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;IEEE 802.11 무선 랜에 대한 설명으로 옳은 것은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_16.jpg&quot; alt=&quot;2018_9L_16&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ④&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;① IEEE 802.11a는 5 GHz 대역에서 &lt;del&gt;5.5 Mbps&lt;/del&gt;의 전송률을 제공한다.&lt;/p&gt;
+
+&lt;p&gt;② IEEE 802.11b는 직교 주파수 분할 다중화(OFDM) 방식을 사용하여 &lt;del&gt;최대 22 Mbps의 전송률&lt;/del&gt;을 제공한다.&lt;/p&gt;
+
+&lt;p&gt;③ IEEE 802.11g는 &lt;del&gt;5 GHz&lt;/del&gt; 대역에서 직접 순서 확산 대역(DSSS) 방식을 사용한다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;IEEE Standard&lt;/th&gt;
+      &lt;th&gt;Frequency&lt;/th&gt;
+      &lt;th&gt;Maximum Data Rate&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;802.11a&lt;/td&gt;
+      &lt;td&gt;5GHz&lt;/td&gt;
+      &lt;td&gt;54Mbps&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;802.11b&lt;/td&gt;
+      &lt;td&gt;2.4GHz&lt;/td&gt;
+      &lt;td&gt;11Mbps&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;802.11g&lt;/td&gt;
+      &lt;td&gt;2.4GHz&lt;/td&gt;
+      &lt;td&gt;54Mbps&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;802.11n&lt;/td&gt;
+      &lt;td&gt;2.4GHz &amp;amp; 5GHz&lt;/td&gt;
+      &lt;td&gt;600Mbps&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;802.11ac&lt;/td&gt;
+      &lt;td&gt;2.4GHz &amp;amp; 5GHz&lt;/td&gt;
+      &lt;td&gt;1.3Gbps&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;802.11ax&lt;/td&gt;
+      &lt;td&gt;2.4GHz &amp;amp; 5GHz&lt;/td&gt;
+      &lt;td&gt;10-12Gbps&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;17-데이터베이스의-동시성-&quot;&gt;17. 데이터베이스의 동시성 …&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;데이터베이스의 동시성 제어에 대한 설명으로 옳지 않은 것은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_17.jpg&quot; alt=&quot;2018_9L_17&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ④&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;④ 2단계 로킹 프로토콜에서 각 트랜잭션이 정상적으로 커밋될 때까지 자신이 가진 모든 배타적 로크들을 해제하지 않는다면 &lt;del&gt;모든 교착상태를 방지할 수 있다.&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;2단계 로킹 프로토콜(2PL) ; 모든 교착상태를 방지할 수 &lt;strong&gt;없다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;18-파일구조에-대한-설명으로&quot;&gt;18. 파일구조에 대한 설명으로…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;파일구조에 대한 설명으로 옳지 않은 것은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_18.jpg&quot; alt=&quot;2018_9L_18&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ③&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;③ ISAM은 레코드 삽입을 위한 별도의 오버플로우 영역을 &lt;del&gt;필요로 하지 않는다.&lt;/del&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;색인순차파일(인덱스된 순차파일, ISAM;Indexed Sequential Access Method)
+    &lt;ul&gt;
+      &lt;li&gt;정적 인덱싱&lt;/li&gt;
+      &lt;li&gt;정적 인덱싱은 &lt;strong&gt;오버플로우&lt;/strong&gt; 필요&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;19-다음-c-프로그램의-출력&quot;&gt;19. 다음 C 프로그램의 출력…&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;다음 C 프로그램의 출력 값은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_19.jpg&quot; alt=&quot;2018_9L_19&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ②&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;static 은 내부에서만 존재.&lt;/p&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
+&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// a:10, b:20, c:101, static a:101&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// a:10, b:20, c:102, static a:102&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;a = %d, b = %d, c = %d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;20-해싱hashing에-대한-&quot;&gt;20. 해싱(Hashing)에 대한 …&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;해싱(Hashing)에 대한 설명으로 옳지 않은 것은?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_20.jpg&quot; alt=&quot;2018_9L_20&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;답 : ③&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;③ 선형 조사법(Linear Probing)은 &lt;del&gt;연결리스트(Linked List)를 사용하여 오버플로우 문제를 해결&lt;/del&gt;한다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;선형 조사법은 다음(next) 빈 자리를 찾아본다.&lt;/li&gt;
+  &lt;li&gt;체이닝(Chaining) ; 연결리스트를 통해, 충돌 발생시 연결리스트를 통해 오버플로우 문제를 해결한다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>이성연</name><email>sungyeonlee1103@gmail.com</email></author><category term="9급" /><category term="컴퓨터일반" /><category term="9급공무원" /><summary type="html">2018년 9급 전산직 컴퓨터일반 풀이</summary></entry><entry><title type="html">파일명 일괄 변경하기(Linux, VS code)</title><link href="http://localhost:4000/useful/Linux-File-naming-pipeline-command/" rel="alternate" type="text/html" title="파일명 일괄 변경하기(Linux, VS code)" /><published>2020-12-06T00:00:00+09:00</published><updated>2020-12-06T00:00:00+09:00</updated><id>http://localhost:4000/useful/Linux-File-naming-pipeline-command</id><content type="html" xml:base="http://localhost:4000/useful/Linux-File-naming-pipeline-command/">&lt;h1 id=&quot;파일명-일괄-변경하기linux-vs-code&quot;&gt;파일명 일괄 변경하기(Linux, VS code)&lt;/h1&gt;
 
 &lt;p&gt;궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! “:)”&lt;/p&gt;
 

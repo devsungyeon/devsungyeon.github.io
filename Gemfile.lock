@@ -115,6 +115,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.12)
+  jekyll-sitemap
   kramdown-parser-gfm
   minimal-mistakes-jekyll!
   rake (~> 10.0)
