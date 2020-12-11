@@ -25,7 +25,7 @@ comments: true
 
 1. 유닉스 운영체제에 대한 설명으로 옳지 않은 것은?
 
-![2018_9L_1](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_1.jpg)
+![2018_9L_1](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_1.jpg)
 
 **답 : ②**
 
@@ -43,7 +43,7 @@ comments: true
 
 2. 다음에서 설명하는 해킹 공격 방법은?
 
-![2018_9L_2](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_2.jpg)
+![2018_9L_2](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_2.jpg)
 
 **답 : ②**
 
@@ -85,7 +85,7 @@ cf)
 
 3. 다음 SQL 명령어에서 DDL(Data Definition Language) 명령어만을 모두 고른 것은?
 
-![2018_9L_3](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_3.jpg)
+![2018_9L_3](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_3.jpg)
 
 **답 : ①**
 
@@ -101,7 +101,7 @@ cf)
 
 4. 다음 수식에서 이진수 Y의 값은?(단, 수식의 모든 수는 8 비트 이진수이고 1의 보수로 표현된다)
 
-![2018_9L_4](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_4.jpg)
+![2018_9L_4](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_4.jpg)
 
 **답 : ②**
 
@@ -127,7 +127,7 @@ Z<sub>(2)</sub> = 00100000<sub>(2)</sub> - 00001011<sub>(2)</sub> = 00010101<sub
 
 5. 다음 진리표를 만족하는 부울 함수로 옳은 것은? (단, · 은 AND, ⊕는 XOR, ⊙는 XNOR 연산을 의미한다)
 
-![2018_9L_5](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_5.jpg)
+![2018_9L_5](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_5.jpg)
 
 **답 : ②**
 
@@ -168,7 +168,7 @@ Z<sub>(2)</sub> = 00100000<sub>(2)</sub> - 00001011<sub>(2)</sub> = 00010101<sub
 
 6. 스레싱(Thrashing)에 대한 설명으로 옳지 않은 것은?
 
-![2018_9L_6](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_6.jpg)
+![2018_9L_6](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_6.jpg)
 
 **답 : ③**
 
@@ -182,7 +182,7 @@ Z<sub>(2)</sub> = 00100000<sub>(2)</sub> - 00001011<sub>(2)</sub> = 00010101<sub
 
   |                            개념도                            |                             설명                             |
   | :----------------------------------------------------------: | :----------------------------------------------------------: |
-  | ![img](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\6-1) | 다중 프로그래밍 높아짐 ==> 이용률 향상<br />↓<br />임계치 도달 후 낮아짐<br />Multi-Processing System 발생 빈번<br />처리율 저하, 페이지 폴트 증가<br /> |
+  | ![img](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/6-1) | 다중 프로그래밍 높아짐 ==> 이용률 향상<br />↓<br />임계치 도달 후 낮아짐<br />Multi-Processing System 발생 빈번<br />처리율 저하, 페이지 폴트 증가<br /> |
 
 
 
@@ -190,7 +190,7 @@ Z<sub>(2)</sub> = 00100000<sub>(2)</sub> - 00001011<sub>(2)</sub> = 00010101<sub
 
 7. 인공신경망에 대한 설명으로 옳은 것만을 모두 고른 것은?
 
-![2018_9L_7](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_7.jpg)
+![2018_9L_7](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_7.jpg)
 
 **답 : ④**
 
@@ -208,7 +208,7 @@ Z<sub>(2)</sub> = 00100000<sub>(2)</sub> - 00001011<sub>(2)</sub> = 00010101<sub
 
 8. 네트워크 기술에 대한 설명으로 옳지 않은 것은?
 
-![2018_9L_8](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_8.jpg)
+![2018_9L_8](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_8.jpg)
 
 **답 : ④**
 
@@ -226,7 +226,7 @@ SMTP는 응용 계층 프로토콜이다.
 
 9. 다음 Java 프로그램의 출력 값은?
 
-![2018_9L_9](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_9.jpg)
+![2018_9L_9](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_9.jpg)
 
 **답 : ③**
 
@@ -278,7 +278,7 @@ public class Test {
 
 10. 개발자가 사용해야 하는 서브시스템의 가장 앞쪽에 위치하면서 서브시스템에 있는 객체들을 사용할 수 있도록 인터페이스 역할을 하는 디자인 패턴은?
 
-![2018_9L_10](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_10.jpg)
+![2018_9L_10](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_10.jpg)
 
 **답 : ①**
 
@@ -298,7 +298,7 @@ public class Test {
 
 11. 소프트웨어 모듈 평가 기준으로 판단할 때, 다음 4명 중 가장 좋게 설계한 사람과 가장 좋지 않게 설계한 사람을 순서대로 바르게 나열한 것은?
 
-![2018_9L_11](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_11.jpg)
+![2018_9L_11](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_11.jpg)
 
 **답 : ③**
 
@@ -327,7 +327,7 @@ public class Test {
 
 12. 자료구조에 대한 설명으로 옳지 않은 것은?
 
-![2018_9L_12](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_12.jpg)
+![2018_9L_12](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_12.jpg)
 
 **답 : ①**
 
@@ -337,7 +337,7 @@ public class Test {
 
 Deque = Stack + Queue
 
-![12-1](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\12-1.png)
+![12-1](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/12-1.png)
 
 ---
 
@@ -345,7 +345,7 @@ Deque = Stack + Queue
 
 13. IPv4가 제공하는 기능만을 모두 고른 것은?
 
-![2018_9L_13](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_13.jpg)
+![2018_9L_13](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_13.jpg)
 
 **답 : ③**
 
@@ -364,7 +364,7 @@ Deque = Stack + Queue
 
 14. 결정 명령문 내의 각 조건식이 참, 거짓을 한 번 이상 갖도록 조합하여 테스트 케이스를 설계하는 방법은?
 
-![2018_9L_14](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_14.jpg)
+![2018_9L_14](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_14.jpg)
 
 **답 : ②**
 
@@ -392,7 +392,7 @@ Deque = Stack + Queue
 
 15. 가상 머신(Virtual Machine)에 대한 설명으로 옳지 않은 것은?
 
-![2018_9L_15](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_15.jpg)
+![2018_9L_15](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_15.jpg)
 
 **답 : ③**
 
@@ -408,7 +408,7 @@ Deque = Stack + Queue
 
 16. IEEE 802.11 무선 랜에 대한 설명으로 옳은 것은?
 
-![2018_9L_16](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_16.jpg)
+![2018_9L_16](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_16.jpg)
 
 **답 : ④**
 
@@ -437,7 +437,7 @@ Deque = Stack + Queue
 
 17. 데이터베이스의 동시성 제어에 대한 설명으로 옳지 않은 것은?
 
-![2018_9L_17](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_17.jpg)
+![2018_9L_17](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_17.jpg)
 
 **답 : ④**
 
@@ -453,7 +453,7 @@ Deque = Stack + Queue
 
 18. 파일구조에 대한 설명으로 옳지 않은 것은?
 
-![2018_9L_18](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_18.jpg)
+![2018_9L_18](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_18.jpg)
 
 **답 : ③**
 
@@ -473,7 +473,7 @@ Deque = Stack + Queue
 
 19. 다음 C 프로그램의 출력 값은?
 
-![2018_9L_19](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_19.jpg)
+![2018_9L_19](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_19.jpg)
 
 **답 : ②**
 
@@ -515,7 +515,7 @@ int main(void)
 
 20. 해싱(Hashing)에 대한 설명으로 옳지 않은 것은?
 
-![2018_9L_20](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2018_9L\2018_9L_20.jpg)
+![2018_9L_20](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2018_9L/2018_9L_20.jpg)
 
 **답 : ③**
 
