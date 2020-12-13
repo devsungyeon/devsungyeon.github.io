@@ -25,7 +25,7 @@ comments: true
 
 1. 컴퓨터 구조에 대한 설명으로 옳지 않은 것은?
 
-![2017_9L_1](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_1.jpg)
+![2017_9L_1](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_1.jpg)
 
 **답 : ③**
 
@@ -54,11 +54,11 @@ comments: true
 
 2. 중앙처리장치 내의 레지스터 중 PC(program counter), IR(instruction register), MAR(memory address register), AC(accumulator)와 다음 설명이 옳게 짝지어진 것은?
 
-![2017_9L_2](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_2.jpg)
+![2017_9L_2](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_2.jpg)
 
 **답 : ④**
 
-![2-1](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2-1.png)
+![2-1](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2-1.png)
 
 - PC : 다음에 인출할 명령어의 주소를 보관.
 - MAR : CPU가 메모리에 접근하기 위해 참조하려는 명령어의 주소 혹은 데이터의 주소를 보관.
@@ -74,7 +74,7 @@ comments: true
 
 3. 트랜잭션이 정상적으로 완료(commit)되거나, 중단(abort)되었을 때 롤백(rollback)되어야 하는 트랜잭션의 성질은?
 
-![2017_9L_3](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_3.jpg)
+![2017_9L_3](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_3.jpg)
 
 **답 : ①**
 
@@ -107,7 +107,7 @@ comments: true
 
 4. 다음의 설명과 무선 PAN 기술이 옳게 짝지어진 것은?
 
-![2017_9L_4](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_4.jpg)
+![2017_9L_4](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_4.jpg)
 
 **답 : ①**
 
@@ -119,7 +119,7 @@ comments: true
 
 5. 디스크 헤드의 위치가 55이고 0의 방향으로 이동할 때, C-SCAN 기법으로 디스크 대기 큐 25, 30, 47, 50, 63, 75, 100을 처리한다면 제일 마지막에 서비스 받는 트랙은?
 
-![2017_9L_5](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_5.jpg)
+![2017_9L_5](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_5.jpg)
 
 **답 : ②**
 
@@ -164,7 +164,7 @@ comments: true
 
 6. 컴퓨터 시스템 구성요소 사이의 데이터 흐름과 제어 흐름에 대한 설명으로 옳은 것은?
 
-![2017_9L_6](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_6.jpg)
+![2017_9L_6](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_6.jpg)
 
 **답 : ④**
 
@@ -177,11 +177,11 @@ comments: true
 
 7. 수식의 결과가 거짓(false)인 것은?
 
-![2017_9L_7](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_7.jpg)
+![2017_9L_7](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_7.jpg)
 
 **답 : ②**
 
-![7-1](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\7-1.png)
+![7-1](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/7-1.png)
 
 ① 20D<sub>(16)</sub> > 524<sub>(10)</sub> : True
 
@@ -207,7 +207,7 @@ comments: true
 
 8. '인터넷 서점'에 대한 유스케이스 다이어그램에서 '회원등록' 유스케이스를 수행하기 위해서는 '실명확인' 유스케이스가 반드시 선행되어야 한다면 이들의 관계는?
 
-![2017_9L_8](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_8.jpg)
+![2017_9L_8](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_8.jpg)
 
 **답 : ③**
 
@@ -256,13 +256,13 @@ https://googry.tistory.com/2
 
 9. 노드 A, B, C를 가지는 이중 연결 리스트에서 노드 B를 삭제하기 위한 의사코드(pseudo code)로 옳지 않은 것은? (단, 노드 B의 메모리는 해제하지 않는다)
 
-![2017_9L_9](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_9.jpg)
+![2017_9L_9](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_9.jpg)
 
 **답 : ④**
 
 A->next = A->next->next;
 
-![9-1](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\9-1.png)
+![9-1](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/9-1.png)
 
 
 
@@ -270,7 +270,7 @@ A->next->next->prev = B->prev;
 
 //A->next->next->prev ; 오류 발생. A->next->next ; null
 
-![9-2](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\9-2.png)
+![9-2](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/9-2.png)
 
 
 
@@ -280,7 +280,7 @@ A->next->next->prev = B->prev;
 
 10. 이동 애드혹 네트워크(MANET)에 대한 설명으로 옳지 않은 것은?
 
-![2017_9L_10](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_10.jpg)
+![2017_9L_10](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_10.jpg)
 
 **답 : ④**
 
@@ -298,7 +298,7 @@ A->next->next->prev = B->prev;
 
 11. 공개키 암호화 방법을 사용하여 철수가 영희에게 메시지를 보내는 것에 대한 설명으로 옳지 않은 것은?
 
-![2017_9L_11](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_11.jpg)
+![2017_9L_11](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_11.jpg)
 
 **답 : ③**
 
@@ -320,7 +320,7 @@ A->next->next->prev = B->prev;
 
 12. 네트워크 구성 형태에 대한 설명으로 옳지 않은 것은?
 
-![2017_9L_12](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_12.jpg)
+![2017_9L_12](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_12.jpg)
 
 **답 : ③**
 
@@ -352,7 +352,7 @@ A->next->next->prev = B->prev;
 
 13. 다음에서 설명하는 보안공격방법은?
 
-![2017_9L_13](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_13.jpg)
+![2017_9L_13](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_13.jpg)
 
 **답 : ②**
 
@@ -372,7 +372,7 @@ A->next->next->prev = B->prev;
 
 14. 논리적 데이터 모델에 대한 설명으로 옳지 않은 것은?
 
-![2017_9L_14](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_14.jpg)
+![2017_9L_14](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_14.jpg)
 
 **답 : ①**
 
@@ -428,7 +428,7 @@ A->next->next->prev = B->prev;
 
 15. 다음에서 설명하는 소프트웨어 개발 방법론은?
 
-![2017_9L_15](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_15.jpg)
+![2017_9L_15](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_15.jpg)
 
 **답 : ②**
 
@@ -559,7 +559,7 @@ A->next->next->prev = B->prev;
 
 16. 다음 프로세스 집합에 대하여 라운드 로빈 CPU 스케줄링 알고리즘을 사용할 때, 프로세스들의 총 대기시간은? (단, 시간0에 P1, P2, P3 순서대로 도착한 것으로 하고, 시간 할당량은 4밀리초로 하며, 프로세스 간 문맥교환에 따른 오버헤드는 무시한다)
 
-![2017_9L_16](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_16.jpg)
+![2017_9L_16](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_16.jpg)
 
 **답 : ②**
 
@@ -594,7 +594,7 @@ P3 WaitTime = 11 - 0 - 4 = 7
 
 17. 다음 C 프로그램의 출력 값은?
 
-![2017_9L_17](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_17.jpg)
+![2017_9L_17](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_17.jpg)
 
 **답 : ④**
 
@@ -640,7 +640,7 @@ void funCount() {
 
 18. 페이지 크기가 2,000byte인 페이징 시스템에서 페이지테이블이 다음과 같을 때 논리주소에 대한 물리주소가 옳게 짝지어진 것은? (단, 논리주소와 물리주소는 각각 0에서 시작되고, 1 byte 단위로 주소가 부여된다.)
 
-![2017_9L_18](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_18.jpg)
+![2017_9L_18](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_18.jpg)
 
 **답 : ③**
 
@@ -686,7 +686,7 @@ void funCount() {
 
 19. HTML5의 특징에 대한 설명으로 옳지 않은 것은?
 
-![2017_9L_19](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_19.jpg)
+![2017_9L_19](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_19.jpg)
 
 **답 : ③**
 
@@ -706,7 +706,7 @@ void funCount() {
 
 20. 컴퓨터의 발전 과정에 대한 설명으로 옳지 않은 것은?
 
-![2017_9L_20](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2017_9L\2017_9L_20.jpg)
+![2017_9L_20](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2017_9L/2017_9L_20.jpg)
 
 **답 : ①**
 
