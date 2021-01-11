@@ -588,15 +588,15 @@ Post-order(L-R-C) : D-G-E-B-F-C-A
 
 ![2020_9L_20](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_20.jpg)
 
-**답 : ③**
+**답 : ②**
 
 ① SELECT deptno, ~~position~~, AVG(salary) FROM PROFESSOR GROUP BY deptno;
 
   deptno 로 GROUP BY로 그룹화가 되었는데 position은 그룹 함수로 사용될 수 없고, 이로 인해 error가 발생한다.
 
-② (SELECT **studno, name** FROM STUDENT WHERE deptno = 101) UNION (SELECT **profno, name** FROM PROFESSOR WHERE deptno = 101);
+③ SELECT grade, COUNT(\*), AVG(height) FROM STUDENT WHERE COUNT(\*) > 2 GROUP BY grade;
 
-  UNION은 2개의 쿼리문의 칼럼 갯수, 이름이 모두 같을 때 합칠 수 있다.
+  WHERE 절에는 집계 함수를 사용할 수 없다.
 
 ④ SELECT name, grade, height FROM STUDENT WHERE height > (SELECT ~~height, grade~~ FROM STUDENT WHERE name = '홍길동');
 
