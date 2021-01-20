@@ -1,21 +1,21 @@
 ---
-title: "2019년 9급 전산직 컴퓨터일반 풀이"
-strapline: "컴퓨터일반 풀이"
-description: "2019년 9급 전산직 컴퓨터일반 풀이"
+title: "2019년 7급 전산직 데이터베이스 풀이"
+strapline: "데이터베이스 풀이"
+description: "2019년 7급 전산직 데이터베이스 풀이"
 header:
  overlay_image: /assets/images/bright.jpg
 categories:
-  - "9Level_computerbasic"
+  - "7Level_database"
 tag:
-  - "9급"
-  - "컴퓨터일반"
-  - "9급공무원"
+  - "7급"
+  - "데이터베이스"
+  - "7급공무원"
 toc: true
 last_modified_at: 2020-12-05
 comments: true
 ---
 
-# 2019년 9급 전산직 컴퓨터일반 풀이
+# 2019년 7급 전산직 데이터베이스 풀이
 
 궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! ":)"
 

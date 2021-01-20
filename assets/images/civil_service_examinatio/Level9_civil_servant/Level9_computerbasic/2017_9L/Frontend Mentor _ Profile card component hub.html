@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<!-- saved from url=(0110)https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-component-m__utvs9I -->
+<html lang="en" dir="ltr" class="js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.225em;
+}
+.svg-inline--fa.fa-w-1 {
+  width: 0.0625em;
+}
+.svg-inline--fa.fa-w-2 {
+  width: 0.125em;
+}
+.svg-inline--fa.fa-w-3 {
+  width: 0.1875em;
+}
+.svg-inline--fa.fa-w-4 {
+  width: 0.25em;
+}
+.svg-inline--fa.fa-w-5 {
+  width: 0.3125em;
+}
+.svg-inline--fa.fa-w-6 {
+  width: 0.375em;
+}
+.svg-inline--fa.fa-w-7 {
+  width: 0.4375em;
+}
+.svg-inline--fa.fa-w-8 {
+  width: 0.5em;
+}
+.svg-inline--fa.fa-w-9 {
+  width: 0.5625em;
+}
+.svg-inline--fa.fa-w-10 {
+  width: 0.625em;
+}
+.svg-inline--fa.fa-w-11 {
+  width: 0.6875em;
+}
+.svg-inline--fa.fa-w-12 {
+  width: 0.75em;
+}
+.svg-inline--fa.fa-w-13 {
+  width: 0.8125em;
+}
+.svg-inline--fa.fa-w-14 {
+  width: 0.875em;
+}
+.svg-inline--fa.fa-w-15 {
+  width: 0.9375em;
+}
+.svg-inline--fa.fa-w-16 {
+  width: 1em;
+}
+.svg-inline--fa.fa-w-17 {
+  width: 1.0625em;
+}
+.svg-inline--fa.fa-w-18 {
+  width: 1.125em;
+}
+.svg-inline--fa.fa-w-19 {
+  width: 1.1875em;
+}
+.svg-inline--fa.fa-w-20 {
+  width: 1.25em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: 0.3em;
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: 0.3em;
+  width: auto;
+}
+.svg-inline--fa.fa-border {
+  height: 1.5em;
+}
+.svg-inline--fa.fa-li {
+  width: 2em;
+}
+.svg-inline--fa.fa-fw {
+  width: 1.25em;
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: #ff253a;
+  border-radius: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  height: 1.5em;
+  line-height: 1;
+  max-width: 5em;
+  min-width: 1.5em;
+  overflow: hidden;
+  padding: 0.25em;
+  right: 0;
+  text-overflow: ellipsis;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: 0;
+  right: 0;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: 0;
+  left: 0;
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  right: 0;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: 0;
+  right: auto;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.fa-lg {
+  font-size: 1.3333333333em;
+  line-height: 0.75em;
+  vertical-align: -0.0667em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit;
+}
+
+.fa-border {
+  border: solid 0.08em #eee;
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em;
+}
+
+.fa-pull-left {
+  float: left;
+}
+
+.fa-pull-right {
+  float: right;
+}
+
+.fa.fa-pull-left,
+.fas.fa-pull-left,
+.far.fa-pull-left,
+.fal.fa-pull-left,
+.fab.fa-pull-left {
+  margin-right: 0.3em;
+}
+.fa.fa-pull-right,
+.fas.fa-pull-right,
+.far.fa-pull-right,
+.fal.fa-pull-right,
+.fab.fa-pull-right {
+  margin-left: 0.3em;
+}
+
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear;
+}
+
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+          animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+
+.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical,
+:root .fa-flip-both {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.fa-stack {
+  display: inline-block;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: #fff;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: 1;
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: 0.4;
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: 0.4;
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: 1;
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}
+
+.fad.fa-inverse {
+  color: #fff;
+}</style><style data-styled="active" data-styled-version="5.2.0"></style><script defer="" site="VHCRKCXI" spa="auto" src="./Frontend Mentor _ Profile card component hub_files/script.js.다운로드"></script><script type="text/javascript" async="" src="./Frontend Mentor _ Profile card component hub_files/r199oupe"></script><script src="./Frontend Mentor _ Profile card component hub_files/iubenda.js.다운로드"></script><script src="./Frontend Mentor _ Profile card component hub_files/chargebee.js.다운로드" data-cb-site="frontendmentor" type="text/javascript"></script><script async="" type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script><script async="" type="text/javascript">(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/r199oupe';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Frontend Mentor | Profile card component hub</title><link rel="apple-touch-icon" sizes="180x180" href="https://www.frontendmentor.io/static/favicon/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://www.frontendmentor.io/static/favicon/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://www.frontendmentor.io/static/favicon/favicon-16x16.png"><link rel="manifest" href="https://www.frontendmentor.io/static/favicon/site.webmanifest"><link rel="mask-icon" href="https://www.frontendmentor.io/static/favicon/safari-pinned-tab.svg" color="#68becd"><meta name="msapplication-TileColor" content="#68becd"><meta name="theme-color" content="#ffffff"><meta property="fb:app_id" content="401466220320820"><meta property="og:type" content="website"><meta property="og:image:width" content="768"><meta property="og:image:height" content="512"><meta property="og:site_name" content="Frontend Mentor"><meta property="og:locale" content="en_GB"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@frontendmentor"><link href="./Frontend Mentor _ Profile card component hub_files/css" rel="stylesheet"><link href="./Frontend Mentor _ Profile card component hub_files/svg-with-js.css" rel="stylesheet"><noscript data-n-css="true"></noscript><link rel="preload" href="./Frontend Mentor _ Profile card component hub_files/main-7d8596dd30e0ee3858df.js.다운로드" as="script"><link rel="preload" href="./Frontend Mentor _ Profile card component hub_files/webpack-eb080e3f091731f228fb.js.다운로드" as="script"><link rel="preload" href="./Frontend Mentor _ Profile card component hub_files/framework.67ed7a393648e61eeb76.js.다운로드" as="script"><link rel="preload" href="./Frontend Mentor _ Profile card component hub_files/cb1608f2.e3201cb4e8a54940185d.js.다운로드" as="script"><link rel="preload" href="./Frontend Mentor _ Profile card component hub_files/a9a7754c.3489a2e4b12785b666cc.js.다운로드" as="script"><link rel="preload" href="./Frontend Mentor _ Profile card component hub_files/commons.0a0f806518af1cede0c3.js.다운로드" as="script"><link rel="preload" href="./Frontend Mentor _ Profile card component hub_files/510b680dc918faa4359ba7290e94d4432be1bdf0.6ec741b8e0676d1f23d5.js.다운로드" as="script"><link rel="preload" href="./Frontend Mentor _ Profile card component hub_files/d6c98f4362b56a3c10cd05dd6336aa0c692397a8.6374d34f307387c142cb.js.다운로드" as="script"><link rel="preload" href="./Frontend Mentor _ Profile card component hub_files/bcf1455ac1a7036aa1692c0fbba75befeb3fa783.d5bb0b9aa96ff3a9db78.js.다운로드" as="script"><link rel="preload" href="./Frontend Mentor _ Profile card component hub_files/23feb4716525fafff6d6def1bafac294e5a4793c.e90e92272de594f30ed0.js.다운로드" as="script"><link rel="preload" href="./Frontend Mentor _ Profile card component hub_files/0878c4795807b1b87429a54771ece6a13f7db066.8e0e70fd008bacaa75f7.js.다운로드" as="script"><link rel="preload" href="./Frontend Mentor _ Profile card component hub_files/_app-56dbb2590124e4e15cfd.js.다운로드" as="script"><link rel="preload" href="./Frontend Mentor _ Profile card component hub_files/githubAuth-c914a9c0a6cb31ccb2e1.js.다운로드" as="script"><script charset="utf-8" src="./Frontend Mentor _ Profile card component hub_files/1-7bce25bf1e481be0d5dd.js.다운로드"></script><script charset="utf-8" src="./Frontend Mentor _ Profile card component hub_files/13-3b0792b5258c8283ccf1.js.다운로드"></script><link rel="stylesheet" href="./Frontend Mentor _ Profile card component hub_files/animation.css" type="text/css"><style type="text/css"></style><link as="script" rel="prefetch" href="./Frontend Mentor _ Profile card component hub_files/c64cf350551c4708d158b8cd392f12761b02a011.96b7ae487d8c8eb64761.js.다운로드"><link as="script" rel="prefetch" href="./Frontend Mentor _ Profile card component hub_files/ed868c8c3e8dcea191a52c75670f070ef538cc68.2325450c9d8050a7dc64.js.다운로드"><link as="script" rel="prefetch" href="./Frontend Mentor _ Profile card component hub_files/d79e74c58777a61bef4f4ebff7878d513d519b0a.6843d413afc27a8fccad.js.다운로드"><link as="script" rel="prefetch" href="./Frontend Mentor _ Profile card component hub_files/3aa6620285b14ca239a868f1316f2f5d8ed3e374.96e063e4c160e9f1db47.js.다운로드"><link as="script" rel="prefetch" href="./Frontend Mentor _ Profile card component hub_files/443886fc15ea2dbd56b30678be0258136e8e8c9f.4711f2a6d48c19389650.js.다운로드"><link as="script" rel="prefetch" href="./Frontend Mentor _ Profile card component hub_files/4cbc9e7db9cd488a073c1d4eed0103e0d2c682cd.4847162d747429ba58a7.js.다운로드"><link as="script" rel="prefetch" href="./Frontend Mentor _ Profile card component hub_files/solutions-a6ccf16d762e4cfcc18d.js.다운로드"><link as="script" rel="prefetch" href="./Frontend Mentor _ Profile card component hub_files/29107295.c8b7e52e795e05fa790a.js.다운로드"><link as="script" rel="prefetch" href="./Frontend Mentor _ Profile card component hub_files/pro-19a8cc387afd71669c78.js.다운로드"><link as="script" rel="prefetch" href="./Frontend Mentor _ Profile card component hub_files/75fc9c18.0e153fd07cb9e6518900.js.다운로드"><link as="script" rel="prefetch" href="./Frontend Mentor _ Profile card component hub_files/befa8e9fd90e42ff9002db6b1154c374ceda277d.fc3f73cdf5d72caba794.js.다운로드"><link as="script" rel="prefetch" href="./Frontend Mentor _ Profile card component hub_files/challenges-0c8e4ae75e04e47cf195.js.다운로드"><link as="script" rel="prefetch" href="https://www.frontendmentor.io/_next/static/chunks/pages/resources-acf0a7559a0145492ca5.js"><link as="script" rel="prefetch" href="./Frontend Mentor _ Profile card component hub_files/199e17c9a24793a2db6687fc5ca6ce8933783c17.4bba145089fc411bf18c.js.다운로드"><link as="script" rel="prefetch" href="./Frontend Mentor _ Profile card component hub_files/b45c555988f5bf14188ed7d29018edd28165a978.9aaca63b67a197c5ab33.js.다운로드"><link as="script" rel="prefetch" href="./Frontend Mentor _ Profile card component hub_files/fb0d9b5f1d4663c25113454ee181f57645922816.63873a2a0ab04a9b20fa.js.다운로드"><link as="script" rel="prefetch" href="./Frontend Mentor _ Profile card component hub_files/challenge-2004be5ac18303646778.js.다운로드"><link as="script" rel="prefetch" href="https://www.frontendmentor.io/_next/static/chunks/pages/slack-aa5766508bc3f002c3a9.js"><meta name="robots" content="noindex"><meta name="description" content="Profile card component challenge hub"><meta property="og:url" content="https://www.frontendmentor.io/challenge/profile-card-component-cfArpWshJ/hub/profile-card-component-m__utvs9I"><meta property="og:title" content="Frontend Mentor | Profile card component hub"><meta property="og:image" content="https://res.cloudinary.com/dz209s6jk/image/upload/v1605203355/Challenges/dia0o9uigiiz4gebiqps.jpg"><meta property="og:description" content="Profile card component challenge hub"><meta name="twitter:url" content="https://www.frontendmentor.io/challenge/profile-card-component-cfArpWshJ/hub/profile-card-component-m__utvs9I"><meta name="twitter:title" content="Frontend Mentor | Profile card component hub"><meta name="twitter:description" content="Profile card component challenge hub"><meta name="twitter:image" content="https://res.cloudinary.com/dz209s6jk/image/upload/v1605203355/Challenges/dia0o9uigiiz4gebiqps.jpg"><link as="script" rel="prefetch" href="./Frontend Mentor _ Profile card component hub_files/hub-03c55acd6ad575e8ae4b.js.다운로드"><link as="script" rel="prefetch" href="https://www.frontendmentor.io/_next/static/chunks/pages/hubSolutions-f65088375591474b5e37.js"><link as="script" rel="prefetch" href="./Frontend Mentor _ Profile card component hub_files/hubForm-69630721eb4d91c886d7.js.다운로드"></head><body style="overflow: auto;"><div id="__next"><div><a class="skip-link" href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-component-m__utvs9I#content">Skip to content</a><div class="FlashMessage__StyledWrapper-sc-1jawr-0 bQkdoK"><div><div class="container"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exclamation-circle" class="svg-inline--fa fa-exclamation-circle fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"></path></svg><p aria-live="polite"></p></div></div></div><header class="Header__StyledHeader-sc-11rvb94-0 eFtwWL"><div class="wide-container"><a class="logo" href="https://www.frontendmentor.io/solutions"><picture><source media="(max-width: 767px)" srcset="/static/images/logo-mobile.svg"><img src="./Frontend Mentor _ Profile card component hub_files/logo-desktop.svg" alt="Frontend Mentor"></picture></a><div class="nav"><nav><button class="toggle" aria-expanded="false" aria-controls="menu"><span class="sr-only">Menu</span><span class="hamburger"></span></button><ul id="menu" class="MainMenu__StyledMenu-sc-1d8i5di-0 FJzNx js"><li class="mobile"><a href="https://www.frontendmentor.io/profile/devsungyeon"><img src="./Frontend Mentor _ Profile card component hub_files/57392992" alt="devsungyeon&#39;s user avatar"> Profile</a></li><li><a href="https://www.frontendmentor.io/pro">Unlock <span class="ProLabel__StyledSpan-k58i26-0 yGEqm">Pro</span></a></li><li><a href="https://www.frontendmentor.io/challenges">Challenges</a></li><li><a href="https://www.frontendmentor.io/solutions">Solutions</a></li><li><a href="https://www.frontendmentor.io/resources">Resources</a></li><li class="mobile"><a href="https://www.frontendmentor.io/settings">Settings</a></li><li class="mobile sign-out"><a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-component-m__utvs9I#">Sign Out</a></li></ul></nav><button class="avatar" aria-haspopup="menu" aria-expanded="false" aria-controls="profile-menu" aria-label="User Menu"><img src="./Frontend Mentor _ Profile card component hub_files/57392992" alt=""></button><ul id="profile-menu" class="ProfileMenu__StyledMenu-sc-1whu9vl-0 iBIYtY"><li><a href="https://www.frontendmentor.io/profile/devsungyeon">Profile</a></li><li><a href="https://www.frontendmentor.io/settings">Settings</a></li><li class="sign-out"><a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-component-m__utvs9I#">Sign Out</a></li></ul></div></div><noscript></noscript></header><div id="modal"></div><div id="content"><div class="NavigationSecondary__StyledWrapper-sc-13y3yjk-0 efjKeB"><div class="wide-container"><h1>Hub</h1><ul class="NavigationListSecondary__StyledList-sc-1gfu7sh-0 jMwHkX"><li class="is-active"><a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-component-m__utvs9I">Overview</a></li><li class=""><a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-component-m__utvs9I/solutions">Solutions</a></li><li class=""><a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-component-m__utvs9I/edit">Submit Solution</a></li></ul></div></div><main><section class="PageIntroWithScreenshot__StyledSection-sc-1lxt3fv-0 fWFmp"><div class="Hub__StyledIntro-sc-1pwo365-0 eGgXUe"><div class="container"><div class="inner"><h1>Profile card component</h1></div><div class="attempts"><span>Attempts:</span><ul><li class="is-active"><a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-component-m__utvs9I">1</a></li></ul></div></div></div></section><div class="container"><section class="StarterSteps__StyledDownloads-sc-1bwxx9r-0 hQtnjl"><ol><li data-number="1"><h2 class="Headings__StyledH3-sc-1gmdub7-2-h2 GCmgF">Download starter files</h2><p>Includes assets, JPG images of the design files 
+            and a basic style guide. There's also a README to help you get started.</p><button class="CTA__StyledLink-sc-8of133-0-button AAlxx">Download Starter<svg width="11" height="12" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFF" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 10.922h9M2.508 1.264C3.492 5.661 4.475 7.86 5.457 7.86c.982 0 1.963-2.199 2.943-6.596"></path></g></svg></button></li><li data-number="2"><h2 class="Headings__StyledH3-sc-1gmdub7-2-h2 GCmgF">Download design file</h2><p>Choose between Sketch or Figma (or choose both!). The design file will
+          help you see exactly what styles are needed.</p><div class="design-download"><button disabled="" class="CTA__StyledLink-sc-8of133-0-button keolOJ">Sketch<svg width="11" height="12" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFF" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 10.922h9M2.508 1.264C3.492 5.661 4.475 7.86 5.457 7.86c.982 0 1.963-2.199 2.943-6.596"></path></g></svg></button><button disabled="" class="CTA__StyledLink-sc-8of133-0-button keolOJ">Figma<svg width="11" height="12" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFF" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M1 10.922h9M2.508 1.264C3.492 5.661 4.475 7.86 5.457 7.86c.982 0 1.963-2.199 2.943-6.596"></path></g></svg></button></div><div class="pro"><span>Become a <a href="https://www.frontendmentor.io/pro"><span class="ProLabel__StyledSpan-k58i26-0 yGEqm">Pro</span></a> member to get design file access</span></div></li><li data-number="3"><div><h2 class="Headings__StyledH3-sc-1gmdub7-2-h2 GCmgF">Submit your solution</h2><p>Once you've completed the challenge, you can submit your solution. Remember 
+          to ask questions if you'd like feedback!</p></div><a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-component-m__utvs9I/edit" class="CTA__StyledLink-sc-8of133-0 CKnSO">Submit Solution</a></li></ol></section><div class="HubDescription__StyledWrapper-sc-9tyioj-0 cLZrya"><div class="main"><div class="info"><table><thead><tr><th>Status</th><th>Likes</th><th>Bookmarks</th><th>Comments</th></tr><tr><td class="status">In Progress</td><td>--</td><td>--</td><td>--</td></tr></thead></table></div><section class="Brief__StyledSection-sc-1ay83bz-0 ogCMt"><div class="content"><div><h3>Brief</h3><p>Your challenge is to build out this profile card component and get it looking as close to the design as possible.</p><p>You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.</p><p>Download the starter code and go through the <code>README.md</code> file. This will provide further details about the project. The <code>style-guide.md</code> file is where you'll find colors, fonts, etc.</p><p>Want some support on the challenge? <a target="_blank" href="https://www.frontendmentor.io/slack">Join our Slack community</a> and ask questions in the help channel.</p></div><div><h3>Getting started</h3><ol><li>Download the starter code</li><li><p>Set up the project with version control (e.g. Git)</p></li><li><p>Read the <code>README.md</code> file and have a look around the project</p></li><li><p>Get colors, fonts etc from the <code>style-guide.md</code> file</p></li><li><p>Set up your project/file architecture however you want</p></li><li><p>Start coding!</p></li></ol></div></div></section></div><aside><div class="meta"><h4 class="Headings__StyledH2-sc-1gmdub7-1-h4 fPCiSd">Difficulty</h4><div class="Level__StyledWrapper-sgfbbj-0 fDHFoy"><ul><li class="highlighted"></li><li class=""></li><li class=""></li><li class=""></li><li class=""></li></ul><span>Newbie</span></div><h4 class="Headings__StyledH2-sc-1gmdub7-1-h4 fPCiSd">Stats</h4><ul><li><span class="number">9,214</span><span class="text">people have started this challenge</span></li><li><span class="number">1,265</span><span class="text">people have completed this challenge</span></li></ul></div></aside></div></div></main><div class="wide-container"><section class="Community__StyledSection-dbxx3y-0 hSeLiP"><div class="container"><img src="./Frontend Mentor _ Profile card component hub_files/logo-slack.svg" alt="Slack logo"><h2 class="Headings__StyledH2-sc-1gmdub7-1 dFqapw">Join our Slack community</h2><p class="strapline">Join over 30,000 people taking the challenges, talking about their code, helping each other, and chatting about all things front-end!</p><div class="CommunityForm__StyledWrapper-sc-13a5ee1-0 jqOBhC"><form novalidate=""><div class="email-input"><label for="slack-email" class="sr-only">Please enter your email address to sign up for the Slack community</label><input id="slack-email" type="email" placeholder="email@example.com" value=""></div><button class="CTA__StyledLink-sc-8of133-0-button gmsnPV">Request Invite</button></form></div></div></section></div><section class="Newsletter__StyledSection-sc-1lutl8q-0 jnMtUq"><div class="container wrapper"><div class="content"><h2 class="Headings__StyledH2-sc-1gmdub7-1 dFqapw">Subscribe to our newsletter</h2><p class="strapline">Stay up-to-date with new challenges, featured solutions, selected articles and Frontend Mentor latest news</p><div class="NewsletterForm__StyledWrapper-sc-1xo7kvt-0 xxErs"><form><div class="checkbox"><input aria-invalid="false" class="sr-only" id="gdpr" name="consent" type="checkbox" value="false"><label for="gdpr">I am happy for Frontend Mentor to contact me by email</label></div><div class="email-input"><label for="newsletter-email" class="sr-only">Please enter your email address to subscribe to the newsletter</label><input aria-invalid="false" id="newsletter-email" name="email" placeholder="email@example.com" type="email" value=""><button class="CTA__StyledLink-sc-8of133-0-button keolOJ">Subscribe</button></div></form></div></div><img src="./Frontend Mentor _ Profile card component hub_files/illustration-desk.svg" alt="Illustration of desk with a computer on top and sticky notes on the wall"></div></section></div><footer class="Footer__StyledFooter-m1yoyo-0 bVWxpc"><div class="upper"><div class="container"><div class="column"><h4 class="Headings__StyledH4-sc-1gmdub7-3 igtfDd">Frontend Mentor</h4><p>Gain real experience of building websites and providing code reviews. Build your portfolio and help others achieve their goals.</p></div><div class="column"><h4 class="Headings__StyledH4-sc-1gmdub7-3 igtfDd">Explore</h4><ul class="links"><li><a href="https://www.frontendmentor.io/pro" class="UnderlinedLink__StyledLink-sc-1u450ml-0 gBmuJH">Unlock <span class="uppercased">pro</span></a></li><li><a href="https://www.frontendmentor.io/challenges" class="UnderlinedLink__StyledLink-sc-1u450ml-0 gBmuJH">Challenges</a></li><li><a href="https://www.frontendmentor.io/solutions" class="UnderlinedLink__StyledLink-sc-1u450ml-0 gBmuJH">Solutions</a></li><li><a href="https://www.frontendmentor.io/resources" class="UnderlinedLink__StyledLink-sc-1u450ml-0 gBmuJH">Resources</a></li></ul></div><div class="column"><h4 class="Headings__StyledH4-sc-1gmdub7-3 igtfDd">Community</h4><ul class="links"><li><a href="https://www.frontendmentor.io/slack" class="UnderlinedLink__StyledLink-sc-1u450ml-0 gBmuJH">Slack</a></li><li><a href="https://medium.com/frontend-mentor" rel="noopener noreferrer" target="_blank" class="UnderlinedLink__StyledLink-sc-1u450ml-0 gBmuJH">Blog</a></li></ul></div><div class="column"><ul class="social-links"><li><a href="https://twitter.com/frontendmentor" rel="noopener noreferrer" target="_blank" class="SocialLink__StyledLink-my1fo8-0 dJmWYN"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><span class="sr-only">Visit our Twitter Page</span></a></li><li><a href="https://www.linkedin.com/company/frontend-mentor" rel="noopener noreferrer" target="_blank" class="SocialLink__StyledLink-my1fo8-0 bpeYNd"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg><span class="sr-only">Visit our LinkedIn Page</span></a></li><li><a href="https://www.facebook.com/frontendmentor" rel="noopener noreferrer" target="_blank" class="SocialLink__StyledLink-my1fo8-0 fDouTR"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg><span class="sr-only">Visit our Facebook Page</span></a></li></ul></div></div></div><div class="lower"><div class="container"><span>© Frontend Mentor 2021</span><ul><li><a href="https://www.iubenda.com/terms-and-conditions/68783624">Terms</a></li><li><a href="https://www.iubenda.com/privacy-policy/68783624/cookie-policy">Cookie Policy</a></li><li><a href="https://www.iubenda.com/privacy-policy/68783624">Privacy Policy</a></li></ul></div></div></footer></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"isServer":true,"initialState":{"auth":{"currentUser":{"settings":{"comments":true,"replies":true,"mentions":true,"achievements":true},"credits":{"screenshots":5,"premium":0,"designs":0},"links":{"gitHub":"https://github.com/devsungyeon"},"admin":false,"mentor":false,"badges":[],"_id":"6006c63f7931c226d2350fcd","username":"devsungyeon","avatar":"https://avatars1.githubusercontent.com/u/57392992?v=4","email":"sungyeonlee1103@gmail.com","achievements":[],"createdAt":"2021-01-19T11:45:03.522Z","updatedAt":"2021-01-19T11:45:03.522Z","bookmarks":[],"solutions":[],"commentCount":0,"mentorScore":0,"hasActiveSubscription":false,"subscription":{}},"invoices":[]},"challenges":{"all":[],"single":{},"solutions":[]},"dashboard":{"communityFeedback":[],"wallOfFame":{"week":[],"month":[],"year":[],"all":[]}},"pages":{"badge":{},"plans":[],"currency":{}},"resources":{"categories":[]},"shared":{"alert":{},"statusCode":null,"questions":[]},"solutions":{"all":[],"single":{}},"user":{"profile":{},"count":0,"isLoading":false,"loadingMessage":null},"form":{}},"initialProps":{"pageProps":{},"isServer":true}},"page":"/githubAuth","query":{"code":"d1671e43aad76e0c50cc"},"buildId":"5tpDuu1XV5y5rai4gWv6u","isFallback":false,"customServer":true,"gip":true,"appGip":true,"head":[["meta",{"charSet":"utf-8"}],["meta",{"httpEquiv":"x-ua-compatible","content":"ie=edge"}],["meta",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}],["title",{"children":"Frontend Mentor | Front-end coding challenges using a real-life workflow"}],["meta",{"name":"description","content":"Improve your front-end skills by building real projects. Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs."}],["link",{"rel":"apple-touch-icon","sizes":"180x180","href":"/static/favicon/apple-touch-icon.png"}],["link",{"rel":"icon","type":"image/png","sizes":"32x32","href":"/static/favicon/favicon-32x32.png"}],["link",{"rel":"icon","type":"image/png","sizes":"16x16","href":"/static/favicon/favicon-16x16.png"}],["link",{"rel":"manifest","href":"/static/favicon/site.webmanifest"}],["link",{"rel":"mask-icon","href":"/static/favicon/safari-pinned-tab.svg","color":"#68becd"}],["meta",{"name":"msapplication-TileColor","content":"#68becd"}],["meta",{"name":"theme-color","content":"#ffffff"}],["meta",{"property":"fb:app_id","content":"401466220320820"}],["meta",{"property":"og:url","content":"https://www.frontendmentor.io/"}],["meta",{"property":"og:type","content":"website"}],["meta",{"property":"og:title","content":"Frontend Mentor | Front-end coding challenges using a real-life workflow"}],["meta",{"property":"og:image","content":"https://res.cloudinary.com/dz209s6jk/image/upload/v1585172856/Meta/meta-homepage.png"}],["meta",{"property":"og:image:width","content":"768"}],["meta",{"property":"og:image:height","content":"512"}],["meta",{"property":"og:description","content":"Improve your front-end skills by building real projects. Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs."}],["meta",{"property":"og:site_name","content":"Frontend Mentor"}],["meta",{"property":"og:locale","content":"en_GB"}],["meta",{"name":"twitter:card","content":"summary_large_image"}],["meta",{"name":"twitter:site","content":"@frontendmentor"}],["meta",{"name":"twitter:url","content":"https://www.frontendmentor.io/"}],["meta",{"name":"twitter:title","content":"Frontend Mentor | Front-end coding challenges using a real-life workflow"}],["meta",{"name":"twitter:description","content":"Improve your front-end skills by building real projects. Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs."}],["meta",{"name":"twitter:image","content":"https://res.cloudinary.com/dz209s6jk/image/upload/v1585172856/Meta/meta-homepage.png"}],["link",{"href":"https://fonts.googleapis.com/css?family=Barlow:500,600,700%7CHeebo:400,500,500i,900\u0026display=fallback","rel":"stylesheet"}],["link",{"href":"https://use.fontawesome.com/releases/v5.3.1/css/svg-with-js.css","rel":"stylesheet"}]]}</script><script nomodule="" src="./Frontend Mentor _ Profile card component hub_files/polyfills-91b6c13f5f9544caa8ee.js.다운로드" type="text/javascript"></script><script async="" src="./Frontend Mentor _ Profile card component hub_files/main-7d8596dd30e0ee3858df.js.다운로드" type="text/javascript"></script><script async="" src="./Frontend Mentor _ Profile card component hub_files/webpack-eb080e3f091731f228fb.js.다운로드" type="text/javascript"></script><script async="" src="./Frontend Mentor _ Profile card component hub_files/framework.67ed7a393648e61eeb76.js.다운로드" type="text/javascript"></script><script async="" src="./Frontend Mentor _ Profile card component hub_files/cb1608f2.e3201cb4e8a54940185d.js.다운로드" type="text/javascript"></script><script async="" src="./Frontend Mentor _ Profile card component hub_files/a9a7754c.3489a2e4b12785b666cc.js.다운로드" type="text/javascript"></script><script async="" src="./Frontend Mentor _ Profile card component hub_files/commons.0a0f806518af1cede0c3.js.다운로드" type="text/javascript"></script><script async="" src="./Frontend Mentor _ Profile card component hub_files/510b680dc918faa4359ba7290e94d4432be1bdf0.6ec741b8e0676d1f23d5.js.다운로드" type="text/javascript"></script><script async="" src="./Frontend Mentor _ Profile card component hub_files/d6c98f4362b56a3c10cd05dd6336aa0c692397a8.6374d34f307387c142cb.js.다운로드" type="text/javascript"></script><script async="" src="./Frontend Mentor _ Profile card component hub_files/bcf1455ac1a7036aa1692c0fbba75befeb3fa783.d5bb0b9aa96ff3a9db78.js.다운로드" type="text/javascript"></script><script async="" src="./Frontend Mentor _ Profile card component hub_files/23feb4716525fafff6d6def1bafac294e5a4793c.e90e92272de594f30ed0.js.다운로드" type="text/javascript"></script><script async="" src="./Frontend Mentor _ Profile card component hub_files/0878c4795807b1b87429a54771ece6a13f7db066.8e0e70fd008bacaa75f7.js.다운로드" type="text/javascript"></script><script async="" src="./Frontend Mentor _ Profile card component hub_files/_app-56dbb2590124e4e15cfd.js.다운로드" type="text/javascript"></script><script async="" src="./Frontend Mentor _ Profile card component hub_files/githubAuth-c914a9c0a6cb31ccb2e1.js.다운로드" type="text/javascript"></script><script async="" src="./Frontend Mentor _ Profile card component hub_files/_buildManifest.js.다운로드" type="text/javascript"></script><script async="" src="./Frontend Mentor _ Profile card component hub_files/_ssgManifest.js.다운로드" type="text/javascript"></script><div id="cb-container" style="position: fixed; inset: 0px; z-index: 2147483647; display: none; overflow-y: scroll;"><div id="cb-loader" style="z-index: 99999; visibility: hidden; transition: all 0.5s ease 0s; background: rgb(244, 245, 249); position: absolute; left: 0px; right: 0px; box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 9px 0px, rgba(0, 0, 0, 0.15) 0px 20px 30px 1px, rgba(0, 0, 0, 0.15) 0px 40px 40px 1px;"><div style="overflow: hidden;"><div id="cb-loader-header" style="padding: 12px 40px; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px; text-align: center; min-height: 64px; box-sizing: border-box;"><div style="min-height: 46px; display: flex; align-items: center; margin-top: 1px;"><img id="cb-header-logo" style="max-height: 40px; max-width: 240px; vertical-align: middle; width: auto; margin: 3px auto;"></div></div><div id="cb-loading-bar" style="height: 2px; background: rgb(72, 231, 154); transition-duration: 0.5s; transition-timing-function: ease-in-out; visibility: hidden;"></div><div style="padding: 24px 36px;"><div class="cb-placeholder" id="cb-placeholder"><div class="wavering" style="height: 20px; width: 100px; background: linear-gradient(to right, rgb(238, 238, 238) 8%, rgb(221, 221, 221) 18%, rgb(238, 238, 238) 33%) 0% 0% / 800px 104px; margin-bottom: 10px;"></div><div class="wavering" style="height: 40px; width: 200px; background: linear-gradient(to right, rgb(238, 238, 238) 8%, rgb(221, 221, 221) 18%, rgb(238, 238, 238) 33%) 0% 0% / 800px 104px; margin-bottom: 10px;"></div><div class="wavering" style="height: 10px; width: 150px; background: linear-gradient(to right, rgb(238, 238, 238) 8%, rgb(221, 221, 221) 18%, rgb(238, 238, 238) 33%) 0% 0% / 800px 104px; margin-bottom: 10px;"></div><div class="wavering" style="height: 10px; width: 150px; background: linear-gradient(to right, rgb(238, 238, 238) 8%, rgb(221, 221, 221) 18%, rgb(238, 238, 238) 33%) 0% 0% / 800px 104px; margin-bottom: 10px;"></div><div class="wavering" style="height: 10px; width: 150px; background: linear-gradient(to right, rgb(238, 238, 238) 8%, rgb(221, 221, 221) 18%, rgb(238, 238, 238) 33%) 0% 0% / 800px 104px; margin-bottom: 10px;"></div></div><div id="cb-error" style="font-size: 18px; line-height: 27px; color: rgb(248, 48, 48); text-align: center; display: none;"></div></div><div id="cb-modal-close" style="position: absolute; background: rgb(57, 57, 65); height: 24px; width: 24px; border-radius: 50%; right: -12px; top: -12px; font-size: 20px; color: rgba(255, 255, 255, 0.7); text-align: center; cursor: pointer; display: table; font-weight: 400; line-height: 24px;">×</div></div></div><iframe id="cb-frame" style="width: 100%; height: 100%; z-index: 999999; visibility: hidden; position: relative; border: 0px;" src="./Frontend Mentor _ Profile card component hub_files/saved_resource.html"></iframe><iframe id="cb-master-frame" name="cb-master-frame" src="./Frontend Mentor _ Profile card component hub_files/master.html" style="margin: 0px; padding: 0px; border: none; overflow: hidden; display: block; min-width: 100%; width: 1px; height: 1.2em;"></iframe></div><script src="./Frontend Mentor _ Profile card component hub_files/29107295.c8b7e52e795e05fa790a.js.다운로드"></script><script src="./Frontend Mentor _ Profile card component hub_files/c64cf350551c4708d158b8cd392f12761b02a011.96b7ae487d8c8eb64761.js.다운로드"></script><script src="./Frontend Mentor _ Profile card component hub_files/pro-19a8cc387afd71669c78.js.다운로드"></script><iframe id="intercom-frame" style="position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0 !important; left: 0 !important; border: none !important; display: block !important; z-index: -1 !important; pointer-events: none;" aria-hidden="true" tabindex="-1" title="Intercom" src="./Frontend Mentor _ Profile card component hub_files/saved_resource(1).html"></iframe><div id="intercom-container" class="intercom-namespace"><style>html.intercom-mobile-messenger-active,html.intercom-mobile-messenger-active > body,html.intercom-modal-open,#intercom-container-body{overflow:hidden !important;}html.intercom-mobile-messenger-active,html.intercom-mobile-messenger-active > body{position:static !important;}html.intercom-mobile-messenger-active > body{height:0 !important;margin:0 !important;}iframe#intercom-frame{position:absolute !important;opacity:0 !important;width:1px !important;height:1px !important;top:0 !important;left:0 !important;border:none !important;display:block !important;z-index:-1 !important;}</style><div class="intercom-app" aria-live="polite"><iframe allowfullscreen="" class="intercom-launcher-frame intercom-17tpz4e e1ur5zlj0" name="intercom-launcher-frame" title="Intercom live chat" data-intercom-frame="true" src="./Frontend Mentor _ Profile card component hub_files/saved_resource(2).html"></iframe><iframe allowfullscreen="" class="intercom-launcher-badge-frame intercom-s06fua e1loc0kc0" name="intercom-launcher-badge-frame" title="Intercom live chat notification" data-intercom-frame="true" src="./Frontend Mentor _ Profile card component hub_files/saved_resource(3).html"></iframe><div id="intercom-modal-container"></div></div></div><div id="intercom-css-container"><style data-emotion="intercom-global"></style><style data-emotion="intercom"></style></div><script src="./Frontend Mentor _ Profile card component hub_files/75fc9c18.0e153fd07cb9e6518900.js.다운로드"></script><script src="./Frontend Mentor _ Profile card component hub_files/3aa6620285b14ca239a868f1316f2f5d8ed3e374.96e063e4c160e9f1db47.js.다운로드"></script><script src="./Frontend Mentor _ Profile card component hub_files/befa8e9fd90e42ff9002db6b1154c374ceda277d.fc3f73cdf5d72caba794.js.다운로드"></script><script src="./Frontend Mentor _ Profile card component hub_files/challenges-0c8e4ae75e04e47cf195.js.다운로드"></script><script src="./Frontend Mentor _ Profile card component hub_files/ed868c8c3e8dcea191a52c75670f070ef538cc68.2325450c9d8050a7dc64.js.다운로드"></script><script src="./Frontend Mentor _ Profile card component hub_files/199e17c9a24793a2db6687fc5ca6ce8933783c17.4bba145089fc411bf18c.js.다운로드"></script><script src="./Frontend Mentor _ Profile card component hub_files/b45c555988f5bf14188ed7d29018edd28165a978.9aaca63b67a197c5ab33.js.다운로드"></script><script src="./Frontend Mentor _ Profile card component hub_files/fb0d9b5f1d4663c25113454ee181f57645922816.63873a2a0ab04a9b20fa.js.다운로드"></script><script src="./Frontend Mentor _ Profile card component hub_files/challenge-2004be5ac18303646778.js.다운로드"></script><script src="./Frontend Mentor _ Profile card component hub_files/d79e74c58777a61bef4f4ebff7878d513d519b0a.6843d413afc27a8fccad.js.다운로드"></script><script src="./Frontend Mentor _ Profile card component hub_files/443886fc15ea2dbd56b30678be0258136e8e8c9f.4711f2a6d48c19389650.js.다운로드"></script><script src="./Frontend Mentor _ Profile card component hub_files/4cbc9e7db9cd488a073c1d4eed0103e0d2c682cd.4847162d747429ba58a7.js.다운로드"></script><script src="./Frontend Mentor _ Profile card component hub_files/solutions-a6ccf16d762e4cfcc18d.js.다운로드"></script><script src="./Frontend Mentor _ Profile card component hub_files/hub-03c55acd6ad575e8ae4b.js.다운로드"></script><script src="./Frontend Mentor _ Profile card component hub_files/hubForm-69630721eb4d91c886d7.js.다운로드"></script></body></html>
