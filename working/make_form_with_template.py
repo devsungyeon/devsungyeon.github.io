@@ -51,5 +51,13 @@ for name in subjectsL9 if Level[0] == level_input else subjectsL7:
 print("Select the subject number you want : ", end="")
 subject_number = int(input())
 
-test = "C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_1.jpg"
-open(test)
+print("Select the year you want : ", end="")
+year_input = int(input())
+
+test = "../assets/images/civil_service_examinatio/Level"+level_input+"_civil_servant/Level"+level_input+"_database/2020_7L/2020_7L_1.jpg"
+#open(test)
+
+
+
+
+
