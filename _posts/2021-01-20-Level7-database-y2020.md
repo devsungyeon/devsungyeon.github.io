@@ -25,7 +25,7 @@ comments: true
 
 1. 관계 데이터 모델의 키와 제약 조건에 대한 설명으로 옳은 것만을 모두 고르면?
 
-![2020_7L_1](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_1.jpg)
+![2020_7L_1](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_1.jpg)
 
 **답 : ③ **
 
@@ -65,7 +65,7 @@ comments: true
 
 2. 
 
-![2020_7L_2](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_2.jpg)
+![2020_7L_2](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_2.jpg)
 
 **답 : **
 
@@ -85,7 +85,7 @@ comments: true
 
 3. 
 
-![2020_7L_3](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_3.jpg)
+![2020_7L_3](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_3.jpg)
 
 **답 : **
 
@@ -105,7 +105,7 @@ comments: true
 
 4. 
 
-![2020_7L_4](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_4.jpg)
+![2020_7L_4](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_4.jpg)
 
 **답 : ④**
 
@@ -125,7 +125,7 @@ comments: true
 
 5. 
 
-![2020_7L_5](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_5.jpg)
+![2020_7L_5](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_5.jpg)
 
 **답 : **
 
@@ -145,7 +145,7 @@ comments: true
 
 6. 
 
-![2020_7L_6](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_6.jpg)
+![2020_7L_6](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_6.jpg)
 
 **답 : **
 
@@ -163,7 +163,7 @@ comments: true
 
 7. 
 
-![2020_7L_7](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_7.jpg)
+![2020_7L_7](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_7.jpg)
 
 **답 : **
 
@@ -183,7 +183,7 @@ comments: true
 
 8. 
 
-![2020_7L_8](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_8.jpg)
+![2020_7L_8](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_8.jpg)
 
 **답 : **
 
@@ -203,7 +203,7 @@ comments: true
 
 9. 
 
-![2020_7L_9](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_9.jpg)
+![2020_7L_9](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_9.jpg)
 
 **답 : ①**
 
@@ -223,7 +223,7 @@ comments: true
 
 10. 
 
-![2020_7L_10](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_10.jpg)
+![2020_7L_10](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_10.jpg)
 
 **답 : **
 
@@ -243,7 +243,7 @@ comments: true
 
 11. 
 
-![2020_7L_11](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_11.jpg)
+![2020_7L_11](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_11.jpg)
 
 **답 : **
 
@@ -263,7 +263,7 @@ comments: true
 
 12. 
 
-![2020_7L_12](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_12.jpg)
+![2020_7L_12](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_12.jpg)
 
 **답 : **
 
@@ -283,7 +283,7 @@ comments: true
 
 13. 
 
-![2020_7L_13](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_13.jpg)
+![2020_7L_13](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_13.jpg)
 
 **답 : **
 
@@ -303,7 +303,7 @@ comments: true
 
 14. 
 
-![2020_7L_14](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_14.jpg)
+![2020_7L_14](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_14.jpg)
 
 **답 : **
 
@@ -323,7 +323,7 @@ comments: true
 
 15. 
 
-![2020_7L_15](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_15.jpg)
+![2020_7L_15](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_15.jpg)
 
 **답 : **
 
@@ -343,7 +343,7 @@ comments: true
 
 16. 
 
-![2020_7L_16](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_16.jpg)
+![2020_7L_16](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_16.jpg)
 
 **답 : **
 
@@ -363,7 +363,7 @@ comments: true
 
 17. 
 
-![2020_7L_17](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_17.jpg)
+![2020_7L_17](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_17.jpg)
 
 **답 : **
 
@@ -383,7 +383,7 @@ comments: true
 
 18. 
 
-![2020_7L_18](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_18.jpg)
+![2020_7L_18](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_18.jpg)
 
 **답 : **
 
@@ -403,7 +403,7 @@ comments: true
 
 19. 
 
-![2020_7L_19](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_19.jpg)
+![2020_7L_19](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_19.jpg)
 
 **답 : **
 
@@ -423,7 +423,7 @@ comments: true
 
 20. 
 
-![2020_7L_20](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_database\2020_7L\2020_7L_20.jpg)
+![2020_7L_20](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_20.jpg)
 
 **답 : **
 
