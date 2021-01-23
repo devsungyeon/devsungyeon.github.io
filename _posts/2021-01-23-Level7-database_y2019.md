@@ -24,7 +24,7 @@ comments: true
 ## 1. 
 
 1. 
-![2019_7L_1](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_1.jpg)
+![2019_7L_1](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_1.jpg)
 
 
 **답 : **
@@ -44,7 +44,7 @@ comments: true
 ## 2. 
 
 2. 
-![2019_7L_2](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_2.jpg)
+![2019_7L_2](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_2.jpg)
 
 
 **답 : **
@@ -64,7 +64,7 @@ comments: true
 ## 3. 
 
 3. 
-![2019_7L_3](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_3.jpg)
+![2019_7L_3](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_3.jpg)
 
 
 **답 : **
@@ -84,7 +84,7 @@ comments: true
 ## 4. 
 
 4. 
-![2019_7L_4](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_4.jpg)
+![2019_7L_4](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_4.jpg)
 
 
 **답 : **
@@ -104,7 +104,7 @@ comments: true
 ## 5. 
 
 5. 
-![2019_7L_5](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_5.jpg)
+![2019_7L_5](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_5.jpg)
 
 
 **답 : **
@@ -124,7 +124,7 @@ comments: true
 ## 6. 
 
 6. 
-![2019_7L_6](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_6.jpg)
+![2019_7L_6](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_6.jpg)
 
 
 **답 : **
@@ -142,7 +142,7 @@ comments: true
 ## 7. 
 
 7. 
-![2019_7L_7](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_7.jpg)
+![2019_7L_7](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_7.jpg)
 
 
 **답 : **
@@ -162,7 +162,7 @@ comments: true
 ## 8. 
 
 8. 
-![2019_7L_8](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_8.jpg)
+![2019_7L_8](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_8.jpg)
 
 
 **답 : **
@@ -182,7 +182,7 @@ comments: true
 ## 9. 
 
 9. 
-![2019_7L_9](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_9.jpg)
+![2019_7L_9](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_9.jpg)
 
 
 **답 : **
@@ -202,7 +202,7 @@ comments: true
 ## 10. 
 
 10. 
-![2019_7L_10](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_10.jpg)
+![2019_7L_10](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_10.jpg)
 
 
 **답 : **
@@ -222,7 +222,7 @@ comments: true
 ## 11. 
 
 11. 
-![2019_7L_11](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_11.jpg)
+![2019_7L_11](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_11.jpg)
 
 
 **답 : **
@@ -242,7 +242,7 @@ comments: true
 ## 12. 
 
 12. 
-![2019_7L_12](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_12.jpg)
+![2019_7L_12](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_12.jpg)
 
 
 **답 : **
@@ -262,7 +262,7 @@ comments: true
 ## 13. 
 
 13. 
-![2019_7L_13](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_13.jpg)
+![2019_7L_13](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_13.jpg)
 
 
 **답 : **
@@ -282,7 +282,7 @@ comments: true
 ## 14. 
 
 14. 
-![2019_7L_14](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_14.jpg)
+![2019_7L_14](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_14.jpg)
 
 
 **답 : **
@@ -302,7 +302,7 @@ comments: true
 ## 15. 
 
 15. 
-![2019_7L_15](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_15.jpg)
+![2019_7L_15](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_15.jpg)
 
 
 **답 : **
@@ -322,7 +322,7 @@ comments: true
 ## 16. 
 
 16. 
-![2019_7L_16](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_16.jpg)
+![2019_7L_16](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_16.jpg)
 
 
 **답 : **
@@ -342,7 +342,7 @@ comments: true
 ## 17. 
 
 17. 
-![2019_7L_17](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_17.jpg)
+![2019_7L_17](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_17.jpg)
 
 
 **답 : **
@@ -362,7 +362,7 @@ comments: true
 ## 18. 
 
 18. 
-![2019_7L_18](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_18.jpg)
+![2019_7L_18](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_18.jpg)
 
 
 **답 : **
@@ -382,7 +382,7 @@ comments: true
 ## 19. 
 
 19. 
-![2019_7L_19](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_19.jpg)
+![2019_7L_19](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_19.jpg)
 
 
 **답 : **
@@ -402,7 +402,7 @@ comments: true
 ## 20. 
 
 20. 
-![2019_7L_20](../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_20.jpg)
+![2019_7L_20](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_20.jpg)
 
 
 **답 : **

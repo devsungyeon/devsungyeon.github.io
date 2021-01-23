@@ -36,10 +36,10 @@ subjectsL7 = [
     'softwareeng'
 ]
 
-linksubjectsL9start = "../assets/images/civil_service_examinatio/Level9_civil_servant/Level9_"
+linksubjectsL9start = "/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_"
 #linksubjectsL9start = "C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_"
 linksubjectsL9tail = "_9L/"
-linksubjectsL7start = "../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_"
+linksubjectsL7start = "/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_"
 #linksubjectsL7start = "C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_"
 linksubjectsL7tail = "_7L/"
 
