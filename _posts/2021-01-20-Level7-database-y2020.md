@@ -63,19 +63,13 @@ comments: true
 
 ## 2. 
 
-2. 
+2. 릴레이션 스키마의 표현은 릴레이션명(속성명1:도메인1, 속성명2:도메인2, ..., 속성명n:도메인n)이다. 이 표현을 따르는 릴레이션 스키마 A(a:int, x:int, c:int)와 B(b:int, x:int, d:int)에 대한 관계대수식 ??와 동등한 관계대수식은? 
 
 ![2020_7L_2](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_2.jpg)
 
-**답 : **
+**답 : ④**
 
-①
-
-②
-
-③
-
-④
+a>10의 비교연산은 A 테이블에만 속한 속성으로 비교를 하므로, 우선 실행하여 A릴레이션의 튜플의 수를 줄일 수 있다.
 
 
 
@@ -83,31 +77,38 @@ comments: true
 
 ## 3. 
 
-3. 
-
+3. 스키마가 사원(<u>사원번호</u>, 직급, 보너스)인 사원 테이블의 인스턴스가 <보기 1>과 같을 때, <보기 2>의 ㄱ, ㄴ에 들어갈 말로 옳게 짝 지은 것은?
+		
 ![2020_7L_3](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_3.jpg)
 
-**답 : **
+**답 : ③**
 
-①
+ㄱ.
+사원번호 --> 직급
+직급 --> 보너스
 
-②
+따라서, 이행적 함수 종속을 가진다.
 
-③
-
-④
-
+ㄴ.
+1 항상 도메인. 도메인은 원자값
+2 부분 함수 종속 제거
+3 이행적 함수 종속 제거
+4 결정자는 항상 후보키
+5 다치 종속 제거
+6 조인 종속 제거
 
 
 ---
 
 ## 4. 
 
-4. 
+4. 데이터베이스 시스템에서 데이터 저장 요구량이 빠르게 증가하고 있어서 많은 수의 디스크가 요구된다. 다수의 디스크 드라이브를 사용하여 저장 용량을 늘리고 읽기와 쓰기를 병렬로 수행하기도 하며, 디스크의 고장에 대비하기 위해 RAID(Redundant Arrays of Independent Disks)를 구성하여 활용한다. 이와 같은 RAID에서 1 TByte 디스크 드라이브 6개를 이용하여 RAID를 구성할 때, 구성된 RAID의 저장 용량이 가장 작은 구성 방법은?
 
 ![2020_7L_4](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_4.jpg)
 
-**답 : ④**
+**답 : ②**
+
+Mirroring이 가장 저장 용량이 작다.
 
 ①
 
@@ -123,11 +124,14 @@ comments: true
 
 ## 5. 
 
-5. 
+5. 다음은 산업통계 테이블이다. 이 테이블을 대상으로 아래 결과를 출력하고자 한다. 이를 위한 SQL 질의문은?
 
 ![2020_7L_5](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_5.jpg)
 
-**답 : **
+**답 : ③**
+
+SQL 실행결과를 보면,
+대분류에서 각 산업 부분 별로 종사수가 가장 많은 튜플을 출력하였다.
 
 ①
 
@@ -143,11 +147,13 @@ comments: true
 
 ## 6. 
 
-6. 
+6. 버킷 용량 C = 2 인 버킷들의 주소 공간이 0 ~ (N-1)인 해시에서 키를 K로 하는 해시 함수 h(K) = K mod N 이고, N 값은 5이다. 이때 일련의 K 값들이 3, 5, 7, 9, 11, 13, 18, 14 순서로 삽입된 후 4번 버킷의 값은? (단, 버킷에서의 충돌은 충돌 발생 버킷 주소 i에 대하여 (i+1)mod N을 통해 지정하는 선형탐색 개방 주소법을 이용하여 해결한다)
 
 ![2020_7L_6](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_6.jpg)
 
-**답 : **
+**답 : ④**
+
+선형탐색 개방 주소법 : 버킷에 데이터가 존재하여 충돌이 발생할 경우, 순차적으로 다음 버킷을 확인하여 빈 버킷을 찾아 데이터를 삽입한다.
 
 ①
 
@@ -161,11 +167,17 @@ comments: true
 
 ## 7. 
 
-7. 
+7. 다음 트랜잭션 스케줄의 선행그래프(precedence graph)로 옳은 것은? (단, ti는 시간단위, Tj는 트랜잭션, R(A)는 A항목 읽기, W(A)는 A항목 쓰기를 나타낸다)
 
 ![2020_7L_7](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_7.jpg)
 
-**답 : **
+**답 : ①**
+
+각 트랜잭션에서 다른 트랜잭션으로의 충돌이 발생했는지 확인하여 그래프를 그린다.
+충돌
+Read - Write 충돌
+Write - Read 충돌
+Write - Write 충돌
 
 ①
 
@@ -181,19 +193,14 @@ comments: true
 
 ## 8. 
 
-8. 
+8. 다음 SQL 구문에 대한 설명으로 옳지 않은 것은? 
 
 ![2020_7L_8](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_8.jpg)
 
-**답 : **
+**답 : ①**
 
-①
-
-②
-
-③
-
-④
+① 명시된 이벤트가 발생할 때마다 DBMS가 자동적으로 수행하는 구문이다.
+ ==> 
 
 
 
