@@ -36,11 +36,11 @@ subjectsL7 = [
     'softwareeng'
 ]
 
-#linksubjectsL9start = "../assets/images/civil_service_examinatio/Level9_civil_servant/Level9_"
-linksubjectsL9start = "C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_"
+linksubjectsL9start = "../assets/images/civil_service_examinatio/Level9_civil_servant/Level9_"
+#linksubjectsL9start = "C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_"
 linksubjectsL9tail = "_9L/"
-#linksubjectsL7start = "../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_"
-linksubjectsL7start = "C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_"
+linksubjectsL7start = "../assets/images/civil_service_examinatio/Level7_civil_servant/Level7_"
+#linksubjectsL7start = "C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_"
 linksubjectsL7tail = "_7L/"
 
 
@@ -71,22 +71,24 @@ file_name = "yyyy-mm-dd-Level" + str(level_input) + "-" + subject_name + "_y" + 
 print(file_name)
 
 # Load the file into file_content
-file_content = [ line for line in open('data-d.md') ]
+#file_content = [ line for line in open('data-d.md') ]
+file_content = [ line for line in open(file_name) ]
 
 # Overwrite it
-writer = open('data.md','w')
+writer = open(file_name,'w')
 
 i = 1
 #![2016_9L_1](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_computerbasic\2016_9L\2016_9L_1.jpg)
-problems_year_format = "#![" + str(year_input) + "_" + str(level_input) + "L_"
+problems_year_format = "![" + str(year_input) + "_" + str(level_input) + "L_"
 for line in file_content:
     # Re-write the file at 
     # each iteration
-    writer.write(line)
+	writer.write(line)
 
     # We search for the correct section
-    if line.startswith(str(i) + "."):
-        section = problems_year_format + str(i) + "](" + link + str(i) + ".jpg)"
-        print(section)
-        writer.write(section)
+	if line.startswith(str(i) + "."):
+		section = problems_year_format + str(i) + "](" + link + str(i) + ".jpg)"
+		print(section)
+		writer.write(section)
+		i+=1
 writer.close()
