@@ -67,7 +67,7 @@ link += str(year_input) + "_" + str(level_input) + "L/"
 link += str(year_input) + "_" + str(level_input) + "L_"
 print(link)
 
-file_name = "yyyy-mm-dd-Level" + str(level_input) + "-" + subject_name + "_y" + str(year_input) + ".md"
+file_name = "yyyy-mm-dd-Level" + str(level_input) + "-" + subject_name + "-y" + str(year_input) + ".md"
 print(file_name)
 
 # Load the file into file_content
