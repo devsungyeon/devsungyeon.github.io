@@ -79,6 +79,7 @@ a>10의 비교연산은 A 테이블에만 속한 속성으로 비교를 하므�
 
 3. 스키마가 사원(<u>사원번호</u>, 직급, 보너스)인 사원 테이블의 인스턴스가 <보기 1>과 같을 때, <보기 2>의 ㄱ, ㄴ에 들어갈 말로 옳게 짝 지은 것은?
 		
+
 ![2020_7L_3](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_3.jpg)
 
 **답 : ③**
@@ -200,7 +201,14 @@ Write - Write 충돌
 **답 : ①**
 
 ① 명시된 이벤트가 발생할 때마다 DBMS가 자동적으로 수행하는 구문이다.
- ==> 
+
+ ==> Trigger에 대한 설명이다.
+
+- CREATE ASSERTION ; 제약조건에 위배되는 연산을 수행하지 못하게 함.
+
+- CREATE TRIGGER ; 제약조건을 위배하는 경우 동작.
+
+
 
 
 
@@ -208,11 +216,11 @@ Write - Write 충돌
 
 ## 9. 
 
-9. 
+9. XML Schema와 DTD에 대한 비교 중 옳지 않은 것으로만 묶은 것은?
 
 ![2020_7L_9](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_9.jpg)
 
-**답 : ①**
+**답 : ③**
 
 ①
 
@@ -228,19 +236,26 @@ Write - Write 충돌
 
 ## 10. 
 
-10. 
+10. 즉시 갱신(Immediate Update) 전략을 이용하는 회복 시스템에서 <보기 1>의 로그 레코드 형식으로 <보기 2>의 로그 레코드가 형성되어 있다. 복구는 REDO 단계 실행 후 UNDO 단계를 실행한다. 이 시스템에서 복구 절차에 대한 설명으로 옳지 않은 것으로만 묶은 것은?
 
 ![2020_7L_10](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_10.jpg)
 
-**답 : **
+**답 : ②**
 
-①
+ㄴ. T0의 rollback을 처리하기 위하여 생성된 <T0, C, 300>, <T0, A, 100>은 복구과정에서 UNDO 단계 연산이 된다.
 
-②
 
-③
 
-④
+ㅁ. REDO 단계에서는 REDO 연산에 따른 로그 레코드를 로그에 기록한다.
+
+
+
+- 지연갱신
+  - 트랜잭션이 commit될 때까지 갱신 내용을 디스크에 저장하지 않고 지연.
+  - 트랜잭션 실행 중, 갱신된 내용을 주기억장치의 버퍼에 기록한다.
+  - 트랜잭션이 commit하면 버퍼의 내용을 디스크로 저장하도록 OS에 요청.
+  - 
+- 즉시갱신
 
 
 
