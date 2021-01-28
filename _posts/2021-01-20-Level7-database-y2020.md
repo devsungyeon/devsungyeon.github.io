@@ -331,7 +331,7 @@ Durability(영속성, 지속성) ; 성공적으로 수행된 트랜잭션은 영
 
 ## 14. 
 
-14. 
+14. 다음은 트랜잭션의 수행 중에 장애가 발생할 경우의 회복(Recovery) 기법을 적용하여 트랜잭션의 상태를 복구시키는 사례이다. 로그는 그대로 기록을 유지하면서, 회복 관리자가 정하는 일정한 시간 간격으로 검사점을 생성하는 Checkpoint 회복기법을 적용하는 경우에 트랜잭션들의 상태를 설명한 것으로 옳지 않은 것은?
 
 ![2020_7L_14](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_14.jpg)
 
@@ -351,7 +351,7 @@ Durability(영속성, 지속성) ; 성공적으로 수행된 트랜잭션은 영
 
 ## 15. 
 
-15. 
+15. 다음은 테이블을 생성하는 SQL 구문이다. 이 테이블에 대한 연산을 설명하는 것으로 옳지 않은 것은?
 
 ![2020_7L_15](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_15.jpg)
 
@@ -371,7 +371,7 @@ Durability(영속성, 지속성) ; 성공적으로 수행된 트랜잭션은 영
 
 ## 16. 
 
-16. 
+16. 두 트랜잭션 스케줄 s1, s2에 대하여, s1의 비연쇄(Cascadeless) 스케줄 여부와 s2의 s1에 대한 뷰 동치 여부로 옳게 짝지어진 것은? (단, ri, wi, ci는 각각 트랜잭션 Ti의 읽기, 쓰기, 완료 연산을 의미한다)
 
 ![2020_7L_16](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_16.jpg)
 
@@ -391,7 +391,7 @@ Durability(영속성, 지속성) ; 성공적으로 수행된 트랜잭션은 영
 
 ## 17. 
 
-17. 
+17. 다음 시스템 카탈로그(System Catalog)에 대한 설명으로 옳은 것으로만 묶은 것은?
 
 ![2020_7L_17](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_17.jpg)
 
@@ -411,7 +411,7 @@ Durability(영속성, 지속성) ; 성공적으로 수행된 트랜잭션은 영
 
 ## 18. 
 
-18. 
+18. 다음은 제품 데이터베이스의 스키마 다이어그램과 인스턴스를 나타낸 것이다. 데이터베이스를 구성하는 이 두 테이블을 대상으로 아래 결과를 출력하고자 한다. 이를 위한 SQL 질의문은?
 
 ![2020_7L_18](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_18.jpg)
 
@@ -431,7 +431,7 @@ Durability(영속성, 지속성) ; 성공적으로 수행된 트랜잭션은 영
 
 ## 19. 
 
-19. 
+19. 다음 데이터베이스 시스템의 질의최적화에 대한 설명으로 옳지 않은 것으로만 묶은 것은?
 
 ![2020_7L_19](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_19.jpg)
 
@@ -451,7 +451,7 @@ Durability(영속성, 지속성) ; 성공적으로 수행된 트랜잭션은 영
 
 ## 20. 
 
-20. 
+20. 트랜잭션 고립 수준 중 REPEATABLE READ 모드에서 발생할 수 있는 문제를 모두 고르면?
 
 ![2020_7L_20](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_20.jpg)
 
