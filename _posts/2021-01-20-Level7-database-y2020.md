@@ -21,7 +21,7 @@ comments: true
 
 
 
-## 1. 
+## 1. 관계 데이터 모델의 키와 제약...
 
 1. 관계 데이터 모델의 키와 제약 조건에 대한 설명으로 옳은 것만을 모두 고르면?
 
@@ -61,7 +61,7 @@ comments: true
 
 ---
 
-## 2. 
+## 2. 릴레이션 스키마의 표현은...
 
 2. 릴레이션 스키마의 표현은 릴레이션명(속성명1:도메인1, 속성명2:도메인2, ..., 속성명n:도메인n)이다. 이 표현을 따르는 릴레이션 스키마 A(a:int, x:int, c:int)와 B(b:int, x:int, d:int)에 대한 관계대수식 ??와 동등한 관계대수식은? 
 
@@ -75,7 +75,7 @@ a>10의 비교연산은 A 테이블에만 속한 속성으로 비교를 하므�
 
 ---
 
-## 3. 
+## 3. 스키마가 사원(<u>사원번호</u>...
 
 3. 스키마가 사원(<u>사원번호</u>, 직급, 보너스)인 사원 테이블의 인스턴스가 <보기 1>과 같을 때, <보기 2>의 ㄱ, ㄴ에 들어갈 말로 옳게 짝 지은 것은?
 		
@@ -101,7 +101,7 @@ a>10의 비교연산은 A 테이블에만 속한 속성으로 비교를 하므�
 
 ---
 
-## 4. 
+## 4. 데이터베이스 시스템에서 ...
 
 4. 데이터베이스 시스템에서 데이터 저장 요구량이 빠르게 증가하고 있어서 많은 수의 디스크가 요구된다. 다수의 디스크 드라이브를 사용하여 저장 용량을 늘리고 읽기와 쓰기를 병렬로 수행하기도 하며, 디스크의 고장에 대비하기 위해 RAID(Redundant Arrays of Independent Disks)를 구성하여 활용한다. 이와 같은 RAID에서 1 TByte 디스크 드라이브 6개를 이용하여 RAID를 구성할 때, 구성된 RAID의 저장 용량이 가장 작은 구성 방법은?
 
@@ -123,7 +123,7 @@ Mirroring이 가장 저장 용량이 작다.
 
 ---
 
-## 5. 
+## 5. 다음은 산업통계 테이블...
 
 5. 다음은 산업통계 테이블이다. 이 테이블을 대상으로 아래 결과를 출력하고자 한다. 이를 위한 SQL 질의문은?
 
@@ -146,7 +146,7 @@ SQL 실행결과를 보면,
 
 ---
 
-## 6. 
+## 6. 버킷 용량 C = 2 인 버킷...
 
 6. 버킷 용량 C = 2 인 버킷들의 주소 공간이 0 ~ (N-1)인 해시에서 키를 K로 하는 해시 함수 h(K) = K mod N 이고, N 값은 5이다. 이때 일련의 K 값들이 3, 5, 7, 9, 11, 13, 18, 14 순서로 삽입된 후 4번 버킷의 값은? (단, 버킷에서의 충돌은 충돌 발생 버킷 주소 i에 대하여 (i+1)mod N을 통해 지정하는 선형탐색 개방 주소법을 이용하여 해결한다)
 
@@ -166,7 +166,7 @@ SQL 실행결과를 보면,
 
 
 
-## 7. 
+## 7. 다음 트랜잭션 스케줄의...
 
 7. 다음 트랜잭션 스케줄의 선행그래프(precedence graph)로 옳은 것은? (단, ti는 시간단위, Tj는 트랜잭션, R(A)는 A항목 읽기, W(A)는 A항목 쓰기를 나타낸다)
 
@@ -192,7 +192,7 @@ Write - Write 충돌
 
 ---
 
-## 8. 
+## 8. 다음 SQL 구문에 대한...
 
 8. 다음 SQL 구문에 대한 설명으로 옳지 않은 것은? 
 
@@ -214,7 +214,7 @@ Write - Write 충돌
 
 ---
 
-## 9. 
+## 9. XML Schema와 DTD에 대한...
 
 9. XML Schema와 DTD에 대한 비교 중 옳지 않은 것으로만 묶은 것은?
 
@@ -234,7 +234,7 @@ Write - Write 충돌
 
 ---
 
-## 10. 
+## 10. 즉시 갱신(Immediate Update...
 
 10. 즉시 갱신(Immediate Update) 전략을 이용하는 회복 시스템에서 <보기 1>의 로그 레코드 형식으로 <보기 2>의 로그 레코드가 형성되어 있다. 복구는 REDO 단계 실행 후 UNDO 단계를 실행한다. 이 시스템에서 복구 절차에 대한 설명으로 옳지 않은 것으로만 묶은 것은?
 
@@ -266,7 +266,7 @@ Write - Write 충돌
 
 ---
 
-## 11. 
+## 11. 데이터베이스에 대한 ...
 
 11. 데이터베이스에 대한 설명으로 옳지 않은 것은?
 
@@ -274,41 +274,48 @@ Write - Write 충돌
 
 **답 : ②**
 
-②
-
+② 데이터 중복성이란 한 시스템 내에 내용이 같은 데이터가 중복 저장 관리되는 것을 의미하며, 경제성 문제는 발생하나 ~~보안성은 향상된다.~~
+ ==> 데이터가 중복되면 필요 용량이 늘어나게 되므로, 경제성 문제가 발생한다.
+ ==> 하지만 동일 데이터가 여러 곳에 존재하게 되므로 보안성 문제도 발생한다.
 
 
 
 
 ---
 
-## 12. 
+## 12. 트랜잭션의 특성에 대한...
 
-12. 
+12. 트랜잭션의 특성에 대한 설명으로 옳지 않은 것은?
 
 ![2020_7L_12](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_12.jpg)
 
-**답 : **
+**답 : ④**
 
-①
+④ S은행 계좌에서 K은행 계좌로 이체하는 트랜잭션을 수행하는 동안 다른 트랜잭션이 관여할 수 없으나 ~~참조할 수는 있다.~~
+ ==> 트랜잭션 수행 중에는 다른 트랜잭션의 영향을 받지 않는다. ==> Isolation
 
-②
+Atomicity(원자성) ; Commit or Rollback
+Consistency(일관성) ; 트랜잭션이 실행을 성공적으로 완료하면 언제나 일관성있는 데이터베이스 상태로 유지.
+Isolation(고립성) ; 트랜잭션을 수행 시 다른 트랜잭션의 연산 작업이 끼어들지 않도록 보장.
+Durability(영속성, 지속성) ; 성공적으로 수행된 트랜잭션은 영원히 반영.
 
-③
 
-④
+① ==> Atomicity
 
+② ==> Durability
+
+③ ==> Consistency
 
 
 ---
 
-## 13. 
+## 13. 다음의 사원 테이블에 대한...
 
-13. 
+13. 다음의 사원 테이블에 대한 SQL 질의문의 결과는? (단, 열 A, B는 모두 INTEGER 타입이고, 값이 표시되어 있지 않은 열은 NULL이다.)
 
 ![2020_7L_13](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_13.jpg)
 
-**답 : **
+**답 : ①**
 
 ①
 
@@ -328,7 +335,7 @@ Write - Write 충돌
 
 ![2020_7L_14](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_14.jpg)
 
-**답 : **
+**답 : ②**
 
 ①
 
@@ -348,7 +355,7 @@ Write - Write 충돌
 
 ![2020_7L_15](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_15.jpg)
 
-**답 : **
+**답 : ②**
 
 ①
 
@@ -368,7 +375,7 @@ Write - Write 충돌
 
 ![2020_7L_16](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_16.jpg)
 
-**답 : **
+**답 : ②**
 
 ①
 
@@ -388,7 +395,7 @@ Write - Write 충돌
 
 ![2020_7L_17](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_17.jpg)
 
-**답 : **
+**답 : ③**
 
 ①
 
@@ -408,7 +415,7 @@ Write - Write 충돌
 
 ![2020_7L_18](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_18.jpg)
 
-**답 : **
+**답 : ③**
 
 ①
 
@@ -428,7 +435,7 @@ Write - Write 충돌
 
 ![2020_7L_19](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_19.jpg)
 
-**답 : **
+**답 : ③**
 
 ①
 
@@ -448,7 +455,7 @@ Write - Write 충돌
 
 ![2020_7L_20](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2020_7L/2020_7L_20.jpg)
 
-**답 : **
+**답 : ①**
 
 ①
 
