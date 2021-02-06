@@ -36,11 +36,11 @@ subjectsL7 = [
     'softwareeng'
 ]
 
-linksubjectsL9start = "/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_"
-#linksubjectsL9start = "C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_"
+#linksubjectsL9start = "/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_"
+linksubjectsL9start = "C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_"
 linksubjectsL9tail = "_9L/"
-linksubjectsL7start = "/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_"
-#linksubjectsL7start = "C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_"
+#linksubjectsL7start = "/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_"
+linksubjectsL7start = "C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_"
 linksubjectsL7tail = "_7L/"
 
 
@@ -67,12 +67,12 @@ link += str(year_input) + "_" + str(level_input) + "L/"
 link += str(year_input) + "_" + str(level_input) + "L_"
 print(link)
 
-file_name = "yyyy-mm-dd-Level" + str(level_input) + "-" + subject_name + "-y" + str(year_input) + ".md"
+file_name = "C:\GitHub\devsungyeon.github.io\working" + "/" + "yyyy-mm-dd-Level" + str(level_input) + "-" + subject_name + "-y" + str(year_input) + ".md"
 print(file_name)
 
 # Load the file into file_content
 #file_content = [ line for line in open('data-d.md') ]
-file_content = [ line for line in open(file_name) ]
+file_content = [ line for line in open(file_name,"r", encoding="utf-8") ]
 
 # Overwrite it
 writer = open(file_name,'w')
