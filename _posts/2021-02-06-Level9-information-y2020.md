@@ -21,7 +21,7 @@ comments: true
 
 
 
-## 1.  정보보호 위험관리에 대한...
+## 1.  정보보호 ...
 
 1. 정보보호 위험관리에 대한 설명으로 옳지 않은 것은?
 
@@ -37,7 +37,7 @@ comments: true
 
 ---
 
-## 2.  공개키 암호화에 대한...
+## 2.  공개키 암호화에...
 
 2. 공개키 암호화에 대한 설명으로 옳지 않은 것은?
 
@@ -53,7 +53,7 @@ comments: true
 
 ---
 
-## 3. X.509 인증서 형식 필드에 대한...
+## 3. X.509 인증서 형식...
 
 3. X.509 인증서 형식 필드에 대한 설명으로 옳은 것은?
 
@@ -112,7 +112,7 @@ comments: true
 
 ---
 
-## 4. 일방향 해시함수를 사용하여 ...
+## 4. 일방향 해시함수를  ...
 
 4. 일방향 해시함수를 사용하여 비밀번호를 암호화할 땐 salt라는 난수를 추가하는 이유는?
 
@@ -146,7 +146,7 @@ comments: true
 
 ---
 
-## 5. 윈도우 운영체제에서 TPM...
+## 5. 윈도우 운영체제에서...
 
 5. 
 윈도우 운영체제에서 TPM(Trusted Platform Module)에 대한 설명으로 옳지 않은 것은?![2020_9L_5](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/2020_9L_5.jpg)
@@ -173,7 +173,7 @@ comments: true
 
 ---
 
-## 6. 키 K에 대한 블록 암호 알고리즘 ...
+## 6. 키 K에 대한 블록  ...
 
 6. 
 키 K에 대한 블록 암호 알고리즘 Ek, 평문블록 Mi, Z0는 초기벡터, Zi = Ek(Zi-1)가 주어진 경우, 이때 i=1, 2, ..., n에 대해 암호블록 Ci를 Ci = Zi xor Mi로 계산하는 운영모드는? (단, xor는 배타적 논리합이다)![2020_9L_6](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/2020_9L_6.jpg)
@@ -219,7 +219,7 @@ OFB ; 초기벡터를 계속해서 암호화가며, 평문블록과 XOR연산을
 
 
 
-## 7. 정보보호 시스템 평가 기준에...
+## 7. 정보보호 시스템 ...
 
 7. 정보보호 시스템 평가 기준에 대한 설명으로 옳은 것은?
 
@@ -296,7 +296,7 @@ OFB ; 초기벡터를 계속해서 암호화가며, 평문블록과 XOR연산을
 
 ---
 
-## 8. SSL(Secure Socket Layer)의 ...
+## 8. SSL(Secure Socket ...
 
 8. 
 SSL(Secure Socket Layer)의 Handshake 프로토콜에서 클라이언트와 서버 간에 논리적 연결 수립을 위해 클라이언트가 최초로 전송하는 ClientHello 메시지에 포함되는 정보가 아닌 것은?![2020_9L_8](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/2020_9L_8.jpg)
@@ -326,7 +326,7 @@ SSL(Secure Socket Layer)의 Handshake 프로토콜에서 클라이언트와 서�
 
 ---
 
-## 9. 개인정보 보호법 상 기본계획에 ...
+## 9. 개인정보 보호법...
 
 9. 
 개인정보 보호법 상 기본계획에 대한 조항의 일부이다. ㄱ, ㄴ에 들어갈 내용을 바르게 연결한 것은?![2020_9L_9](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/2020_9L_9.jpg)
@@ -337,7 +337,7 @@ SSL(Secure Socket Layer)의 Handshake 프로토콜에서 클라이언트와 서�
 
 ---
 
-## 10. 소수 p = 13, 원시근 g = 2...
+## 10. 소수 p = 13, ...
 
 10. 
 소수 p = 13, 원시근 g = 2, 사용자 A와 B의 개인키가 각각 3, 2일 때, Diffie-Helloman 키 교환 알고리즘을 사용하여 계산한 공유 비밀키는?![2020_9L_10](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/2020_9L_10.jpg)
@@ -384,7 +384,7 @@ K = A<sup>b</sup> mod p = B<sup>a</sup> mod p = g<sup>ab</sup> mod p = 2 <sup>3*
 
 ---
 
-## 11. NIST의 AES(Advanced Encryption Standard) ...
+## 11. NIST의 AES...
 
 11. 
 NIST의 AES(Advanced Encryption Standard) 표준에 따른 암호화 시 암호키(cipher key) 길이가 256비트일 때 필요한 라운드 수는?![2020_9L_11](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/2020_9L_11.jpg)
@@ -399,7 +399,7 @@ NIST의 AES(Advanced Encryption Standard) 표준에 따른 암호화 시 암호�
 
 
 
-## 12. IPsec의 ESP(Encapsulating Security Payload)에...
+## 12. IPsec의 ESP...
 
 12. 
 IPsec의 ESP(Encapsulating Security Payload)에 대한 설명으로 옳지 않은 것은?![2020_9L_12](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/2020_9L_12.jpg)
@@ -429,7 +429,7 @@ IPsec의 ESP(Encapsulating Security Payload)에 대한 설명으로 옳지 않�
 
 ---
 
-## 13. 네트워크나 컴퓨터 시스템의 자원 고갈을...
+## 13. 네트워크나 컴퓨터...
 
 13. 
 네트워크나 컴퓨터 시스템의 자원 고갈을 통해 시스템 성능을 저하시키는 공격에 대한 것만을 모두 고르면?![2020_9L_13](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/2020_9L_13.jpg)
@@ -458,7 +458,7 @@ IPsec의 ESP(Encapsulating Security Payload)에 대한 설명으로 옳지 않�
 
 ---
 
-## 14. 다음 설명에 해당하는 위험분석...
+## 14. 다음 설명에 해당하는...
 
 14. 
 다음 설명에 해당하는 위험분석 및 평가 방법을 옳게 짝지은 것은?![2020_9L_14](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/2020_9L_14.jpg)
@@ -479,7 +479,7 @@ IPsec의 ESP(Encapsulating Security Payload)에 대한 설명으로 옳지 않�
 
 ---
 
-## 15. 정보통신망 이용촉진 및 정보보호 등에...
+## 15. 정보통신망 이용촉진...
 
 15. 
 정보통신망 이용촉진 및 정보보호 등에 관한 법률 시행렬 제19조(국내대리인 지정 대상자의 범위)에 명시된 자가 아닌 것은?![2020_9L_15](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/2020_9L_15.jpg)
@@ -494,7 +494,7 @@ IPsec의 ESP(Encapsulating Security Payload)에 대한 설명으로 옳지 않�
 
 ---
 
-## 16. 다음 설명에 해당하는 악성코드 ...
+## 16. 다음 설명에 해당하는 ...
 
 16. 
 다음 설명에 해당하는 악성코드 분석도구를 옳게 짝지은 것은?![2020_9L_16](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/2020_9L_16.jpg)
@@ -521,7 +521,7 @@ OllyDBG ; 바이너리 코드 분석을 위한 x86 디버거, 소스 코드가 �
 
 ---
 
-## 17. 윈도우 운영체제의 계정 관리에...
+## 17. 윈도우 운영체제의...
 
 17. 
 윈도우 운영체제의 계정 관리에 대한 설명으로 옳은 것은?![2020_9L_17](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/2020_9L_17.jpg)
@@ -551,7 +551,7 @@ OllyDBG ; 바이너리 코드 분석을 위한 x86 디버거, 소스 코드가 �
 
 ---
 
-## 18. 커버로스(Kerberos) 프로토콜에 대한...
+## 18. 커버로스(Kerberos) ...
 
 18. 
 커버로스(Kerberos) 프로토콜에 대한 설명으로 옳지 않은 것은?![2020_9L_18](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/2020_9L_18.jpg)
@@ -568,7 +568,7 @@ OllyDBG ; 바이너리 코드 분석을 위한 x86 디버거, 소스 코드가 �
 
 ---
 
-## 19. 임의적 접근 통제(Discretionary Access Control) 모델에...
+## 19. 임의적 접근 통제...
 
 19. 
 임의적 접근 통제(Discretionary Access Control) 모델에 대한 설명으로 옳은 것은?![2020_9L_19](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/2020_9L_19.jpg)
@@ -624,7 +624,7 @@ OllyDBG ; 바이너리 코드 분석을 위한 x86 디버거, 소스 코드가 �
 
 ---
 
-## 20. 정보통신망 이용촉진 및 ...
+## 20. 정보통신망 이용촉진 ...
 
 20. 
 정보통신망 이용촉진 및 정보보호 등에 관한 법률 제45조 (정보통신망의 안정성 확보 등)에 정보보호조치에 관한 지침에 포함되어야 할 보호조치로 명시되지 않은 것은?![2020_9L_20](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/2020_9L_20.jpg)
