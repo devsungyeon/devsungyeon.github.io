@@ -201,11 +201,11 @@ OFB ; 초기벡터를 계속해서 암호화가며, 평문블록과 XOR연산을
 
 |             | ECB                                                          | CBC                                                          | CFB                                                          | OFB                                                          | CTR                                                          |
 | ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 특징        | 기밀성이 낮음. <br>평문 블록과 암호화 블록이 일대일 관계.<BR>재전송 공격이 가능. | 1단계 앞에서 수행된 결과인 암호문 블록에 평문 블록을 **XOR**하여 암호화<BR>패딩(Padding) ; 평문의 길이는 가변적. 따라서, 마지막 블록의 길이가 부족한 경우 임의의 비트를 채워넣음.<br>IPSec에서 통신의 기밀성을 위해 CBC 모드 이용.<br>예 : 3DES-CBC, AES-CBC, Kerberos version5<br>암호화 : 순차적<br/>복호화 : 병렬적 | 1단계 앞의 암호문 블록을 암호 알고리즘의 입력으로 사용.<br>**복호화 시, 복호화가 아닌 암호화**<br>암호화 : 순차적<br>복호화 : 병렬적<br>재전송 공격이 가능.![image-20210207135524398](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_information\2020_9L\6-9.jpg) | **평문 블록이 동일하면 암호문이 같아지는 ECB의 단점**과, **오류 전파가 발생하는 CBC, CFB 모드**를 개선. | CTR 모드에서는 블록을 암호화할 때마다 1씩 증가해 가는 카운터를 암호화해서 키 스트림을 만든다. |
-| 암호화      | W                                                            | ![image-20210207134444038](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_information\2020_9L\6-3.jpg) | ![image-20210207135113152](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_information\2020_9L\6-7.jpg) | 오류 전파가 발생하지 않는다.<br/>![image-20210207135724327](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_information\2020_9L\6-10.jpg) | ![image-20210207140109563](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_information\2020_9L\6-12.JPG) |
-| 복호화      | ![6-2](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_information\2020_9L\6-2.jpg) | ![image-20210207134515589](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_information\2020_9L\6-4.jpg) | ![image-20210207135121585](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_information\2020_9L\6-8.jpg) | 오류 전파가 발생하지 않는다.<br>![image-20210207135732562](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_information\2020_9L\6-11.jpg) | ![image-20210207140117037](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_information\2020_9L\6-13.jpg) |
-| 암호화 영향 |                                                              | **평문 블록의 한 비트 오류는 모든 암호문에 영향.**<br>![image-20210207134752030](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_information\2020_9L\6-6.jpg) | CBC와 동일                                                   |                                                              |                                                              |
-| 복호화 영향 |                                                              | **복호화 시, 암호문 블록이 1개 파손된 경우, 미치는 영향은 2개 블록에 머문다.**<br/>![image-20210207134739011](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_information\2020_9L\6-5.jpg) | CBC와 동일                                                   |                                                              |                                                              |
+| 특징        | 기밀성이 낮음. <br>평문 블록과 암호화 블록이 일대일 관계.<BR>재전송 공격이 가능. | 1단계 앞에서 수행된 결과인 암호문 블록에 평문 블록을 **XOR**하여 암호화<BR>패딩(Padding) ; 평문의 길이는 가변적. 따라서, 마지막 블록의 길이가 부족한 경우 임의의 비트를 채워넣음.<br>IPSec에서 통신의 기밀성을 위해 CBC 모드 이용.<br>예 : 3DES-CBC, AES-CBC, Kerberos version5<br>암호화 : 순차적<br/>복호화 : 병렬적 | 1단계 앞의 암호문 블록을 암호 알고리즘의 입력으로 사용.<br>**복호화 시, 복호화가 아닌 암호화**<br>암호화 : 순차적<br>복호화 : 병렬적<br>재전송 공격이 가능.![image-20210207135524398](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/6-9.jpg) | **평문 블록이 동일하면 암호문이 같아지는 ECB의 단점**과, **오류 전파가 발생하는 CBC, CFB 모드**를 개선. | CTR 모드에서는 블록을 암호화할 때마다 1씩 증가해 가는 카운터를 암호화해서 키 스트림을 만든다. |
+| 암호화      | W                                                            | ![image-20210207134444038](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/6-3.jpg) | ![image-20210207135113152](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/6-7.jpg) | 오류 전파가 발생하지 않는다.<br/>![image-20210207135724327](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/6-10.jpg) | ![image-20210207140109563](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/6-12.JPG) |
+| 복호화      | ![6-2](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/6-2.jpg) | ![image-20210207134515589](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/6-4.jpg) | ![image-20210207135121585](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/6-8.jpg) | 오류 전파가 발생하지 않는다.<br>![image-20210207135732562](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/6-11.jpg) | ![image-20210207140117037](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/6-13.jpg) |
+| 암호화 영향 |                                                              | **평문 블록의 한 비트 오류는 모든 암호문에 영향.**<br>![image-20210207134752030](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/6-6.jpg) | CBC와 동일                                                   |                                                              |                                                              |
+| 복호화 영향 |                                                              | **복호화 시, 암호문 블록이 1개 파손된 경우, 미치는 영향은 2개 블록에 머문다.**<br/>![image-20210207134739011](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/6-5.jpg) | CBC와 동일                                                   |                                                              |                                                              |
 
 
 
@@ -352,7 +352,7 @@ K = A<sup>b</sup> mod p = B<sup>a</sup> mod p = g<sup>ab</sup> mod p = 2 <sup>3*
 
 - Diffie-Hellman
 
-![diffie-hellman algorithm 이미지 검색결과](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_information\2020_9L\10-1.jpg)
+![diffie-hellman algorithm 이미지 검색결과](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/10-1.jpg)
 
 - RSA 알고리즘
 
@@ -372,13 +372,13 @@ K = A<sup>b</sup> mod p = B<sup>a</sup> mod p = g<sup>ab</sup> mod p = 2 <sup>3*
 
 복호화(개인키 n,d 가 필요) : M = C<sup>d</sup> mod n
 
-![img](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_information\2020_9L\10-2.jpg)
+![img](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/10-2.jpg)
 
-![img](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_information\2020_9L\10-3.jpg)
+![img](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/10-3.jpg)
 
 
 
-![img](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level9_civil_servant\Level9_information\2020_9L\10-4.jpg)
+![img](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_information/2020_9L/10-4.jpg)
 
 
 
