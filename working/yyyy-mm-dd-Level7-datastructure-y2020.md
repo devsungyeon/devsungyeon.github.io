@@ -236,14 +236,13 @@ comments: true
 typedef struct test1 {
 	char a;
 	char b;
-	int c;
+	int c; // 4bytes
 }
 ```
-|제목|내용|설명|
-|:---|:---:|---:|
-||중앙에서확장||
-|||오른쪽에서 확장|
-|왼쪽에서확장||
+|제목|내용|설명|ㅇㅇ|
+|:---|:---:|---:|---:|
+|a|b|||
+|c|c|c|c|
 ```
 // test2의 크기는 12bytes
 #include
@@ -254,7 +253,11 @@ typedef struct test2 {
 	char c;
 }
 ```
-
+|제목|내용|설명|ㅇㅇ|
+|:---|:---:|---:|---:|
+|a|b|||
+|c|c|c|c|
+||||
 	- Union
 		- 
 
@@ -439,5 +442,5 @@ typedef struct test2 {
 
 ④
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDgyMzM2MzddfQ==
+eyJoaXN0b3J5IjpbMzIyNDUyODU4XX0=
 -->
