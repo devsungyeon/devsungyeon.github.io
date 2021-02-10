@@ -230,13 +230,28 @@ comments: true
 	- Struct
 		- 가장 큰 변수의 크기를 기준으로 하여 나머지 변수를 순서대로 차곡차곡 배치하여 구조체 전체의 크기가 결정.
 ```
-// test1의 
+// test1의 크기는 8bytes
 #include
 
 typedef struct test1 {
 	char a;
 	char b;
+	int c;
+}
+```
+|제목|내용|설명|
+|:---|:---:|---:|
+||중앙에서확장||
+|||오른쪽에서 확장|
+|왼쪽에서확장||
+```
+// test2의 크기는 12bytes
+#include
+
+typedef struct test2 {
+	char a;
 	int b;
+	char c;
 }
 ```
 
@@ -424,5 +439,5 @@ typedef struct test1 {
 
 ④
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMjc5MjY4NF19
+eyJoaXN0b3J5IjpbLTE0NDgyMzM2MzddfQ==
 -->
