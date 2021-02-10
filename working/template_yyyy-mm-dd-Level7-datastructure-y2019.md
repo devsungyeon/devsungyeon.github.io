@@ -1,21 +1,21 @@
 ---
-title: "2020년 7급 전산직 자료구조 풀이"
-strapline: "자료구조 풀이"
-description: "2020년 7급 전산직 자료구조 풀이"
+title: "202019년 7급 전산직 자료구조데이터베이스 풀이"
+strapline: "자료구조데이터베이스 풀이"
+description: "202019년 7급 전산직 자료구조데이터베이스 풀이"
 header:
  overlay_image: /assets/images/bright.jpg
 categories:
-  - "7Level_datastructure"
+  - "7Level_datastructurbase"
 tag:
   - "7급"
-  - "자료구조"
+  - "자료구조데이터베이스"
   - "7급공무원"
 toc: true
 last_modified_at: 2020-12-05
 comments: true
 ---
 
-# 2020년 7급 전산직 자료구조 풀이
+# 202019년 7급 전산직 자료구조데이터베이스 풀이
 
 궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! ":)"
 
@@ -414,3 +414,6 @@ comments: true
 ③
 
 ④
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTU4Njk5MjM2OF19
+-->
