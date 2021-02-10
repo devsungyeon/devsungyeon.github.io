@@ -261,6 +261,14 @@ typedef struct test2 {
 
 - Union
 	- 공용체 멤버 변수 중 가장 큰 크기의 값을 하나 할당하고 모든 멤버가 그 메모리를 공유한다.
+```
+// test3의 크기는 12bytes
+struct  {
+	char a; // 1byte
+	int b; // 4byte
+	char c; // 1byte
+} test3
+```
 
 
 
@@ -444,5 +452,6 @@ typedef struct test2 {
 
 ④
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDcyODc0NSwyMzA3NzQ5MzddfQ==
+eyJoaXN0b3J5IjpbLTE3MDgzMjY0MTQsMTM3NDcyODc0NSwyMz
+A3NzQ5MzddfQ==
 -->
