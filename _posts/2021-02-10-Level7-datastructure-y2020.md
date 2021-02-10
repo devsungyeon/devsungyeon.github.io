@@ -273,6 +273,7 @@ typedef union {
 |:---|:---:|---:|---:|
 |할당|할당|할당|할당|
 
+할당된 4bytes의 공간을 a, b, c가 함께 공유.
 
 
 
@@ -455,6 +456,6 @@ typedef union {
 
 ④
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc3NzA5MDQ2LDEzNzQ3Mjg3NDUsMjMwNz
-c0OTM3XX0=
+eyJoaXN0b3J5IjpbMTE3MTE2NDM1NCwxMzc0NzI4NzQ1LDIzMD
+c3NDkzN119
 -->
