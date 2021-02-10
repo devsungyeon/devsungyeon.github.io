@@ -225,15 +225,9 @@ comments: true
 ![2020_7L_11](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_datastructure/2020_7L/2020_7L_11.jpg)
 
 
-**답 : **
+**답 : ①**
+- s
 
-①
-
-②
-
-③
-
-④
 
 
 
@@ -414,3 +408,6 @@ comments: true
 ③
 
 ④
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTIzNjc4NjYyXX0=
+-->
