@@ -228,18 +228,18 @@ comments: true
 **답 : ①**
 - 자료형 크기 
 	- Struct
-		- 가장 큰 변수의 크기를 기준으로 하여 나머지 변수를 순서대로 차곡차곡 배치하여 구조체 전체의 크기가 결정.
+		- 가장 큰 변수의 크기를 기준으로 하여 나머지 변수를 **순서대로 차곡차곡** 배치하여 구조체 전체의 크기가 결정.
 ```
 // test1의 크기는 8bytes
 #include
 
 typedef struct test1 {
-	char a;
-	char b;
+	char a; // 1byte
+	char b; // 1byte
 	int c; // 4bytes
 }
 ```
-|제목|내용|설명|ㅇㅇ|
+|byte1|byte2|byte3|byte4|
 |:---|:---:|---:|---:|
 |a|b|||
 |c|c|c|c|
@@ -248,16 +248,16 @@ typedef struct test1 {
 #include
 
 typedef struct test2 {
-	char a;
-	int b;
-	char c;
+	char a; // 1byte
+	int b; // 4byte
+	char c; // 1byte
 }
 ```
-|제목|내용|설명|ㅇㅇ|
+|byte1|byte2|byte3|byte4|
 |:---|:---:|---:|---:|
-|a|b|||
-|c|c|c|c|
-||||
+|a||||
+|b|b|b|b|
+|c|||
 	- Union
 		- 
 
@@ -442,5 +442,5 @@ typedef struct test2 {
 
 ④
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyNDUyODU4XX0=
+eyJoaXN0b3J5IjpbMjMwNzc0OTM3XX0=
 -->
