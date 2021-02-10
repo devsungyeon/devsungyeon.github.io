@@ -258,8 +258,10 @@ typedef struct test2 {
 |a||||
 |b|b|b|b|
 |c|||
-	- Union
-		- 
+
+- Union
+	- 공용체 멤버 변수 중 가장 큰 크기의 값을 하나 할당하고 모든 멤버가 그 메모리를 공유한다.
+
 
 
 
@@ -442,5 +444,5 @@ typedef struct test2 {
 
 ④
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwNzc0OTM3XX0=
+eyJoaXN0b3J5IjpbMTM3NDcyODc0NSwyMzA3NzQ5MzddfQ==
 -->
