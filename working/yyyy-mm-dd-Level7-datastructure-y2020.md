@@ -229,7 +229,9 @@ comments: true
 - 자료형 크기 
 	- Struct
 		- 가장 큰 변수의 크기를 기준으로 하여 나머지 변수를 순서대로 차곡차곡 배치하여 구조체 전체의 크기가 결정.
+		- 
 	- Union
+		- 
 
 
 
@@ -412,5 +414,5 @@ comments: true
 
 ④
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MTE5NzUxN119
+eyJoaXN0b3J5IjpbMTA4NDc5MDU0N119
 -->
