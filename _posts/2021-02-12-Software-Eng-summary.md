@@ -33,7 +33,7 @@ comments: true
   <details>
   <summary>ch01 소프트웨어공학의 개념</summary>
   <div markdown="1">
-  # SDLC ; 타당성 조사 - 계획 - 사용자 요구파악 - 분석 - 설계 - 구현 - 시험 - 유지보수
+  - SDLC ; 타당성 조사 - 계획 - 사용자 요구파악 - 분석 - 설계 - 구현 - 시험 - 유지보수
     <details>
     <summary>1. 소프트웨어의 개념</summary>
     <div markdown="1">
@@ -63,13 +63,12 @@ comments: true
   <details>
   <summary>ch02 소프트웨어의 개념</summary>
   <div markdown="1">
- ㅇㅇ
   </div>
   </details>
   <details>
   <summary>ch03 소프트웨어의 위기</summary>
   <div markdown="1">
- ㅇㅇ
+  - Brooks Raw ; 인력을 추가로 투입하더라도 오히려 프로젝트 시간은 지연될 수 있다.
   </div>
   </details>
   <details>
@@ -80,6 +79,7 @@ comments: true
   </details>
 </div>
 </details>
+<br>
 
 <details>
 <summary>PART 02 소프트웨어 프로젝트 관리</summary>
@@ -110,6 +110,7 @@ comments: true
   </details>
 </div>
 </details>
+<br>
 
 <details>
 <summary>PART 03 소프트웨어 품질보증과 품질관리</summary>
@@ -140,6 +141,7 @@ comments: true
   </details>
 </div>
 </details>
+<br>
 
 <details>
 <summary>PART 04 소프트웨어 형상관리</summary>
@@ -170,6 +172,7 @@ comments: true
   </details>
 </div>
 </details>
+<br>
 
 <details>
 <summary>PART 05 소프트웨어 요구사항 분석</summary>
@@ -200,6 +203,7 @@ comments: true
   </details>
 </div>
 </details>
+<br>
 
 <details>
 <summary>PART 06 소프트웨어 설계</summary>
@@ -230,6 +234,7 @@ comments: true
   </details>
 </div>
 </details>
+<br>
 
 <details>
 <summary>PART 07 객체지향 패러다임</summary>
@@ -260,6 +265,7 @@ comments: true
   </details>
 </div>
 </details>
+<br>
 
 <details>
 <summary>PART 08 UML & Design Pattern</summary>
@@ -290,6 +296,7 @@ comments: true
   </details>
 </div>
 </details>
+<br>
 
 <details>
 <summary>PART 09 구현(Implementation)</summary>
@@ -320,6 +327,7 @@ comments: true
   </details>
 </div>
 </details>
+<br>
 
 <details>
 <summary>PART 10 소프트웨어의 시험과 디버깅</summary>
@@ -350,6 +358,7 @@ comments: true
   </details>
 </div>
 </details>
+<br>
 
 <details>
 <summary>PART 11 소프트웨어 유지보수</summary>
@@ -380,6 +389,7 @@ comments: true
   </details>
 </div>
 </details>
+<br>
 
 <details>
 <summary>PART 12 소프트웨어 재공학</summary>
@@ -410,6 +420,7 @@ comments: true
   </details>
 </div>
 </details>
+<br>
 
 <details>
 <summary>PART 13 클라이언트/서버 소프트웨어공학</summary>
@@ -440,6 +451,7 @@ comments: true
   </details>
 </div>
 </details>
+<br>
 
 <details>
 <summary>PART 14 정형적 방법</summary>
@@ -470,6 +482,7 @@ comments: true
   </details>
 </div>
 </details>
+<br>
 
 <details>
 <summary>PART 15 최신 소프트웨어공학</summary>
