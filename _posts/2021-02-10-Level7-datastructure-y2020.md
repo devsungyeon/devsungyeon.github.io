@@ -229,7 +229,7 @@ comments: true
 - 자료형 크기 
 	- Struct
 		- 가장 큰 변수의 크기를 기준으로 하여 나머지 변수를 **순서대로 차곡차곡** 배치하여 구조체 전체의 크기가 결정.
-```
+~~~c
 // test1의 크기는 8bytes
 #include
 
@@ -238,12 +238,12 @@ typedef struct test1 {
 	char b; // 1byte
 	int c; // 4bytes
 }
-```
+~~~
 |byte1|byte2|byte3|byte4|
 |:---|:---:|---:|---:|
 |a|b|||
 |c|c|c|c|
-```
+~~~c
 // test2의 크기는 12bytes
 #include
 
@@ -252,7 +252,7 @@ typedef struct test2 {
 	int b; // 4byte
 	char c; // 1byte
 }
-```
+~~~
 |byte1|byte2|byte3|byte4|
 |:---|:---:|---:|---:|
 |a||||
