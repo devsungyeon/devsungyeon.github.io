@@ -26,6 +26,11 @@ comments: true
   <details>
   <summary>ch01 소프트웨어공학의 개념</summary>
   <div markdown="1">
+  - SDLC ; 타당성 조사 - 계획 - 사용자 요구파악 - 분석 - 설계 - 구현 - 시험 - 유지보수
+  - System의 5대 구성요소 ; Input, Process(Transformation), Output, Control, Feedback
+  O = P(I)
+  Input -> Process(Transformation) -> Output
+  
 
   </div>
   </details>
