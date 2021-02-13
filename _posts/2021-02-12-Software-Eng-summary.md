@@ -30,6 +30,10 @@ comments: true
 <details>
 <summary>PART 01 소프트웨어공학의 개념</summary>
 <div markdown="1">
+|제목|내용|
+|--|--|
+|1|1|
+|2|10|
   <details>
   <summary>ch01 소프트웨어공학의 개념</summary>
   <div markdown="1">
