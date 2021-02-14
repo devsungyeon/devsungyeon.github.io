@@ -20,38 +20,13 @@ comments: true
 궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! ":)"
 
 <details>
-<summary>sample</summary>
-<div markdown="1">
-
-</div>
-</details>
-
-
-<details>
 <summary>PART 01 소프트웨어공학의 개념</summary>
 <div markdown="1">
-<div>
-|제목|내용|
-|--|--|
-|1|1|
-|2|10|
-</div>
-  <details>
-  <summary>ch01 소프트웨어공학의 개념</summary>
-  <div markdown="1">
   - SDLC ; 타당성 조사 - 계획 - 사용자 요구파악 - 분석 - 설계 - 구현 - 시험 - 유지보수
-    <details>
-    <summary>1. 소프트웨어의 개념</summary>
-    <div markdown="1">
+  1. 소프트웨어의 개념
     - 생산성 향상
     - 품질향상
     - 재사용 가능한 소프트웨어 개발
-<br>    
-    </div>
-    </details>
-    <details>
-    <summary>2. 프로세스, 방법, 도구</summary>
-    <div markdown="1">
     - System의 5대 구성요소 ; Input, Process(Transformation), Output, Control, Feedback<br>
     O = P(I)<br>
     Input -> Process(Transformation) -> Output<br>
@@ -61,464 +36,108 @@ comments: true
       |=|프로세스 중심 방법론<br>자료흐름방법론<br>절차식 방법론|자료중심 방법론||
       |중점|Process 중심|Data 중심|객체 중심|
       |생명주기|Top-down|Top-down|Bottom-up|
-<br>
-    </div>
-    </details>
-  
-
-  </div>
-  </details>
-  <details>
-  <summary>ch02 소프트웨어의 개념</summary>
-  <div markdown="1">
-  </div>
-  </details>
-  <details>
-  <summary>ch03 소프트웨어의 위기</summary>
-  <div markdown="1">
+    2. 소프트웨어의 개념
+      3. 소프트웨어의 위기
   - Brooks Raw ; 인력을 추가로 투입하더라도 오히려 프로젝트 시간은 지연될 수 있다.
-  <br>
-  </div>
-  </details>
-  <details>
-  <summary>ch04 소프트웨어 개발 프로세스 모형</summary>
-  <div markdown="1">
- 
-  </div>
-  </details>
+  4. 소프트웨어 개발 프로세스 모형
+  
 </div>
 </details>
-<br>
 
 <details>
 <summary>PART 02 소프트웨어 프로젝트 관리</summary>
 <div markdown="1">
-  <details>
-  <summary>ch01 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch02 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch03 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch04 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
+  
 </div>
 </details>
-<br>
 
 <details>
 <summary>PART 03 소프트웨어 품질보증과 품질관리</summary>
 <div markdown="1">
-  <details>
-  <summary>ch01 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch02 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch03 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch04 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
+  
 </div>
 </details>
-<br>
 
 <details>
 <summary>PART 04 소프트웨어 형상관리</summary>
 <div markdown="1">
-  <details>
-  <summary>ch01 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch02 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch03 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch04 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
+  
 </div>
 </details>
-<br>
 
 <details>
 <summary>PART 05 소프트웨어 요구사항 분석</summary>
 <div markdown="1">
-  <details>
-  <summary>ch01 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch02 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch03 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch04 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
+  
 </div>
 </details>
-<br>
 
 <details>
 <summary>PART 06 소프트웨어 설계</summary>
 <div markdown="1">
-  <details>
-  <summary>ch01 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch02 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch03 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch04 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
+  
 </div>
 </details>
-<br>
 
 <details>
 <summary>PART 07 객체지향 패러다임</summary>
 <div markdown="1">
-  <details>
-  <summary>ch01 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch02 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch03 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch04 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
+  
 </div>
 </details>
-<br>
 
 <details>
 <summary>PART 08 UML & Design Pattern</summary>
 <div markdown="1">
-  <details>
-  <summary>ch01 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch02 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch03 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch04 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
+  
 </div>
 </details>
-<br>
 
 <details>
 <summary>PART 09 구현(Implementation)</summary>
 <div markdown="1">
-  <details>
-  <summary>ch01 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch02 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch03 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch04 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
+  
 </div>
 </details>
-<br>
 
 <details>
 <summary>PART 10 소프트웨어의 시험과 디버깅</summary>
 <div markdown="1">
-  <details>
-  <summary>ch01 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch02 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch03 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch04 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
+  
 </div>
 </details>
-<br>
 
 <details>
 <summary>PART 11 소프트웨어 유지보수</summary>
 <div markdown="1">
-  <details>
-  <summary>ch01 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch02 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch03 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch04 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
+  
 </div>
 </details>
-<br>
 
 <details>
 <summary>PART 12 소프트웨어 재공학</summary>
 <div markdown="1">
-  <details>
-  <summary>ch01 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch02 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch03 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch04 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
+
 </div>
 </details>
-<br>
 
 <details>
 <summary>PART 13 클라이언트/서버 소프트웨어공학</summary>
 <div markdown="1">
-  <details>
-  <summary>ch01 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch02 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch03 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch04 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
+  
 </div>
 </details>
-<br>
 
 <details>
 <summary>PART 14 정형적 방법</summary>
 <div markdown="1">
-  <details>
-  <summary>ch01 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch02 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch03 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch04 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
+  
 </div>
 </details>
-<br>
 
 <details>
 <summary>PART 15 최신 소프트웨어공학</summary>
 <div markdown="1">
-  <details>
-  <summary>ch01 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch02 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch03 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
-  <details>
-  <summary>ch04 </summary>
-  <div markdown="1">
- ㅇ
-  </div>
-  </details>
+  
 </div>
 </details>
