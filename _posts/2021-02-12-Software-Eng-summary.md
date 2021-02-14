@@ -32,11 +32,46 @@ comments: true
     O = P(I)<br>
     Input -> Process(Transformation) -> Output<br>
     - 방법론<br>
-      |구분|구조적 방법론|정보공학 방법론|객체지향 방법론|
-      |---|---|---|---|
-      |=|프로세스 중심 방법론<br>자료흐름방법론<br>절차식 방법론|자료중심 방법론||
-      |중점|Process 중심|Data 중심|객체 중심|
-      |생명주기|Top-down|Top-down|Bottom-up|
+      |구분|구조적 방법론|정보공학 방법론|객체지향 방법론|<br>
+      |---|---|---|---|<br>
+      |=|프로세스 중심 방법론=자료흐름방법론=절차식 방법론|자료중심 방법론||<br>
+      |중점|Process 중심|Data 중심|객체 중심|<br>
+      |생명주기|Top-down|Top-down|Bottom-up|<br>
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">구분</th>
+    <th class="tg-0pky">구조적 방법론</th>
+    <th class="tg-0pky">정보공학 방법론</th>
+    <th class="tg-0pky">객체지향 방법론</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">=</td>
+    <td class="tg-0pky">프로세스 중심 방법론<br>= 자료흐름방법론<br>= 절차식 방법론</td>
+    <td class="tg-0pky">자료중심 방법론</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">중점</td>
+    <td class="tg-0pky">Process 중심</td>
+    <td class="tg-0pky">Data 중심</td>
+    <td class="tg-0pky">객체 중심</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">생명주기</td>
+    <td class="tg-0pky">Top-down</td>
+    <td class="tg-0pky">Top-down</td>
+    <td class="tg-0pky">Bottom-up</td>
+  </tr>
+</tbody>
+</table>
+      
+      
+      
+      
 ### 2. 소프트웨어의 개념
 ### 3. 소프트웨어의 위기
   - Brooks Raw ; 인력을 추가로 투입하더라도 오히려 프로젝트 시간은 지연될 수 있다.
