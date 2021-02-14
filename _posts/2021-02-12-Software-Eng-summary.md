@@ -22,68 +22,18 @@ comments: true
 <details>
 <summary>PART 01 소프트웨어공학의 개념</summary>
 <div markdown="1">
-## PART 01 소프트웨어공학의 개념
-  - SDLC ; 타당성 조사 - 계획 - 사용자 요구파악 - 분석 - 설계 - 구현 - 시험 - 유지보수
-### 1. 소프트웨어의 개념
-    - 생산성 향상
-    - 품질향상
-    - 재사용 가능한 소프트웨어 개발
-    - System의 5대 구성요소 ; Input, Process(Transformation), Output, Control, Feedback<br>
-    O = P(I)<br>
-    Input -> Process(Transformation) -> Output<br>
-    - 방법론<br>
-      |구분|구조적 방법론|정보공학 방법론|객체지향 방법론|<br>
-      |---|---|---|---|<br>
-      |=|프로세스 중심 방법론=자료흐름방법론=절차식 방법론|자료중심 방법론||<br>
-      |중점|Process 중심|Data 중심|객체 중심|<br>
-      |생명주기|Top-down|Top-down|Bottom-up|<br>
+[1.소프트웨어의 개념](###-1.-소프트웨어의-개념)<br>
+[2.소프트웨어의 개념](###-2.-소프트웨어의-개념)<br>
+[3.소프트웨어의 위기](###-3.-소프트웨어의-위기)<br>
+[4.소프트웨어 개발 프로세스 모형](###-4.-소프트웨어-개발-프로세스-모형)<br>
 
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0pky">구분</th>
-    <th class="tg-0pky">구조적 방법론</th>
-    <th class="tg-0pky">정보공학 방법론</th>
-    <th class="tg-0pky">객체지향 방법론</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0pky">=</td>
-    <td class="tg-0pky">프로세스 중심 방법론<br>= 자료흐름방법론<br>= 절차식 방법론</td>
-    <td class="tg-0pky">자료중심 방법론</td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">중점</td>
-    <td class="tg-0pky">Process 중심</td>
-    <td class="tg-0pky">Data 중심</td>
-    <td class="tg-0pky">객체 중심</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">생명주기</td>
-    <td class="tg-0pky">Top-down</td>
-    <td class="tg-0pky">Top-down</td>
-    <td class="tg-0pky">Bottom-up</td>
-  </tr>
-</tbody>
-</table>
-      
-      
-      
-      
-### 2. 소프트웨어의 개념
-### 3. 소프트웨어의 위기
-  - Brooks Raw ; 인력을 추가로 투입하더라도 오히려 프로젝트 시간은 지연될 수 있다.
-### 4. 소프트웨어 개발 프로세스 모형
-  
 </div>
 </details>
 
 <details>
 <summary>PART 02 소프트웨어 프로젝트 관리</summary>
 <div markdown="1">
-  
+
 </div>
 </details>
 
@@ -177,3 +127,28 @@ comments: true
   
 </div>
 </details>
+
+## PART 01 소프트웨어공학의 개념
+  - SDLC ; 타당성 조사 - 계획 - 사용자 요구파악 - 분석 - 설계 - 구현 - 시험 - 유지보수
+### 1. 소프트웨어의 개념
+    - 생산성 향상
+    - 품질향상
+    - 재사용 가능한 소프트웨어 개발
+    - System의 5대 구성요소 ; Input, Process(Transformation), Output, Control, Feedback
+    O = P(I)
+    Input -> Process(Transformation) -> Output
+    - 방법론
+    |구분|구조적 방법론|정보공학 방법론|객체지향 방법론|
+    |---|---|---|---|
+    |=|프로세스 중심 방법론<br>= 자료흐름방법론<br>= 절차식 방법론|자료중심 방법론||
+    |중점|Process 중심|Data 중심|객체 중심|
+    |생명주기|Top-down|Top-down|Bottom-up|
+    
+### 2. 소프트웨어의 개념
+### 3. 소프트웨어의 위기
+  - Brooks Raw ; 인력을 추가로 투입하더라도 오히려 프로젝트 시간은 지연될 수 있다.
+### 4. 소프트웨어 개발 프로세스 모형
+- SDLC ; 타당성 조사 - 계획 - 사용자 요구파악 - 분석 - 설계 - 구현 - 시험 - 유지보수
+- 폭포수 모형(선형순차 모형)
+- 
+
