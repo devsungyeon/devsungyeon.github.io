@@ -44,7 +44,7 @@ comments: true
     - 생산성 향상
     - 품질향상
     - 재사용 가능한 소프트웨어 개발
-    
+<br>    
     </div>
     </details>
     <details>
@@ -59,6 +59,7 @@ comments: true
       |=|프로세스 중심 방법론<br>자료흐름방법론<br>절차식 방법론|자료중심 방법론||
       |중점|Process 중심|Data 중심|객체 중심|
       |생명주기|Top-down|Top-down|Bottom-up|
+<br>
     </div>
     </details>
   
@@ -74,6 +75,7 @@ comments: true
   <summary>ch03 소프트웨어의 위기</summary>
   <div markdown="1">
   - Brooks Raw ; 인력을 추가로 투입하더라도 오히려 프로젝트 시간은 지연될 수 있다.
+  <br>
   </div>
   </details>
   <details>
