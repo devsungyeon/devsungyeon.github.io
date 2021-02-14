@@ -19,114 +19,25 @@ comments: true
 
 궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! ":)"
 
-<details>
-<summary>PART 01 소프트웨어공학의 개념</summary>
-<div markdown="1">
-[1.소프트웨어의 개념](#1.-소프트웨어의-개념)<br>
-[2.소프트웨어의 개념](#2.-소프트웨어의-개념)<br>
-[3.소프트웨어의 위기](#3.-소프트웨어의-위기)<br>
-[4.소프트웨어 개발 프로세스 모형](#4.-소프트웨어-개발-프로세스-모형)<br>
-
-</div>
-</details>
-
-<details>
-<summary>PART 02 소프트웨어 프로젝트 관리</summary>
-<div markdown="1">
-
-</div>
-</details>
-
-<details>
-<summary>PART 03 소프트웨어 품질보증과 품질관리</summary>
-<div markdown="1">
-  
-</div>
-</details>
-
-<details>
-<summary>PART 04 소프트웨어 형상관리</summary>
-<div markdown="1">
-  
-</div>
-</details>
-
-<details>
-<summary>PART 05 소프트웨어 요구사항 분석</summary>
-<div markdown="1">
-  
-</div>
-</details>
-
-<details>
-<summary>PART 06 소프트웨어 설계</summary>
-<div markdown="1">
-  
-</div>
-</details>
-
-<details>
-<summary>PART 07 객체지향 패러다임</summary>
-<div markdown="1">
-  
-</div>
-</details>
-
-<details>
-<summary>PART 08 UML & Design Pattern</summary>
-<div markdown="1">
-  
-</div>
-</details>
-
-<details>
-<summary>PART 09 구현(Implementation)</summary>
-<div markdown="1">
-  
-</div>
-</details>
-
-<details>
-<summary>PART 10 소프트웨어의 시험과 디버깅</summary>
-<div markdown="1">
-  
-</div>
-</details>
-
-<details>
-<summary>PART 11 소프트웨어 유지보수</summary>
-<div markdown="1">
-  
-</div>
-</details>
-
-<details>
-<summary>PART 12 소프트웨어 재공학</summary>
-<div markdown="1">
-
-</div>
-</details>
-
-<details>
-<summary>PART 13 클라이언트/서버 소프트웨어공학</summary>
-<div markdown="1">
-  
-</div>
-</details>
-
-<details>
-<summary>PART 14 정형적 방법</summary>
-<div markdown="1">
-  
-</div>
-</details>
-
-<details>
-<summary>PART 15 최신 소프트웨어공학</summary>
-<div markdown="1">
-  
-</div>
-</details>
+[PART 01 소프트웨어공학의 개념](#PART-01-소프트웨어공학의-개념)
+[1.소프트웨어의 개념](#1.-소프트웨어의-개념)
+[2.소프트웨어의 개념](#2.-소프트웨어의-개념)
+[3.소프트웨어의 위기](#3.-소프트웨어의-위기)
+[4.소프트웨어 개발 프로세스 모형](#4.-소프트웨어-개발-프로세스-모형)
+PART 02 소프트웨어 프로젝트 관리
+PART 03 소프트웨어 품질보증과 품질관리
+PART 04 소프트웨어 형상관리
+PART 05 소프트웨어 요구사항 분석
+PART 06 소프트웨어 설계
+PART 07 객체지향 패러다임
+PART 08 UML & Design Pattern
+PART 09 구현(Implementation)
+PART 10 소프트웨어의 시험과 디버깅
+PART 11 소프트웨어 유지보수
+PART 12 소프트웨어 재공학
+PART 13 클라이언트/서버 소프트웨어공학
+PART 14 정형적 방법
+PART 15 최신 소프트웨어공학
 
 ## PART 01 소프트웨어공학의 개념
   - SDLC ; 타당성 조사 - 계획 - 사용자 요구파악 - 분석 - 설계 - 구현 - 시험 - 유지보수
