@@ -88,7 +88,7 @@ PART 15 최신 소프트웨어공학
 
 
 - 신속한 소프트웨어 개발 모형
-
+---
 1) 애자일(agile) 기법
     - 문서화 < 구현 < 시험
     - 문제점
@@ -179,5 +179,5 @@ PART 15 최신 소프트웨어공학
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNTQ1NDYzNl19
+eyJoaXN0b3J5IjpbMTEzMjc2MTcwN119
 -->
