@@ -112,7 +112,7 @@ PART 15 최신 소프트웨어공학
     - 스토리 카드. ; 고객의 요구 요약. (요구분석서, CRC 카드)
     - **시험 우선 개발** ; 코드보다 시험을 먼저 작성
 
-3
+3) 
 
 
 ---
@@ -182,6 +182,6 @@ PART 15 최신 소프트웨어공학
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjYxNDkwMzEsLTE2MDI3NzY5OTAsMT
-EzNTQ1NDYzNiwxMTMyNzYxNzA3XX0=
+eyJoaXN0b3J5IjpbMTQ1NjQwOTA3MiwtMTYwMjc3Njk5MCwxMT
+M1NDU0NjM2LDExMzI3NjE3MDddfQ==
 -->
