@@ -13,3 +13,7 @@ codekit-config.json
 node_modules
 npm-debug.log*
 /_posts/*
+!/_posts/2021-02-08-topcit-210208.md
+
+!/_posts/2021-02-16-topcit-210216.md
+
