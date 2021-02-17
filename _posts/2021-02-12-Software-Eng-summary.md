@@ -21,48 +21,6 @@ comments: true
 
 ## Top
 
-[tett](#test)
-
-[PART 01 소프트웨어공학의 개념](#PART-01-소프트웨어공학의-개념)
-
-[1.소프트웨어의 개념](#1.-소프트웨어의-개념)
-
-[2.소프트웨어의 개념](#2.-소프트웨어의-개념)
-
-[3.소프트웨어의 위기](#3.-소프트웨어의-위기)
-
-[4.소프트웨어 개발 프로세스 모형](#4.-소프트웨어-개발-프로세스-모형)
-
-PART 02 소프트웨어 프로젝트 관리
-
-PART 03 소프트웨어 품질보증과 품질관리
-
-PART 04 소프트웨어 형상관리
-
-PART 05 소프트웨어 요구사항 분석
-
-PART 06 소프트웨어 설계
-
-PART 07 객체지향 패러다임
-
-PART 08 UML & Design Pattern
-
-PART 09 구현(Implementation)
-
-PART 10 소프트웨어의 시험과 디버깅
-
-PART 11 소프트웨어 유지보수
-
-PART 12 소프트웨어 재공학
-
-PART 13 클라이언트/서버 소프트웨어공학
-
-PART 14 정형적 방법
-
-PART 15 최신 소프트웨어공학
-
-## test
-
 ## PART 01 소프트웨어공학의 개념
 
   - SDLC ; 타당성 조사 - 계획 - 사용자 요구파악 - 분석 - 설계 - 구현 - 시험 - 유지보수
@@ -84,14 +42,20 @@ PART 15 최신 소프트웨어공학
     | 중점 | Process 중심 | Data 중심 | 객체 중심 |
     | 생명주기 | Top-down | Top-down | Bottom-up |
 
+[to the Top](#Top)
+
 ---
 ### 2. 소프트웨어의 개념
+
+[to the Top](#Top)
 
 ---
 ### 3. 소프트웨어의 위기
 
   - Brooks Raw ; 인력을 추가로 투입하더라도 오히려 프로젝트 시간은 지연될 수 있다.
   
+[to the Top](#Top)
+
 ---
 ### 4. 소프트웨어 개발 프로세스 모형
 
@@ -136,38 +100,66 @@ PART 15 최신 소프트웨어공학
 
 3) 
 
+[to the Top](#Top)
 
 ---
 
 
 ## PART 02 소프트웨어 프로젝트 관리
 
+[to the Top](#Top)
+
 ## PART 03 소프트웨어 품질보증과 품질관리
+
+[to the Top](#Top)
 
 ## PART 04 소프트웨어 형상관리
 
+[to the Top](#Top)
+
 ## PART 05 소프트웨어 요구사항 분석
+
+[to the Top](#Top)
 
 ## PART 06 소프트웨어 설계
 
+[to the Top](#Top)
+
 ## PART 07 객체지향 패러다임
+
+[to the Top](#Top)
 
 ## PART 08 UML & Design Pattern
 
+[to the Top](#Top)
+
 ## PART 09 구현(Implementation)
+
+[to the Top](#Top)
 
 ## PART 10 소프트웨어의 시험과 디버깅
 
+[to the Top](#Top)
+
 ## PART 11 소프트웨어 유지보수
+
+[to the Top](#Top)
 
 ## PART 12 소프트웨어 재공학
 
+[to the Top](#Top)
+
 ## PART 13 클라이언트/서버 소프트웨어공학
+
+[to the Top](#Top)
 
 ## PART 14 정형적 방법
 
+[to the Top](#Top)
+
 ## PART 15 최신 소프트웨어공학
 
+[to the Top](#Top)
 
 
 
@@ -201,9 +193,3 @@ PART 15 최신 소프트웨어공학
 
 
 
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjQwOTA3MiwtMTYwMjc3Njk5MCwxMT
-M1NDU0NjM2LDExMzI3NjE3MDddfQ==
--->
