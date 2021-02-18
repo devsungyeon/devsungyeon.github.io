@@ -109,6 +109,23 @@ comments: true
 
 ### 1. 프로젝트 범위
 
+- 3P ; People, Process, Problem
+- 4P ; People, Process, Product, Project
+- Brooks Law ; 스케줄 지연에 대해 추가 인력을 투입이 오히려 악화될 수 있다.
+- PMBOK(Project Management Body of Knowledge, 프로젝트관리지식체계)
+    - 프로세스 그룹 ; 시작, 기획, 실행, 통제, 종료
+    - 지식 영역 10개 항목 ; 통합, 범위, 시간, 원가, 품질, 인력자원, 의사소통, 위험, 조달, 이해관리자
+        - 통합관리
+        - 범위관리
+        - 시간관리
+        - 원가관리
+        - 품질관리
+        - 인력자원관리
+        - 의사소통관리
+        - 위험관리
+        - 조달관리
+        - 이해관리자관리
+
 [to the Top](#Top)
 
 ---
