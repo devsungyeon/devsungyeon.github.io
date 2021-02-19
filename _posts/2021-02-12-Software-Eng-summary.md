@@ -28,7 +28,7 @@ comments: true
 ---
 ### 1. 소프트웨어의 개념
 ---
-- 생산성 향상
+- 생산성 향상 
 - 품질향상
 - 재사용 가능한 소프트웨어 개발
     - System의 5대 구성요소 ; Input, Process(Transformation), Output, Control, Feedback
