@@ -98,7 +98,7 @@ comments: true
     - 스토리 카드. ; 고객의 요구 요약. (요구분석서, CRC 카드)
     - **시험 우선 개발** ; 코드보다 시험을 먼저 작성
 
-3)  
+3)  d
 
 [to the Top](#Top)
 
@@ -475,5 +475,5 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjI4MzYwMCwtOTM3OTI4OTA4XX0=
+eyJoaXN0b3J5IjpbMTMwMDUwNDgyNCwtOTM3OTI4OTA4XX0=
 -->
