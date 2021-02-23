@@ -1195,7 +1195,9 @@ cf) 파킨슨 법
 
 ### 1. 시험의 개념
 
-
+- Verification
+	- 개발자 입장에서 시험자가 시스팀이 명세서대로 만들어졌는지를 점검
+- 
 
 
 
@@ -1354,5 +1356,6 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDUwNDgyNCwtOTM3OTI4OTA4XX0=
+eyJoaXN0b3J5IjpbLTE1MTEwODQyMDQsMTMwMDUwNDgyNCwtOT
+M3OTI4OTA4XX0=
 -->
