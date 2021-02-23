@@ -1267,7 +1267,7 @@ cf) 파킨슨 법
 	- 루프 시험, loop testing
 	- 조건 시험, condition testing
 	- 데이터 흐름 시험, data flow testing
-	- 그래프 행려
+	- 그래프 행렬, graph matrix
 
 
 
@@ -1419,6 +1419,6 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NDM4ODQwMywtNjQ5MTcxMjAsMTMwMD
-UwNDgyNCwtOTM3OTI4OTA4XX0=
+eyJoaXN0b3J5IjpbMTYyMjQwNzk2LC02NDkxNzEyMCwxMzAwNT
+A0ODI0LC05Mzc5Mjg5MDhdfQ==
 -->
