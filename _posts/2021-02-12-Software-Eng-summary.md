@@ -1195,6 +1195,14 @@ cf) 파킨슨 법
 
 ### 1. 시험의 개념
 
+
+- 테스트의 원리 5단계
+	- 테스트의 목표 설정(what)
+	- 테스트의 방법 결정(how) ; 검사, 증명, 블랙박스 테스트, 화이트박스 테스트, 
+	- 테스트 케이스 개발
+	- 테스트의 예상 결과 작성
+	- 테스트 케이스 실행
+
 - Verification
 	- 개발자 입장에서 시험자가 시스팀이 명세서대로 만들어졌는지를 점검
 -  Validation
@@ -1362,6 +1370,6 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0NzA1NjA0LDEzMDA1MDQ4MjQsLTkzNz
-kyODkwOF19
+eyJoaXN0b3J5IjpbMTM4OTEyMTE4MiwxMzAwNTA0ODI0LC05Mz
+c5Mjg5MDhdfQ==
 -->
