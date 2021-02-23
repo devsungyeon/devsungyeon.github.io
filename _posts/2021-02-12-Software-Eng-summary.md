@@ -1197,7 +1197,13 @@ cf) 파킨슨 법
 
 - Verification
 	- 개발자 입장에서 시험자가 시스팀이 명세서대로 만들어졌는지를 점검
-- 
+-  Validation
+	- 사용자의 시각에서 고객의 요구사항이 구현되었는지를 점검.
+- 디버깅(Debugging)
+	- 개발자의 시각에서 노출된 오류를 고치는 활동
+
+
+
 
 
 
@@ -1356,6 +1362,6 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTEwODQyMDQsMTMwMDUwNDgyNCwtOT
-M3OTI4OTA4XX0=
+eyJoaXN0b3J5IjpbNjg0NzA1NjA0LDEzMDA1MDQ4MjQsLTkzNz
+kyODkwOF19
 -->
