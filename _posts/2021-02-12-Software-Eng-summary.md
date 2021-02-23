@@ -1198,10 +1198,11 @@ cf) 파킨슨 법
 
 - 테스트의 원리 5단계
 	- 테스트의 목표 설정(what)
-	- 테스트의 방법 결정(how) ; 검사, 증명, 블랙박스 테스트, 화이트박스 테스트, 
-	- 테스트 케이스 개발
-	- 테스트의 예상 결과 작성
-	- 테스트 케이스 실행
+	- 테스트의 방법 결정(how) ; 검사, 증명, 블랙박스 테스트, 화이트박스 테스트, 자동화 도구
+	- 테스트 케이스 개발 ; 테스트 케이스란 테스트 자료나 실행 조건 등
+	- 테스트의 예상 결과 작성 ; 테스트 오라클(test oracle) 작성
+	- 테스트 케이스 실행 ; 시험 소프트웨어에 변경을 가하는 테스트 하니스(test harness)를 실시
+		- 테스트 하니스(test harness) ; 시스템의 일부 기능만 시험하기 위하여 소프트웨어를 변경하는 것으로, 검사가 끝나면 이를 제거.
 
 - Verification
 	- 개발자 입장에서 시험자가 시스팀이 명세서대로 만들어졌는지를 점검
@@ -1370,6 +1371,6 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4OTEyMTE4MiwxMzAwNTA0ODI0LC05Mz
-c5Mjg5MDhdfQ==
+eyJoaXN0b3J5IjpbMTQ1Mzg1MTc2LDEzMDA1MDQ4MjQsLTkzNz
+kyODkwOF19
 -->
