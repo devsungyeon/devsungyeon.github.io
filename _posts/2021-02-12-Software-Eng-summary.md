@@ -1253,7 +1253,9 @@ cf) 파킨슨 법
 		- 문장 검증 기준, statement coverage, 노드/문장 커버리지
 			- 모든 문장이 적어도 한 번씩 수행
 		- 분기 검증 기준, branch coverage, 간선/분기 커버리지
-			- 마름모로 표시된 모든 선택 분기점들의 
+			- 마름모로 표시된 모든 각 분기점들의 참과 거짓을 적어도 한 번 이상 실행.
+			- 분기 커버리지를 만족하면 문장 커버리지 만족
+
 		- 경로 검증 기준, path coverage, 경로 커버리지
 		- 조건 검증 기준(condition coverage, 조건 커버리지
 
@@ -1407,6 +1409,6 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTM4NTkyMiwtNjQ5MTcxMjAsMTMwMD
-UwNDgyNCwtOTM3OTI4OTA4XX0=
+eyJoaXN0b3J5IjpbOTk0MDk1OTYwLC02NDkxNzEyMCwxMzAwNT
+A0ODI0LC05Mzc5Mjg5MDhdfQ==
 -->
