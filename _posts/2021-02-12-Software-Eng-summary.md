@@ -1259,6 +1259,7 @@ cf) 파킨슨 법
 			- 수행 가능한 **모든 경로**를 검사.
 		- 조건 검증 기준(condition coverage, 조건 커버리지
 			- if나 while문 안에 있는 조건식을 자세히 조사
+			- 조건문의 모든 조건식을 만족하는 경우와 만족하지 않는 경우를 테스
 
 
 
@@ -1410,6 +1411,6 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODUzMjg3NTQsLTY0OTE3MTIwLDEzMD
-A1MDQ4MjQsLTkzNzkyODkwOF19
+eyJoaXN0b3J5IjpbMTUyODQwMjM1OCwtNjQ5MTcxMjAsMTMwMD
+UwNDgyNCwtOTM3OTI4OTA4XX0=
 -->
