@@ -1211,7 +1211,7 @@ cf) 파킨슨 법
 - 디버깅(Debugging)
 	- 개발자의 시각에서 노출된 오류를 고치는 활동
 
-
+- ㅂ
 
 
 
@@ -1371,6 +1371,6 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1Mzg1MTc2LDEzMDA1MDQ4MjQsLTkzNz
-kyODkwOF19
+eyJoaXN0b3J5IjpbMTI3ODQ4MjE1NywxMzAwNTA0ODI0LC05Mz
+c5Mjg5MDhdfQ==
 -->
