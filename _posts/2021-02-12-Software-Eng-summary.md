@@ -1211,7 +1211,20 @@ cf) 파킨슨 법
 - 디버깅(Debugging)
 	- 개발자의 시각에서 노출된 오류를 고치는 활동
 
-- ㅂ
+- 블랙박스
+	- 목적 ; 기능, 성능, 입출력
+	- 단위시험 ; 
+	- 통합시험 ; big bang, 상향식, 하향식, 샌드위치식 시험
+	- 시스템시험 ; 
+	- 인수시험 ; 
+	- 설치시험 ; 
+- 화이트박스
+	- 목적 ; 구조 시험, 복잡도 시험
+	- 단위시험 ; 인터페이스 시험, 료
+	- 통합시험 ; big bang, 상향식, 하향식, 샌드위치식 시험
+	- 시스템시험 ; 
+	- 인수시험 ; 
+	- 설치시험 ; 
 
 
 
@@ -1371,6 +1384,6 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3ODQ4MjE1NywxMzAwNTA0ODI0LC05Mz
-c5Mjg5MDhdfQ==
+eyJoaXN0b3J5IjpbODkzOTcxNjc0LDEzMDA1MDQ4MjQsLTkzNz
+kyODkwOF19
 -->
