@@ -1249,6 +1249,8 @@ cf) 파킨슨 법
 		- 테스트 결과를 예상하여 테스트 오라클을 만든다.
 		- 테스트 케이스를 수행한다.
 		- 테스트 결과와 테스트 오라클을 비교한다. --> 결과의 차이가 있다면 변경한다. 이 때 변경 후 실시되는 테스트를 회귀 테스트(regression test)라 한다.
+	- 테스트 검증 기준
+		- 문장 검증 기준, 
 
 
 
@@ -1400,6 +1402,6 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTE3MTIwLDEzMDA1MDQ4MjQsLTkzNz
-kyODkwOF19
+eyJoaXN0b3J5IjpbLTExMDQzNjQ3MDcsLTY0OTE3MTIwLDEzMD
+A1MDQ4MjQsLTkzNzkyODkwOF19
 -->
