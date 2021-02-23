@@ -1251,7 +1251,9 @@ cf) 파킨슨 법
 		- 테스트 결과와 테스트 오라클을 비교한다. --> 결과의 차이가 있다면 변경한다. 이 때 변경 후 실시되는 테스트를 회귀 테스트(regression test)라 한다.
 	- 테스트 검증 기준
 		- 문장 검증 기준, statement coverage, 노드/문장 커버리지
+			- 모든 문장이 적어도 한 번씩 수행
 		- 분기 검증 기준, branch coverage, 간선/분기 커버리지
+			- 마름모로 표시된 모든 선택 분기점들의 
 		- 경로 검증 기준, path coverage, 경로 커버리지
 		- 조건 검증 기준(condition coverage, 조건 커버리지
 
@@ -1405,6 +1407,6 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2ODI2NzIxMSwtNjQ5MTcxMjAsMTMwMD
+eyJoaXN0b3J5IjpbLTc4NTM4NTkyMiwtNjQ5MTcxMjAsMTMwMD
 UwNDgyNCwtOTM3OTI4OTA4XX0=
 -->
