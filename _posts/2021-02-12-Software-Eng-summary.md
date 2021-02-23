@@ -1242,7 +1242,13 @@ cf) 파킨슨 법
 ### 2. 시험 기법
 
 - 화이트박스 시험
-	- 
+	- 프로그램의 논리적 구조를 파악
+	- 모듈 내의 모든 경로들이 적어도 한 번은 테스트 될 수 있게 한다.
+	- 수행 단계
+		- 테스트 케이스를 만든다.
+		- 테스트 결과를 예상하여 테스트 오라클을 만든다.
+		- 테스트 케이스를 수행한다.
+		- 테스트 결과와 테스트 오라클을 비교한다. --> 결과의 차이가 있다면 변경한다. 이 때 변경 후 실시되는 테스트를 회귀 테스트(regression test)라 한다.
 
 
 
@@ -1394,6 +1400,6 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTk2NjQzMSwxMzAwNTA0ODI0LC05Mz
-c5Mjg5MDhdfQ==
+eyJoaXN0b3J5IjpbLTY0OTE3MTIwLDEzMDA1MDQ4MjQsLTkzNz
+kyODkwOF19
 -->
