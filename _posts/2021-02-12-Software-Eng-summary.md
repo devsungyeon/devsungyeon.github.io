@@ -1229,7 +1229,8 @@ cf) 파킨슨 법
 
 
 - 시험 방법에 의한 분류
-	- 화이트박스 ; 내부의 논리
+	- 화이트박스 테스트 ; 내부(원시코드)의 논리적 구조를 시험
+	- 블랙박스 테스트 ; 외부에서 기능, 성능, 입출력을 시험
 
 
 
@@ -1239,6 +1240,12 @@ cf) 파킨슨 법
 ---
 
 ### 2. 시험 기법
+
+- 화이트박스 시험
+	- 
+
+
+
 
 [to the Top](#Top)
 
@@ -1387,6 +1394,6 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyMzQxNzQzLDEzMDA1MDQ4MjQsLTkzNz
-kyODkwOF19
+eyJoaXN0b3J5IjpbMTAyMTk2NjQzMSwxMzAwNTA0ODI0LC05Mz
+c5Mjg5MDhdfQ==
 -->
