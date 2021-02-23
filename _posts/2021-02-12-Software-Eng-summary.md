@@ -1249,17 +1249,25 @@ cf) 파킨슨 법
 		- 테스트 결과를 예상하여 테스트 오라클을 만든다.
 		- 테스트 케이스를 수행한다.
 		- 테스트 결과와 테스트 오라클을 비교한다. --> 결과의 차이가 있다면 변경한다. 이 때 변경 후 실시되는 테스트를 회귀 테스트(regression test)라 한다.
-	- 테스트 검증 기준
-		- 문장 검증 기준, statement coverage, 노드/문장 커버리지
-			- 모든 문장이 적어도 한 번씩 수행
-		- 분기 검증 기준, branch coverage, 간선/분기 커버리지
-			- 마름모로 표시된 모든 각 분기점들의 참과 거짓을 적어도 한 번 이상 실행.
-			- 분기 커버리지를 만족하면 문장 커버리지 만족
-		- 경로 검증 기준, path coverage, 경로 커버리지
-			- 수행 가능한 **모든 경로**를 검사.
-		- 조건 검증 기준(condition coverage, 조건 커버리지
-			- if나 while문 안에 있는 조건식을 자세히 조사
-			- 조건문의 모든 조건식을 만족하는 경우와 만족하지 않는 경우를 테스
+- 화이트박스 테스트 검증 기준
+	- 문장 검증 기준, statement coverage, 노드/문장 커버리지
+		- 모든 문장이 적어도 한 번씩 수행
+	- 분기 검증 기준, branch coverage, 간선/분기 커버리지
+		- 마름모로 표시된 모든 각 분기점들의 참과 거짓을 적어도 한 번 이상 실행.
+		- 분기 커버리지를 만족하면 문장 커버리지 만족
+	- 경로 검증 기준, path coverage, 경로 커버리지
+		- 수행 가능한 **모든 경로**를 검사.
+	- 조건 검증 기준(condition coverage, 조건 커버리지
+		- if나 while문 안에 있는 조건식을 자세히 조사
+		- 조건문의 모든 조건식을 만족하는 경우와 만족하지 않는 경우를 테스트
+
+
+- 화이트박스 테스트의 종류
+	- 기본 경로 시험, basic path testing, 구조 시험, 복잡도 시험
+	- 루프 시험, loop testing
+	- 조건 시험, condition testing
+	- 데이터 흐름 시험, data flow testing
+	- 그래프 행려
 
 
 
@@ -1411,6 +1419,6 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODQwMjM1OCwtNjQ5MTcxMjAsMTMwMD
+eyJoaXN0b3J5IjpbLTQ5NDM4ODQwMywtNjQ5MTcxMjAsMTMwMD
 UwNDgyNCwtOTM3OTI4OTA4XX0=
 -->
