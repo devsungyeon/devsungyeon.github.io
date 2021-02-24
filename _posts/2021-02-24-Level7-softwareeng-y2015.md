@@ -1,21 +1,21 @@
 ---
-title: "2019년 7급 전산직 데이터베이스 풀이"
-strapline: "데이터베이스 풀이"
-description: "2019년 7급 전산직 데이터베이스 풀이"
+title: "2015년 7급 전산직 소프트웨어공학 풀이"
+strapline: "소프트웨어공학 풀이"
+description: "2015년 7급 전산직 소프트웨어공학 풀이"
 header:
  overlay_image: /assets/images/bright.jpg
 categories:
-  - "7Level_database"
+  - "7Level_softwareeng"
 tag:
   - "7급"
-  - "데이터베이스"
+  - "소프트웨어공학"
   - "7급공무원"
 toc: true
-last_modified_at: 2020-12-05
+last_modified_at: 2021-02-24
 comments: true
 ---
 
-# 2019년 7급 전산직 데이터베이스 풀이
+# 2015년 7급 전산직 소프트웨어공학 풀이
 
 궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! ":)"
 
