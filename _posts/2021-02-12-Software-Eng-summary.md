@@ -1259,11 +1259,14 @@ cf) 파킨슨 법
 		- 수행 가능한 **모든 경로**를 검사.
 	- 조건 검증 기준(condition coverage, 조건 커버리지
 		- if나 while문 안에 있는 조건식을 자세히 조사
-		- 조건문의 모든 조건식을 만족하는 경우와 만족하지 않는 경우를 테스트
+		- 조건문의 **모든 조건식을 만족하는 경우**와 **만족하지 않는 경우**를 테스트
 
 
 - 화이트박스 테스트의 종류
 	- 기본 경로 시험, basic path testing, 구조 시험, 복잡도 시험
+		- 동심원Node, 화살표Edge, 영역Region
+		- 순환적 복잡도(Cyclematic Complexity), 논리적 복잡도
+			- V(G) = P + 1 (
 	- 루프 시험, loop testing
 	- 조건 시험, condition testing
 	- 데이터 흐름 시험, data flow testing
@@ -1419,6 +1422,6 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjQwNzk2LC02NDkxNzEyMCwxMzAwNT
-A0ODI0LC05Mzc5Mjg5MDhdfQ==
+eyJoaXN0b3J5IjpbLTE2ODkyMTkzMTMsMTYyMjQwNzk2LC02ND
+kxNzEyMCwxMzAwNTA0ODI0LC05Mzc5Mjg5MDhdfQ==
 -->
