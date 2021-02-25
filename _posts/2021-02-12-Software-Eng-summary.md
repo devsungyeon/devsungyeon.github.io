@@ -1299,7 +1299,7 @@ cf) 파킨슨 법
 		- 드라이버, Driver
 			- 상향식 테스트, 하위 모듈에서 상위 모듈로의 테스트를 진행
 			- 서버-클라이언트 구조에서 클라이언트만 구현된 경우, 접속 인증 등의 간단한 기능만 하는(뼈대만 있는) 가상의 서버를 만들어 테스트 할 수 있다.
-			- 가상의 서버가 ㅋ
+			- 가상의 서버가 드라이버이다.
 
 
 
@@ -1450,7 +1450,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MDg0MzUyNywyMzg0OTA1MDQsMTYyMj
-QwNzk2LC02NDkxNzEyMCwxMzAwNTA0ODI0LC05Mzc5Mjg5MDhd
-fQ==
+eyJoaXN0b3J5IjpbLTIwNzYxMTAzOTAsMjM4NDkwNTA0LDE2Mj
+I0MDc5NiwtNjQ5MTcxMjAsMTMwMDUwNDgyNCwtOTM3OTI4OTA4
+XX0=
 -->
