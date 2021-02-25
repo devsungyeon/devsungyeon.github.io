@@ -1,7 +1,7 @@
 ---
-title: "20189년 7급 전산직 소프트웨어공학데이터베이스 풀이"
+title: "2018년 7급 전산직 소프트웨어공학데이터베이스 풀이"
 strapline: "소프트웨어공학데이터베이스 풀이"
-description: "20189년 7급 전산직 소프트웨어공학데이터베이스 풀이"
+description: "2018년 7급 전산직 소프트웨어공학데이터베이스 풀이"
 header:
  overlay_image: /assets/images/bright.jpg
 categories:
@@ -11,7 +11,7 @@ tag:
   - "소프트웨어공학데이터베이스"
   - "7급공무원"
 toc: true
-last_modified_at: 2021-02-240-12-05
+last_modified_at: 2021-02-24
 comments: true
 ---
 
@@ -741,5 +741,5 @@ CRC ; 객체지향 **분석** 단계에서 클래스 모델링을 위해 사용.
 
 ④
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDA4NTk4Ml19
+eyJoaXN0b3J5IjpbMTQ0MjI5MDAyMiwtMzM0MDg1OTgyXX0=
 -->
