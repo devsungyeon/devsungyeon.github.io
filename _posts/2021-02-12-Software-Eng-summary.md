@@ -1437,20 +1437,3 @@ cf) 파킨슨 법
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzYxMTAzOTAsMjM4NDkwNTA0LDE2Mj
-I0MDc5NiwtNjQ5MTcxMjAsMTMwMDUwNDgyNCwtOTM3OTI4OTA4
-XX0=
--->
