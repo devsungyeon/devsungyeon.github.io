@@ -1266,6 +1266,7 @@ cf) 파킨슨 법
 	- 기본 경로 시험, basic path testing, 구조 시험, 복잡도 시험
 		- 동심원Node, 화살표Edge, 영역Region
 		- 순환적 복잡도(Cyclematic Complexity), 논리적 복잡도
+			- 흐름 그래프 G 영역의 수 = 내부영역의 갯수 + 1개의 외부 영역.
 			- V(G) = P + 1 (P ; 분기 node수)
 			- V(G) = E - N + 2 (E ; 간선수, N ; 노드수)
 	- 루프 시험, loop testing
@@ -1423,6 +1424,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM4NDkwNTA0LDE2MjI0MDc5NiwtNjQ5MT
-cxMjAsMTMwMDUwNDgyNCwtOTM3OTI4OTA4XX0=
+eyJoaXN0b3J5IjpbMTM3MzgwMTEwNiwyMzg0OTA1MDQsMTYyMj
+QwNzk2LC02NDkxNzEyMCwxMzAwNTA0ODI0LC05Mzc5Mjg5MDhd
+fQ==
 -->
