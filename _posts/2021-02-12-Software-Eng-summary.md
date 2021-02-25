@@ -1290,6 +1290,9 @@ cf) 파킨슨 법
 	- 페어와이즈 테스트, Pairwise Test, 조합 테스트
 
 
+- Stub vs Driver
+	- 전체 시스템을 개발하지 않고, 일부만 개발한 상탤
+
 
 [to the Top](#Top)
 
@@ -1438,7 +1441,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTI3NTI5MSwyMzg0OTA1MDQsMTYyMj
+eyJoaXN0b3J5IjpbMTA1NDMxMjgzNywyMzg0OTA1MDQsMTYyMj
 QwNzk2LC02NDkxNzEyMCwxMzAwNTA0ODI0LC05Mzc5Mjg5MDhd
 fQ==
 -->
