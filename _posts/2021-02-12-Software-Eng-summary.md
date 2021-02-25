@@ -1291,8 +1291,11 @@ cf) 파킨슨 법
 
 
 - Stub vs Driver
-	- 전체 시스템을 개발하지 않고, 일부만 개발한 상탤
-
+	- 전체 시스템을 개발하지 않고, 일부만 개발한 상태로 기능 테스트를 하고자 할 때, 기본적인 뼈대 기능만 만들어서 단순한 기능 테스트를 할 수 있다.
+		- 스터브, 스텁, stub
+			- 하향식 테스트, 상위 모듈에서 하위 모듈로의 테스트를 진행.
+		- 드라이버, Driver
+			- 상향식 테스트, 하위 모듈에서 상위 모듈로의 테스트를 진행
 
 [to the Top](#Top)
 
@@ -1441,7 +1444,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NDMxMjgzNywyMzg0OTA1MDQsMTYyMj
+eyJoaXN0b3J5IjpbMTU1NzIzMjQxOSwyMzg0OTA1MDQsMTYyMj
 QwNzk2LC02NDkxNzEyMCwxMzAwNTA0ODI0LC05Mzc5Mjg5MDhd
 fQ==
 -->
