@@ -1294,8 +1294,14 @@ cf) 파킨슨 법
 	- 전체 시스템을 개발하지 않고, 일부만 개발한 상태로 기능 테스트를 하고자 할 때, 기본적인 뼈대 기능만 만들어서 단순한 기능 테스트를 할 수 있다.
 		- 스터브, 스텁, stub
 			- 하향식 테스트, 상위 모듈에서 하위 모듈로의 테스트를 진행.
+			- 서버-클라이언트 구조에서 서버만 구현된 경우, 단순히 값만 넘겨주는(뼈대만 있는) 가상의 클라이언트를 만들어 테스트 할 수 있다.
+			- 가상의 클라이언트가 스터브이다.
 		- 드라이버, Driver
 			- 상향식 테스트, 하위 모듈에서 상위 모듈로의 테스트를 진행
+			- 서버-클라이언트 구조에서 클라이언트만 구현된 경우, 접속 인증 등의 간단한 기능만 하는(뼈대만 있는) 가상의 서버를 만들어 테스트 할 수 있다.
+			- 가상의 서버가 ㅋ
+
+
 
 [to the Top](#Top)
 
@@ -1444,7 +1450,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NzIzMjQxOSwyMzg0OTA1MDQsMTYyMj
+eyJoaXN0b3J5IjpbMTQ0MDg0MzUyNywyMzg0OTA1MDQsMTYyMj
 QwNzk2LC02NDkxNzEyMCwxMzAwNTA0ODI0LC05Mzc5Mjg5MDhd
 fQ==
 -->
