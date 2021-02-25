@@ -1309,6 +1309,10 @@ cf) 파킨슨 법
 
 ### 3. 소프트웨어 검사 전략
 
+- 시험 단계 : 단위 - 통합 - 시스템 - 인수(확인) - 설치
+
+
+
 [to the Top](#Top)
 
 ---
@@ -1438,5 +1442,5 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU0NjUzNjAyXX0=
+eyJoaXN0b3J5IjpbLTcwNjY3NTcsMjU0NjUzNjAyXX0=
 -->
