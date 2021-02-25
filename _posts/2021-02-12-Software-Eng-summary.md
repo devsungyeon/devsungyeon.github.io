@@ -1279,7 +1279,14 @@ cf) 파킨슨 법
 - 블랙박스 시험
 	- 원시코드는 보지 않고 목적코드를 수행시켜 가며 결함을 발견할 수 있는 시험 방식.
 	- 기능성능 위주시험, 데이터 위주시험, 입출력 위주시험
-	- ㄷ
+- 블랙박스 시험의 종류
+	- 그래프 기반 테스팅
+	- 동등 분할, Equivalence Partiitioning, 균등 분할, 동치 분할
+	- 경곗값 분석, Boundary Value Analysis
+	- 원인-결과 그래프
+	- 오류 예측, Error-Guessing, 데이터 확인
+	- 비교 검사, comparison test
+	- 직교 배열, orthogonal array 테스팅
 
 
 [to the Top](#Top)
@@ -1429,7 +1436,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzUxNjg2NywyMzg0OTA1MDQsMTYyMj
-QwNzk2LC02NDkxNzEyMCwxMzAwNTA0ODI0LC05Mzc5Mjg5MDhd
-fQ==
+eyJoaXN0b3J5IjpbNjUxMzUzNTIsMjM4NDkwNTA0LDE2MjI0MD
+c5NiwtNjQ5MTcxMjAsMTMwMDUwNDgyNCwtOTM3OTI4OTA4XX0=
+
 -->
