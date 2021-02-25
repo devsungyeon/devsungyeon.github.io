@@ -15,7 +15,7 @@ last_modified_at: 2021-02-24
 comments: true
 ---
 
-# 20189년 7급 전산직 소프트웨어공학데이터베이스 풀이
+# 2018년 7급 전산직 소프트웨어공학데이터베이스 풀이
 
 궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! ":)"
 
@@ -741,5 +741,5 @@ CRC ; 객체지향 **분석** 단계에서 클래스 모델링을 위해 사용.
 
 ④
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MjI5MDAyMiwtMzM0MDg1OTgyXX0=
+eyJoaXN0b3J5IjpbMjAzNjc3NTMzMywtMzM0MDg1OTgyXX0=
 -->
