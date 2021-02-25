@@ -1286,7 +1286,7 @@ cf) 파킨슨 법
 	- 원인-결과 그래프
 	- 오류 예측, Error-Guessing, 데이터 확인
 	- 비교 검사, comparison test
-	- 직교 배열, orthogonal array 테스팅
+	- 직교 배열(orthogonal array) 테스팅
 
 
 [to the Top](#Top)
@@ -1436,7 +1436,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxMzUzNTIsMjM4NDkwNTA0LDE2MjI0MD
-c5NiwtNjQ5MTcxMjAsMTMwMDUwNDgyNCwtOTM3OTI4OTA4XX0=
-
+eyJoaXN0b3J5IjpbLTE5NTg1NjY3MSwyMzg0OTA1MDQsMTYyMj
+QwNzk2LC02NDkxNzEyMCwxMzAwNTA0ODI0LC05Mzc5Mjg5MDhd
+fQ==
 -->
