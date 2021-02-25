@@ -1,21 +1,21 @@
 ---
-title: "2018년 7급 전산직 소프트웨어공학 풀이"
-strapline: "소프트웨어공학 풀이"
-description: "2018년 7급 전산직 소프트웨어공학 풀이"
+title: "20189년 7급 전산직 소프트웨어공학데이터베이스 풀이"
+strapline: "소프트웨어공학데이터베이스 풀이"
+description: "20189년 7급 전산직 소프트웨어공학데이터베이스 풀이"
 header:
  overlay_image: /assets/images/bright.jpg
 categories:
-  - "7Level_softwareeng"
+  - "7Level_softwareengdatabase"
 tag:
   - "7급"
-  - "소프트웨어공학"
+  - "소프트웨어공학데이터베이스"
   - "7급공무원"
 toc: true
-last_modified_at: 2021-02-24
+last_modified_at: 2021-02-240-12-05
 comments: true
 ---
 
-# 2018년 7급 전산직 소프트웨어공학 풀이
+# 20189년 7급 전산직 소프트웨어공학데이터베이스 풀이
 
 궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! ":)"
 
@@ -23,7 +23,11 @@ comments: true
 
 ## 1. 소프트웨어 개발 프로세스...
 
-1. 소프트웨어 개발 프로세스 모델 중 폭포수(waterfall) 모델에 대한 설명으로 옳지 않은 것은?![2018_7L_1](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_1.jpg)
+1. 소프트웨어 개발 프로세스 모델 중 폭포수(waterfall) 모델에 대한 설명으로 옳지 않은 것은?
+
+1. 
+![2018_7L_1](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_1.jpg)
+
 
 **답 : ④**
 
@@ -42,7 +46,23 @@ comments: true
 ## 2. 소프트웨어 통합 프로세스(UP)...
 
 2. 
-소프트웨어 통합 프로세스(UP) 모델의 구체화 단계(elaboration phase)에서 하는 주요 활동으로 옳지 않은 것은?![2018_7L_2](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_2.jpg)
+소프트웨어 통합 프로세스(UP) 모델의 구체화 단계(elaboration phase)에서 하는 주요 활동으로 옳지 않은 것은?①
+
+②
+
+③
+
+④
+
+
+
+---
+
+## 2. 
+
+2. 
+![2018_7L_2](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_2.jpg)
+
 
 **답 : ①**
 
@@ -77,7 +97,23 @@ comments: true
 ## 3. 기능점수(FP)를 계산하기...
 
 3. 
-기능점수(FP)를 계산하기 위해 고려할 대상으로 옳지 않은 것은?![2018_7L_3](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_3.jpg)
+기능점수(FP)를 계산하기 위해 고려할 대상으로 옳지 않은 것은?①
+
+②
+
+③
+
+④
+
+
+
+---
+
+## 3. 
+
+3. 
+![2018_7L_3](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_3.jpg)
+
 
 **답 : ④**
 
@@ -96,7 +132,23 @@ comments: true
 ## 4. 그림과 같이 관찰대상(Subject)의...
 
 4. 
-그림과 같이 관찰대상(Subject)의 데이터(A ~ D)에 변화가 발생하면 이 변화를 탐지하여 여러 가지 방식으로 사용자에게 디스플레이하는 프로그램을 작성하고자 한다. 이 프로그램에 적용할 수 있는 디자인 패턴은?![2018_7L_4](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_4.jpg)
+그림과 같이 관찰대상(Subject)의 데이터(A ~ D)에 변화가 발생하면 이 변화를 탐지하여 여러 가지 방식으로 사용자에게 디스플레이하는 프로그램을 작성하고자 한다. 이 프로그램에 적용할 수 있는 디자인 패턴은?①
+
+②
+
+③
+
+④
+
+
+
+---
+
+## 4. 
+
+4. 
+![2018_7L_4](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_4.jpg)
+
 
 **답 : ④**
 
@@ -145,7 +197,23 @@ comments: true
 ## 5. CMMI 모델의 정의 단계...
 
 5. 
-CMMI 모델의 정의 단계(defined level)에 해당하는 프로세스 영역으로 옳지 않은 것은?![2018_7L_5](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_5.jpg)
+CMMI 모델의 정의 단계(defined level)에 해당하는 프로세스 영역으로 옳지 않은 것은?①
+
+②
+
+③
+
+④
+
+
+
+---
+
+## 5. 
+
+5. 
+![2018_7L_5](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_5.jpg)
+
 
 **답 : ④**
 
@@ -169,13 +237,29 @@ CMMI 모델의 정의 단계(defined level)에 해당하는 프로세스 영역�
 ## 6. PMBOK의 프로젝트 ...
 
 6. 
-PMBOK의 프로젝트 위험 관리 프로세스에 대한 설명으로 옳지 않은 것은?![2018_7L_6](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_6.jpg)
+PMBOK의 프로젝트 위험 관리 프로세스에 대한 설명으로 옳지 않은 것은?①
+
+②
+
+③
+
+④
+
+
+
+---
+
+## 6. 
+
+6. 
+![2018_7L_6](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_6.jpg)
+
 
 **답 : ③**
 
+①
 
-
-
+②
 
 ③ 위험 식별은 ~~도출된 위험들이 미치는 영향이  얼마나 큰지, 얼마나 자주 발생하는지 등을 분석하는 프로세스이다.~~
 
@@ -193,7 +277,17 @@ https://m.blog.naver.com/PostView.nhn?blogId=yingbbang&logNo=221591267108&proxyR
 ## 7. 대학교 학사관리시스템...
 
 7. 
-대학교 학사관리시스템의 기능적 요구사항으로 옳지 않은 것은?![2018_7L_7](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_7.jpg)
+대학교 학사관리시스템의 기능적 요구사항으로 옳지 않은 것은?
+
+④
+
+
+
+## 7. 
+
+7. 
+![2018_7L_7](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_7.jpg)
+
 
 **답 : ④**
 
@@ -215,13 +309,13 @@ https://m.blog.naver.com/PostView.nhn?blogId=yingbbang&logNo=221591267108&proxyR
   - 상세화. 
     - 요구 사항 작성 시, 작성 항목 별로 목표 값, 목표 값 측정 환경 및 조건, 예외 사항을 기술하며, 목표 값은 검증 가능하고 정량적으로 기술하는 것이 중요.
 
+①
 
+②
 
+file:///C:/Users/LSY/Downloads/2018%EB%85%84+%EA%B3%B5%EA%B3%B5SW%EC%82%AC%EC%97%85+%EC%A0%9C%EC%95%88%EC%9A%94%EC%B2%AD%EC%84%9C+%EC%9E%91%EC%84%B1%EC%9D%84+%EC%9C%84%ED%95%9C+%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD+%EC%83%81%EC%84%B8%ED%99%94+%EC%8B%A4%EB%AC%B4%EA%B0%80%EC%9D%B4%EB%93%9C%EB%9D%BC%EC%9D%B8-20181015.pdf③
 
-
-file:///C:/Users/LSY/Downloads/2018%EB%85%84+%EA%B3%B5%EA%B3%B5SW%EC%82%AC%EC%97%85+%EC%A0%9C%EC%95%88%EC%9A%94%EC%B2%AD%EC%84%9C+%EC%9E%91%EC%84%B1%EC%9D%84+%EC%9C%84%ED%95%9C+%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD+%EC%83%81%EC%84%B8%ED%99%94+%EC%8B%A4%EB%AC%B4%EA%B0%80%EC%9D%B4%EB%93%9C%EB%9D%BC%EC%9D%B8-20181015.pdf
-
-
+④
 
 
 
@@ -230,7 +324,11 @@ file:///C:/Users/LSY/Downloads/2018%EB%85%84+%EA%B3%B5%EA%B3%B5SW%EC%82%AC%EC%97
 ## 8. 애자일 프로세스...
 
 8. 
-애자일 프로세스 모델에 해당하지 않는 것은?![2018_7L_8](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_8.jpg)
+애자일 프로세스 모델에 해당하지 않는 것은?
+
+8. 
+![2018_7L_8](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_8.jpg)
+
 
 **답 : ②**
 
@@ -252,9 +350,13 @@ file:///C:/Users/LSY/Downloads/2018%EB%85%84+%EA%B3%B5%EA%B3%B5SW%EC%82%AC%EC%97
   - FDD
   - LSD Lean sw dev
   - AM 애자일 모델링
-  - 애자일 UP = AUP
+  - 애자일 UP = AUP①
 
+②
 
+③
+
+④
 
 
 
@@ -263,7 +365,11 @@ file:///C:/Users/LSY/Downloads/2018%EB%85%84+%EA%B3%B5%EA%B3%B5SW%EC%82%AC%EC%97
 ## 9. 익스트림 프로그래밍의...
 
 9. 
-익스트림 프로그래밍의 테스팅에 대한 설명으로 옳지 않은 것은?![2018_7L_9](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_9.jpg)
+익스트림 프로그래밍의 테스팅에 대한 설명으로 옳지 않은 것은?
+
+9. 
+![2018_7L_9](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_9.jpg)
+
 
 **답 : ③**
 
@@ -271,9 +377,13 @@ file:///C:/Users/LSY/Downloads/2018%EB%85%84+%EA%B3%B5%EA%B3%B5SW%EC%82%AC%EC%97
 
 ==> **코딩 전,** 단위 테스트 케이스를 생성하고 이후 인수 테스트가 이루어진다.
 
-**시험 우선 개발.**
+**시험 우선 개발.**①
 
+②
 
+③
+
+④
 
 
 
@@ -282,7 +392,11 @@ file:///C:/Users/LSY/Downloads/2018%EB%85%84+%EA%B3%B5%EA%B3%B5SW%EC%82%AC%EC%97
 ## 10. 유스케이스에 대한 ...
 
 10. 
-유스케이스에 대한 설명으로 옳은 것만을 모두 고르면?![2018_7L_10](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_10.jpg)
+유스케이스에 대한 설명으로 옳은 것만을 모두 고르면?
+
+10. 
+![2018_7L_10](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_10.jpg)
+
 
 **답 : ②**
 
@@ -306,7 +420,23 @@ file:///C:/Users/LSY/Downloads/2018%EB%85%84+%EA%B3%B5%EA%B3%B5SW%EC%82%AC%EC%97
 ## 11. 다음 설명에 해당하는...
 
 11. 
-다음 설명에 해당하는 테스팅은?![2018_7L_11](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_11.jpg)
+다음 설명에 해당하는 테스팅은?①
+
+②
+
+③
+
+④
+
+
+
+---
+
+## 11. 
+
+11. 
+![2018_7L_11](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_11.jpg)
+
 
 **답 : ③**
 
@@ -317,6 +447,13 @@ file:///C:/Users/LSY/Downloads/2018%EB%85%84+%EA%B3%B5%EA%B3%B5SW%EC%82%AC%EC%97
 ② 회귀 테스팅 ; 시스템의 변화에 따른 영향을 파악하기 위한 테스팅
 
 ④ 조합 테스팅 ; 잠재적 조합 요소의 거대한 양을 처리하기 위한 테스트케이스를 선정하는데, 도움을 주는 통계적 테스트 기법. 3가지 입력 ==> 3<sup>3</sup>= 27가지 결과
+①
+
+②
+
+③
+
+④
 
 
 
@@ -324,9 +461,21 @@ file:///C:/Users/LSY/Downloads/2018%EB%85%84+%EA%B3%B5%EA%B3%B5SW%EC%82%AC%EC%97
 
 ## 12. <보기 1>의 디자인 패턴...
 
-12. <보기 1>의 디자인 패턴 분류와 <보기 2>의 디자인 패턴을 바르게 연결한 것은?![2018_7L_12](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_12.jpg)
+12. <보기 1>의 디자인 패턴 분류와 <보기 2>의 디자인 패턴을 바르게 연결한 것은?
+
+12. 
+![2018_7L_12](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_12.jpg)
+
 
 **답 : ②**
+
+①
+
+②
+
+③
+
+④
 
 
 
@@ -335,7 +484,11 @@ file:///C:/Users/LSY/Downloads/2018%EB%85%84+%EA%B3%B5%EA%B3%B5SW%EC%82%AC%EC%97
 ## 13. 응집도를 강한 것 부터...
 
 13. 
-응집도를 강한 것 부터 순서대로 나열할 때, ㄱ~ㄹ에 들어갈 용어를 바르게 연결한 것은?![2018_7L_13](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_13.jpg)
+응집도를 강한 것 부터 순서대로 나열할 때, ㄱ~ㄹ에 들어갈 용어를 바르게 연결한 것은?
+
+13. 
+![2018_7L_13](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_13.jpg)
+
 
 **답 : ③**
 
@@ -350,7 +503,23 @@ file:///C:/Users/LSY/Downloads/2018%EB%85%84+%EA%B3%B5%EA%B3%B5SW%EC%82%AC%EC%97
 ## 14. 다음 코드와 부합하는...
 
 14. 
-다음 코드와 부합하는 클래스 간의 관계로 옳은 것은?![2018_7L_14](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_14.jpg)
+다음 코드와 부합하는 클래스 간의 관계로 옳은 것은?①
+
+②
+
+③
+
+④
+
+
+
+---
+
+## 14. 
+
+14. 
+![2018_7L_14](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_14.jpg)
+
 
 **답 : ①**
 
@@ -369,7 +538,11 @@ file:///C:/Users/LSY/Downloads/2018%EB%85%84+%EA%B3%B5%EA%B3%B5SW%EC%82%AC%EC%97
 ## 15. UML 시퀀스(sequence)...
 
 15. 
-UML 시퀀스(sequence) 다이어그램의 구성요소로  옳지 않은 것은?![2018_7L_15](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_15.jpg)
+UML 시퀀스(sequence) 다이어그램의 구성요소로  옳지 않은 것은?
+
+15. 
+![2018_7L_15](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_15.jpg)
+
 
 **답 : ①**
 
@@ -384,7 +557,23 @@ UML 시퀀스(sequence) 다이어그램의 구성요소로  옳지 않은 것은
 ## 16. 역공학(reverse engineering)...
 
 16. 
-역공학(reverse engineering) 프로세스에 대한 설명으로 옳지 않은 것은?![2018_7L_16](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_16.jpg)
+역공학(reverse engineering) 프로세스에 대한 설명으로 옳지 않은 것은?①
+
+②
+
+③
+
+④
+
+
+
+---
+
+## 16. 
+
+16. 
+![2018_7L_16](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_16.jpg)
+
 
 **답 : ①**
 
@@ -399,7 +588,23 @@ UML 시퀀스(sequence) 다이어그램의 구성요소로  옳지 않은 것은
 ## 17. 다음 설명에 해당하는 ...
 
 17. 
-다음 설명에 해당하는 것은?![2018_7L_17](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_17.jpg)
+다음 설명에 해당하는 것은?
+
+②
+
+③
+
+④
+
+
+
+---
+
+## 17. 
+
+17. 
+![2018_7L_17](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_17.jpg)
+
 
 **답 : ③**
 
@@ -420,7 +625,23 @@ cf) 기존 분산 컴퓨팅 기술 ; COBRA, DCOM, RMI
 ## 18. CRC 카드에 대한 ...
 
 18. 
-CRC 카드에 대한 설명으로 옳은 것만을 모두 고르면?![2018_7L_18](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_18.jpg)
+CRC 카드에 대한 설명으로 옳은 것만을 모두 고르면?
+
+②
+
+③
+
+④
+
+
+
+---
+
+## 18. 
+
+18. 
+![2018_7L_18](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_18.jpg)
+
 
 **답 : ②**
 
@@ -448,7 +669,23 @@ CRC ; 객체지향 **분석** 단계에서 클래스 모델링을 위해 사용.
 ## 19. 테스팅에서 프로그램의...
 
 19. 
-테스팅에서 프로그램의 실제 실행결과가 올바른 결과인지를 판단하는 메커니즘은?![2018_7L_19](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_19.jpg)
+테스팅에서 프로그램의 실제 실행결과가 올바른 결과인지를 판단하는 메커니즘은?①
+
+②
+
+③
+
+④
+
+
+
+---
+
+## 19. 
+
+19. 
+![2018_7L_19](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_19.jpg)
+
 
 **답 : ③**
 
@@ -471,7 +708,23 @@ CRC ; 객체지향 **분석** 단계에서 클래스 모델링을 위해 사용.
 ## 20. 다음 표는 프로젝트를...
 
 20. 
-다음 표는 프로젝트를 수행하는 데 필요한 작업, 소요 기간, 선행 작업을 나타낸 것이다. 작업 T5를 담당한 개발자가 이직하여 대체 인력을 확보하였으나 대체 인력의 교육에 15일이 소요되어, 작업 T5는 소요기간이 35일로 변경되었다. 프로젝트를 완료하기까지 필요한 최소 소요 기간은 개발자가 이직 전보다 얼마나 증가하는가?![2018_7L_20](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_20.jpg)
+다음 표는 프로젝트를 수행하는 데 필요한 작업, 소요 기간, 선행 작업을 나타낸 것이다. 작업 T5를 담당한 개발자가 이직하여 대체 인력을 확보하였으나 대체 인력의 교육에 15일이 소요되어, 작업 T5는 소요기간이 35일로 변경되었다. 프로젝트를 완료하기까지 필요한 최소 소요 기간은 개발자가 이직 전보다 얼마나 증가하는가?
+
+②
+
+③
+
+④
+
+
+
+---
+
+## 20. 
+
+20. 
+![2018_7L_20](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2018_7L/2018_7L_20.jpg)
+
 
 **답 : ①**
 
@@ -480,4 +733,13 @@ CRC ; 객체지향 **분석** 단계에서 클래스 모델링을 위해 사용.
   - 개발자 이직 전 ; T1 T2 T4 T7 T8 ; 65일
   - 개발자 이직 후 ; T3 T5 T6 = 70일
 
-  **5일 증가.**
+  **5일 증가.**①
+
+②
+
+③
+
+④
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTMzNDA4NTk4Ml19
+-->
