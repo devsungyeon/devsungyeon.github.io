@@ -1317,8 +1317,8 @@ cf) 파킨슨 법
 	- 오류처리시험
 	- 경계시험
 - 통합 시험 ; 모듈사이의 인터페이스와 결함을 테스트. 주로 블랙박스 검사 기법.
-	- 빅뱅통합
-	- 하향식통합
+	- 빅뱅통합 = 동시식 = 비점진적 = 차분 ; 모든 모듈들을 한꺼번에 조합.
+	- 하향식통합 ; 
 	- 상향식통합
 	- 샌드위치통합
 - 시스템 시험
@@ -1476,6 +1476,6 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTcxMzkwNSwtNDQwNjgyMjQ1LC0xOD
-YzMzQxMDEzLDI1NDY1MzYwMl19
+eyJoaXN0b3J5IjpbLTIxMjY4MjI1NzAsLTc2MTcxMzkwNSwtND
+QwNjgyMjQ1LC0xODYzMzQxMDEzLDI1NDY1MzYwMl19
 -->
