@@ -1276,6 +1276,11 @@ cf) 파킨슨 법
 
 
 
+- 블랙박스 시험
+	- 원시코드는 보지 않고 목적코드를 수행시켜 가며 결함을 발견할 수 있는 시험 방식.
+	- 기능성능 위주시험, 데이터 위주시험, 입출력 위주시험
+	- ㄷ
+
 
 [to the Top](#Top)
 
@@ -1424,7 +1429,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MzgwMTEwNiwyMzg0OTA1MDQsMTYyMj
+eyJoaXN0b3J5IjpbLTg0MzUxNjg2NywyMzg0OTA1MDQsMTYyMj
 QwNzk2LC02NDkxNzEyMCwxMzAwNTA0ODI0LC05Mzc5Mjg5MDhd
 fQ==
 -->
