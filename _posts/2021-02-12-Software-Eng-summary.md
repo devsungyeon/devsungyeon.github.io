@@ -1321,7 +1321,7 @@ cf) 파킨슨 법
 	- 하향식통합
 		- 주프로그램에서 모듈이 호출하는 다음 레벨의 모듈들을 점차적으로 통합.
 		- 통합이 시도되지 않는 모듈들 자리에는 **더미 모듈(stub)이 필요.**
-		- ㅎ
+		- 회귀시험 ; 새로운 결함발생의 가능성에 대비하여 이미 실시했던 시험사례들의 전부 혹은 일부를 재실행.
 	- 상향식통합
 	- 샌드위치통합
 - 시스템 시험
@@ -1479,6 +1479,6 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTIxNjEzMiwtNzYxNzEzOTA1LC00ND
-A2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
+eyJoaXN0b3J5IjpbLTE3NDU0OTc0NTAsLTc2MTcxMzkwNSwtND
+QwNjgyMjQ1LC0xODYzMzQxMDEzLDI1NDY1MzYwMl19
 -->
