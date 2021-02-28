@@ -1578,7 +1578,8 @@ cf) 파킨슨 법
 	- 대수학적 algebraic 명세
 		- 대수적 데이터 인터페이스를 정의. 부울대수. A+A = A(or)
 	- 모델(상태) 기반 명세
-	- 
+		- 집합과 수열 등 수학적 요소를 이용하여 표현. A+A = 2A
+		
 
 [to the Top](#Top)
 
@@ -1639,7 +1640,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDg0MTQyOSwtMTI0NDc4OTUzNiwtMT
+eyJoaXN0b3J5IjpbMTg0MzYwOTU5OCwtMTI0NDc4OTUzNiwtMT
 E3MDAyMTE0LC0xMTcwMDIxMTQsLTIwMDk0MDM4OTksMTkzNzEx
 OTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOT
 A1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
