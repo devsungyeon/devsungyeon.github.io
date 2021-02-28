@@ -1489,7 +1489,9 @@ cf) 파킨슨 법
 			- 읽기 어려운 프로그램
 			- 중복된 로직을 가진 프로그램
 			- 실행중인 코드를 변경해야 하는 특별한 동작을 요구하는 프로그램
-			- 복잡한 
+			- 복잡한 조건문이 포함된 프로그램
+		- 리팩토링 기법
+			
 - 역공학 reverse engineering
 
 [to the Top](#Top)
@@ -1577,7 +1579,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTI4OTk1NCwtMjAwOTQwMzg5OSwxOT
+eyJoaXN0b3J5IjpbLTExNzAwMjExNCwtMjAwOTQwMzg5OSwxOT
 M3MTE5MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3
 MTM5MDUsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MD
 JdfQ==
