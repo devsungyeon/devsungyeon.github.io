@@ -1524,7 +1524,12 @@ cf) 파킨슨 법
 		- 데이터베이스 계층 ; 데이터를 저장하고 트랜잭션 관리와 질의 서비스를 제공
 		- 애플리케이션 처리 계층 ; 애플리케이션 논리의 구현과 요구된 기능을 최종 사용자에게 제공
 		- 데이터 처리 계층 ; 클라이언트로부터의 전송되는 데이터를 관리. 데이터 검증, 웹 페이지 생성 등 
-		- 표현 계층 ; 사용자에게 정보를 표현. 모든 사용자의 상호작용을 관리.(가상 TABL
+		- 표현 계층 ; 사용자에게 정보를 표현. 모든 사용자의 상호작용을 관리.(가상 table, view - client)
+	- 미들웨어(middleware)
+		- 분산 환경에서 구성원들을 연결하고 구성원들 간의 차이를 극복하도록 범용으로 개발된 소프트웨어
+		- 클라이언트와 서버의 연결을 쉽게 해주는 전용 애플리케이션, 클라이언트와 서버 사이에 존재하는 소프트웨어
+			- 통신미들웨어 NCS
+			- 데이터베이스 미들웨어 OB
 
 [to the Top](#Top)
 
@@ -1595,8 +1600,8 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgzMDY4NTQwLC0xMTcwMDIxMTQsLTExNz
-AwMjExNCwtMjAwOTQwMzg5OSwxOTM3MTE5MjkyLC0xNjY3MzEz
-MjA4LC0xNzQ1NDk3NDUwLC03NjE3MTM5MDUsLTQ0MDY4MjI0NS
-wtMTg2MzM0MTAxMywyNTQ2NTM2MDJdfQ==
+eyJoaXN0b3J5IjpbLTYxMzg1NDI0OCwtMTE3MDAyMTE0LC0xMT
+cwMDIxMTQsLTIwMDk0MDM4OTksMTkzNzExOTI5MiwtMTY2NzMx
+MzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOTA1LC00NDA2ODIyND
+UsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
 -->
