@@ -1529,7 +1529,13 @@ cf) 파킨슨 법
 		- 분산 환경에서 구성원들을 연결하고 구성원들 간의 차이를 극복하도록 범용으로 개발된 소프트웨어
 		- 클라이언트와 서버의 연결을 쉽게 해주는 전용 애플리케이션, 클라이언트와 서버 사이에 존재하는 소프트웨어
 			- 통신미들웨어 NCS
-			- 데이터베이스 미들웨어 OB
+			- 데이터베이스 미들웨어 ODBC
+			- 분산객체 미들웨어 COBRA, DCOM
+			- 
+
+
+
+
 
 [to the Top](#Top)
 
@@ -1600,8 +1606,8 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzg1NDI0OCwtMTE3MDAyMTE0LC0xMT
-cwMDIxMTQsLTIwMDk0MDM4OTksMTkzNzExOTI5MiwtMTY2NzMx
-MzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOTA1LC00NDA2ODIyND
-UsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
+eyJoaXN0b3J5IjpbLTEyNDQ3ODk1MzYsLTExNzAwMjExNCwtMT
+E3MDAyMTE0LC0yMDA5NDAzODk5LDE5MzcxMTkyOTIsLTE2Njcz
+MTMyMDgsLTE3NDU0OTc0NTAsLTc2MTcxMzkwNSwtNDQwNjgyMj
+Q1LC0xODYzMzQxMDEzLDI1NDY1MzYwMl19
 -->
