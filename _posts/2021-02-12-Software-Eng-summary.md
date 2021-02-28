@@ -1573,7 +1573,12 @@ cf) 파킨슨 법
 
 ### 1.정형적 방법의 개념
 
-
+- 정형적 방법 ; 수학적 엄격함
+- 종류
+	- 대수학적 algebraic 명세
+		- 대수적 데이터 인터페이스를 정의. 
+	- 모델(상태) 기반 명세
+	- 
 
 [to the Top](#Top)
 
@@ -1634,9 +1639,9 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzk0MDEyMjIsLTEyNDQ3ODk1MzYsLT
-ExNzAwMjExNCwtMTE3MDAyMTE0LC0yMDA5NDAzODk5LDE5Mzcx
-MTkyOTIsLTE2NjczMTMyMDgsLTE3NDU0OTc0NTAsLTc2MTcxMz
-kwNSwtNDQwNjgyMjQ1LC0xODYzMzQxMDEzLDI1NDY1MzYwMl19
+eyJoaXN0b3J5IjpbLTQzNzc3OTQyNiwtMTI0NDc4OTUzNiwtMT
+E3MDAyMTE0LC0xMTcwMDIxMTQsLTIwMDk0MDM4OTksMTkzNzEx
+OTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOT
+A1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
 
 -->
