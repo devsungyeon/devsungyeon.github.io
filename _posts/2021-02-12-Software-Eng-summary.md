@@ -1386,7 +1386,7 @@ cf) 파킨슨 법
 	- 수정 유지보수 corrective
 		- 하자의 원인을 찾아 문제를 해결하는 것으로, After service
 	- 예방 유지보수 preventive
-		- 기존의 소프트웨어 구조를 변형시키는 것(restructu
+		- 기존의 소프트웨어 구조를 변형시키는 것(restructuring) - 재구조화(개조)
 
 [to the Top](#Top)
 
@@ -1495,7 +1495,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0NzcyNjk4LDE5MzcxMTkyOTIsLTE2Nj
-czMTMyMDgsLTE3NDU0OTc0NTAsLTc2MTcxMzkwNSwtNDQwNjgy
-MjQ1LC0xODYzMzQxMDEzLDI1NDY1MzYwMl19
+eyJoaXN0b3J5IjpbLTIwMDk0MDM4OTksMTkzNzExOTI5MiwtMT
+Y2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOTA1LC00NDA2
+ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
 -->
