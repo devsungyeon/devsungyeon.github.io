@@ -1472,7 +1472,14 @@ cf) 파킨슨 법
 
 - 재공학 re-engineering
 	- 소프트웨어 시스템의 **개선**.
-	- 재공학의 목표 ; 복잡한 시스템을 다루는 방법 구현, 다른 뷰의 생성, 부작용의 발견, 잃어버린 정보 복구 및 제거, 고수준의 추상을 합성, ㅈ
+	- 재공학의 목표 ; 복잡한 시스템을 다루는 방법 구현, 다른 뷰의 생성, 부작용의 발견, 잃어버린 정보 복구 및 제거, 고수준의 추상을 합성, 재사용이 쉬움.
+	- BPR(Business Process Re-engineering)
+		- 비지니스 정의
+		- 프로세스 식별
+		- 프로세스 평가
+		- 프로세스 명세와 설계
+		- 프로토타이핑
+		- 정제와 실현
 - 소프트웨어의 개조(재구축, 재구조) = 재구성 = 재구조 = 개조
 - 역공학 reverse engineering
 
@@ -1561,7 +1568,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzUyMTE3NSwtMjAwOTQwMzg5OSwxOT
+eyJoaXN0b3J5IjpbMTM2NjcwNzkxMiwtMjAwOTQwMzg5OSwxOT
 M3MTE5MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3
 MTM5MDUsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MD
 JdfQ==
