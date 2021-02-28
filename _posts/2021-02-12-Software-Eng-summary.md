@@ -1395,7 +1395,7 @@ cf) 파킨슨 법
 		- 전체 생명주기 단계에 반복적으로 일어나 시스템이 계속 개선
 	- 재사용 중심 모델
 		- 컴포넌트의 재사용. 컴포넌트를 분류하고 변경을 가능하게 하는 프레임워크 필요.
-		- 재사용 컴포넌트 
+		- **재사용 컴포넌트 저장소** 필요
 
 
 [to the Top](#Top)
@@ -1505,8 +1505,8 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDE1NTIyNTIsLTIwMDk0MDM4OTksMT
-kzNzExOTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYx
-NzEzOTA1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNj
-AyXX0=
+eyJoaXN0b3J5IjpbOTgwOTI2ODUsLTIwMDk0MDM4OTksMTkzNz
+ExOTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEz
+OTA1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX
+0=
 -->
