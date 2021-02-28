@@ -1356,6 +1356,9 @@ cf) 파킨슨 법
 
 ### 4. 자동 검사 도구
 
+- CASE
+- 
+
 [to the Top](#Top)
 
 ---
@@ -1479,7 +1482,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjczMTMyMDgsLTE3NDU0OTc0NTAsLT
-c2MTcxMzkwNSwtNDQwNjgyMjQ1LC0xODYzMzQxMDEzLDI1NDY1
-MzYwMl19
+eyJoaXN0b3J5IjpbMTkzNzExOTI5MiwtMTY2NzMxMzIwOCwtMT
+c0NTQ5NzQ1MCwtNzYxNzEzOTA1LC00NDA2ODIyNDUsLTE4NjMz
+NDEwMTMsMjU0NjUzNjAyXX0=
 -->
