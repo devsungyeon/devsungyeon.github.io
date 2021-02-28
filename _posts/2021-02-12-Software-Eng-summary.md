@@ -1549,10 +1549,17 @@ cf) 파킨슨 법
 		- N-tier 아키텍처의 중간층에 위치. 분산 통신, 보안, 트랜잭션, 영속성을 제공하는 컴포넌트 기반의 서버 기술
 		- JEE Java Enterprise Edition
 		- 구성요소
-			- 앤터프라이즈 정보 시스템
-			- 비지니스 컴포넌트 층
-			- 웹 층
-			- 클라잉너
+			- 앤터프라이즈 정보 시스템 EIS
+			- 비지니스 컴포넌트 층. ; .NET, COBRA
+			- 웹 층 ; JSP, ASP와 같은 웹 서버 호스트 컴포넌트를 구동.
+			- 클라이언트 층
+		- 분산 시스템 아키텍처의 종류
+			- 마스터-슬레이브 아키텍처
+			- 2단 클라이언트-서버 아키텍처
+			- 다단 클라이언트 서버 아키텍처
+			- 분산 컴포넌트 아키텍처
+			- 피어 투 피어 아키텍처
+			- 서비스 
 
 
 
@@ -1627,9 +1634,9 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwNDAwMTk3LC0xMjQ0Nzg5NTM2LC0xMT
-cwMDIxMTQsLTExNzAwMjExNCwtMjAwOTQwMzg5OSwxOTM3MTE5
-MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3MTM5MD
-UsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MDJdfQ==
+eyJoaXN0b3J5IjpbLTE0MTMzMzUwNTQsLTEyNDQ3ODk1MzYsLT
+ExNzAwMjExNCwtMTE3MDAyMTE0LC0yMDA5NDAzODk5LDE5Mzcx
+MTkyOTIsLTE2NjczMTMyMDgsLTE3NDU0OTc0NTAsLTc2MTcxMz
+kwNSwtNDQwNjgyMjQ1LC0xODYzMzQxMDEzLDI1NDY1MzYwMl19
 
 -->
