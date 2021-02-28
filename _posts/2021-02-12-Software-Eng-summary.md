@@ -1503,6 +1503,9 @@ cf) 파킨슨 법
 
 ### 3. CASE의 개념
 
+- CASE Computer Aided Software Engineering
+	- 소프트웨어 개발방식을 자동화
+
 [to the Top](#Top)
 
 ---
@@ -1512,6 +1515,8 @@ cf) 파킨슨 법
 ## PART 13 클라이언트/서버 소프트웨어공학
 
 ### 1.클라이언트/서버의 아키텍처
+
+
 
 [to the Top](#Top)
 
@@ -1582,7 +1587,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjYyMTU2MSwtMTE3MDAyMTE0LC0xMT
+eyJoaXN0b3J5IjpbLTYwNDc0MzI3MCwtMTE3MDAyMTE0LC0xMT
 cwMDIxMTQsLTIwMDk0MDM4OTksMTkzNzExOTI5MiwtMTY2NzMx
 MzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOTA1LC00NDA2ODIyND
 UsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
