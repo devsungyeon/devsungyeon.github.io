@@ -1595,6 +1595,11 @@ cf) 파킨슨 법
 
 ### 1. MDA 프레임워크
 
+- MDA Model Driven Architecture
+	- 
+
+
+
 [to the Top](#Top)
 
 ---
@@ -1644,7 +1649,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzE0MjYyNCwtMTI0NDc4OTUzNiwtMT
+eyJoaXN0b3J5IjpbMTMyODA5OTY5OCwtMTI0NDc4OTUzNiwtMT
 E3MDAyMTE0LC0xMTcwMDIxMTQsLTIwMDk0MDM4OTksMTkzNzEx
 OTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOT
 A1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
