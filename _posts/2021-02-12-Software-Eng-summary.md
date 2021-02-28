@@ -1482,7 +1482,14 @@ cf) 파킨슨 법
 		- 정제와 실현 refinement instantiation
 - 소프트웨어의 개조(재구축, 재구조) = 재구성 = 재구조 = 개조
 	- **비구조적인 코드를 구조적인 코드로 변환**
-	- 
+	- 리팩토링(refactoring)
+		- 코드스멜을 없애고 코드의 품질을 향상
+		- **기능(동작)의 변경없이 내부구조를 변경.**
+		- 코드 스멜(프로그램 작업을 어렵게 만드는 것)
+			- 읽기 어려운 프로그램
+			- 중복된 로직을 가진 프로그램
+			- 실행중인 코드를 변경해야 하는 특별한 동작을 요구하는 프로그램
+			- 복잡한 
 - 역공학 reverse engineering
 
 [to the Top](#Top)
@@ -1570,8 +1577,8 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzQwODU4ODEsLTIwMDk0MDM4OTksMT
-kzNzExOTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYx
-NzEzOTA1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNj
-AyXX0=
+eyJoaXN0b3J5IjpbMTE2MTI4OTk1NCwtMjAwOTQwMzg5OSwxOT
+M3MTE5MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3
+MTM5MDUsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MD
+JdfQ==
 -->
