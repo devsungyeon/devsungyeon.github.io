@@ -1365,6 +1365,8 @@ cf) 파킨슨 법
 
 ### 5. 프로그램 디버깅
 
+
+
 [to the Top](#Top)
 
 ---
@@ -1482,7 +1484,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzExOTI5MiwtMTY2NzMxMzIwOCwtMT
-c0NTQ5NzQ1MCwtNzYxNzEzOTA1LC00NDA2ODIyNDUsLTE4NjMz
-NDEwMTMsMjU0NjUzNjAyXX0=
+eyJoaXN0b3J5IjpbMTcxMDg3NjE4NCwxOTM3MTE5MjkyLC0xNj
+Y3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3MTM5MDUsLTQ0MDY4
+MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MDJdfQ==
 -->
