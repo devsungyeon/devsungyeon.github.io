@@ -1464,7 +1464,8 @@ cf) 파킨슨 법
 
 ### 2. 소프트웨어 재공학
 
-
+- 재공학 re-engineering
+- 소프트웨어의 개조(재구축, 재구조 =
 
 [to the Top](#Top)
 
@@ -1551,8 +1552,8 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjc5NDUyMDAsLTIwMDk0MDM4OTksMT
-kzNzExOTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYx
-NzEzOTA1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNj
-AyXX0=
+eyJoaXN0b3J5IjpbNzAwNDcyODUzLC0yMDA5NDAzODk5LDE5Mz
+cxMTkyOTIsLTE2NjczMTMyMDgsLTE3NDU0OTc0NTAsLTc2MTcx
+MzkwNSwtNDQwNjgyMjQ1LC0xODYzMzQxMDEzLDI1NDY1MzYwMl
+19
 -->
