@@ -1453,6 +1453,8 @@ cf) 파킨슨 법
 
 ### 1. 소프트웨어의 재사용
 
+
+
 [to the Top](#Top)
 
 ---
@@ -1544,7 +1546,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjYxNjExNCwtMjAwOTQwMzg5OSwxOT
+eyJoaXN0b3J5IjpbMTAxNTA5MTIxNCwtMjAwOTQwMzg5OSwxOT
 M3MTE5MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3
 MTM5MDUsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MD
 JdfQ==
