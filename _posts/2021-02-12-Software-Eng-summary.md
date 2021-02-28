@@ -1517,7 +1517,9 @@ cf) 파킨슨 법
 ### 1.클라이언트/서버의 아키텍처
 
 - 클라이언트/서버 아키텍처 ; 서비스와 서버 그리고 클라이언트의 집합으로 구성되는 시스템 모델.
-	- 
+	- 장점 ; 적은 비용으로 지원 가능, 해당 지역에서 자료 처리 가능, 그래핑 사용자 인터페이스 GUI를 지원
+	- 단점 ; 응용 논리의 너무 많은 부분이 서버로 옮겨지면, 중대형 컴퓨터와 비슷한 큰 부하. 분산시스템이 비분산 시스템보다 복잡. 보안이 어려움.
+- 
 
 [to the Top](#Top)
 
@@ -1588,7 +1590,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2OTQ4MDEyMiwtMTE3MDAyMTE0LC0xMT
+eyJoaXN0b3J5IjpbLTUzMjMwNzUxMSwtMTE3MDAyMTE0LC0xMT
 cwMDIxMTQsLTIwMDk0MDM4OTksMTkzNzExOTI5MiwtMTY2NzMx
 MzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOTA1LC00NDA2ODIyND
 UsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
