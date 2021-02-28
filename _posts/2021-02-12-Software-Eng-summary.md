@@ -1422,10 +1422,10 @@ cf) 파킨슨 법
 			- 제품의 각 릴리즈에서 발생하는 변경사항에 기반하여 소프트웨어 제품의 안정성에 대한 지표를 제공
 			- SMI가 1에 가까울수록 제품이 안정적
 			- SMI = [M<sub>T</sub> - (F<sub>a</sub> + F<sub>c</sub> + F<sub>d</sub>)] / M<sub>T</sub>
-			- M<sub>T</sub>
-			- F<sub>a</sub>
-			- F<sub>c</sub>
-			- F<sub>d</sub>
+			- M<sub>T</sub> ; 현재 릴리즈에서 모듈의 수
+			- F<sub>a</sub> ; 변경된 현재 릴리즈에서 모듈의 수
+			- F<sub>c</sub> ; 추가된 현재 릴리즈에서 모듈의 수
+			- F<sub>d</sub> ; 이전 릴리즈부터 현재 릴리즈에서 삭제된 모듈의 수
 
 
 [to the Top](#Top)
@@ -1535,7 +1535,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDgwNjA0NywtMjAwOTQwMzg5OSwxOT
+eyJoaXN0b3J5IjpbLTQwMTE4NDI1MywtMjAwOTQwMzg5OSwxOT
 M3MTE5MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3
 MTM5MDUsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MD
 JdfQ==
