@@ -1580,7 +1580,9 @@ cf) 파킨슨 법
 	- 모델(상태) 기반 명세
 		- 집합과 수열 등 수학적 요소를 이용하여 표현. A+A = 2A
 - 문제점
-	- 점진적으로 개발하는 애자일 개발과 호환되
+	- 점진적으로 개발하는 애자일 개발과 호환되지 않는다.
+	- 매우 큰 시스템까지 확장 어려움
+	
 		
 
 [to the Top](#Top)
@@ -1642,9 +1644,9 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2NzQ4NTcxLC0xMjQ0Nzg5NTM2LC0xMT
-cwMDIxMTQsLTExNzAwMjExNCwtMjAwOTQwMzg5OSwxOTM3MTE5
-MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3MTM5MD
-UsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MDJdfQ==
+eyJoaXN0b3J5IjpbMTgxMzE0MjYyNCwtMTI0NDc4OTUzNiwtMT
+E3MDAyMTE0LC0xMTcwMDIxMTQsLTIwMDk0MDM4OTksMTkzNzEx
+OTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOT
+A1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
 
 -->
