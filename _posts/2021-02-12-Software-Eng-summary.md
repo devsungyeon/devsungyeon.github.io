@@ -1607,6 +1607,8 @@ cf) 파킨슨 법
 - 서비스 지향 아키텍처 Service Oriented Architecture
 	- SOA는 소프트웨어 아키텍처에 가깝고, 웹 서비스는 이러한 아키텍처를 실현하기 위한 기술의 집합체.
 	- 모델 - 조립(=조합) - 운영(=배포) - 관리
+- RPA Resource Oriented Architectur
+	- Repository 없이 직거래
 
 [to the Top](#Top)
 
@@ -1614,7 +1616,10 @@ cf) 파킨슨 법
 
 ### 3. 컴포넌트 기반 소프트웨어공학
 
-- 
+- CBD Component Based Development
+	- 컴포넌트
+		- 재사용성
+	
 
 [to the Top](#Top)
 
@@ -1653,9 +1658,9 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTI0MTg5MTAsLTEyNDQ3ODk1MzYsLT
-ExNzAwMjExNCwtMTE3MDAyMTE0LC0yMDA5NDAzODk5LDE5Mzcx
-MTkyOTIsLTE2NjczMTMyMDgsLTE3NDU0OTc0NTAsLTc2MTcxMz
-kwNSwtNDQwNjgyMjQ1LC0xODYzMzQxMDEzLDI1NDY1MzYwMl19
+eyJoaXN0b3J5IjpbNzA3NzgyNTg4LC0xMjQ0Nzg5NTM2LC0xMT
+cwMDIxMTQsLTExNzAwMjExNCwtMjAwOTQwMzg5OSwxOTM3MTE5
+MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3MTM5MD
+UsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MDJdfQ==
 
 -->
