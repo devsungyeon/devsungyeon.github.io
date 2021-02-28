@@ -1491,29 +1491,7 @@ cf) 파킨슨 법
 			- 실행중인 코드를 변경해야 하는 특별한 동작을 요구하는 프로그램
 			- 복잡한 조건문이 포함된 프로그램
 		- 리팩토링 기법
-			| 구분 | 기법 | 설명 |
-
-| ---------------------- | ----------------------- | ----------------------------------------------- |
-
-| 메소드 정리 | Extract Method | 그룹으로 묶을 수 있는 코드를 별도 메소드로 추출 |
-
-| 메소드 정리 | Repalce Temp with Query | 수식을 메소드로 변경, 메소드 호출로 단순화 |
-
-| 객체간 기능 이동 | Move Method | 다른 클래스의 기능이 더 많은 메소드를 대체 |
-
-| 객체간 기능 이동 | | |
-
-| 메소드 호출 단순화 | | |
-
-| 메소드 호출 단순화 | | |
-
-| 클래스 / 메소드 일반화 | | |
-
-| 클래스 / 메소드 일반화 | | |
-
-| 기타 | | |
-
-| 기타 | | |
+			
 - 역공학 reverse engineering
 
 [to the Top](#Top)
@@ -1601,7 +1579,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjU4MzAyMiwtMTE3MDAyMTE0LC0yMD
+eyJoaXN0b3J5IjpbLTExNzAwMjExNCwtMTE3MDAyMTE0LC0yMD
 A5NDAzODk5LDE5MzcxMTkyOTIsLTE2NjczMTMyMDgsLTE3NDU0
 OTc0NTAsLTc2MTcxMzkwNSwtNDQwNjgyMjQ1LC0xODYzMzQxMD
 EzLDI1NDY1MzYwMl19
