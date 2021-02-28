@@ -1516,7 +1516,8 @@ cf) 파킨슨 법
 
 ### 1.클라이언트/서버의 아키텍처
 
-
+- 클라이언트/서버 아키텍처 ; 서비스와 서버 그리고 클라이언트의 집합으로 구성되는 시스템 모델.
+	- 
 
 [to the Top](#Top)
 
@@ -1587,7 +1588,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDc0MzI3MCwtMTE3MDAyMTE0LC0xMT
+eyJoaXN0b3J5IjpbLTI2OTQ4MDEyMiwtMTE3MDAyMTE0LC0xMT
 cwMDIxMTQsLTIwMDk0MDM4OTksMTkzNzExOTI5MiwtMTY2NzMx
 MzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOTA1LC00NDA2ODIyND
 UsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
