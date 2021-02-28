@@ -1531,7 +1531,11 @@ cf) 파킨슨 법
 			- 통신미들웨어 NCS
 			- 데이터베이스 미들웨어 ODBC
 			- 분산객체 미들웨어 COBRA, DCOM
-			- 
+
+- 미들웨어 아키텍처
+	- 분산 객체(COBRA) 미들웨어
+		- 이기종 분산 환경에서 서로 다른 시스템 간의 상호 동작을 무리없이 제공.
+		- 
 
 
 
@@ -1606,8 +1610,9 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDQ3ODk1MzYsLTExNzAwMjExNCwtMT
-E3MDAyMTE0LC0yMDA5NDAzODk5LDE5MzcxMTkyOTIsLTE2Njcz
-MTMyMDgsLTE3NDU0OTc0NTAsLTc2MTcxMzkwNSwtNDQwNjgyMj
-Q1LC0xODYzMzQxMDEzLDI1NDY1MzYwMl19
+eyJoaXN0b3J5IjpbNDYxMzI5NDI1LC0xMjQ0Nzg5NTM2LC0xMT
+cwMDIxMTQsLTExNzAwMjExNCwtMjAwOTQwMzg5OSwxOTM3MTE5
+MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3MTM5MD
+UsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MDJdfQ==
+
 -->
