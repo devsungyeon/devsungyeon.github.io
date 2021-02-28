@@ -1563,9 +1563,6 @@ cf) 파킨슨 법
 			- 서비스 중심 시스템 아키텍처(SOA)
 
 
-
-
-
 [to the Top](#Top)
 
 ---
@@ -1635,7 +1632,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3MzI0NTU2LC0xMjQ0Nzg5NTM2LC0xMT
+eyJoaXN0b3J5IjpbMTQ3MDk3MDQ2LC0xMjQ0Nzg5NTM2LC0xMT
 cwMDIxMTQsLTExNzAwMjExNCwtMjAwOTQwMzg5OSwxOTM3MTE5
 MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3MTM5MD
 UsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MDJdfQ==
