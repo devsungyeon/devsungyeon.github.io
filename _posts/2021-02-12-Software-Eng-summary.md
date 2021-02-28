@@ -1544,7 +1544,15 @@ cf) 파킨슨 법
 	- 메시지 중심 미들웨어
 		- MOM Message Oriented Middleware. 일종의 소프트웨어 버스를 생성하여 레거시 시스템과 협력사의 외부 시스템을 통합
 		- 대규모 엔터프라이즈 시스템을 구축할 때 중요한 기술.
-		- 
+		- 느슨한 결합의 비동기 기술.
+	- 애플리케이션 서버
+		- N-tier 아키텍처의 중간층에 위치. 분산 통신, 보안, 트랜잭션, 영속성을 제공하는 컴포넌트 기반의 서버 기술
+		- JEE Java Enterprise Edition
+		- 구성요소
+			- 앤터프라이즈 정보 시스템
+			- 비지니스 컴포넌트 층
+			- 웹 층
+			- 클라잉너
 
 
 
@@ -1619,9 +1627,9 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzk5MTk3NDgsLTEyNDQ3ODk1MzYsLT
-ExNzAwMjExNCwtMTE3MDAyMTE0LC0yMDA5NDAzODk5LDE5Mzcx
-MTkyOTIsLTE2NjczMTMyMDgsLTE3NDU0OTc0NTAsLTc2MTcxMz
-kwNSwtNDQwNjgyMjQ1LC0xODYzMzQxMDEzLDI1NDY1MzYwMl19
+eyJoaXN0b3J5IjpbNjMwNDAwMTk3LC0xMjQ0Nzg5NTM2LC0xMT
+cwMDIxMTQsLTExNzAwMjExNCwtMjAwOTQwMzg5OSwxOTM3MTE5
+MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3MTM5MD
+UsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MDJdfQ==
 
 -->
