@@ -1465,7 +1465,16 @@ cf) 파킨슨 법
 ### 2. 소프트웨어 재공학
 
 - 재공학 re-engineering
-- 소프트웨어의 개조(재구축, 재구조 =
+- 소프트웨어의 개조(재구축, 재구조) = 재구성 = 재구조 = 개조
+- 역공학 reverse engineering
+<br>
+
+
+- 재공학 re-engineering
+	- 소프트웨어 시스템의 **개선**.
+	- 재공학의 목표 ; 복잡한 시스템을 다루는 방법 구현, 다른 뷰의 생성, 부작용의 발견, 잃어버린 정보 복구 및 제거, 고수준의 추상을 합성, ㅈ
+- 소프트웨어의 개조(재구축, 재구조) = 재구성 = 재구조 = 개조
+- 역공학 reverse engineering
 
 [to the Top](#Top)
 
@@ -1552,8 +1561,8 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwNDcyODUzLC0yMDA5NDAzODk5LDE5Mz
-cxMTkyOTIsLTE2NjczMTMyMDgsLTE3NDU0OTc0NTAsLTc2MTcx
-MzkwNSwtNDQwNjgyMjQ1LC0xODYzMzQxMDEzLDI1NDY1MzYwMl
-19
+eyJoaXN0b3J5IjpbLTE2NzUyMTE3NSwtMjAwOTQwMzg5OSwxOT
+M3MTE5MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3
+MTM5MDUsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MD
+JdfQ==
 -->
