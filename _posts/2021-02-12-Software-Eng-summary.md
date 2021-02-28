@@ -1378,7 +1378,15 @@ cf) 파킨슨 법
 
 ### 1. 유지보수의 개념
 
-- 
+- 작업의 목적에 따른 분류
+	- 완전 유지보수 perfective
+		- 새로운 기능을 추가하고 기존의 소프트웨어 기능을 개선(enhancement)
+	- 적응 유지보수 adaptive
+		- 새로운 운영체제, 하드웨어 환경으로 이식(porting)
+	- 수정 유지보수 corrective
+		- 하자의 원인을 찾아 문제를 해결하는 것으로, After service
+	- 예방 유지보수 preventive
+		- 기존의 소프트웨어 구조를 변형시키는 것(restructu
 
 [to the Top](#Top)
 
@@ -1487,7 +1495,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTE4NzcxNDAsMTkzNzExOTI5MiwtMT
-Y2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOTA1LC00NDA2
-ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
+eyJoaXN0b3J5IjpbODM0NzcyNjk4LDE5MzcxMTkyOTIsLTE2Nj
+czMTMyMDgsLTE3NDU0OTc0NTAsLTc2MTcxMzkwNSwtNDQwNjgy
+MjQ1LC0xODYzMzQxMDEzLDI1NDY1MzYwMl19
 -->
