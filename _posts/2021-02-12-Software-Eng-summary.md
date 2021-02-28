@@ -1439,7 +1439,9 @@ cf) 파킨슨 법
 	- 디버깅 보조기 ; 알려진 오류의 원인을 찾아내는 것을 지원하기 위해 trap, dump, trace, assertion checking, history file을 제공
 	- 색인 작성기 ; 프로시저 호출, 문장사용 그리고 자료참조에 대한 색인표
 	- 링키지 에디터 ; 실행 가능한 프로그램을 만들기 위해서 컴파일 코드의 목적 모듈들을 서로 연결
-	- 비교기 ; 2개의 파일의 차이점을 기록하는 것으로 유지보수 프로그래머가 버전건의 차이점을 
+	- 비교기 ; 2개의 파일의 차이점을 기록하는 것으로 유지보수 프로그래머가 버전건의 차이점을 지적. 부작용이 변경에 의해 일어나는지를 결정하게 하도록 지원
+	- 복잡도 계산기
+	- 형상관리 데이터베이스, 버전관리 시스템
 
 [to the Top](#Top)
 
@@ -1542,7 +1544,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTI3MTU3MCwtMjAwOTQwMzg5OSwxOT
+eyJoaXN0b3J5IjpbMTgyMjYxNjExNCwtMjAwOTQwMzg5OSwxOT
 M3MTE5MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3
 MTM5MDUsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MD
 JdfQ==
