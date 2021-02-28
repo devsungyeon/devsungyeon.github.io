@@ -1619,6 +1619,7 @@ cf) 파킨슨 법
 - CBD Component Based Development
 	- 컴포넌트
 		- 재사용성
+		- 클래스 정의는 추상 데이터 타입을 정의하고 객체는 해당 타입의 인스턴스ㅇ
 	
 
 [to the Top](#Top)
@@ -1658,7 +1659,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3NzgyNTg4LC0xMjQ0Nzg5NTM2LC0xMT
+eyJoaXN0b3J5IjpbMjAyNjE0MzIzLC0xMjQ0Nzg5NTM2LC0xMT
 cwMDIxMTQsLTExNzAwMjExNCwtMjAwOTQwMzg5OSwxOTM3MTE5
 MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3MTM5MD
 UsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MDJdfQ==
