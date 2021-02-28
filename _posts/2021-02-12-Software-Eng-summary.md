@@ -1414,7 +1414,12 @@ cf) 파킨슨 법
 			- d ; 소프트웨어에 대한 지식의 정보(소프트웨어 친숙도)
 		- COCOMO 방법
 			- M ; ACT x DE x EAF
-			- ACT(Annual Change Traffic) ; 
+			- ACT(Annual Change Traffic) ; 유지보수 작업의 연평균 비율 즉, 한 해 동안 원시코드 한 줄에 가해지는 변경 횟수
+			- DE(Development Effort) ; 개발노력(인원/월)
+			- EAF(Effort Adjust Factor) ; 유지보수 작업을 위한 노력승수
+		- SMI(Software Maturity Index, 소프으웨어 성숙 색인)
+			- 유지보수 활동을 계획하는 척도(metrics)로 사용
+			- 제품의 각 릴리즈에서 발생하는 변경사항에 기반하여 소프트웨어 제품의 안
 
 
 [to the Top](#Top)
@@ -1524,8 +1529,8 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTk1MTIxNjAsLTIwMDk0MDM4OTksMT
-kzNzExOTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYx
-NzEzOTA1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNj
-AyXX0=
+eyJoaXN0b3J5IjpbLTk5ODEzNzE2OCwtMjAwOTQwMzg5OSwxOT
+M3MTE5MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3
+MTM5MDUsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MD
+JdfQ==
 -->
