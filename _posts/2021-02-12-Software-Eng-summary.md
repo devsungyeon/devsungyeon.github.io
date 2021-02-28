@@ -1604,7 +1604,8 @@ cf) 파킨슨 법
 
 ### 2. 웹서비스와 SOA
 
-- 
+- 서비스 지향 아키텍처 Service Oriented Architecture
+	- 
 
 [to the Top](#Top)
 
@@ -1649,9 +1650,9 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODAxNDA2NDgsLTEyNDQ3ODk1MzYsLT
-ExNzAwMjExNCwtMTE3MDAyMTE0LC0yMDA5NDAzODk5LDE5Mzcx
-MTkyOTIsLTE2NjczMTMyMDgsLTE3NDU0OTc0NTAsLTc2MTcxMz
-kwNSwtNDQwNjgyMjQ1LC0xODYzMzQxMDEzLDI1NDY1MzYwMl19
+eyJoaXN0b3J5IjpbLTMxNzg5NzcxNywtMTI0NDc4OTUzNiwtMT
+E3MDAyMTE0LC0xMTcwMDIxMTQsLTIwMDk0MDM4OTksMTkzNzEx
+OTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOT
+A1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
 
 -->
