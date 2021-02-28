@@ -1540,7 +1540,11 @@ cf) 파킨슨 법
 			- 객체 요청 중재자 ORB ; 서비스를 요청하는 객체를 찾고, 요청을 대비하여 준비를 하고, 서비스 요청을 보내고 요청자에게 결과를 리턴한다.
 			- 객체 서비스의 집합 ; 많은 분산 응용이 요청할 가능성이 높은 일반 서비스, 디렉터리 서비스, 트랜잭션 서비스 및 지속성(persistence) 서비스
 			- 공통적인 컴포넌트의 집합 ; 특정 도메인의 컴포넌트(수직)이거나 많은 응용 시스템이 이용하는 범용 컴포넌트(수평)
-			- ORB의 장점 ; 서비스 제공 객체들이 네트워크의 임의의 노드(site)에서 실행 가능. 새로운 자원을 추
+			- ORB의 장점 ; 서비스 제공 객체들이 네트워크의 임의의 노드(site)에서 실행 가능. 새로운 자원을 추가할 수 있는 개방된 시스템 아키텍처
+	- 메시지 중심 미들웨어
+		- MOM Message Oriented Middleware. 일종의 소프트웨어 버스를 생성하여 레거시 시스템과 협력사의 외부 시스템을 통합
+		- 대규모 엔터프라이즈 시스템을 구축할 때 중요한 기술.
+		- 
 
 
 
@@ -1615,9 +1619,9 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MTUzNzI4NCwtMTI0NDc4OTUzNiwtMT
-E3MDAyMTE0LC0xMTcwMDIxMTQsLTIwMDk0MDM4OTksMTkzNzEx
-OTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOT
-A1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
+eyJoaXN0b3J5IjpbLTEzMzk5MTk3NDgsLTEyNDQ3ODk1MzYsLT
+ExNzAwMjExNCwtMTE3MDAyMTE0LC0yMDA5NDAzODk5LDE5Mzcx
+MTkyOTIsLTE2NjczMTMyMDgsLTE3NDU0OTc0NTAsLTc2MTcxMz
+kwNSwtNDQwNjgyMjQ1LC0xODYzMzQxMDEzLDI1NDY1MzYwMl19
 
 -->
