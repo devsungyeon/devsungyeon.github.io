@@ -1435,7 +1435,11 @@ cf) 파킨슨 법
 ### 2. 소프트웨어의 진화
 
 - 유지보수 자동화 도구
-	- ㄴ
+	- 텍스트 편집기 ; 원시프로그램, 테스트 데이터, 지원문서들을 신속하고 효율적으로 수정하게 하는 도구
+	- 디버깅 보조기 ; 알려진 오류의 원인을 찾아내는 것을 지원하기 위해 trap, dump, trace, assertion checking, history file을 제공
+	- 색인 작성기 ; 프로시저 호출, 문장사용 그리고 자료참조에 대한 색인표
+	- 링키지 에디터 ; 실행 가능한 프로그램을 만들기 위해서 컴파일 코드의 목적 모듈들을 서로 연결
+	- 비교기 ; 2개의 파일의 차이점을 기록하는 것으로 유지보수 프로그래머가 버전건의 차이점을 
 
 [to the Top](#Top)
 
@@ -1538,8 +1542,8 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzg0Njg5MTQsLTIwMDk0MDM4OTksMT
-kzNzExOTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYx
-NzEzOTA1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNj
-AyXX0=
+eyJoaXN0b3J5IjpbMTQwNTI3MTU3MCwtMjAwOTQwMzg5OSwxOT
+M3MTE5MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3
+MTM5MDUsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MD
+JdfQ==
 -->
