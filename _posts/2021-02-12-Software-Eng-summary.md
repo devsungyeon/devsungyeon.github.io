@@ -1400,7 +1400,14 @@ cf) 파킨슨 법
 - 유지보수 비용
 	- 개발비용과 달리 **예측하기 어렵다**
 	- 시스템을 오래 사용할수록 비용 증가
-	- 
+	- 비용 요소
+		- 관리적 요소 ; 시스템 이해도, 담당자의 안정성, 소프트웨어의 수명, 하드웨어 환경의 안정성, 외적환경에 대한 종속도.
+		- 기술적 요소 ; 모듈성, 프로그래밍 언어, 프로그래밍 스타일, 소프트웨어 품질, 문서
+	- 예측 방법
+		- 주먹구구식 방법
+		- BL(Belady Lehman) 방법
+			- 
+			- M ; 유지보수를 위한 노력(인원/월)
 
 
 [to the Top](#Top)
@@ -1510,7 +1517,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTkxNzM2NjMsLTIwMDk0MDM4OTksMT
+eyJoaXN0b3J5IjpbLTEzNzc2MDkxNjgsLTIwMDk0MDM4OTksMT
 kzNzExOTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYx
 NzEzOTA1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNj
 AyXX0=
