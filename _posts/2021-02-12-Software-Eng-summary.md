@@ -1388,6 +1388,16 @@ cf) 파킨슨 법
 	- 예방 유지보수 preventive
 		- 기존의 소프트웨어 구조를 변형시키는 것(restructuring) - 재구조화(개조)
 
+- 유지보수 프로세스 모델
+	- 즉시 수정 모델
+		- 임시방편 유지보수 작업 모델. 가능하면 빨리 문제를 해결.
+	- 반복적 개선 모델
+		- 전체 생명주기 단계에 반복적으로 일어나 시스템이 계속 개선
+	- 재사용 중심 모델
+		- 컴포넌트의 재사용. 컴포넌트를 분류하고 변경을 가능하게 하는 프레임워크 필요.
+		- 재사용 컴포넌트 
+
+
 [to the Top](#Top)
 
 ---
@@ -1495,7 +1505,8 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDk0MDM4OTksMTkzNzExOTI5MiwtMT
-Y2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOTA1LC00NDA2
-ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
+eyJoaXN0b3J5IjpbLTE0MDE1NTIyNTIsLTIwMDk0MDM4OTksMT
+kzNzExOTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYx
+NzEzOTA1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNj
+AyXX0=
 -->
