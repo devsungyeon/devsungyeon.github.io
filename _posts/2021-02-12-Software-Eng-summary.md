@@ -1419,7 +1419,13 @@ cf) 파킨슨 법
 			- EAF(Effort Adjust Factor) ; 유지보수 작업을 위한 노력승수
 		- SMI(Software Maturity Index, 소프으웨어 성숙 색인)
 			- 유지보수 활동을 계획하는 척도(metrics)로 사용
-			- 제품의 각 릴리즈에서 발생하는 변경사항에 기반하여 소프트웨어 제품의 안
+			- 제품의 각 릴리즈에서 발생하는 변경사항에 기반하여 소프트웨어 제품의 안정성에 대한 지표를 제공
+			- SMI가 1에 가까울수록 제품이 안정적
+			- SMI = [M<sub>T</sub> - (F<sub>a</sub> + F<sub>c</sub> + F<sub>d</sub>)] / M<sub>T</sub>
+			- M<sub>T</sub>
+			- F<sub>a</sub>
+			- F<sub>c</sub>
+			- F<sub>d</sub>
 
 
 [to the Top](#Top)
@@ -1529,7 +1535,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODEzNzE2OCwtMjAwOTQwMzg5OSwxOT
+eyJoaXN0b3J5IjpbMTkxMDgwNjA0NywtMjAwOTQwMzg5OSwxOT
 M3MTE5MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3
 MTM5MDUsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MD
 JdfQ==
