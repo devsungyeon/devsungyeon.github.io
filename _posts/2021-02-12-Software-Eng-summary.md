@@ -1397,6 +1397,11 @@ cf) 파킨슨 법
 		- 컴포넌트의 재사용. 컴포넌트를 분류하고 변경을 가능하게 하는 프레임워크 필요.
 		- **재사용 컴포넌트 저장소** 필요
 
+- 유지보수 비용
+	- 개발비용과 달리 **예측하기 어렵다**
+	- 시스템을 오래 사용할수록 비용 증가
+	- 
+
 
 [to the Top](#Top)
 
@@ -1505,8 +1510,8 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwOTI2ODUsLTIwMDk0MDM4OTksMTkzNz
-ExOTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEz
-OTA1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX
-0=
+eyJoaXN0b3J5IjpbLTE1MTkxNzM2NjMsLTIwMDk0MDM4OTksMT
+kzNzExOTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYx
+NzEzOTA1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNj
+AyXX0=
 -->
