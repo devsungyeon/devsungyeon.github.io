@@ -1434,6 +1434,9 @@ cf) 파킨슨 법
 
 ### 2. 소프트웨어의 진화
 
+- 유지보수 자동화 도구
+	- ㄴ
+
 [to the Top](#Top)
 
 ---
@@ -1535,8 +1538,8 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTE4NDI1MywtMjAwOTQwMzg5OSwxOT
-M3MTE5MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3
-MTM5MDUsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MD
-JdfQ==
+eyJoaXN0b3J5IjpbLTIxMzg0Njg5MTQsLTIwMDk0MDM4OTksMT
+kzNzExOTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYx
+NzEzOTA1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNj
+AyXX0=
 -->
