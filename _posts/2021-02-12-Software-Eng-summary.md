@@ -1519,7 +1519,12 @@ cf) 파킨슨 법
 - 클라이언트/서버 아키텍처 ; 서비스와 서버 그리고 클라이언트의 집합으로 구성되는 시스템 모델.
 	- 장점 ; 적은 비용으로 지원 가능, 해당 지역에서 자료 처리 가능, 그래핑 사용자 인터페이스 GUI를 지원
 	- 단점 ; 응용 논리의 너무 많은 부분이 서버로 옮겨지면, 중대형 컴퓨터와 비슷한 큰 부하. 분산시스템이 비분산 시스템보다 복잡. 보안이 어려움.
-- 
+- 시스템의 구성
+	- 클라이언트-서버 시스템 4계층
+		- 데이터베이스 계층 ; 데이터를 저장하고 트랜잭션 관리와 질의 서비스를 제공
+		- 애플리케이션 처리 계층 ; 애플리케이션 논리의 구현과 요구된 기능을 최종 사용자에게 제공
+		- 데이터 처리 계층 ; 클라이언트로부터의 전송되는 데이터를 관리. 데이터 검증, 웹 페이지 생성 등 
+		- 표현 계층 ; 사용자에게 정보를 표현. 모든 사용자의 상호작용을 관리.(가상 TABL
 
 [to the Top](#Top)
 
@@ -1590,8 +1595,8 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMjMwNzUxMSwtMTE3MDAyMTE0LC0xMT
-cwMDIxMTQsLTIwMDk0MDM4OTksMTkzNzExOTI5MiwtMTY2NzMx
-MzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOTA1LC00NDA2ODIyND
-UsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
+eyJoaXN0b3J5IjpbNDgzMDY4NTQwLC0xMTcwMDIxMTQsLTExNz
+AwMjExNCwtMjAwOTQwMzg5OSwxOTM3MTE5MjkyLC0xNjY3MzEz
+MjA4LC0xNzQ1NDk3NDUwLC03NjE3MTM5MDUsLTQ0MDY4MjI0NS
+wtMTg2MzM0MTAxMywyNTQ2NTM2MDJdfQ==
 -->
