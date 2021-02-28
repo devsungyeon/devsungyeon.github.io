@@ -1619,7 +1619,8 @@ cf) 파킨슨 법
 - CBD Component Based Development
 	- 컴포넌트
 		- 재사용성
-		- 클래스 정의는 추상 데이터 타입을 정의하고 객체는 해당 타입의 인스턴스ㅇ
+		- 클래스 정의는 추상 데이터 타입을 정의하고 객체는 해당 타입의 인스턴스이다. 하지만 컴포넌트는 인스턴스를 정의하는 데 사용되는 **템플릿이 아닌 인스턴스**이다.
+		- 
 	
 
 [to the Top](#Top)
@@ -1659,9 +1660,9 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjE0MzIzLC0xMjQ0Nzg5NTM2LC0xMT
-cwMDIxMTQsLTExNzAwMjExNCwtMjAwOTQwMzg5OSwxOTM3MTE5
-MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3MTM5MD
-UsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MDJdfQ==
+eyJoaXN0b3J5IjpbMTc2MDU1MjM1NCwtMTI0NDc4OTUzNiwtMT
+E3MDAyMTE0LC0xMTcwMDIxMTQsLTIwMDk0MDM4OTksMTkzNzEx
+OTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOT
+A1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
 
 -->
