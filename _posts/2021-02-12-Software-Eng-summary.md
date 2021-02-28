@@ -1365,7 +1365,8 @@ cf) 파킨슨 법
 
 ### 5. 프로그램 디버깅
 
-
+- 디버깅 ; 오류의 원인을 찾아 교정.
+- 역행조사(backtracking) ; 증상이 나타난 곳에서부터 원인이 발견될 때까지 거슬러 추적하는 방법.
 
 [to the Top](#Top)
 
@@ -1376,6 +1377,8 @@ cf) 파킨슨 법
 ## PART 11 소프트웨어 유지보수
 
 ### 1. 유지보수의 개념
+
+- 
 
 [to the Top](#Top)
 
@@ -1484,7 +1487,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMDg3NjE4NCwxOTM3MTE5MjkyLC0xNj
-Y3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3MTM5MDUsLTQ0MDY4
-MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MDJdfQ==
+eyJoaXN0b3J5IjpbLTEzNTE4NzcxNDAsMTkzNzExOTI5MiwtMT
+Y2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOTA1LC00NDA2
+ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
 -->
