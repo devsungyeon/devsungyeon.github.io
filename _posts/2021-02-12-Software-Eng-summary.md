@@ -1453,13 +1453,18 @@ cf) 파킨슨 법
 
 ### 1. 소프트웨어의 재사용
 
-
-
+- 재공학
+	- 역공학 ; 원시코드로부터 추상화된 정보를 얻기 위함
+	- 순(정)공학 ; 새로운 요구에 맞춰 구현
+	- 개조(재구축) ; 비구조적인 코드를 구조적 코드 변경하는 작업
+	
 [to the Top](#Top)
 
 ---
 
 ### 2. 소프트웨어 재공학
+
+
 
 [to the Top](#Top)
 
@@ -1546,8 +1551,8 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNTA5MTIxNCwtMjAwOTQwMzg5OSwxOT
-M3MTE5MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3
-MTM5MDUsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MD
-JdfQ==
+eyJoaXN0b3J5IjpbLTIwMjc5NDUyMDAsLTIwMDk0MDM4OTksMT
+kzNzExOTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYx
+NzEzOTA1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNj
+AyXX0=
 -->
