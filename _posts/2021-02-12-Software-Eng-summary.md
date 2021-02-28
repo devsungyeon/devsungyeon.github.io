@@ -1493,6 +1493,9 @@ cf) 파킨슨 법
 		- 리팩토링 기법
 			
 - 역공학 reverse engineering
+	- 개발단계의 진행 방향의 역으로 거슬러 올라가 기존 코드와 데이터로부터 **설계명세서나 요구 분석서를 복구**
+	- 고수준의 추상을 추출
+	- 변경이 아니라 분석
 
 [to the Top](#Top)
 
@@ -1579,8 +1582,8 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzAwMjExNCwtMTE3MDAyMTE0LC0yMD
-A5NDAzODk5LDE5MzcxMTkyOTIsLTE2NjczMTMyMDgsLTE3NDU0
-OTc0NTAsLTc2MTcxMzkwNSwtNDQwNjgyMjQ1LC0xODYzMzQxMD
-EzLDI1NDY1MzYwMl19
+eyJoaXN0b3J5IjpbLTQxMjYyMTU2MSwtMTE3MDAyMTE0LC0xMT
+cwMDIxMTQsLTIwMDk0MDM4OTksMTkzNzExOTI5MiwtMTY2NzMx
+MzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOTA1LC00NDA2ODIyND
+UsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
 -->
