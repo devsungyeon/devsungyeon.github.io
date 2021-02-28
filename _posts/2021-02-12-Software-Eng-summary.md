@@ -1576,7 +1576,7 @@ cf) 파킨슨 법
 - 정형적 방법 ; 수학적 엄격함
 - 종류
 	- 대수학적 algebraic 명세
-		- 대수적 데이터 인터페이스를 정의. 
+		- 대수적 데이터 인터페이스를 정의. 부울대수. A+A = A(or)
 	- 모델(상태) 기반 명세
 	- 
 
@@ -1639,7 +1639,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzc3OTQyNiwtMTI0NDc4OTUzNiwtMT
+eyJoaXN0b3J5IjpbLTcyNDg0MTQyOSwtMTI0NDc4OTUzNiwtMT
 E3MDAyMTE0LC0xMTcwMDIxMTQsLTIwMDk0MDM4OTksMTkzNzEx
 OTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOT
 A1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
