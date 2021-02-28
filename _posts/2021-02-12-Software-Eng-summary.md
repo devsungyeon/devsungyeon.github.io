@@ -1406,8 +1406,15 @@ cf) 파킨슨 법
 	- 예측 방법
 		- 주먹구구식 방법
 		- BL(Belady Lehman) 방법
-			- 
+			- M = P + K exp(c-d)
 			- M ; 유지보수를 위한 노력(인원/월)
+			- P ; 생산적 활동에 드는 비용
+			- K ; 통계 값에서 구한 정수(경험적 상수)
+			- c ; 설계나 문서화의 결함을 나타내는 복잡도
+			- d ; 소프트웨어에 대한 지식의 정보(소프트웨어 친숙도)
+		- COCOMO 방법
+			- M ; ACT x DE x EAF
+			- ACT(Annual Change Traffic) ; 
 
 
 [to the Top](#Top)
@@ -1517,7 +1524,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzc2MDkxNjgsLTIwMDk0MDM4OTksMT
+eyJoaXN0b3J5IjpbLTIwMTk1MTIxNjAsLTIwMDk0MDM4OTksMT
 kzNzExOTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYx
 NzEzOTA1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNj
 AyXX0=
