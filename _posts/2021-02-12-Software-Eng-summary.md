@@ -1533,9 +1533,10 @@ cf) 파킨슨 법
 			- 분산객체 미들웨어 COBRA, DCOM
 
 - 미들웨어 아키텍처
-	- 분산 객체(COBRA) 미들웨어
+	- 분산 객체(COBRA) 미들웨어 Common ORB Architecture
 		- 이기종 분산 환경에서 서로 다른 시스템 간의 상호 동작을 무리없이 제공.
-		- 
+		- 구성요소
+			- d
 
 
 
@@ -1610,9 +1611,9 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxMzI5NDI1LC0xMjQ0Nzg5NTM2LC0xMT
-cwMDIxMTQsLTExNzAwMjExNCwtMjAwOTQwMzg5OSwxOTM3MTE5
-MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03NjE3MTM5MD
-UsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NTM2MDJdfQ==
+eyJoaXN0b3J5IjpbMTAyNTQxMDQ1NiwtMTI0NDc4OTUzNiwtMT
+E3MDAyMTE0LC0xMTcwMDIxMTQsLTIwMDk0MDM4OTksMTkzNzEx
+OTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOT
+A1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
 
 -->
