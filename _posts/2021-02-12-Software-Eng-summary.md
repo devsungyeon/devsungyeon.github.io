@@ -1346,7 +1346,7 @@ cf) 파킨슨 법
 	- s/w선택사양
 	- 하드웨어 구성
 	- 파일 분배적재
-	- 타 s/w와 연결
+	- 타 s/w와 연결 
 
 
 
@@ -1479,6 +1479,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDU0OTc0NTAsLTc2MTcxMzkwNSwtND
-QwNjgyMjQ1LC0xODYzMzQxMDEzLDI1NDY1MzYwMl19
+eyJoaXN0b3J5IjpbLTE2NjczMTMyMDgsLTE3NDU0OTc0NTAsLT
+c2MTcxMzkwNSwtNDQwNjgyMjQ1LC0xODYzMzQxMDEzLDI1NDY1
+MzYwMl19
 -->
