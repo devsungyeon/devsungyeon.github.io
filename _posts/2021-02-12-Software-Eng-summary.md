@@ -1536,7 +1536,10 @@ cf) 파킨슨 법
 	- 분산 객체(COBRA) 미들웨어 Common ORB Architecture
 		- 이기종 분산 환경에서 서로 다른 시스템 간의 상호 동작을 무리없이 제공.
 		- 구성요소
-			- d
+			- 응용 객체에 관한 객체 모델 ; COBRA 객체는 IDL(Interface Definition Language)로 기술된 잘 정의되고 언어 중립적인 인터페이스를 가진 상태의 캡슐화
+			- 객체 요청 중재자 ORB ; 
+			- 객체 서비스의 집합
+			- 공통적인 컴포넌트의 집합
 
 
 
@@ -1611,7 +1614,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNTQxMDQ1NiwtMTI0NDc4OTUzNiwtMT
+eyJoaXN0b3J5IjpbLTQ0MDUzMjc1NywtMTI0NDc4OTUzNiwtMT
 E3MDAyMTE0LC0xMTcwMDIxMTQsLTIwMDk0MDM4OTksMTkzNzEx
 OTI5MiwtMTY2NzMxMzIwOCwtMTc0NTQ5NzQ1MCwtNzYxNzEzOT
 A1LC00NDA2ODIyNDUsLTE4NjMzNDEwMTMsMjU0NjUzNjAyXX0=
