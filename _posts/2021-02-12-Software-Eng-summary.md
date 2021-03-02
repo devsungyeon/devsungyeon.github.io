@@ -1636,7 +1636,7 @@ cf) 파킨슨 법
 	- SOA는 소프트웨어 아키텍처에 가깝고, 웹 서비스는 이러한 아키텍처를 실현하기 위한 기술의 집합체.
 	- 모델 - 조립(=조합) - 운영(=배포) - 관리
 - RPA Resource Oriented Architectur
-	- Repository 없이 직거래
+	- Repository 없이직거래
 
 [to the Top](#Top)
 
@@ -1689,9 +1689,9 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk5MDAzMTgyLC00Mzg3MjMxMDgsMTc2MD
-U1MjM1NCwtMTI0NDc4OTUzNiwtMTE3MDAyMTE0LC0xMTcwMDIx
-MTQsLTIwMDk0MDM4OTksMTkzNzExOTI5MiwtMTY2NzMxMzIwOC
-wtMTc0NTQ5NzQ1MCwtNzYxNzEzOTA1LC00NDA2ODIyNDUsLTE4
-NjMzNDEwMTMsMjU0NjUzNjAyXX0=
+eyJoaXN0b3J5IjpbMTU2NjU2MjQ0MCwtNDM4NzIzMTA4LDE3Nj
+A1NTIzNTQsLTEyNDQ3ODk1MzYsLTExNzAwMjExNCwtMTE3MDAy
+MTE0LC0yMDA5NDAzODk5LDE5MzcxMTkyOTIsLTE2NjczMTMyMD
+gsLTE3NDU0OTc0NTAsLTc2MTcxMzkwNSwtNDQwNjgyMjQ1LC0x
+ODYzMzQxMDEzLDI1NDY1MzYwMl19
 -->
