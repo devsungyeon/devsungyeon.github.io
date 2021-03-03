@@ -859,27 +859,25 @@ cf) 파킨슨 법
 
   - SRP Single Responsibility Principle 단일 책임의 원리
     - 하나의 클래스는 하나의 책임만. 세분화
+  - OCP Open-Closed Principle 개방-폐쇄의 원리
+    - **확장에 열림, 변경에 닫힘**
+    - OPEN : **수직관계 Is-a** 에는 열림
+    - CLOSE : **수평관계 has-a**에는 유연, 즉 영향을 받지 않아야 한다
+  - LSP Liskov Substitution Principle 리스코프 치환의 원리
+    - 자식 타입들은 부모 타입들이 사용되는 곳에 대체.
+    - **즉, 부모 클래스가 사용되는 곳에 자식 클래스로 치환하더라도 문제가 없어야 한다.**
+    - 상위 클래스는 파생 클래스로 대체 가능해야 한다.
   - ISP Interface Segregation Principle 인터페이스 분리의 원리
     - 서로 다른 성격의 인터페이스는 명백히 분리. 하나x, 다수의 인터페이스
   - DIP Dependency Inversion Principle 의존 관계 역전의 원리
     - 추상클래스는 파생클래스를 참조해서는 안되며, 파생클래스나 추상클래스는 오직 추상클래스만을 참조.
     - 상속성과 관계
     - 추상 = 부모, 파생 = 자식
-  - LSP Liskov Substitution Principle 리스코프 치환의 원리
-    - 자식 타입들은 부모 타입들이 사용되는 곳에 대체.
-    - **즉, 부모 클래스가 사용되는 곳에 자식 클래스로 치환하더라도 문제가 없어야 한다.**
-    - 상위 클래스는 파생 클래스로 대체 가능해야 한다.
-  - OCP Open-Closed Principle 개방-폐쇄의 원리
-    - **확장에 열림, 변경에 닫힘**
-    - OPEN : **수직관계 Is-a** 에는 열림
-    - CLOSE : **수평관계 has-a**에는 유연, 즉 영향을 받지 않아야 한다
   - REP Reuse/Release Equivalency Principle 재사용 동등성 배포의 원리
     - 재사용 클래스를 그룹으로 묶어 새로운 버전이 나오면 관리하고 제어할 수 있는 패키지로 만들 것을 권장
-
   - CCP Common Closure Principle 공통 폐쇄의 원리
     - 동일한 유형의 변경에 대해서 닫혀있어야 한다.
     - 클래스가 변경되어야 한다면 패키지 내의 모든 클래서들은 마찬가지로 변경 => observer pattern
-
   - CRP Common Reuse Principle 공통 재사용의 원리
     - 같이 사용되는 클래스만이 패키지 안에 포함.
 
@@ -1606,7 +1604,7 @@ cf) 파킨슨 법
 		  | 대수학적 명세 | Larch, OBJ      | Lotos           |
 		  | 모델기반 명세 | Z(Zedd), VDM, B | CSP, Petri Nets |
 		
-		  
+	
 - 문제점
 	- 점진적으로 개발하는 애자일 개발과 호환되지 않는다.
 	- 매우 큰 시스템까지 확장 어려움
