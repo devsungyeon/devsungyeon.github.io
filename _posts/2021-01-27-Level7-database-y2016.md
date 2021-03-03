@@ -3,7 +3,7 @@ title: "2016년 7급 전산직 데이터베이스 풀이"
 strapline: "데이터베이스 풀이"
 description: "2016년 7급 전산직 데이터베이스 풀이"
 header:
- overlay_image: C:/GitHub/devsungyeon.github.io/assets/images/bright.jpg
+ overlay_image: /assets/images/bright.jpg
 categories:
   - "7Level_database"
 tag:
@@ -25,7 +25,7 @@ comments: true
 
 다음은 데이터베이스 안에 있는 어떤 테이블을 보인 것이다. 파일처리 방식과 대비해서 <보기>와 같은 테이블을 이용하는 데이터베이스 방식의 주요 특성으로 옳은 것은?
 
-![2016_7L_1](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_1.jpg)
+![2016_7L_1](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_1.jpg)
 
 **답 : ④**
 
@@ -39,7 +39,7 @@ comments: true
 
 하나의 데이터베이스 시스탬 내에서 적절한 제어 없이 트랜잭션들을 동시에 실행하였을 경우 여러 문제가 발생할 수 있다. 이를 해결하기 위한 동시성 제어가 올바르게 동작하지 않을 경우 발생할 수 있는 문제점으로 옳지 않은 것은?
 
-![2016_7L_2](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_2.jpg)
+![2016_7L_2](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_2.jpg)
 
 **답 : ④**
 
@@ -53,7 +53,7 @@ comments: true
 
 다음 데이터를 순서적으로 삽입하여 B-트리를 구성할 때 루트 노드에 존재하는 키 값은? (단, B-트리의 차수는 3이라고 가정한다.)
 
-![2016_7L_3](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_3.jpg)
+![2016_7L_3](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_3.jpg)
 
 **답 : ②**
 
@@ -67,7 +67,7 @@ comments: true
 
 두 릴레이션 R1(A, B, C), R2(B, C, D)를 오른쪽 외부조인(Right Outer Join)을 한 결과에 나타나는 튜플의 수는?
 
-![2016_7L_4](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_4.jpg)
+![2016_7L_4](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_4.jpg)
 
 **답 : ③**
 
@@ -81,7 +81,7 @@ comments: true
 
 다음 두 릴레이션 R, S에 대한 조인 결과로 옳지 않은 것은?
 
-![2016_7L_5](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_5.jpg)
+![2016_7L_5](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_5.jpg)
 
 **답 : ②**
 
@@ -95,7 +95,7 @@ comments: true
 
 도서(<u>도서번호</u>, 도서제목, 출판사명, 발행년도) 테이블에서, 2000년 이후에 10권 이상의 책을 발행한 출판사의 이름을 중복 없이 출력하는 SQL문으로 옳은 것은? (단, 출판사명이 동일한 출판사는 존재하지 않는 것으로 가정한다. 도서번호는 도서 테이블의 기본키이다)
 
-![2016_7L_6](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_6.jpg)
+![2016_7L_6](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_6.jpg)
 
 **답 : ④**
 
@@ -105,7 +105,7 @@ comments: true
 
 지연 갱신을 통한 점진적 로깅(incremental logging with deferred updates) 기법을 사용하는 복구 시스템으로 옳은 것은?
 
-![2016_7L_7](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_7.jpg)
+![2016_7L_7](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_7.jpg)
 
 **답 : ②**
 
@@ -119,7 +119,7 @@ comments: true
 
 데이터베이스에서 동시성 제어가 적절하게 이루어지지 않으면서 다음과 같이 두 트랜잭션 T1, T2가 동시에 실행될 때 문제점이 발생할 수 있다. 이 문제점이 발생하지 않을 수 있는 트랜잭션의 격리 수준(isolation level)을 모두 고른 것은?
 
-![2016_7L_8](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_8.jpg)
+![2016_7L_8](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_8.jpg)
 
 **답 : ②**
 
@@ -159,7 +159,7 @@ comments: true
 
 다음 ERD(Entity-Relationship Diagram)를 구성하는 두 릴레이션 Dept, Emp에 대해 참조무결성 제약조건을 정의하였다고 가정하자. 정의한 참조무결성 제약조건의 영향을 받는 연산들로만 모두 묶은 것은?
 
-![2016_7L_9](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_9.jpg)
+![2016_7L_9](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_9.jpg)
 
 **답 : ④**
 
@@ -173,7 +173,7 @@ comments: true
 
 데이터베이스는 다양한 응용을 위해 사용되고 있으며 이를 위해서 새로운 데이터베이스 기술이 등장하였다. 새로운 데이터베이스 기술에 대한 설명으로 옳지 않은 것은?
 
-![2016_7L_10](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_10.jpg)
+![2016_7L_10](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_10.jpg)
 
 **답 : ③**
 
@@ -191,7 +191,7 @@ comments: true
 
 데이터 추상화는 다음 그림과 같이 3단계로 구성된다. 각 단계에 대한 설명으로 옳지 않은 것은?
 
-![2016_7L_11](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_11.jpg)
+![2016_7L_11](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_11.jpg)
 
 **답 : ④**
 
@@ -207,7 +207,7 @@ comments: true
 
 정규화에 대한 설명으로 옳지 않은 것은?
 
-![2016_7L_12](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_12.jpg)
+![2016_7L_12](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_12.jpg)
 
 **답 : ①**
 
@@ -227,7 +227,7 @@ comments: true
 
 두 트랜잭션 T1, T2가 다음과 같은 트랜잭션 스케줄로 실행될 때, 발생되는 충돌(conflict)로 옳은 것은? (단, R은 읽기연산, W는 쓰기연산에 해당하며, R1(A)는 "트랜잭션 T1이 A를 읽는다", W2(B)는 "트랜잭션 T2가 B에 값을 쓴다"는 의미이다)
 
-![2016_7L_13](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_13.jpg)
+![2016_7L_13](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_13.jpg)
 
 **답 : ②**
 
@@ -247,7 +247,7 @@ comments: true
 
 다음과 같이 사원과 부서 테이블을 이용하는 회사가 직원의 급여를 인상할 때 오류를 방지하기 위해 <설명>과 같은 SQL99 표준에 따른 트리거를 정의하여 사용 중이다. 이를 같은 조건에서 직원들의 급여 인상을 위한 <보기> 의 질의를 수행하였다. 급여 인상의 결과를 보기 위해 질의 "SELECT 사번, 이름, 급여 FROM 사원"을 수행한 결과로 옳은 것은?
 
-![2016_7L_14](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_14.jpg)
+![2016_7L_14](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_14.jpg)
 
 **답 : ③**
 
@@ -261,7 +261,7 @@ comments: true
 
 검사점(checkpoint) 회복 기법과 관련하여 트랜잭션의 실행 상태가 다음 그림과 같다고 하자. 데이터 A, B, C, D의 초깃값이 각각 100, 200, 100, 200일 때 T1은 A에 100을 더하고, T2는 B에서 100을 빼고, T3 은 C에 100을 더하고, T4는 D에서 100을 뺀다고 하자. 회복이 수행된 후 A, B, C, D의 값으로 옳은 것은?
 
-![2016_7L_15](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_15.jpg)
+![2016_7L_15](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_15.jpg)
 
 **답 : ③**
 
@@ -275,7 +275,7 @@ comments: true
 
 고객들 중 꽃을 한번도 구매하지 않은 고객의 고객ID, 이름, 주소를 다음 데이터베이스로부터 검색하려 할 때 옳은 것은? (단, PK는 PRIMARY KEY, FD는 FOREIGN KEY를 의미함)
 
-![2016_7L_16](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_16.jpg)
+![2016_7L_16](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_16.jpg)
 
 **답 : ①**
 
@@ -295,7 +295,7 @@ comments: true
 
 트랜잭션의 교착상태 방지(deadlock prevention) 프로토콜 중에서 <보기>의 설명을 만족하는 프로토콜은?
 
-![2016_7L_17](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_17.jpg)
+![2016_7L_17](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_17.jpg)
 
 **답 : ②**
 
@@ -324,7 +324,7 @@ comments: true
 
 릴레이션 R(A, B, C, D, E)에 대한 종속성의 집합 F = {A→C, AC→D, D→C, D→E}가 주어졌을 때, 종속성 집합 F의 최소 집합(minimal set)으로 옳은 것은?
 
-![2016_7L_18](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_18.jpg)
+![2016_7L_18](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_18.jpg)
 
 **답 : ③**
 
@@ -338,7 +338,7 @@ comments: true
 
 학과 등록 테이블이 다음과 같을 때, 학과 등록 테이블에 대한 설명으로 옳지 않은 것은? (단, 밑줄은 기본키이다)
 
-![2016_7L_19](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_19.jpg)
+![2016_7L_19](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_19.jpg)
 
 **답 : ②**
 
@@ -358,7 +358,7 @@ comments: true
 
 다음은 데이터로부터의 지식발견(KDD : Knowledge Discovery from Data)을 위한 단계별 과정이다. 빈칸에 들어갈 말로 옳은 것은?
 
-![2016_7L_20](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_20.jpg)
+![2016_7L_20](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2016_7L/2016_7L_20.jpg)
 
 **답 : ①**
 
