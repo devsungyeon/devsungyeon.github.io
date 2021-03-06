@@ -239,15 +239,15 @@ comments: true
 
 ![8_5](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/8_5.jpg)
 
-| Layer | 명칭             | 설명                                                         | 전송 단위 |
-| ----- | ---------------- | ------------------------------------------------------------ | --------- |
-| 1     | 물리 계층        | 물리적 전송 매체와 전송 신호 방식을 정의.                    | Bit       |
-| 2     | 데이터 링크 계층 | 흐름 제어 기능(송신 측과 수신 측의 속도 차이 해결)<br />프레임의 동기화 기능<br />오류제어 기능<br />순서제어 기능 | Frame     |
-| 3     | 네트워크 계층    | 네트워크 연결을 관리, 데이터의 교환 및 중계 기능<br />경로 설정(Routing), 데이터 교환 및 중계, 트래픽 제어, 패킷 정보 전송 | Packet    |
-| 4     | 전송 계층        | 종단 시스템(End-to-End) 간에 투명한 데이터 전송을 가능하게 함<br />주소 설정, 다중화, 오류제어, 흐름제어기능<br />TCP(신뢰성), UDP(비신뢰성) | Segment   |
-| 5     | 세션 계층        | 세션을 구축하고 관리.<br />송,수신 측 간의 동기를 위해 체크섬. | Message   |
-| 6     | 표현 계층        | 서로 다른 데이터 표현을 갖는 시스템 간의 상호 접속을 위함.<br />코드 변환, 데이터 암호화, 데이터 압축, 정보 형식 변환 | Message   |
-| 7     | 응용 계층        | 사용자가 OSI 환경에 접근할 수 있도록 서비스 제공.            | Message   |
+| Layer | 명칭             | 설명                                                         | 전송 단위 | 장비           | 프로토콜             |
+| ----- | ---------------- | ------------------------------------------------------------ | --------- | -------------- | -------------------- |
+| 1     | 물리 계층        | 물리적 전송 매체와 전송 신호 방식을 정의.                    | Bit       | Repeater, Hub  | DHCP, DNS, FTP, HTTP |
+| 2     | 데이터 링크 계층 | 흐름 제어 기능(송신 측과 수신 측의 속도 차이 해결)<br />프레임의 동기화 기능<br />오류제어 기능<br />순서제어 기능 | Frame     | Bridge, switch | JPEG, MPEG, SMB, AFP |
+| 3     | 네트워크 계층    | 네트워크 연결을 관리, 데이터의 교환 및 중계 기능<br />경로 설정(Routing), 데이터 교환 및 중계, 트래픽 제어, 패킷 정보 전송 | Packet    | Router         | SSH, TLS             |
+| 4     | 전송 계층        | 종단 시스템(End-to-End) 간에 투명한 데이터 전송을 가능하게 함<br />주소 설정, 다중화, 오류제어, 흐름제어기능<br />TCP(신뢰성), UDP(비신뢰성) | Segment   | Gateway        | TCP, UDP, ARP        |
+| 5     | 세션 계층        | 세션을 구축하고 관리.<br />송,수신 측 간의 동기를 위해 체크섬. | Message   |                | IP, ICMP, IGMP       |
+| 6     | 표현 계층        | 서로 다른 데이터 표현을 갖는 시스템 간의 상호 접속을 위함.<br />코드 변환, 데이터 암호화, 데이터 압축, 정보 형식 변환 | Message   |                | MAC, PPP             |
+| 7     | 응용 계층        | 사용자가 OSI 환경에 접근할 수 있도록 서비스 제공.            | Message   |                | Ethernet, RS-232C    |
 
 ---
 
@@ -259,6 +259,24 @@ comments: true
 | Internet Layer       | IP(Internet Protocol)<br />ICMP(Internet Control Message Protocol)<br />IGMP(Internet Group Message Protocol)<br />ARP(Address Resolution Protocol)<br />RARP(Reverse Address Resolution Protocol) |
 | Transport Layer      | TCP(Transmission Control Protocol)<br />UDP(User Datagram Protocol)<br />SCTP(Stream Control Transmission Protocol) |
 | Application Layer    | FTP(File Transfer Protocol)<br />VSFTP(Very Secure File Transfer Protocol)<br />SNMP(Simple Network Management Protocol)<br />SMTP(Simple Mail Transfer Protocol)<br />HTTP(Hyper Text Transfer Protocol)<br />HTTPs(Hyper Text Transfer Protocol Secure)<br />DNS(Domain Name System) |
+
+
+
+- 각 계층별 대표적 프로토콜
+
+| 계층                      | 프로토콜                                                     |
+| ------------------------- | ------------------------------------------------------------ |
+| 7 Application 응용계층    | HTTP, SMTP, SNMP, FTP, Telnet, SSH & Scp, NFS, RTSP          |
+| 6 Presentation 표현계층   | JPEG, MPEG, XDR, ASN.1, SMB, AFP                             |
+| 5 Session 세션계층        | TLS, SSH, ISO 8327 / CCITT X.225, RPC, NetBIOS, AppleTalk    |
+| 4 Transport 전송계층      | TCP, UDP, RTP, SCTP, SPX, AppleTalk                          |
+| 3 Network 네트워크계층    | IP, ICMP, IGMP, X.25, CLNP, ARP, RARP, BGP, OSPF, RIP, IPX, DDP |
+| 2 Datalink 데이터링크계층 | Ethernet, Token Rin, PPP, HDLC, Frame relay, ISDN, ATM, 무선랜, FDDI |
+| 1 Physical 물리계층       | 전선, 전파, 광섬유, 동축케이블, 도파관, PSTN, Repeater, DSU, CSU, Modem |
+
+
+
+
 
 ---
 
