@@ -3,7 +3,7 @@ title: "2015년 9급 전산직 컴퓨터일반 풀이"
 strapline: "컴퓨터일반 풀이"
 description: "2015년 9급 전산직 컴퓨터일반 풀이"
 header:
- overlay_image: C:/GitHub/devsungyeon.github.io/assets/images/bright.jpg
+ overlay_image: /assets/images/bright.jpg
 categories:
   - "9Level_computerbasic"
 tag:
@@ -25,7 +25,7 @@ comments: true
 
 시스템 소프트웨어에 포함되지 않는 것은?
 
-![2015_9L_1](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_1.jpg)
+![2015_9L_1](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_1.jpg)
 
 **답 : ①**
 
@@ -43,7 +43,7 @@ comments: true
 OSI 7계층 중 브리지(bridge)가 복수의 LAN을 결합하기 위해 동작하는 계층은?
 
 
-![2015_9L_2](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_2.jpg)
+![2015_9L_2](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_2.jpg)
 
 **답 : ②**
 
@@ -116,7 +116,7 @@ OSI 7계층 중 브리지(bridge)가 복수의 LAN을 결합하기 위해 동작
 데이터베이스 설계 과정에서 목표 DBMS의 구현 데이터 모델로 표현한 데이터베이스 스키마가 도출되는 단계는?
 
 
-![2015_9L_3](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_3.jpg)
+![2015_9L_3](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_3.jpg)
 
 **답 : ③**
 
@@ -157,7 +157,7 @@ OSI 7계층 중 브리지(bridge)가 복수의 LAN을 결합하기 위해 동작
 객체지향 프로그래밍의 특징 중 상속 관계에서 상위 클래스에 정의된 메소드(method) 호출에 대해 각 하위 클래스가 가지고 있는 고유한 방법으로 응답할 수 있도록 유연성을 제공하는 것은?
 
 
-![2015_9L_4](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_4.jpg)
+![2015_9L_4](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_4.jpg)
 
 **답 : ③**
 
@@ -186,7 +186,7 @@ OSI 7계층 중 브리지(bridge)가 복수의 LAN을 결합하기 위해 동작
 다음은 캐시 기억장치를 사상(mapping) 방식 기준으로 분류한 것이다. 캐시 블록은 4개 이상이고 사상 방식을 제외한 모든 조건이 동일하다고 가정할 때, 평균적으로 캐시 적중률(hit ratio)이 높은 것에서 낮은 것 순으로 바르게 나열한 것은?
 
 
-![2015_9L_5](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_5.jpg)
+![2015_9L_5](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_5.jpg)
 
 **답 : ②**
 
@@ -232,7 +232,7 @@ OSI 7계층 중 브리지(bridge)가 복수의 LAN을 결합하기 위해 동작
 다음 논리회로의 부울식으로 옳은 것은?
 
 
-![2015_9L_6](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_6.jpg)
+![2015_9L_6](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_6.jpg)
 
 **답 : ③**
 
@@ -276,7 +276,7 @@ OSI 7계층 중 브리지(bridge)가 복수의 LAN을 결합하기 위해 동작
 소프트웨어 개발 프로세스 모델 중 하나인 나선형 모델(spiral model)에 대한 설명으로 옳지 않은 것은?
 
 
-![2015_9L_7](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_7.jpg)
+![2015_9L_7](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_7.jpg)
 
 **답 : ④**
 
@@ -309,7 +309,7 @@ OSI 7계층 중 브리지(bridge)가 복수의 LAN을 결합하기 위해 동작
 다음 표는 단일 CPU에 진입한 프로세스의 도착 시간과 처리하는 데 필요한 실행 시간을 나타낸 것이다. 프로세스 간 문맥 교환에 따른 오버헤드는 무시한다고 할 때, SRT(Shortest Remaining Time) 스케줄링 알고리즘을 사용한 경우 네 프로세스의 평균 반환시간(turnaround time)은?
 
 
-![2015_9L_8](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_8.jpg)
+![2015_9L_8](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_8.jpg)
 
 **답 : ②**
 
@@ -331,13 +331,94 @@ OSI 7계층 중 브리지(bridge)가 복수의 LAN을 결합하기 위해 동작
 이더넷(Ethernet)의 매체 접근 제어(MAC) 방식인 CSMA/CD에 대한 설명으로 옳지 않은 것은?
 
 
-![2015_9L_9](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_9.jpg)
+![2015_9L_9](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_9.jpg)
 
 **답 : ①**
 
-① CSMA/CD 방식은 CSMA 방식에 충돌 검출 기법을 추가한 것으로 IEEE 802.11b의 MAC 방식으로 사용된다.
+① ~~CSMA/CD 방식은~~ CSMA 방식에 충돌 검출 기법을 추가한 것으로 IEEE 802.11b의 MAC 방식으로 사용된다.
+
+==> CSMA/CA 방식.
 
 
+
+- 통신망의 종류
+
+- 근거리 통신망 LAN
+
+  - Local Area Network. 사무실, 빌딩, 공장 등 제한된 지역에서 정보처리장치를 연결하기 위하여 최적화되고 신뢰성 있는 통신채널을 제공하는 네트워크.
+
+  - 경로선택이 필요없어(항상 일정 경로) 네트워크 제어가 쉽다.
+
+  - 전송매체에 의한 분류
+
+    - 평형 케이블 Twisted Pair ; 가격 저렴. 전기적잡음에 약함. 대역폭이 좁음. PC용이나 소규모 LAN. 10Base-T
+    - 동축 케이블 Coaxial Cable ; 가격 비교적 저렴. 10Base5, 10Base2, 10Broad36
+    - 광 케이블 Optical Fiber ; 가장 넓은 대역폭. 고속통신이 가능. 접속에 어려움. 10Base-F
+
+  - LAN 통신구조
+
+    - 하위 2개 계층 사용. 물리계층. 데이터링크계층
+    - 물리계층
+    - 데이터링크 계층 ; MAC 계층과 논리 링크 제어 계층으로 분류.
+      - MAC Media Access Control 매체 접근 제어 계층
+      - IEEE 802.2 : 논리링크제어LLC 계층의 이행에 대한 표준 프로토콜
+      - IEEE 802.3 : 이더넷 표준. CSMA/CD 엑세스 제어 방식 사용.
+      - IEEE 802.4 : 토큰버스 액세스 제어 방식 사용.
+      - IEEE 802.5 : 토큰링 액세스 제어 방식 사용.
+      - IEEE 802.6 : 도시권 통신망(MAN) 규격으로 이중 버스 구조.
+      - IEEE 802.11 : Wi-Fi라고도 하며, 무선 LAN 규격으로써 CSMA/CA 액세스 제어 방식을 사용.
+      - IEEE 802.11b : 최소 전송속도 11Mbps. 실제 6-7Mbps
+      - IEEE 802.11a : 5GHz 대역. 54Mbps
+      - IEEE 802.11g : 2.4GHz. 54Mbps
+      - IEEE 802.11n : 2.4GHz & 5GHz, 600Mbps
+      - IEEE 802.11i : Wi-Fi의 암호화 국제표준. 802.11의 WEP(Wired Equivalent Privacy)는 최초 무선 암호화 방식이지만, 암호화 키 값이 고장되어 있어 쉽게 크랙당할 우려가 있어, WEP를 보완한 WPA(Wi-Fi Protected Access) 무선암호화 방식을 사용.
+      - IEEE 802.15 : 소규모 무선랜 기술(블루투스, WPAN) ; 가정용 무선랜 = bluetooth.
+
+  - 매체 접근 제어방식 MAC, Media Access Control
+
+    - 경쟁 방식 ; ALOHA, CSMA, CSMA/CD, CSMA/CA
+
+    - 비경쟁 방식 ; Token Passing(Token Ring, Token Bus)
+
+    - ALOHA ; 하와이 대학. 반송파 감지기능이 없으며, 충돌 감지 기능이 없다. 충돌이 일어나면 일정시간 후에 재전송
+
+    - CSMA ; 반송파 감지 다중 접속 Carrier Sense Multiple Access
+
+      - 반송파를 감지하여 회선 사용 가능 여부를 판단, 접속을 개시하거나 대기하는 다중접속방식
+      - 데이터 프레임을 송신하기에 앞서 타인의 반송파가 없으면 즉시 프레임을 보내고, 반송파가 검출되면 적당한 시간만큼 기다린 다음 다시 시도.
+      - 충돌  감지 기능이 없으며, 충돌이 발생하면 임의의 시간 동안 대기한 후에 전송 채널을 감지하는 과정을 다시 반복.
+
+    - CSMA/CD
+
+      - 반송파 감지 다중 접근/충돌 탐지(Carrier Sense Multiple Access With Collision Detection)
+      - 두개 이상의 노드가 동시에 전송을 시작하면 전송 중인 프레임은 충돌이 발생하며, 노드가 충돌을 감지하면 보내던 데이터 프레임의 전송을 중단.
+
+    - CSMA/CA
+
+      - 반송파 감지 다중 접근/충돌 회피(Carrier Sense Multiple Access/Collision Avoidance)
+      - 무선 LAN(Wi-Fi)
+      - 충돌을 대비하여 예비(확인) 신호를 전송. 예비신호가 충돌없이 전송된 것을 확인하면 데이터를 보낸다.
+
+    - 토큰 패싱
+
+      |         | 반송파 감지 | 충돌 감지  |
+      | ------- | ----------- | ---------- |
+      | ALOHA   | X           | X          |
+      | CSMA    | O           | X          |
+      | CSMA/CD | O           | O          |
+      | CSMA/CA | O           | 필요 없음. |
+
+      
+
+      | Network          | 데이터 속도 | 매체 접근 방법 | 신호방식                     | 오류제어 |
+      | ---------------- | ----------- | -------------- | ---------------------------- | -------- |
+      | Ethernet         | 10 Mbps     | CSMA/CD        | Manchester(디지털 부호 체계) | No       |
+      | Fast Ethernet    | 100 Mbps    | CSMA/CD        | Several                      | No       |
+      | Gigabit Ethernet | 1 Gbps      | CSMA/CD        | Several                      | No       |
+      | Token Ring       | 4/16 Mbps   | Token Ring     | Differential Manchester      | Yes      |
+      | FDDI             | 100 Mbps    | Token Ring     | 4B/5B, NRZ-I                 | Yes      |
+
+  
 
 
 
@@ -348,17 +429,11 @@ OSI 7계층 중 브리지(bridge)가 복수의 LAN을 결합하기 위해 동작
 다음은 C언어로 내림차순 버블정렬 알고리즘을 구현한 함수이다. ㄱ에 들어갈 if문의 조건으로 올바른 것은? (단, size는 1차원 배열인 value의 크기이다)
 
 
-![2015_9L_10](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_10.jpg)
+![2015_9L_10](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_10.jpg)
 
 **답 : ④**
 
-①
 
-②
-
-③
-
-④
 
 
 
@@ -369,17 +444,29 @@ OSI 7계층 중 브리지(bridge)가 복수의 LAN을 결합하기 위해 동작
 객체지향 기법을 지원하지 않는 프로그래밍 언어는?
 
 
-![2015_9L_11](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_11.jpg)
+![2015_9L_11](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_11.jpg)
 
 **답 : ①**
 
-①
+- LISP
+  - 함수형 언어.
 
-②
-
-③
-
-④
+- 객체지향 언어
+  - 시뮬라 Simula 67
+  - 스몰토크
+  - 비주얼 베이직 닷넷
+  - 오브젝티브-C
+  - C++
+  - C#
+  - 자바
+  - 객체지향 파스칼
+  - 델파이
+  - 파이썬
+  - 펄
+  - 루비
+  - 액션스크립트
+  - ASP
+  - 스위프트
 
 
 
@@ -390,17 +477,13 @@ OSI 7계층 중 브리지(bridge)가 복수의 LAN을 결합하기 위해 동작
 관계형 모델(relational model)의 릴레이션(relation)에 대한 설명으로 옳지 않은 것은?
 
 
-![2015_9L_12](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_12.jpg)
+![2015_9L_12](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_12.jpg)
 
 **답 : ④**
 
-①
+④ 한 릴레이션의 속성들은 ~~고정된~~ 순서를 갖는다.
 
-②
-
-③
-
-④
+==> 순서에 영향을 받지 않는다.
 
 
 
@@ -411,17 +494,29 @@ OSI 7계층 중 브리지(bridge)가 복수의 LAN을 결합하기 위해 동작
 컴퓨터 버스에 대한 설명으로 옳지 않은 것은?
 
 
-![2015_9L_13](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_13.jpg)
+![2015_9L_13](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_13.jpg)
 
 **답 : ①**
 
-①
+① 주소 정보를 전달하는 주소 버스(address bus), 데이터 전송을 위한 데이터 버스(data bus), 그리고 ~~명령어 전달을 위한 명령어 버스(instruction bus)~~로 구성된다.
 
-②
-
-③
-
-④
+- 버스
+  - 데이터 버스 ; 시스템 모듈들 간의 데이터 이동 경로를 제공
+  - 주소 버스 ; 데이터의 근원지나 목적지의 일정한 메모리 주소를 전달.
+  - 제어 버스 ; 데이터 버스와 주소 버스를 제어하기 위해 사용.
+- 동기식 버스 vs 비동기식 버스
+  - 동기식 버스
+    - 정해진 시간에 데이터를 전송하는 방법. 
+    - 장 ; 논리회로가 간단. 단 ; 느린 장비도 정해진 clock에 맞춰야 함.
+  - 비동기식 버스
+    - 서로 데이터를 주고 받을 준비가 되어있는지 확인하는 핸드쉐이킹 프로토콜을 사용하여 수신측에서 준비가 되었으면 바로 전송.
+    - 장 ; 시간 낭비가 적다. 단 ; 회로 구성이 복잡. 핸드쉐이킹하는 과장이 필요해 속도가 느림.
+- PCIe
+  - 버스의 특징이 공용 선이라는 것인데 이 특징 덕분에 한 쪽이 데이터 선을 점령하면 다른 쪽에서는 신호 중첩을 유발시킬 수 있어서 사용을 하면 안된다. 이 점을 보완하기 위해 점대점 상호연결방식이 등장하였다.
+  - QPI Quick Path Interconnect
+    - 다른 구성요소와 직접 연결하는 점대점 상호방식 중 하나로 레이어로 구성된 프로토콜 구조이므로 물리적으로 연결되어 있는 부분부터 오류의 존재 여부를 점검하는 등 각각의 레이어에서 하는 일이 구분되어 있다. 고속, 고효율의 패킷 기반의 전송방식을 사용하며 인텔의 i7 데스크톱 프로세서 이후로 사용되어지는 방식이다.
+  - PCIe Peripheral Component Interconnect Express
+    - 버스를 1대1로 연결해서 택시로 만들었다. 높은 용량 덕분에 기가이더넷과 같은 빠른 데이터 속도의 I/O 디바이스를 지원하는데 사용되어지며 각각의 버스마다 독립적인 데이터 흐름을 제공하여 많이 사용되어 진다. 또한 핀수가 적고 물리적 면적이 작으며 상세한 오류검출 및 보고구조 등의 장점을 가지고 있다. 최근엔 I/O 가상화도 지원한다.
 
 
 
@@ -432,17 +527,11 @@ OSI 7계층 중 브리지(bridge)가 복수의 LAN을 결합하기 위해 동작
 다음 이진 트리(binary tree)의 노드들을 후위 순회(post-order traversal)한 경로를 나타낸 것은?
 
 
-![2015_9L_14](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_14.jpg)
+![2015_9L_14](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_14.jpg)
 
 **답 : ②**
 
-①
 
-②
-
-③
-
-④
 
 
 
@@ -453,17 +542,21 @@ OSI 7계층 중 브리지(bridge)가 복수의 LAN을 결합하기 위해 동작
 프로토콜에 대한 설명으로 옳지 않은 것은?
 
 
-![2015_9L_15](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_15.jpg)
+![2015_9L_15](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_15.jpg)
 
 **답 : ①**
 
-①
+① ARP는 ~~데이터 링크 계층의 프로토콜로 MAC 주소에 대해 해당 IP 주소를 반환해준다.~~
 
-②
+==>  전송계층
 
-③
+==> ARP ; IP -> MAC
 
-④
+==> RARP ; MAC -> IP
+
+
+
+
 
 
 
@@ -474,17 +567,15 @@ OSI 7계층 중 브리지(bridge)가 복수의 LAN을 결합하기 위해 동작
 비결정적 유한 오토마타(non-deterministic finite automata)에 대한 설명으로 옳지 않은 것은?
 
 
-![2015_9L_16](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_16.jpg)
+![2015_9L_16](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_16.jpg)
 
 **답 : ④**
 
-①
+④ 모든 문맥 자유 언어(context-free language)를 인식한다.
 
-②
+==> 문맥 자유 문법으로 생성. pushdown automata에 의해 인식.
 
-③
 
-④
 
 
 
@@ -495,17 +586,11 @@ OSI 7계층 중 브리지(bridge)가 복수의 LAN을 결합하기 위해 동작
 클라우드 컴퓨팅 서비스 모델과 이에 대한 설명이 바르게 짝지어진 것은?
 
 
-![2015_9L_17](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_17.jpg)
+![2015_9L_17](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_17.jpg)
 
 **답 : ③**
 
-①
 
-②
-
-③
-
-④
 
 
 
@@ -516,17 +601,15 @@ OSI 7계층 중 브리지(bridge)가 복수의 LAN을 결합하기 위해 동작
 다음 C 언어로 작성된 프로그램의 실행 결과에서 세 번째 줄에 출력되는 것은?
 
 
-![2015_9L_18](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_18.jpg)
+![2015_9L_18](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_18.jpg)
 
 **답 : ③**
 
-①
+func(5) : 120
 
-②
+func(3) : 6
 
-③
-
-④
+func(1) : 1
 
 
 
@@ -537,17 +620,102 @@ OSI 7계층 중 브리지(bridge)가 복수의 LAN을 결합하기 위해 동작
 서브넷 마스크(subnet mask)를 255.255.255.224로 하여 한 개의 C클래스 주소 영역을 동일한 크기의 8개 하위 네트워크로 나누었다. 분할된 네트워크에서 브로드캐스트를 위한 IP 주소의 오른쪽 8비트에 해당하는 값으로 옳은 것은?
 
 
-![2015_9L_19](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_19.jpg)
+![2015_9L_19](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_19.jpg)
 
 **답 : ③**
 
-①
+IPv4 ; 32bit
 
-②
+IPv6 ; 128bit
 
-③
+- 클래스의 분류
+  - class A ; 0~       00000000     0.0.0.0 ~ 127.255.255.255
+  - class B ; 10~     10000000 128.0.0.0 ~ 191.255.255.255
+  - class C ; 110~   11000000 192.0.0.0 ~ 223.255.255.255
+  - class D ; 1110~ 11100000 224.0.0.0 ~ 239.255.255.255
+  - class E ; 1111~ 11110000  240.0.0.0 ~ 255.255.255.255
+- IPv4의 전송방법에 따른 분류
+  - 유니캐스트 1:1 ; 특정인에게 전송
+  - 멀티캐스트 1:N ; 특정 다수인에게 전송
+  - 브로드캐스트 1:ALL ; 불특정 다수인에게 전송 ==> IPv6에서는 Broadcast가 Multicast로 바뀜.
 
-④
+- Subnetting
+
+  - 서브넷 마스크에서 1로 표현된 부분은 네트워크, 0인 부분은 호스트를 나타낸다.
+  - 클래스 C의 디폴트 서브넷 마스크 ; 255.255.255.0
+  - 클래스 B의 디폴트 서브넷 마스크 ; 255.255.0.0
+  - 클래스 A의 디폴트 서브넷 마스크 ; 255.0.0.0
+  - 호스트 주소 부분이 모두 0인 경우는 서브넷 주소 자체를 의미. 
+  - 호스트 주소 부분이 모두 1인 경우는 브로드캐스트 주소를 의미.
+
+- 예. B클래스 주소에서 호스트 주소 8비트를 서브네팅 하는 경우.
+
+  - B클래스. 디폴트 서브넷 마스크 255.255.0.0. 2<sup>16</sup>개의 네트워크로 구분하여. 2<sup>16</sup> - 2개(네트워크, 브로드캐스트)의 호스트를 가진 2<sup>16</sup>개의 네트워크.
+  - B클래스. 서브넷 마스크 255.255.255.0. 2<sup>24</sup>개의 네트워크로 구분하여. 2<sup>8</sup> - 2개(네트워크, 브로드캐스트)의 호스트를 가진 2<sup>24</sup>개의 네트워크.
+
+- 슈퍼네팅.supernetting. 
+
+  - 서브네팅의 반대 개념. 부족한 IP를 효율적으로 사용하기 위해 여러 개의 C 클래스 주소를 하나의 네트워크로 구성하는 방식.
+  - 예. 8개의 연속된 C클래스 주소를 하나로 묶는 경우.
+    - 3비트의 네트워크 주소가 추가로 필요. 슈퍼넷 마스크 ; 255.255.248.0 = 11111111.11111111.11111000.00000000
+    - 0의 갯수인 11개. 11비트를 호스트 주소로 사용.2<sup>11</sup>개의 호스트 가능.
+
+- CIDR Classless Inter-Domain Routing
+
+  - A, B, C 클래스 별로 IP 주소를 구분하지 않고 네트워크 주소 범위를 자유롭게 지정할 수 있도록 함.
+  - 예. 220.66.32.0/21    21 ; 상위 21비트가 네트워크 주소. 하위 11비트는 호스트 주소.
+  - 예. 네트워크 주소 203.252.48.0에서부터 203.252.55.0까지 8개의 네트워크 주소를 CIDR을 이용하여 표현한 경우
+    - 48은 이진수로 0011 0000, 55는 0011 0111
+    - 네트워크 주소 하위 3비트만 다르고 나머지 비트는 동일.
+    - 203.252.48.0/21로 표기. 8개의 네트워크 주소를 한꺼번에 표현.
+
+- IP 알리어스 IP Alias
+
+  - 하나의 NIC Network Interface Card에 여러 개의 IP 주소를 할당하는 것.
+
+- 예.
+
+  - 210.100.100.3 --> C클래스에 속함.
+
+  - 서브네팅이 없으면 디폴트 서브넷 마스크 255.255.255.0
+
+  - IP주소 AND 서브넷마스크 = 네트워크 주소
+
+    |               | 10진수 표현   | 2진수 표현                                    |
+    | ------------- | ------------- | --------------------------------------------- |
+    | IP주소        | 210.100.100.3 | 1101 0010   0110 0100   0110 0100   0000 0011 |
+    | 서브넷마스크  | 255.255.255.0 | 1111 1111   1111 1111   1111 1111   0000 0000 |
+    | 네트워크 주소 | 210.100.100.0 | 1101 0010   0110 0100   0110 0100   0000 0000 |
+
+  - 해당 네트워크를 3개의 작은 서브 네트워크로 나누려 한다.
+
+  - 2<sup>1</sup> < 3 < 2<sup>2</sup>   따라서 최소한 2비트의 서브넷 마스크가 필요. 
+
+  - ==> 네트워크 부분의 2비트가 추가로 필요. (디폴트는 16비트를 주소로, 8비트를 호스트로 사용.)
+
+  - 따라서 255.255.255.192의 서비넷 마스크를 적용
+
+    |               | 10진수 표현     | 2진수 표현                                    |
+    | ------------- | --------------- | --------------------------------------------- |
+    | IP주소        | 210.100.100.3   | 1101 0010   0110 0100   0110 0100   0000 0011 |
+    | 서브넷마스크  | 255.255.255.192 | 1111 1111   1111 1111   1111 1111   1100 0000 |
+    | 네트워크 주소 | 210.100.100.0   | 1101 0010   0110 0100   0110 0100   0000 0000 |
+
+  - 새로운 서브넷마스크로 서브넷팅한 결과로 아래와 같이 총 4개의 서브넷을 얻을 수 있어 기존의 3개의 서브넷의 요구사항을 만족한다.
+
+    |         | 네트워크 주소   | 사용가능한 호스트 범위            | 브로드캐스트 주소 |
+    | ------- | --------------- | --------------------------------- | ----------------- |
+    | 서브넷1 | 210.100.100.0   | 210.100.100.1 ~ 210.100.100.62    | 210.100.100.63    |
+    | 서브넷2 | 210.100.100.64  | 210.100.100.65 ~ 210.100.100.126  | 210.100.100.127   |
+    | 서브넷3 | 210.100.100.128 | 210.100.100.129 ~ 210.100.100.190 | 210.100.100.191   |
+    | 서브넷4 | 210.100.100.192 | 210.100.100.193 ~ 210.100.100.254 | 210.100.100.255   |
+
+- 예.
+  - IP가 203.10.24.27. 서브넷마스크 255.255.255.240,   네트워크의 호스트 범위와 브로드캐스트 주소는?
+  - 호스트 : 203.10.24.17 ~ 203.10.24.30    브로드캐스트 : 203.10.24.31
+- 예.
+  - 클래스 B주소를가지고 서브넷 마스크 255.255.255.240으로 서브넷을 만들었을 때, 나오는 서브넷의 수와 호스트 수는?
+  - 서브넷의 수 : 2<sup>12</sup> = 4096    한 서브넷의 호스트 수 : 14
 
 
 
@@ -558,14 +726,6 @@ OSI 7계층 중 브리지(bridge)가 복수의 LAN을 결합하기 위해 동작
 연결리스트(linked list)의 'preNode' 노드와 그 다음 노드 사이에 새로운 'newNode' 노드를 삽입하기 위해 빈 칸 ㄱ에 들어갈 명령문으로 옳은 것은?
 
 
-![2015_9L_20](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_20.jpg)
+![2015_9L_20](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2015_9L/2015_9L_20.jpg)
 
 **답 : ②**
-
-①
-
-②
-
-③
-
-④
