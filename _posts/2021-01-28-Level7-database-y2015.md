@@ -396,6 +396,8 @@ comments: true
 ④
 
 
+[Oracle SGA Buffer](https://myjamong.tistory.com/200)
+
 
 ---
 
