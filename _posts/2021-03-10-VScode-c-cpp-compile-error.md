@@ -27,8 +27,23 @@ comments: true
 "code-runner.terminalRoot": "/"
 ```
 
-상기 명령어 추가로 VS code compile error "no such file or directory"
-
 [참고github](https://github.com/formulahendry/vscode-code-runner/issues/296)
+
+==> 상기 명령어를 json에 추가로 VS code compile error "no such file or directory"
+
+- setting.json 파일 열기
+	- 여는 방법1
+		- 1) CTRL + SHIFT + P
+		- 2 "open setting" 입력
+		- 3) "OPEN SETTINGS (JSON)" 선택
+	- 여는 방법2
+		- File -> Preferences -> Settings -> Extensions -> "Edit in settings.json"
+
+하기는 json 파일 예시.
+![setting-json](/assets/images/VScodejson/setting-json.png)
+
+
+
+
 
 
