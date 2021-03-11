@@ -190,7 +190,7 @@ OSI 7계층 중 종점 호스트 사이의 데이터 전송을 다루는 계층�
 **답 : ①**
 
 - ARQ Automatic Repeat reQuest
- - 통신회선에서 착오가 발생하면 수신측은 착오의 발생을 송신측에 알리고, 송신측은 착오가 발생한 block을 재전송하는 방식으로 검출 후 재전송.
+    - 통신회선에서 착오가 발생하면 수신측은 착오의 발생을 송신측에 알리고, 송신측은 착오가 발생한 block을 재전송하는 방식으로 검출 후 재전송.
  - 정지 조회 ARQ(stop-and-wait ARQ)방식
  - 연속적 ARQ(Continuous ARQ)방식
   - 반송 N블록 ARQ(Go-back-N ARQ)
