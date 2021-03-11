@@ -29,7 +29,7 @@ comments: true
 
 **답 : ①**
 
-- PCM(Pulse-code modulation) ; 아날로그 신호를 디지털 신호로 변조.
+- PCM(Pulse-code modulation) ; 아날로그 신 호를 디지털 신호로 변조.
 
 ​	**Analog → Sampling(표본화) → Quantization(양자화) → Encoding(부호화) → Digital**
 
