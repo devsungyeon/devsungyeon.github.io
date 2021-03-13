@@ -3,7 +3,7 @@ title: "2020년 7급 전산직 소프트웨어공학 풀이"
 strapline: "소프트웨어공학 풀이"
 description: "2020년 7급 전산직 소프트웨어공학 풀이"
 header:
- overlay_image: C:/GitHub/devsungyeon.github.io/assets/images/bright.jpg
+ overlay_image: /assets/images/bright.jpg
 categories:
   - "7Level_softwareengdatabase"
 tag:
@@ -26,7 +26,7 @@ comments: true
 다음 설명에 해당하는 소프트웨어 개발 프로세서 방법은?
 
 
-![2020_7L_1](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_1.jpg)
+![2020_7L_1](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_1.jpg)
 
 **답 : ④**
 
@@ -127,7 +127,7 @@ cf) 애자일 UP(Agile Unified Process ; AUP)
 
 클래스(Class) 다이어그램에 대한 설명으로 옳지 않은 것은?
 
-![2020_7L_2](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_2.jpg)
+![2020_7L_2](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_2.jpg)
 
 **답 : ③**
 
@@ -211,7 +211,7 @@ cf) 애자일 UP(Agile Unified Process ; AUP)
 
 
 
-![2020_7L_3](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_3.jpg)
+![2020_7L_3](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_3.jpg)
 
 **답 : ①**
 
@@ -237,7 +237,7 @@ cf) 애자일 UP(Agile Unified Process ; AUP)
 
 
 
-![2020_7L_4](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_4.jpg)
+![2020_7L_4](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_4.jpg)
 
 **답 : ②**
 
@@ -253,7 +253,7 @@ ISO의 소프트웨어 프로세스 평가를 위한 국제 표준인 SPICE에 �
 
 
 
-![2020_7L_5](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_5.jpg)
+![2020_7L_5](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_5.jpg)
 
 **답 : ②**
 
@@ -317,7 +317,7 @@ ISO의 소프트웨어 프로세스 평가를 위한 국제 표준인 SPICE에 �
 
 
 
-![2020_7L_6](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_6.jpg)
+![2020_7L_6](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_6.jpg)
 
 **답 : ②**
 
@@ -367,7 +367,7 @@ ISO의 소프트웨어 프로세스 평가를 위한 국제 표준인 SPICE에 �
 
 
 
-![2020_7L_7](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_7.jpg)
+![2020_7L_7](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_7.jpg)
 
 **답 : ④**
 
@@ -389,7 +389,7 @@ ISO의 소프트웨어 프로세스 평가를 위한 국제 표준인 SPICE에 �
 
 
 
-![2020_7L_8](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_8.jpg)
+![2020_7L_8](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_8.jpg)
 
 **답 : ③**
 
@@ -405,7 +405,7 @@ ISO의 소프트웨어 프로세스 평가를 위한 국제 표준인 SPICE에 �
 
 
 
-![2020_7L_9](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_9.jpg)
+![2020_7L_9](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_9.jpg)
 
 **답 : ③**
 
@@ -423,7 +423,7 @@ ISO의 소프트웨어 프로세스 평가를 위한 국제 표준인 SPICE에 �
 
 
 
-![2020_7L_10](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_10.jpg)
+![2020_7L_10](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_10.jpg)
 
 **답 : ①**
 
@@ -447,7 +447,7 @@ ISO의 소프트웨어 프로세스 평가를 위한 국제 표준인 SPICE에 �
 
 
 
-![2020_7L_11](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_11.jpg)
+![2020_7L_11](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_11.jpg)
 
 **답 : ②**
 
@@ -469,7 +469,7 @@ ISO의 소프트웨어 프로세스 평가를 위한 국제 표준인 SPICE에 �
 
 
 
-![2020_7L_12](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_12.jpg)
+![2020_7L_12](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_12.jpg)
 
 **답 : ④**
 
@@ -486,7 +486,7 @@ ISO의 소프트웨어 프로세스 평가를 위한 국제 표준인 SPICE에 �
 
 
 
-![2020_7L_13](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_13.jpg)
+![2020_7L_13](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_13.jpg)
 
 **답 : ②**
 
@@ -514,7 +514,7 @@ ISO의 소프트웨어 프로세스 평가를 위한 국제 표준인 SPICE에 �
 
 
 
-![2020_7L_14](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_14.jpg)
+![2020_7L_14](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_14.jpg)
 
 **답 : ④**
 
@@ -531,7 +531,7 @@ ISO의 소프트웨어 프로세스 평가를 위한 국제 표준인 SPICE에 �
 
 
 
-![2020_7L_15](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_15.jpg)
+![2020_7L_15](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_15.jpg)
 
 **답 : ②**
 
@@ -588,7 +588,7 @@ ISO의 소프트웨어 프로세스 평가를 위한 국제 표준인 SPICE에 �
 
 McCall의 소프트웨어 품질 요소에 대한 설명으로 옳지 않은 것은?
 
-![2020_7L_16](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_16.jpg)
+![2020_7L_16](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_16.jpg)
 
 **답 : ③**
 
@@ -624,7 +624,7 @@ McCall의 소프트웨어 품질 요소에 대한 설명으로 옳지 않은 것
 
 
 
-![2020_7L_17](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_17.jpg)
+![2020_7L_17](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_17.jpg)
 
 **답 : ①**
 
@@ -642,7 +642,7 @@ T. McCabe의 순환 복잡도(Cyclomatic Complexity)에 대한 설명으로 옳�
 
 
 
-![2020_7L_18](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_18.jpg)
+![2020_7L_18](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_18.jpg)
 
 **답 : ①**
 
@@ -672,7 +672,7 @@ T. McCabe의 순환 복잡도(Cyclomatic Complexity)에 대한 설명으로 옳�
 
 
 
-![2020_7L_19](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_19.jpg)
+![2020_7L_19](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_19.jpg)
 
 **답 : ④**
 
@@ -700,7 +700,7 @@ T. McCabe의 순환 복잡도(Cyclomatic Complexity)에 대한 설명으로 옳�
 
 
 
-![2020_7L_20](C:/GitHub/devsungyeon.github.io/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_20.jpg)
+![2020_7L_20](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_20.jpg)
 
 
 **답 : ③**
