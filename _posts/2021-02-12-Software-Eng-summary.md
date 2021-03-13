@@ -1,5 +1,5 @@
 ---
-title: "Software Engineering Summary"
+rtitle: "Software Engineering Summary"
 strapline: "Software"
 description: "Software 정리"
 header:
@@ -347,19 +347,19 @@ cf) 파킨슨 법
 
 - McCall의 sw 품질요인
   - 제품 운영
-    - 정확성
-    - 신뢰성
-    - 용이성
-    - 무결성
-    - 효율성
+    - 정확성 ; 사용자의 요구정도를 충족시키는 정도
+    - 신뢰성 ; 요구된 기능을 계속적으로 수행할 수 있는 정도 → 사용자, 발주자, 유지보수자가 공통으로 관심을 보이는 항목
+    - 용이성 ; 쉽게 배울 수 있고 사용할 수 있는 정도
+    - 무결성 ; 허용되지 않은 사용이나 자료의 변경을 제어하는 정도
+    - 효율성 ; 최소의(주어진) 시간과 기억용량을 소비하여 요구되는 기능을 수행할 수 있는 정도 → 사용자, 발주자가 공통으로 관심을 보이는 항목
   - 제품 개조
-    - 유지보수성
-    - 유연성(융통성)
-    - 시험성
+    - 유지보수성 ; 오류가 발견되었을 때 쉽게 교정되는 정도
+    - 유연성(융통성) ; 기능의 추가나 다른 환경에서 적응하기 위해 쉽게 수정될 수 있는 정도
+    - 시험성 ; 쉽고 철저하게 시험될 수 있는 정도
   - 제품 전이
-    - 이식성
-    - 재사용성
-    - 상호운영성
+    - 이식성 ; 여러 하드웨어, 운영체제 환경에서도 운용 가능하도록 쉽게 수정될 수 있는 정도
+    - 재사용성 ; 전체나 일부가 다른 응용 목적으로 사용될 수 있는 정도
+    - 상호운영성 ; 다른 소프트웨어와 정보를 교환할 수 있는 정도.
 
 
 
@@ -400,7 +400,7 @@ cf) 파킨슨 법
 
 
 
-- ISO / IEC 9126
+- ISO / IEC 9126 ; 신사이기유효
 
   - 암기법 ; **신사이기(에) 유효**
 
@@ -409,7 +409,7 @@ cf) 파킨슨 법
     | 신뢰성     | 성능 수준을 유지                                    | 성숙성     |
     |            |                                                     | 결함허용성 |
     |            |                                                     | 회복성     |
-    | 사용성     | 사용자에 의해 이해, 학섭                            | 이해성     |
+    | 사용성     | 사용자에 의해 이해, 학습                            | 이해성     |
     |            |                                                     | 학습성     |
     |            |                                                     | 운용성     |
     |            |                                                     | 친밀성     |
@@ -459,6 +459,7 @@ cf) 파킨슨 법
   - 기본 생명주기 프로세스 ; 획득, 공급, 개발, 운영, 유지보수
   - 지원 생명주기 프로세스 ; 문서화, 품질보증, 형상관리, 검증, 확인, 문제해결, 합동검토, 감사
   - 조직 생명주기 프로세스 ; 기반구조, 관리, 개선, 훈련
+  
 - CMM ; 생산하는 **능력을 정량화**
   - 프로세스 성숙단계 5단계
     - 초기 ; 예측불가
@@ -466,15 +467,22 @@ cf) 파킨슨 법
     - 정의 ; 표준화, 일관된 프로세스
     - 관리 ; 정량적 관리평가, 예층 가능한 프로세스
     - 최적화 ; 개선되는 프로세스
+  
 - SPICE(ISO/IEC 15504) ; 최저점을 대표점수로 산정
   - 프레세스 수행능력 - 6단계로 나누어 평가
-    - 불완전
-    - 수행
-    - 관리
-    - 확립
-    - 예측
-    - 최적화
-  - 프레세스 영역 ; 고객공급자 프로세스, 엔지니어링 프로세스, 지원 프로세스, 관리 프로세스, 조직 프로세스
+    - Lv0 : 불완전 ; 실패. 결과물 없음.
+    - Lv1 : 수행 ; 목적. 성취는 없음.
+    - Lv2 : 관리 ; 문서화 단계.
+    - Lv3 : 확립 ; 표준 프로세스.
+    - Lv4 : 예측 ; 정량적 이해, 수행 예측
+    - Lv5 : 최적화 ; 지속적 프로세스 감시 및 개선. 현재 및 미래 경영목표에 효과적인 적응.
+  - 프레세스 영역 
+    - 고객공급자 프로세스 ; 발주, 공급자 선정, 고객인수, 요구사항 도출, 공급, 운영 등
+    - 엔지니어링 프로세스 ; 요구분석, 설계 및 구현, 통합 및 시험 등.
+    - 지원 프로세스 ; 문서화, 형상관리, 품질보증, 검증, 확인, 검토 등.
+    - 관리 프로세스 ; 프로젝트관리, 품질관리, 위험관리 등.
+    - 조직 프로세스 ; 프로세스 정의, 심사, 개선, 인적자원 관리, 기반구조, 측정, 재사용 등
+  
 - CMMi
   - CMM + SPICE
   - 성숙도 단계
@@ -484,6 +492,18 @@ cf) 파킨슨 법
     - 정의됨 defined 3단계
     - 정량적으로 관리됨 quantitatively managed 4단계
     - 최적화됨 optimizing 5단계
+  
+  
+  
+  | Level                  | Focus                                  | Process Areas                                                |
+  | ---------------------- | -------------------------------------- | ------------------------------------------------------------ |
+  | Performed              |                                        |                                                              |
+  | Managed                | Basic<br>Project<br/>Management        | Requirements management<br/>Project planning<br/>Project monitoring and control<br/>Supplier agreement management<br/>Measurement and analysis<br/>Process and product quality assurance<br/>Configuration management |
+  | Defined                | Process<br/>standardization            | Requirements development<br/>Technical solution<br/>Product integration<br/>Verification<br/>Validation<br/>Organizational process focus<br/>Organizational process definition<br/>Organizational training<br/>Integrated project management<br/>Integrated supplier management<br/>Risk management<br/>Decision analysis and resolution<br/>Organizational environment for integration<br/>Integrated teaming |
+  | Quantitatively managed | Quantitative<br/>management            | Organizational process Performance<br/>Quantitative project management |
+  | Optimizing             | Continuous<br/>process<br/>improvement | Organizational innovation and deployment<br/>Causal analysis and resolution |
+  
+  
 
 [to the Top](#Top)
 
@@ -514,7 +534,7 @@ cf) 파킨슨 법
 
 ### 6. 소프트웨어 매트릭스 & 신뢰성
 
-
+- 프로그램 구조의 복잡도 측정은 McCabe의 순환적 복잡도를 이용한다.
 
 - McCabe 맥카베의 sw복잡도
   - 순환복잡도 = 의사결정수 + 조건수 + 1 = 복잡도 = 영역수(**흐름그래프 상에서 내부공간의 수와 외부공간1을 더함.**)
@@ -713,7 +733,41 @@ cf) 파킨슨 법
 
 ### 2. 설계의 원리
 
+- 추상화 Abstraction
 
+  - 종류
+    - 자료 추상화
+      - 기본적 추상화 ; 변수는 선언에 의해.. int x, float y;
+      - 구조적 추상화 ; 배열과 레코드. type rarray = array[1...10] of real;
+      - 단위 추상화 ; Modula-2의 module, Ada의 package, Java의 class
+    - 기능 추상화
+    - 제어 추상화
+      - 기본적 추상화 ; 배정문. x:=x+y
+      - 구조적 추상화 ; C와 Java의 for문, Pascal의 repeat, while 문, Modula-2와 Ada의 loop-exit
+      - 단위 추상화 ; 관련 프로그램을 모아서 하나의 프로그램 단위로 만들어 컴파일하여 다른 프로그램에서도 사용가능
+
+- 정보은닉 Information Hiding
+
+  - 각 모듈은 자세한 처리 내용이 시스템의 다른 부분으로부터 감추어져 있어 모듈 구현 시 다른 모듈에 영향을 받지 않고 설계.
+
+- 구조화
+
+  - 소프트웨어 전체 구조와 그 구조가 시스템에 개념적인 무결성을 제공하는 방법.
+  - 프로그램 구조는 모듈의 계층적 구성, 제어계층구조 암시, 구조도에 의해 표현.
+    - 깊이 Depth ; 제어 수준의 개수
+    - 너비 Width ; 제어의 전체적인 폭
+    - 제어도 Fan-out ; 한 모듈이 호출하는 하위 모듈의 수
+    - 공유도 Fan-in ; 한 모듈을 호출하는 상위 모듈의 수
+
+- 단계적 정제
+
+- 모듈화
+
+  - 소프트웨어를 기능단위로 분해한 것. subsystem, subroutine, 소프트웨어내의 프로그램 혹은 work unit(작업 단위) 등
+  - 모듈의 규모는 작아야 좋다. 모듈의 크기가 작으면 읽기 쉽고, 구현하기 쉬우며 시험에 부담이 적어진다. 그러나 실행시간이 빨라지는 것은 아니다.
+  - 모듈의 개수가 증가하면 전체 개발비용이 감소하지만, 인터페이스에 대한 비용이 증가하므로 실행속도는 감소한다.
+
+  
 
 - 응집도 ; 한 모듈 내에 있는 구성요소들의 기능적 관련성
 
@@ -997,7 +1051,7 @@ cf) 파킨슨 법
 
 
 
-- 클래스 다이어그램
+- 클래스 다이어그램 ; 시스템의 구조를 나타낼 때 사용. 객체, 클래스, 속성, 오퍼레이션 및 연관관계를 이용하여 시스템이 갖는 정적인 정보들의 관계를 설명.
 
   - 집합(Aggregation)
 
@@ -1043,7 +1097,7 @@ cf) 파킨슨 법
 
 
 
-- 액티비티 다이어그램 = 활동 다이어그램 = 활동도
+- 액티비티 다이어그램 = 활동 다이어그램 = 활동도 ; 오퍼레이션이나 처리 과정이 수행되는 동안 일어나는 일들을 단계적으로 표현.
   - 병렬 액티비티.
   - 시스템을 화이트박스로 보고 수행한 기능모델.
 
@@ -1060,6 +1114,17 @@ cf) 파킨슨 법
 - 배치 다이어그램 (사용자 환경)
 
   - sw 와 hw component 사이의 물리적인 관계를 파악하기 위한 diagram
+
+
+
+- 객체 다이어그램 : 클래스 다이어그램에서 생성된 객체를 나타내며 실행되는 동안의 객체들의 관계를 나타냄
+- 패키지 다이어그램 : 관련된 클래스를 패키지로 그루핑하여 의존도를 낮추기 위하여 사용
+- 커뮤니케이션(communication) 다이어그램 : 순차 다이어그램과 같은 내용을 나타내지만 위임(delegation)과 전달의 관계를 네트워크 형태로 더 명확히 보여준다 (Collaboration 다이어그램이라고도 함)
+- 컴포지트 구조 다이어그램 : 연결된 컴포넌트의 구조를 표현한다. 컴포넌트 요이의 커넥션(포트)을 나타낸다
+- 인터랙션 오버뷰 다이어그램 : 메시지 교환과 제어흐름을 동시에 표시
+- 타이밍 다이어그램 : 시간 제약이 중요한 실시간 시스템의 설계에 사용한다. 시간 흐름에 따른 구성요소의 상태 변화, 상호 작용을 표현
+- 컴포넌트 다이어그램 : S/W부품으로 원시코드, 런 타임, 라이브러리，실행 파일 등의 구성을 나타냄
+- 배치 다이어그램 : 노드, 컴포넌트, 커넥터 등 시스템의 물리적 자원 배치를 나타냄
 
 
 
