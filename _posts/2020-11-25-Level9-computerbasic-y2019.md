@@ -482,3 +482,5 @@ LOC는 기능점수(function point) 산정 시 고려되지 않는다.
 ==> 802.16 ; wireless Broadband
 
 ==> 802.11 ; LTE, Wifi
+
+==> 802.15 ; Bluetooth

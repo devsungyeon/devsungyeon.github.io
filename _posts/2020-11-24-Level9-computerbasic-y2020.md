@@ -369,6 +369,8 @@ comments: true
 
  ; 동시에 리소스에 접근 허용이 접근 허용이 가능한 개수를 가진 counter
 
+ ; 뷰에 상호배제. 임계영역. 프로세스간 임계 침범 하지 못한다.
+
 ② 모니터(Monitor)
 
  ; 공유 객체, 임계 영역이 코딩된 프로세저, 초기화 코드로 구성된 모듈
@@ -607,6 +609,9 @@ Post-order(L-R-C) : D-G-E-B-F-C-A
 ![2020_9L_20](/assets/images/civil_service_examinatio/Level9_civil_servant/Level9_computerbasic/2020_9L/2020_9L_20.jpg)
 
 **답 : ②**
+
+- UNION ; 중복을 제거
+- UNION ALL ; 중복 제거하지 않고 모두 표현.
 
 ① SELECT deptno, ~~position~~, AVG(salary) FROM PROFESSOR GROUP BY deptno;
 

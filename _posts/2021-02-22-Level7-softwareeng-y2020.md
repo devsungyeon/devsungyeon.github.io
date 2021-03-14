@@ -144,13 +144,13 @@ cf) 애자일 UP(Agile Unified Process ; AUP)
     - 구성요소(부분)이 없어도 전체 개념이 존재할 수 있다.
     - 구성요소는 하나 이상의 집합들에 소속될 수 있다.
     - ◇
-    - ![uml_aggregation](C:\GitHub\devsungyeon.github.io\assets\images\SwengSummary\uml_aggregation.png)
+    - ![uml_aggregation](/assets/images/SwengSummary/uml_aggregation.png)
 
   - 복합(Composition)
 
     - 구성요소가 없다면 전체 개념이 존재하지 않음
     - ◆
-    - ![uml_composition](C:\GitHub\devsungyeon.github.io\assets\images\SwengSummary\uml_composition.png)
+    - ![uml_composition](/assets/images/SwengSummary/uml_composition.png)
 
   - 일반화 Generalization
 
@@ -727,5 +727,5 @@ B ; 사원
 
 
 
-![20-1](C:\GitHub\devsungyeon.github.io\assets\images\civil_service_examinatio\Level7_civil_servant\Level7_softwareeng\2020_7L\20-1.jpg)
+![20-1](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/20-1.jpg)
 

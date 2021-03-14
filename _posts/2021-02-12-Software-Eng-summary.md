@@ -1050,7 +1050,7 @@ cf) 파킨슨 법
 
   
 
-![uml_relationships](C:\GitHub\devsungyeon.github.io\assets\images\SwengSummary\uml_relationships.png)
+![uml_relationships](/assets/images/SwengSummary/uml_relationships.png)
 
 
 
@@ -1069,7 +1069,7 @@ cf) 파킨슨 법
 - 사용사례 ; 시스템의 기능을 나타내는 모든 가능한 시나리오를 추상화
 - 시나리오 ; 실제 일어나는 일들을 기술한 사용 사례의 인스턴스
 
-![uml_diagram](C:\GitHub\devsungyeon.github.io\assets\images\SwengSummary\uml_diagram.png)
+![uml_diagram](/assets/images/SwengSummary/uml_diagram.png)
 
 
 
@@ -1088,13 +1088,13 @@ cf) 파킨슨 법
     - 구성요소(부분)이 없어도 전체 개념이 존재할 수 있다.
     - 구성요소는 하나 이상의 집합들에 소속될 수 있다.
     - ◇
-    - ![uml_aggregation](C:\GitHub\devsungyeon.github.io\assets\images\SwengSummary\uml_aggregation.png)
+    - ![uml_aggregation](/assets/images/SwengSummary/uml_aggregation.png)
 
   - 복합(Composition)
 
     - 구성요소가 없다면 전체 개념이 존재하지 않음
     - ◆
-    - ![uml_composition](C:\GitHub\devsungyeon.github.io\assets\images\SwengSummary\uml_composition.png)
+    - ![uml_composition](/assets/images/SwengSummary/uml_composition.png)
 
   - 일반화 Generalization
 
