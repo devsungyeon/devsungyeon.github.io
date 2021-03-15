@@ -259,21 +259,23 @@ comments: true
 
 ---
 
-## 13. 
+## 13. 다음은 장바구니...
 
-13. 
+다음은 장바구니 트랜잭션의 예이다. 연관규칙(Association Rule)을 발견하기 위해 Apriori 알고리즘을 적용한다고 가정할 때, 다음 설명으로 옳지 않은 것은?
+
+
 ![2018_7L_13](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2018_7L/2018_7L_13.jpg)
-
 
 **답 : **
 
-①
+A → B
 
-②
+- 신뢰도 ; A 중에서 B
+- 지지도 ; 전체 중에 A → B
 
-③
 
-④
+
+
 
 
 

@@ -179,21 +179,22 @@ comments: true
 
 ---
 
-## 9. 
+## 9. <보기 1>에서 ...
 
-9. 
+<보기 1>에서 공급업체와 부품, 카탈로그 테이블을 생성하는 SQL문을 수행한 후 튜플을 삽입하여 세 테이블의 상태가 다음과 같을 때, <보기 2>의 SQL문을 수행한 결과로 옳은 것은?
+
+
 ![2019_7L_9](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_9.jpg)
 
+**답 : ③**
 
-**답 : **
+[IN EXISTS NOT IT NOT EXISTS](https://doorbw.tistory.com/222?category=743841)
 
-①
+[이중 exists](https://doorbw.tistory.com/m/224)
 
-②
+**not exists문은 이하 서브쿼리에 값이 아무것도 존재하지 않아야 참이 됩니다.**
 
-③
 
-④
 
 
 
@@ -279,21 +280,27 @@ comments: true
 
 ---
 
-## 14. 
+## 14. 다음 트랜잭션 ...
 
-14. 
+다음 트랜잭션 스케줄 S1, S2, S3, S4 중 회복 불가능한 스케줄은?
+
+(단, ri(X)와 wi(X)는 각각 트랜잭션 Ti의 데이터 항목 X에 대한 읽기연산과 쓰기연산이고, ci와 ai는 각각 Ti의 완료연산과 철회 연산이다)
+
+
+
+
 ![2019_7L_14](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2019_7L/2019_7L_14.jpg)
 
+**답 : ②**
 
-**답 : **
 
-①
 
-②
+- 회복 가능한 스케줄 recoverable schedule
+  - 스케줄 S안에 있는 어떤 트랜잭션 T가 읽은 값에 쓰기 연산을 수행한 또 다른 트랜잭션 T'이 완료되기 전까지 트랜잭션 T가 완료되지 않는 스케줄.
 
-③
 
-④
+
+
 
 
 
