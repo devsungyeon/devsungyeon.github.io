@@ -96,13 +96,13 @@ comments: true
 
 2) XP(eXtreme Programming) 모형 
 
-    - **의사소통, 단순함, 피드백, 용기, 존중. '고객에게 최고의 가치를 가장 빨리'**
-        - 경량 방법론
-        - 고객의 **참여를 극한 수준까지 유도.**
-        - 스토리 카드. ; 고객의 요구 요약. (요구분석서, CRC 카드)
-        - **시험 우선 개발** ; 코드보다 시험을 먼저 작성
-        - 중요 키워드 ; 점증적, 소규모 릴리즈, 시험개발우선, 짝 프로그래밍 등.
-        - XP의 프로세스 ; 계획 - 설계 - 코딩 - 테스팅
+  - **의사소통, 단순함, 피드백, 용기, 존중. '고객에게 최고의 가치를 가장 빨리'**
+	       - 경량 방법론
+	       - 고객의 **참여를 극한 수준까지 유도.**
+	       - 스토리 카드. ; 고객의 요구 요약. (요구분석서, CRC 카드)
+	       - **시험 우선 개발** ; 코드보다 시험을 먼저 작성
+	- 중요 키워드 ; 점증적, 소규모 릴리즈, 시험개발우선, 짝 프로그래밍 등.
+	       - XP의 프로세스 ; 계획 - 설계 - 코딩 - 테스팅
 
 
 
@@ -1782,7 +1782,7 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NzQ2NDEyMyw5MDcxMDYwMDYsMTU2Nj
+eyJoaXN0b3J5IjpbLTk2NjM4MTIzOSw5MDcxMDYwMDYsMTU2Nj
 U2MjQ0MCwtNDM4NzIzMTA4LDE3NjA1NTIzNTQsLTEyNDQ3ODk1
 MzYsLTExNzAwMjExNCwtMTE3MDAyMTE0LC0yMDA5NDAzODk5LD
 E5MzcxMTkyOTIsLTE2NjczMTMyMDgsLTE3NDU0OTc0NTAsLTc2
