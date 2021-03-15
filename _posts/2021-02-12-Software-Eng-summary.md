@@ -78,11 +78,11 @@ comments: true
 - 신속한 소프트웨어 개발 모형
 
 1) 애자일(agile) 기법
-    - 문서화 < 구현 < 시험
-    - 문제점
-        - 대규모에는 부적합. 중소규모에 적합
-        - 시스템 개발에 필요한 시간에 대해 비용을 지불
-    - 원리
+- 문서화 < 구현 < 시험
+- 문제점
+	- 대규모에는 부적합. 중소규모에 적합
+	- 시스템 개발에 필요한 시간에 대해 비용을 지불
+	- 원리
         
 | 원리           | 설명                                       |
 |--------------|------------------------------------------|
@@ -1782,10 +1782,10 @@ cf) 파킨슨 법
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NjM4MTIzOSw5MDcxMDYwMDYsMTU2Nj
-U2MjQ0MCwtNDM4NzIzMTA4LDE3NjA1NTIzNTQsLTEyNDQ3ODk1
-MzYsLTExNzAwMjExNCwtMTE3MDAyMTE0LC0yMDA5NDAzODk5LD
-E5MzcxMTkyOTIsLTE2NjczMTMyMDgsLTE3NDU0OTc0NTAsLTc2
-MTcxMzkwNSwtNDQwNjgyMjQ1LC0xODYzMzQxMDEzLDI1NDY1Mz
-YwMl19
+eyJoaXN0b3J5IjpbLTEzNDQ4MzM4NzEsOTA3MTA2MDA2LDE1Nj
+Y1NjI0NDAsLTQzODcyMzEwOCwxNzYwNTUyMzU0LC0xMjQ0Nzg5
+NTM2LC0xMTcwMDIxMTQsLTExNzAwMjExNCwtMjAwOTQwMzg5OS
+wxOTM3MTE5MjkyLC0xNjY3MzEzMjA4LC0xNzQ1NDk3NDUwLC03
+NjE3MTM5MDUsLTQ0MDY4MjI0NSwtMTg2MzM0MTAxMywyNTQ2NT
+M2MDJdfQ==
 -->
