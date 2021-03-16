@@ -674,20 +674,26 @@ T. McCabe의 순환 복잡도(Cyclomatic Complexity)에 대한 설명으로 옳�
 
 ![2020_7L_19](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/2020_7L_19.jpg)
 
+
+
 **답 : ④**
 
 
 
+- TCF ; Technical Complexity Factor 기술복잡도
+
+
 - TCF = 0.65 + 0.01 * **총영향도**( sum 가중치 * 인자)
+
 - FP = UFP * TCF
+
   - UFP Unadjusted Function Point ; 조정 전 기능점수
 
 - TCF = 0.65 + 0.01 * 25 (5+2+2+3+2+2+2+2+3+2) = 0.9
+
 - FP = UFP * TCF = 222 * 0.9 = 199.8
+
 - MM = 199.8 / 60 = 3.33
-
-
-
 
 
 
