@@ -736,3 +736,6 @@ B ; 사원
 
 ![20-1](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_softwareeng/2020_7L/20-1.jpg)
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTg5MDE5MDU5XX0=
+-->
