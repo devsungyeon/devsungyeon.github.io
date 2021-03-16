@@ -456,3 +456,6 @@ MAX ( A+B ) ; null 값을 제외하고 더한 값 중에서 최대값.
 | REPEATABLE READ  | N        | N           | Y         |
 | SERIALIABLE      | N        | N           | N         |
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTY4NDg2OTYzMV19
+-->
