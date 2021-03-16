@@ -436,7 +436,7 @@ MAX ( A+B ) ; null 값을 제외하고 더한 값 중에서 최대값.
 
 **답 : ③**
 
-①
+ㄷ. 규칙기반 최적화 기법(rule-based optimization)이 질의실행계획(query ex
 
 ②
 
@@ -466,6 +466,7 @@ MAX ( A+B ) ; null 값을 제외하고 더한 값 중에서 최대값.
 | SERIALIABLE      | N        | N           | N         |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5Nzg4NjQyOCwxMjcxNjMzNzc2LDEwMj
-IwODIzNTMsMTg0NDI5NzY0OSwxNjg0ODY5NjMxXX0=
+eyJoaXN0b3J5IjpbOTc4Mzk4NTE5LDEyOTc4ODY0MjgsMTI3MT
+YzMzc3NiwxMDIyMDgyMzUzLDE4NDQyOTc2NDksMTY4NDg2OTYz
+MV19
 -->
