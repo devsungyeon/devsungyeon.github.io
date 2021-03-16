@@ -438,7 +438,7 @@ MAX ( A+B ) ; null 값을 제외하고 더한 값 중에서 최대값.
 
 ㄷ. 규칙기반 최적화 기법(rule-based optimization)이 질의실행계획(query execution plan)을 생성하는데 비용이 거의 소요되지 않기 때문에 최근에 많이 활용되고 있다.
 
-ㄹ. 비용기반 최적화 기법(cost-based optimization)은 생성 가능한 모든 후보 질의실행계획 중에서 비용이 가장 
+ㄹ. 비용기반 최적화 기법(cost-based optimization)은 생성 가능한 모든 후보 질의실행계획 중에서 비용이 가장 적게 드는 질의실행계획을 생성한다.
 
 
 
@@ -462,7 +462,7 @@ MAX ( A+B ) ; null 값을 제외하고 더한 값 중에서 최대값.
 | SERIALIABLE      | N        | N           | N         |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDA1MjQwMzUsLTM4NzU1MTUzMywxMj
-k3ODg2NDI4LDEyNzE2MzM3NzYsMTAyMjA4MjM1MywxODQ0Mjk3
-NjQ5LDE2ODQ4Njk2MzFdfQ==
+eyJoaXN0b3J5IjpbMTk3Mzg1NzI4MiwtMzg3NTUxNTMzLDEyOT
+c4ODY0MjgsMTI3MTYzMzc3NiwxMDIyMDgyMzUzLDE4NDQyOTc2
+NDksMTY4NDg2OTYzMV19
 -->
