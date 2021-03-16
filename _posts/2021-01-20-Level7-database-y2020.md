@@ -349,7 +349,7 @@ MAX ( A+B ) ; null 값을 제외하고 더한 값 중에서 최대값.
 - 비연쇄적 스케줄 cascadeless schedules
 	- Ti에 의하여 쓰여진 **하나의 자료 항목**을 Tj가 읽는 한 쌍의 트랜잭션 Ti와 Tj에서 Tj이 읽기 연산에 **앞서** Ti의 완료연산이 실행되는 스케줄.
 	- 모든 비연쇄적 스케줄은 또한 복구가능
-	- 비연쇄적인 트랜잭션으로 스케줄을 제한하는 것이 바랍직하다.
+	- 비연쇄적인 트랜잭션으로 스케줄을 제한하는 것이 바람직하다.
 
 
 
@@ -465,6 +465,6 @@ MAX ( A+B ) ; null 값을 제외하고 더한 값 중에서 최대값.
 | SERIALIABLE      | N        | N           | N         |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjA4MjM1MywxODQ0Mjk3NjQ5LDE2OD
-Q4Njk2MzFdfQ==
+eyJoaXN0b3J5IjpbMTI3MTYzMzc3NiwxMDIyMDgyMzUzLDE4ND
+QyOTc2NDksMTY4NDg2OTYzMV19
 -->
