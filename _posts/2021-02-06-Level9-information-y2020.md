@@ -562,6 +562,27 @@ OllyDBG ; 바이너리 코드 분석을 위한 x86 디버거, 소스 코드가 �
 
 ==> 커버로스 시스템에서는 대칭키 암호로 빌드되며 TTP(신뢰된 서드 파티)를 요구한다. 또 특정 인증 구간에서 비대칭 키 암호 방식을 이용함으로써 선택적으로 공개키 암호 방식을 사용할 수 있다. 
 
+[kerberos](4_Security/security.md)
+
+- 순서
+
+- user id
+
+- tgt
+
+- client
+
+	- authenticator
+
+	- TGT
+
+- TGS는 client 확인
+
+- client는 아래 두 메시지를 SS (service server)
+
+- 
+
+
 
 
 
