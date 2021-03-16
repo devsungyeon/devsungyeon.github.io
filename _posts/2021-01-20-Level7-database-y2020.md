@@ -376,6 +376,7 @@ MAX ( A+B ) ; null 값을 제외하고 더한 값 중에서 최대값.
   - 1) 동일한 데이터 Q에 대해 T1이 스케줄 S에서 Q의 초기값을 읽는다면 S'에서도 초기값을 읽음
   - 2) 동일한 데이터 Q에 대해 T1이 스케줄 S에서 W(Q) 후 T2에서 R(Q) 읽는다면 S'에서도 T1 W(Q)후 T2에서 R(Q) ==> 쓰기 후 읽기 연산 순서 동일.
   - 3) 각 항목Q에 대해 스케줄S에서 T1이 최종 W(Q)를 수행하면 S'에서도 W(Q) 수행
+  - 상기 3
   - 인터리빙하게 수행되는 스케줄 S와 순차적으로 수행되는 스케줄 S'를 비교해서 동일한 데이터Q를 '초기 읽기', '쓰기/읽기', '마지막쓰기' 순서만 같다면 뷰직렬.
     - 인터리빙 ; Interleaving. 끼워넣기. IP 네트워크 즉 유선 통신 네트워크 또는 무선 통신 구간을 통하여 트래픽을 전송할 때, 발생할 수 있는, 군집 에러를 랜덤 에러로 변환하여 에러 정정을 용이하게 하기 위하여 사용되는 기법.
       - 메모리 인터리빙 ; 주기억장치를 접근하는 속도를 빠르게 함. 인접한 메모리 위치를 서로 다른 메모리 뱅크에 둠으로써 동시에 여러 곳을 접근할 수 있게 하는 것.
@@ -465,6 +466,6 @@ MAX ( A+B ) ; null 값을 제외하고 더한 값 중에서 최대값.
 | SERIALIABLE      | N        | N           | N         |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MTYzMzc3NiwxMDIyMDgyMzUzLDE4ND
-QyOTc2NDksMTY4NDg2OTYzMV19
+eyJoaXN0b3J5IjpbLTE4OTgyNjE5NDMsMTI3MTYzMzc3NiwxMD
+IyMDgyMzUzLDE4NDQyOTc2NDksMTY4NDg2OTYzMV19
 -->
