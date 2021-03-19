@@ -645,5 +645,5 @@ Post-order(L-R-C) : D-G-E-B-F-C-A
 
   서브쿼리에서 height와 grade 가 반환되는데, 반환된 두 값으로 비교를 할 수 없으므로 error 가 발생한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTczODg4NF19
+eyJoaXN0b3J5IjpbMTM3MTc5NDcxOCwtODI5NzM4ODg0XX0=
 -->
