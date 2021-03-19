@@ -35,7 +35,7 @@ ON (HOUR=HOUR(DATETIME))
 GROUP BY HOUR 
 ```
 
-
+- WITH 명령어와 RECURSIVE 명령어를 통해 0 ~ 23까지의 테이블을 만들어, LEFT OUTER JOIN을 수행한다.
 
 
 
@@ -45,5 +45,5 @@ GROUP BY HOUR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MzcyMzUzNCwxNzM3ODE2OTE0XX0=
+eyJoaXN0b3J5IjpbMTcwMjg0MjU5NCwxNzM3ODE2OTE0XX0=
 -->
