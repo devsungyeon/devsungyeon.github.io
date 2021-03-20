@@ -21,41 +21,58 @@ comments: true
 
 
 
-## 1. 
+## 1. 데이터베이스 관리...
 
-1. 
+
+데이터베이스 관리 시스템(DBMS)의 역할에 대한 설명으로 옳지 않은 것은?
+
+
 ![2017_7L_1](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_1.jpg)
 
 
-**답 : **
+**답 : ①**
 
-①
+① ~~데이터 조작어(DML)~~로 스키마의 구조를 기술하여 시스템 카탈로그(혹은 데이터 사전)에 저장한 후 필요할 때 활용된다.
 
-②
 
-③
+==> DCL
 
-④
+
+
+
 
 
 
 ---
 
-## 2. 
+## 2. 관계형 데이터...
 
-2. 
+
+관계형 데이터베이스에 대한 설명으로 옳지 않은 것만을 모두 고른 것은?
+
+
 ![2017_7L_2](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_2.jpg)
 
 
-**답 : **
+**답 : ③**
 
-①
+ㄱ. 기본키 속성이 복합 속성인 경우 그 속성의 일부 요소 속성에서 널(NULL) 값을 가질 수 있다.
 
-②
+==> 기본키는 null 키가 될 수 없다.
 
-③
+ㄴ. 슈퍼키는 후보키가 되기 위한 필요충분조건이다.
 
-④
+- 슈퍼키는 유일성만을 만족.
+
+- 후보키는 유일성과 최소성을 만족.
+
+슈퍼키 > 후보키 > 대체키 > 기본키
+
+ㄷ. 릴레이션 R이 릴레이션 S를 참조하는 경우 R의 외래키가 S의 기본키가 아닌 후보키 중 하나를 참조해야 한다.
+
+==> 참조하는 경우 외래키는 반드시 참조되는 기본키를 참조해야 한다.
+
+
 
 
 
@@ -63,7 +80,9 @@ comments: true
 
 ## 3. 
 
-3. 
+
+
+
 ![2017_7L_3](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_3.jpg)
 
 
@@ -83,11 +102,11 @@ comments: true
 
 ## 4. 
 
-4. 
+
 ![2017_7L_4](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_4.jpg)
 
 
-**답 : **
+**답 : ④**
 
 ①
 
@@ -95,7 +114,7 @@ comments: true
 
 ③
 
-④
+④ ==> 기본키 제약조건 위배.
 
 
 
@@ -103,13 +122,17 @@ comments: true
 
 ## 5. 
 
-5. 
+
 ![2017_7L_5](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_5.jpg)
 
 
-**답 : **
+**답 : ③**
 
 ①
+
+- 인덱싱
+
+    - 
 
 ②
 
@@ -123,7 +146,7 @@ comments: true
 
 ## 6. 
 
-6. 
+
 ![2017_7L_6](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_6.jpg)
 
 
@@ -141,7 +164,7 @@ comments: true
 
 ## 7. 
 
-7. 
+
 ![2017_7L_7](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_7.jpg)
 
 
@@ -161,7 +184,7 @@ comments: true
 
 ## 8. 
 
-8. 
+
 ![2017_7L_8](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_8.jpg)
 
 
@@ -181,7 +204,7 @@ comments: true
 
 ## 9. 
 
-9. 
+
 ![2017_7L_9](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_9.jpg)
 
 
@@ -201,7 +224,7 @@ comments: true
 
 ## 10. 
 
-10. 
+
 ![2017_7L_10](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_10.jpg)
 
 
@@ -221,7 +244,7 @@ comments: true
 
 ## 11. 
 
-11. 
+
 ![2017_7L_11](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_11.jpg)
 
 
@@ -241,7 +264,7 @@ comments: true
 
 ## 12. 
 
-12. 
+
 ![2017_7L_12](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_12.jpg)
 
 
@@ -261,7 +284,7 @@ comments: true
 
 ## 13. 
 
-13. 
+
 ![2017_7L_13](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_13.jpg)
 
 
@@ -281,7 +304,7 @@ comments: true
 
 ## 14. 
 
-14. 
+
 ![2017_7L_14](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_14.jpg)
 
 
@@ -301,7 +324,7 @@ comments: true
 
 ## 15. 
 
-15. 
+
 ![2017_7L_15](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_15.jpg)
 
 
@@ -321,7 +344,7 @@ comments: true
 
 ## 16. 
 
-16. 
+
 ![2017_7L_16](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_16.jpg)
 
 
@@ -341,7 +364,7 @@ comments: true
 
 ## 17. 
 
-17. 
+
 ![2017_7L_17](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_17.jpg)
 
 
@@ -361,7 +384,7 @@ comments: true
 
 ## 18. 
 
-18. 
+
 ![2017_7L_18](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_18.jpg)
 
 
@@ -381,7 +404,7 @@ comments: true
 
 ## 19. 
 
-19. 
+
 ![2017_7L_19](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_19.jpg)
 
 
@@ -401,7 +424,7 @@ comments: true
 
 ## 20. 
 
-20. 
+
 ![2017_7L_20](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_20.jpg)
 
 
