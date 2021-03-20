@@ -128,17 +128,25 @@ comments: true
 
 **답 : ③**
 
-①
+[인덱싱, 해싱](https://hyolo.tistory.com/58)
 
 - 인덱싱
 
-    - 
+	- 순서 인덱싱 ; B* 트리 인덱스
+		
+		- 검색 키가 순서대로 저장
 
-②
+		- 밀집 인덱스 ; 모든 레코드에 대해 인덱스 엔트리(검색 키와 포인터 쌍)를 유지
 
-③
+		- 희소 인덱스 ; 소수의 인덱스 엔트리만 유지.
 
-④
+	- 해시 인덱싱
+
+		- 검색키가 버킷들에 해시 함수를 이용하여 분산 저장.
+
+② [ p/2 ] 내림
+
+④ 전체 학생 수에 영향
 
 
 
@@ -152,13 +160,11 @@ comments: true
 
 **답 : **
 
-①
 
-②
 
-③
 
-④
+
+
 
 
 
@@ -168,15 +174,21 @@ comments: true
 ![2017_7L_7](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_7.jpg)
 
 
-**답 : **
+**답 : ④**
 
-①
+④ 
 
-②
+[db설계 및 개체관계모델 - 확장된 개체-관계 특성](https://m.blog.naver.com/PostView.nhn?blogId=nkind&logNo=110086303571&proxyReferer=https:%2F%2Fwww.google.com%2F)
 
-③
+- Disjoint Overlap
 
-④
+- 분리 disjoint
+
+	- 분리 제약조건에서는 하나의 개체는 단지 하나의 하위 개체 집합에만 속해야 한다. 여러 개의 개체 집합에 속할 수 없다.
+
+- 중첩 overlap 
+
+	- 중첩 일반화에서 동일한 개체가 단일 일반화의 하나 이상의 하위 개체 집합에 속할 수 있다.
 
 
 
@@ -188,15 +200,13 @@ comments: true
 ![2017_7L_8](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_8.jpg)
 
 
-**답 : **
+**답 : ①**
 
-①
+- DBMS의 캐시관리 방식
 
-②
+① no-steal 방식에서는 회복 과정 중 UNDO와 REDO 연산의 수행이 모두 필요하다.
 
-③
 
-④
 
 
 
@@ -370,13 +380,7 @@ comments: true
 
 **답 : **
 
-①
-
-②
-
-③
-
-④
+④ 2pl 의 경우 unlock 이후 lock 수행이 불가.
 
 
 
