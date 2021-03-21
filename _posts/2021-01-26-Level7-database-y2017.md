@@ -206,6 +206,29 @@ comments: true
 
 ① no-steal 방식에서는 회복 과정 중 UNDO와 REDO 연산의 수행이 모두 필요하다.
 
+==> undo 불필요.
+
+- 캐시 관리 방식
+
+	- steal / no-steal
+
+		- no-steal ; 지연. 트랜잭션이 완료하기 전까지 트랜잭션의 갱신한 캐쉬 페이지가 디스크에 기록하지 않는 방식
+
+		- steal ; 에잇 -> 즉시. 트랜잭션이 완료되기 전에 갱신된 페이지를 디스크에 기록할 수 있는 방식
+
+	- force / no-force
+
+		- force ; 트랜잭션이 완료될 때 트랜잭션이 갱신한 모든 페이지를 디스크에 반영하는 방식
+
+		- no-force ; 트랜잭션이 완료될 때 강제적으로 갱신된 모든 페이지를 디스크에 반영하지 않는 방식
+
+	- 전형적인 데이터베이스 시스템은 steal/no-force 방식을 사용
+		
+		- steal ; 모든 갱신된 페이지를 주기적 장치에 저장할 필요가 없으므로 대용량의 저장 장치가 필요 없음
+
+		- no-force ; 갱신된 페이지가 계속 버퍼에 존재하여 I/O 비용을 제거
+
+
 
 
 
@@ -338,15 +361,13 @@ comments: true
 ![2017_7L_15](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_15.jpg)
 
 
-**답 : **
+**답 : ①**
 
 ①
 
-②
+MMDB ; T-tree 사용. 디스크에 저장된 데이터를 접근하는 방법인 B-tree 계열과는 달리 모든 데이터가 메모리에 존재하도록 하는 Indexing 기술.
 
-③
-
-④
+디스크 기반 DB ; B-tree 사용
 
 
 
@@ -383,6 +404,16 @@ comments: true
 ④ 2pl 의 경우 unlock 이후 lock 수행이 불가.
 
 
+|     | X | S | IS | SIX | IX |
+|-----|---|---|----|-----|----|
+| X   |   |   |    |     |    |
+| S   |   | T | T  |     |    |
+| IS  |   | T | T  | T   | T  |
+| SIX |   |   | T  |     |    |
+| IX  |   |   | T  |     | T  |
+
+
+
 
 ---
 
@@ -412,15 +443,15 @@ comments: true
 ![2017_7L_19](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_19.jpg)
 
 
-**답 : **
+**답 : ③**
 
-①
+- ARIE
 
-②
+	- 복구 중 로깅
 
-③
+	- WAL 사용
 
-④
+	- UNDO 중 로깅 ; UNDO를 할 때에도 로깅을 함으로써 회복을 수행하는 도중에 실패하여 회복을 다시 시작할 때에 이미 완료된 UNDO연산은 반복하지 않음.
 
 
 
