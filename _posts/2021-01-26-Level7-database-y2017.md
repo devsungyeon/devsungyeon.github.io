@@ -445,7 +445,7 @@ MMDB ; T-tree 사용. 디스크에 저장된 데이터를 접근하는 방법인
 
 **답 : ③**
 
-- ARIE
+- ARIES
 
 	- 복구 중 로깅
 
@@ -463,12 +463,8 @@ MMDB ; T-tree 사용. 디스크에 저장된 데이터를 접근하는 방법인
 ![2017_7L_20](/assets/images/civil_service_examinatio/Level7_civil_servant/Level7_database/2017_7L/2017_7L_20.jpg)
 
 
-**답 : **
+**답 : ④**
 
-①
+- 뷰를 만들 때 모든 컬럼과 모든 레코드를 가져와서 작성하면 뷰나 테이블에 insert, update, delete 기능이 적용된다.
 
-②
-
-③
-
-④
+- 뷰에 조작 dml하여도 실제 테이블을 조작.
