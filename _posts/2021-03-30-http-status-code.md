@@ -37,11 +37,11 @@ comments: true
 	- 409 ; Conflict
 	- 429 ; Too Many Request
 - 500번대
-	- 500 ; 
-	- 502 ; 
-	- 503 ; 
-	- 504 ; 
+	- 500 ; Internal Server Error
+	- 502 ; Bad Gateway
+	- 503 ; Service Unavailable
+	- 504 ; Gateway Timeout
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTEzMjY4NCwtMTg4NzU3MzgxXX0=
+eyJoaXN0b3J5IjpbMTM1NjI1MTY0MSwtMTg4NzU3MzgxXX0=
 -->
