@@ -19,8 +19,29 @@ comments: true
 궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! ":)"
 
 
-- 100
+- 100번대 ; 정보 확인
+- 200번대 ; 통신 성공
+- 300번대 ; 리다이렉트
+- 400번대 ; 클라이언트 오류
+- 500번대 ; 서버 오류
+
+
+- 400번대
+	- 400 ; Bad Request
+	- 401 ; Unauthorized
+	- 403 ; Forbidden
+	- 404 ; Not found
+	- 405 ; Method Not Allowed
+	- 406 ; 
+	- 408 ; 
+	- 409 ; 
+	- 429 ; 
+- 500번대
+	- 500 ; 
+	- 502 ; 
+	- 503 ; 
+	- 504 ; 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDUzMzQ4MSwtMTg4NzU3MzgxXX0=
+eyJoaXN0b3J5IjpbMjAyNjYyMzg0MywtMTg4NzU3MzgxXX0=
 -->
