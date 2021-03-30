@@ -70,6 +70,11 @@ comments: true
 | 보호프로파일은 보안목표명세서를 수용할 수 없음           | 보안목표명세서는 보호프로파일을 수용할 수 있음       |
 
 
+![ccitsectcseck](/assets/images/information_governance_itsec_tcsec_cc/CCTCSECITSECKSeries.png)
+
+
+![ccitsec](/assets/images/information_governance_itsec_tcsec_cc/ITSECCC.png)
+
 
 
 ****
