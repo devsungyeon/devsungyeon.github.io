@@ -46,6 +46,7 @@ comments: true
 	- 등급
 		- Non, C1(최소), C2(fair), B2(good)
 - ITSEC
+	- d
 - CC
 
 ****
@@ -56,5 +57,5 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0Njg0Njg2NiwtODI4MDI4MTcyXX0=
+eyJoaXN0b3J5IjpbMTIzMDI4OTYxNywtODI4MDI4MTcyXX0=
 -->
