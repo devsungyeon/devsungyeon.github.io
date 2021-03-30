@@ -39,6 +39,12 @@ comments: true
 		- C ; 재량적(임의적) 보호 ; 임의적 접근제어
 		- B ; 강제적 보호 ; 강제적 접근제어
 		- A ; 검증된 정형화된 보호
+- TNI
+	- 미국 국방부
+	- **기밀성**과 **무결성**.
+	- ***레드북***
+	- 등급
+		- Non, C1(최소), C2(fair), B2(good)
 - ITSEC
 - CC
 
@@ -50,5 +56,5 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDY1MjI1OSwtODI4MDI4MTcyXX0=
+eyJoaXN0b3J5IjpbMTU0Njg0Njg2NiwtODI4MDI4MTcyXX0=
 -->
