@@ -59,7 +59,7 @@ comments: true
 	- PP Protection Profile 보호프로파일 ; 보안 요구 사항이나 평가할 제품의 보호 항목을 명시
 	- ST Security Target ; 보호목표명세서 ; 벤더나 개발자가 작성한 제품의 명세
 	- 엄격한 준수 strict conformance
-		- **보안목표명세서는 보호프로파일 내에 있는 모든 서술문을 포함한다.**
+		- **보안목표명세서ST는 보호프로파일PP 내에 있는 모든 서술문을 포함한다.**
 	- EAL Evaluation Assurance Level ; EAL0 ~ EAL7
 
 ****
@@ -70,6 +70,6 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5Mzg4NDQzLC0zMDM3MzQyMzcsLTgyOD
-AyODE3Ml19
+eyJoaXN0b3J5IjpbMTg1MjY0OTYyNiwyNTkzODg0NDMsLTMwMz
+czNDIzNywtODI4MDI4MTcyXX0=
 -->
