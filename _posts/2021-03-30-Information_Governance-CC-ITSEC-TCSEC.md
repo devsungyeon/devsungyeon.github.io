@@ -58,6 +58,7 @@ comments: true
 	- TCSEC, ITSEC 단점을 보완
 	- PP Protection Profile 보호프로파일 ; 보안 요구 사항이나 평가할 제품의 보호 항목을 명시
 	- ST Security Target ; 보호목표명세서 ; 벤더나 개발자가 작성한 제품의 명세
+	- TOE time of evaluation.
 	- 엄격한 준수 strict conformance
 		- **보안목표명세서ST는 보호프로파일PP 내에 있는 모든 서술문을 포함한다.**
 	- EAL Evaluation Assurance Level ; EAL0 ~ EAL7

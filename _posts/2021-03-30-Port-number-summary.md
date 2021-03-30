@@ -30,6 +30,11 @@ comments: true
 - 80 ; Http
 - 110 ; POP3
 - 443 ; https
+
+- 88 ; kerboros
+- 143 ; IMAP
+- 161 ; SNMP
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTMwMDQwMDA4MCwxNDI5NDMzMTkyXX0=
 -->

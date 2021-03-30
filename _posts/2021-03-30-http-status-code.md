@@ -38,6 +38,7 @@ comments: true
 	- 429 ; Too Many Request
 - 500번대
 	- 500 ; Internal Server Error
+	- 501 ; Not implemented - 서버가 지원하지 않는 함수 사용시.
 	- 502 ; Bad Gateway
 	- 503 ; Service Unavailable
 	- 504 ; Gateway Timeout
