@@ -32,10 +32,10 @@ comments: true
 	- 403 ; Forbidden
 	- 404 ; Not found
 	- 405 ; Method Not Allowed
-	- 406 ; 
-	- 408 ; 
-	- 409 ; 
-	- 429 ; 
+	- 406 ; Not Acceptable
+	- 408 ; Request Timeout
+	- 409 ; Conflict
+	- 429 ; Too Many Request
 - 500번대
 	- 500 ; 
 	- 502 ; 
@@ -43,5 +43,5 @@ comments: true
 	- 504 ; 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjYyMzg0MywtMTg4NzU3MzgxXX0=
+eyJoaXN0b3J5IjpbMjEwOTEzMjY4NCwtMTg4NzU3MzgxXX0=
 -->
