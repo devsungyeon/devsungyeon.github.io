@@ -30,7 +30,9 @@ comments: true
 ****
 
 - TCSEC
-	- 
+	- 미국의 신뢰성 있는 컴퓨터 시스템 평가기준
+	- 미국 국방성. **오렌지 북**
+	- Bell-LaPadu
 - ITSEC
 - CC
 
@@ -42,5 +44,5 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTgxODU5OV19
+eyJoaXN0b3J5IjpbLTgyODAyODE3Ml19
 -->
