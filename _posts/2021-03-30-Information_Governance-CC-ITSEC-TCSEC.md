@@ -46,7 +46,14 @@ comments: true
 	- 등급
 		- Non, C1(최소), C2(fair), B2(good)
 - ITSEC
-	- d
+	- 유럽
+	- **기밀성, 가용성, 무결성**
+	- 기능성과 보증을 분리
+		- Functionality ; F1 - F10 ; 기능 클래스
+		- Assurance ; E0 - E6 ; 보증 수준
+	- 등급
+		- E1(최저) E2 E3 E4 E5 E6(최고) 6등급
+		- E0 ; 부적합.(ㅎ
 - CC
 
 ****
@@ -57,5 +64,5 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMDI4OTYxNywtODI4MDI4MTcyXX0=
+eyJoaXN0b3J5IjpbNDY3NjM4NjE1LC04MjgwMjgxNzJdfQ==
 -->
