@@ -21,4 +21,15 @@ comments: true
 
 
 
-
+- 20 ; ftp data
+- 21 ; ftp control
+- 22 ; SSH
+- 23 ; telnet
+- 25 ; SMTP
+- 53 ; 
+- 80 ; 
+- 110 ; 
+- 443 ; 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTQyOTQzMzE5Ml19
+-->
