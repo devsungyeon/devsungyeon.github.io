@@ -62,6 +62,14 @@ comments: true
 		- **보안목표명세서ST는 보호프로파일PP 내에 있는 모든 서술문을 포함한다.**
 	- EAL Evaluation Assurance Level ; EAL0 ~ EAL7
 
+| 보호프로파일(PP)                          | 보안목표명세서(ST)                     |
+|-------------------------------------|---------------------------------|
+| 구현에 독립적                             | 구현에 종속적                         |
+| 제품군 ; 침입탐지시스템                       | 특정제품 A사의 침입탐지시스템                |
+| 여러 제품/시스템이 동일한 유형의 보호프로파일을 수용할 수 있음 | 하나의 제품/시스템은 하나의 보안목표명세서를 수용해야 함 |
+| 보호프로파일은 보안목표명세서를 수용할 수 없음           | 보안목표명세서는 보호프로파일을 수용할 수 있음       |
+
+
 
 
 ****
@@ -72,6 +80,6 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDU5NjIxNCwyNTkzODg0NDMsLTMwMz
-czNDIzNywtODI4MDI4MTcyXX0=
+eyJoaXN0b3J5IjpbMTA4NTcyNDUyMSwxMTkwNTk2MjE0LDI1OT
+M4ODQ0MywtMzAzNzM0MjM3LC04MjgwMjgxNzJdfQ==
 -->
