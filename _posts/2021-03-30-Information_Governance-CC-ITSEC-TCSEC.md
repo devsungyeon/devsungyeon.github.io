@@ -53,8 +53,12 @@ comments: true
 		- Assurance ; E0 - E6 ; 보증 수준
 	- 등급
 		- E1(최저) E2 E3 E4 E5 E6(최고) 6등급
-		- E0 ; 부적합.(ㅎ
+		- E0 ; 부적합.(효용성 보증 하나라도 만족 못하는 경우)
 - CC
+	- TCSEC, ITSEC 단점을 보완
+	- PP Protection Profile ; 보안 요구 사항이나 평가할 제품의 보호 항목을 명시
+	- ST Security Target ;
+	- EAL
 
 ****
 
@@ -64,5 +68,5 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY3NjM4NjE1LC04MjgwMjgxNzJdfQ==
+eyJoaXN0b3J5IjpbOTA5NTk4Nzg1LC04MjgwMjgxNzJdfQ==
 -->
