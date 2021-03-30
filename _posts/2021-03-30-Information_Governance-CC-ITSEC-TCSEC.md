@@ -56,9 +56,9 @@ comments: true
 		- E0 ; 부적합.(효용성 보증 하나라도 만족 못하는 경우)
 - CC
 	- TCSEC, ITSEC 단점을 보완
-	- PP Protection Profile ; 보안 요구 사항이나 평가할 제품의 보호 항목을 명시
-	- ST Security Target ;
-	- EAL
+	- PP Protection Profile 보호프로파일 ; 보안 요구 사항이나 평가할 제품의 보호 항목을 명시
+	- ST Security Target ; 보호목표명세서 ; 벤더나 개발자가 작성한 제품의 명세
+	- EAL 
 
 ****
 
@@ -68,5 +68,5 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA5NTk4Nzg1LC04MjgwMjgxNzJdfQ==
+eyJoaXN0b3J5IjpbLTMwMzczNDIzNywtODI4MDI4MTcyXX0=
 -->
