@@ -62,6 +62,8 @@ comments: true
 		- **보안목표명세서ST는 보호프로파일PP 내에 있는 모든 서술문을 포함한다.**
 	- EAL Evaluation Assurance Level ; EAL0 ~ EAL7
 
+
+
 ****
 
 
@@ -70,6 +72,6 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MjY0OTYyNiwyNTkzODg0NDMsLTMwMz
+eyJoaXN0b3J5IjpbMTE5MDU5NjIxNCwyNTkzODg0NDMsLTMwMz
 czNDIzNywtODI4MDI4MTcyXX0=
 -->
