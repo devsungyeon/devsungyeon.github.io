@@ -32,7 +32,13 @@ comments: true
 - TCSEC
 	- 미국의 신뢰성 있는 컴퓨터 시스템 평가기준
 	- 미국 국방성. **오렌지 북**
-	- Bell-LaPadula 모델의 기밀성. 
+	- Bell-LaPadula 모델의 **기밀성.**  기밀성기반모듈. 가용x, 무결x
+	- 보안 클래스
+		- D - C1 - C2 - B1 - B2 - B3 - A1
+		- D ; 최소보호
+		- C ; 재량적(임의적) 보호 ; 임의적 접근제어
+		- B ; 강제적 보호 ; 강제적 접근제어
+		- A ; 검증된 정형화된 보호
 - ITSEC
 - CC
 
@@ -44,5 +50,5 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDM0MTIxNTYsLTgyODAyODE3Ml19
+eyJoaXN0b3J5IjpbLTk2NDY1MjI1OSwtODI4MDI4MTcyXX0=
 -->
