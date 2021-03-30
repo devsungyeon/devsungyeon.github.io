@@ -22,7 +22,10 @@ comments: true
 
 
 
-## 
+##  평가 기준
+
+- TCSEC E
+- ITSEC
 
 ****
 
@@ -32,3 +35,6 @@ comments: true
 
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODg1ODEzNTA3XX0=
+-->
