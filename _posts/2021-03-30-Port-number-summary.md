@@ -26,10 +26,10 @@ comments: true
 - 22 ; SSH
 - 23 ; telnet
 - 25 ; SMTP
-- 53 ; 
-- 80 ; 
-- 110 ; 
-- 443 ; 
+- 53 ; DNS
+- 80 ; Http
+- 110 ; POP3
+- 443 ; https
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTQzMzE5Ml19
+eyJoaXN0b3J5IjpbMTMwMDQwMDA4MCwxNDI5NDMzMTkyXX0=
 -->
