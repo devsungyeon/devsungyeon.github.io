@@ -21,12 +21,39 @@ comments: true
 
 궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! ":)"
 
+## Conflict
+
+## Read-Write
+
 
 ![read-write](/assets/images/2021-03-31-transaction-conflict/read-write.png)
 
-![read-write](/assets/images/2021-03-31-transaction-conflict/read-write.png)
 
-![read-write](/assets/images/2021-03-31-transaction-conflict/read-write.png)
+
+## Read-Write
+![write-read](/assets/images/2021-03-31-transaction-conflict/write-read.png)
+
+
+
+## Read-Write
+![write-write](/assets/images/2021-03-31-transaction-conflict/write-write.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM3MjI4Nzc2XX0=
+eyJoaXN0b3J5IjpbMTA2MTgzOTExN119
 -->
