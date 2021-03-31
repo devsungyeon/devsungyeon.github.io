@@ -27,3 +27,6 @@ comments: true
 ![read-write](/assets/images/2021-03-31-transaction-conflict/read-write.png)
 
 ![read-write](/assets/images/2021-03-31-transaction-conflict/read-write.png)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODM3MjI4Nzc2XX0=
+-->
