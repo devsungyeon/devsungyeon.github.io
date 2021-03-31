@@ -30,12 +30,12 @@ comments: true
 
 
 
-## Read-Write
+## Write-Read
 ![write-read](/assets/images/2021-03-31-transaction-conflict/write-read.png)
 
 
 
-## Read-Write
+## Write-Write
 ![write-write](/assets/images/2021-03-31-transaction-conflict/write-write.png)
 
 
@@ -55,5 +55,5 @@ comments: true
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MTgzOTExN119
+eyJoaXN0b3J5IjpbOTMxMTE3NzAyXX0=
 -->
