@@ -28,7 +28,7 @@ comments: true
 
 ## 충돌 저항성 = 강한 충돌 내성
 
-- hash(M1)=hash(M2)
+- hash(M1)=hash(M2) 를 만족하는 (M1, M2)인 쌍을 찾기 어렵다.
 
 
 
@@ -46,6 +46,6 @@ comments: true
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjU2MzMxMzUsMzY5NDg3NDU3LDkzMT
-ExNzcwMl19
+eyJoaXN0b3J5IjpbMTY5MjYzMDA1NiwzNjk0ODc0NTcsOTMxMT
+E3NzAyXX0=
 -->
