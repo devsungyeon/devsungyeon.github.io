@@ -20,6 +20,8 @@ comments: true
 
 ## 역상 저항성
 
+- 주어진 해시 값이 H가 있다면, 그 해시 값을 생성하는 H=hash(M) M을 계산하기 
+
 ## 제2 역상 저항성 = 약한 충돌 내성
 
 ## 충돌 저항성 = 강한 충돌 내성
@@ -42,5 +44,5 @@ comments: true
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMjQxOTUyLDkzMTExNzcwMl19
+eyJoaXN0b3J5IjpbMzY5NDg3NDU3LDkzMTExNzcwMl19
 -->
