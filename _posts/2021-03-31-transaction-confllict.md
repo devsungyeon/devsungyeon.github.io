@@ -1,42 +1,29 @@
 ---
-title: "transaction conflict 트랜잭션 충돌"
-strapline: "transaction conflicte"
-description: "transaction conflict"
+title: "해시 저항성 hashing resistence"
+strapline: "hashing resistence"
+description: "hashing resistence"
 header:
  overlay_image: /assets/images/bright.jpg
 categories:
-  - "database"
+  - "9Level_computerbasic"
 tag:
-  - "conflict"
-  - "transaction"
-  - "read-write"
-  - "write-write"
-  - "write-read"
+  - "Hasing"
+  - "hashing resistence"
 toc: true
-last_modified_at: 2021-03-31
+last_modified_at: 2021-04-01
 comments: true
 ---
 
-# 트랜잭션 충돌 Transaction conflict
+# 해시 저항성 hashing resistence
 
 궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! ":)"
 
-## Conflict
+## 역상 저항성
 
-## Read-Write
+## 제2 역상 저항성 = 약한 충돌 내성
 
+## 충돌 저항성 = 강한 충돌 내성
 
-![read-write](/assets/images/2021-03-31-transaction-conflict/read-write.png)
-
-
-
-## Write-Read
-![write-read](/assets/images/2021-03-31-transaction-conflict/write-read.png)
-
-
-
-## Write-Write
-![write-write](/assets/images/2021-03-31-transaction-conflict/write-write.png)
 
 
 
