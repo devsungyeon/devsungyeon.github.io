@@ -25,20 +25,21 @@ comments: true
 
 ## Read-Write
 
-
 ![read-write](/assets/images/2021-03-31-transaction-conflict/read-write.png)
 
-
+- Unrepeatable Reads
 
 ## Write-Read
+
 ![write-read](/assets/images/2021-03-31-transaction-conflict/write-read.png)
 
-
+- reading uncommitted data
 
 ## Write-Write
+
 ![write-write](/assets/images/2021-03-31-transaction-conflict/write-write.png)
 
-
+- 
 
 
 
@@ -55,6 +56,6 @@ comments: true
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxMTE3NzAyLC03MjI0MTk1Miw5MzExMT
-c3MDJdfQ==
+eyJoaXN0b3J5IjpbLTM4MzM3OTM5Myw5MzExMTc3MDIsLTcyMj
+QxOTUyLDkzMTExNzcwMl19
 -->
