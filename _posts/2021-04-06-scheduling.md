@@ -39,8 +39,28 @@ comments: true
 
 
 ---
+
+프로세스PID 실행시간 대기시간  
+P1 30 40  
+P2 50 30  
+P3 10 20  
+  
+우선순위 계산  
+P1 = (40 + 30)/30 = 2.3  
+P2 = (30 + 50)/50 = 1.6  
+P3 = (20 + 10)/10 = 3.0  
+  
+  P3 P1 P2  
+0 10 40 90  
+
+평균실행시간 : (10 + 30 + 50)/3 = 30  
+평균대기시간 : (0 + 10 + 40)/3 = 16.67  
+평균반환시간 : (10 + 40 + 90)/3 = 46.67
+
+
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODY4ODE0OSwtNTgxMDE0MTg4LDI5MT
+eyJoaXN0b3J5IjpbMTExMzk1NDc4NywtNTgxMDE0MTg4LDI5MT
 g4MzIzOCwxNjkyNjMwMDU2LDM2OTQ4NzQ1Nyw5MzExMTc3MDJd
 fQ==
 -->
