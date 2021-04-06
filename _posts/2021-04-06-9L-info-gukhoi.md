@@ -31,12 +31,13 @@ comments: true
 	- SPN ; Rijndael, ARIA, AES
 - 비대칭키 ; RSA, ECC, ElGamal, DH
 - AES ; 2001년 미국 표준 기술 연구소(NIST)에 의해 제정된 암호화 방식
-- 
+- 단순, 구현쉬움, 빠름, 고성능플랫폼
 
 3.  IDS
 - IDS는 외내부 사이 뿐만 아니라 네트워크 어디에도 위치 가능.
 
-3. 
+4. -
+5. RSN
 
 
 
@@ -63,5 +64,5 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDI3NTQ5MDksMTg2NDY5OTEyNl19
+eyJoaXN0b3J5IjpbMTYwMzk4ODg2NCwxODY0Njk5MTI2XX0=
 -->
