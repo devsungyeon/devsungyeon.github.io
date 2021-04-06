@@ -25,7 +25,13 @@ comments: true
 - ​부인방지
 - 기밀성 보장하려면 메시지와 서명에 비밀키 or 공개키로 암호화해야한다
 
-2. 
+2. AES
+- 
+
+3.  IDS
+- IDS는 외내부 사이 뿐만 아니라 네트워크 어디에도 위치 가능.
+
+3. 
 
 
 
@@ -52,5 +58,5 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDY5OTEyNl19
+eyJoaXN0b3J5IjpbNjIyMzEwMzMyLDE4NjQ2OTkxMjZdfQ==
 -->
