@@ -19,6 +19,7 @@ comments: true
 
 ## 교착상태 발생 조건
 
+- 하기 **네 가지 조건이 동시 **성립 시 교착 발생.
 - 상호 배제 ; Mutual Exclusion
 	- At least one resource must be held in a non-shareable way.
 - 점유와 대기 ; Hold and wait
@@ -32,8 +33,9 @@ comments: true
 
 
 - 교착상태 해결방안
+	- 예방, 회피, 발견, 회복
 	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODU0MjA5MzQsMTk5Mzg1ODM3NywxNj
-kyNjMwMDU2LDM2OTQ4NzQ1Nyw5MzExMTc3MDJdfQ==
+eyJoaXN0b3J5IjpbOTUyNjAzMTc3LDE5OTM4NTgzNzcsMTY5Mj
+YzMDA1NiwzNjk0ODc0NTcsOTMxMTE3NzAyXX0=
 -->
