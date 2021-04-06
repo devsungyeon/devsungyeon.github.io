@@ -34,8 +34,12 @@ comments: true
 
 - 교착상태 해결방안
 	- 예방, 회피, 발견, 회복
-	- 
+	- 예방 Prevention
+		- 상호배제 예방 ; 상호배제 사용하지 않음(동시액세스 허락)
+		- 부분할당 예방 ; 프로세스가 필요로 하는 자원을 일시에 요구/할당
+		- 비선점 예방 ; 자원임시 할당해제 및 원상복구(다루기가 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyNjAzMTc3LDE5OTM4NTgzNzcsMTY5Mj
-YzMDA1NiwzNjk0ODc0NTcsOTMxMTE3NzAyXX0=
+eyJoaXN0b3J5IjpbNjA3MDMzNzkzLDk1MjYwMzE3NywxOTkzOD
+U4Mzc3LDE2OTI2MzAwNTYsMzY5NDg3NDU3LDkzMTExNzcwMl19
+
 -->
