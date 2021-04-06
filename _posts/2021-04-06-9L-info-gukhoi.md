@@ -49,20 +49,21 @@ comments: true
 7. -
 - 사용자 기반 언어가 아닌 서버 기반 언어로 필터링
 8. -
-- 접근 권한이 있으면 가능.
-9. -
+- 파일 소유주나 슈퍼 유저만 가능.
+9. -[IPSec](
+ 
 10.-
-10. -
 11. -
 12. -
-13.  -
-14. -
+13. -
+14.  -
 15. -
 16. -
 17. -
 18. -
 19. -
-20. 
+20. -
+21. 
 
 
 
@@ -89,5 +90,5 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1OTA0NTI3LDE4NjQ2OTkxMjZdfQ==
+eyJoaXN0b3J5IjpbNjQxNzYzODQyLDE4NjQ2OTkxMjZdfQ==
 -->
