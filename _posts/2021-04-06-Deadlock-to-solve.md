@@ -58,9 +58,12 @@ comments: true
 
 - 개념
 	- 운영체제는 자원의 상태를 감시하고, 사용자 프로세스는 사전에 자신의 작업에서 필요한 자원의 수를 제시하는 교착상태 회피 알고리즘
-	- 운영체제는 안정상태를 유지할 수 있는 요구만을 수락하고 불안전 상태를 초래할 사용자의 요구는 나중에 만족될 수 있을 
+	- 운영체제는 안정상태를 유지할 수 있는 요구만을 수락하고 불안전 상태를 초래할 사용자의 요구는 나중에 만족될 수 있을 때까지 계속 거절하는 교착상태 회피 알고리즘
+- 문제점
+	- 쉽게 구현할 수 있지만 추가비용이 큼
+	- 은행원(Banker)에게 통신하는 메시지가 너무 많아 은행원(Banker)이 Bottl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDExNzM3MDc1LDk1MjYwMzE3NywxOTkzOD
-U4Mzc3LDE2OTI2MzAwNTYsMzY5NDg3NDU3LDkzMTExNzcwMl19
-
+eyJoaXN0b3J5IjpbLTEzODk1NjMwMzEsOTUyNjAzMTc3LDE5OT
+M4NTgzNzcsMTY5MjYzMDA1NiwzNjk0ODc0NTcsOTMxMTE3NzAy
+XX0=
 -->
