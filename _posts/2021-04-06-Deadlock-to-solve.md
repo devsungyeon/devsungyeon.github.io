@@ -31,8 +31,9 @@ comments: true
 ---
 
 
-
+- 교착상태 해결방안
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5Mzg1ODM3NywxNjkyNjMwMDU2LDM2OT
-Q4NzQ1Nyw5MzExMTc3MDJdfQ==
+eyJoaXN0b3J5IjpbLTE3ODU0MjA5MzQsMTk5Mzg1ODM3NywxNj
+kyNjMwMDU2LDM2OTQ4NzQ1Nyw5MzExMTc3MDJdfQ==
 -->
