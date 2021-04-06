@@ -61,6 +61,7 @@ comments: true
 14. -
 15. -
 16. -
+- SMTP Command
 - HELO (Hello)
 	- 클라이언트는 SMTP 서버에이 명령을 전송하여 SMTP 서버를 식별하고 SMTP 대화를 시작.
 	- 일반적으로 SMTP 클라이언트의 도메인(FQDN)이나 IP 주소는 명령과 함께 인수로 전송 (예 : "HELO client.example.com").
@@ -120,6 +121,6 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODcwMjE3MjksLTcyMTg5NTMwNCwxOD
-Y0Njk5MTI2XX0=
+eyJoaXN0b3J5IjpbNjU4Nzc2MDM3LC03MjE4OTUzMDQsMTg2ND
+Y5OTEyNl19
 -->
