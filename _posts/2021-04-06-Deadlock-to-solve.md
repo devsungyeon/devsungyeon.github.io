@@ -26,22 +26,13 @@ comments: true
 - 비선점 ; No preemption
 	- Resource cannot be preempted.
 - 환형대기 ; Circular wait
-	- A waits for B, B waits for C, C waits for
-
-
-
-
-
-
-
-
-
-
-
-
+	- A waits for B, B waits for C, C waits for A.
 
 ---
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMzY0MTgxNiwxNjkyNjMwMDU2LDM2OT
+eyJoaXN0b3J5IjpbMTk5Mzg1ODM3NywxNjkyNjMwMDU2LDM2OT
 Q4NzQ1Nyw5MzExMTc3MDJdfQ==
 -->
