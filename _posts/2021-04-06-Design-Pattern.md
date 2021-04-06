@@ -21,18 +21,33 @@ comments: true
 
 
 
-------
+---
+
+
+| 대분류          | 종류               | 사용 목적                                  |
+|--------------|------------------|----------------------------------------|
+| 객체 생성을 위한 패턴 | Factory Method   | 대행 함수(위임)를 통한 객체 생성, 인스턴스 생성 결정은 서브클래스 |
+|              | Abstract Factory | 제품군(product family)별 객체 생성             |
+|              | Singleton        |  클래스 인스턴스가 하나만 만들어지고 그 인스턴스의 전역접근      |
+|              | Prototype        | 복제를 통한 객체 생성                           |
+|              | Builder          | 부분 생성을 통한 전체 객체 생성                     |
 
 ---
 
----
+
 
 ---
+
+
+
+---
+
+
 
 ---
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNzUzNTEsMTY5MjYzMDA1NiwzNjk0OD
-c0NTcsOTMxMTE3NzAyXX0=
+eyJoaXN0b3J5IjpbODk2OTQ5NDQ3LDE2OTI2MzAwNTYsMzY5ND
+g3NDU3LDkzMTExNzcwMl19
 -->
