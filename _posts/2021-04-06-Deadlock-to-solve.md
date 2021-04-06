@@ -43,9 +43,15 @@ comments: true
 		- OS는 자원의 상태를 감시
 		- 프로세스는 사전에 자기 작업에서 필요한 자원의 수를 제시
 		- OS는 사용자 프로세스로부터 자원의 요청이 있으면 모든 프로세스가 일정기간 내에 성공적으로 종료될 수 있는 안전한 상태인지 면밀하게 분석
+		- OS는 안전한 상태를 유지할 수 있는 요구만을 수락, 그 외의 요구는 만족될 때까지 계속 거절
+	- 발견 Detection
+		- 시스템의 상태를 감시하는 알고리즘을 통하여 교착상태를 검사하는 알고리즘
+		- 시스템의 자원할당 그래프로 교착상태검출 Graph reduction, cycle Detection, Knot detection
+		- 교착상태 발생 시 자원할당 소거
+	- 회복 Recovery
 		- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQ0NTIwNzMsOTUyNjAzMTc3LDE5OT
-M4NTgzNzcsMTY5MjYzMDA1NiwzNjk0ODc0NTcsOTMxMTE3NzAy
-XX0=
+eyJoaXN0b3J5IjpbNzgzMzcwNDc0LDk1MjYwMzE3NywxOTkzOD
+U4Mzc3LDE2OTI2MzAwNTYsMzY5NDg3NDU3LDkzMTExNzcwMl19
+
 -->
