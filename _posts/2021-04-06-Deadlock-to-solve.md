@@ -19,7 +19,10 @@ comments: true
 
 ## 교착상태 발생 조건
 
-- 
+- 상호 배제 ; Mutual Exclusion
+- 점유와 대기 ; 
+- 비선점
+- 환형대기
 
 
 
@@ -35,6 +38,6 @@ comments: true
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMDI5OTk3NywxNjkyNjMwMDU2LDM2OT
+eyJoaXN0b3J5IjpbLTY4ODA5NTcwMiwxNjkyNjMwMDU2LDM2OT
 Q4NzQ1Nyw5MzExMTc3MDJdfQ==
 -->
