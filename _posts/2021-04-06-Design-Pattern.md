@@ -47,6 +47,19 @@ comments: true
 
 ---
 
+| 대분류          | 종류                      | 사용 목적                                                                        |
+|--------------|-------------------------|------------------------------------------------------------------------------|
+| 행위 개선을 위한 패턴 | Interpreter             | 간단한 문법에 기반한 검증작업 및 작업처리                                                      |
+|              | Template Method         | 상위클래스에서 기본 골격을 결정. 하위클래스에서 구체적 내용 정의                                         |
+|              | Command                 | 요청을 객채로 캡슐화. 수행할 작업의 일반화를 통한 조작                                              |
+|              | Iterator                | 동일 자료형의 여러 객체 순차 접근                                                          |
+|              | Mediator                | 객체들 간의 상호작용을 객체로 캡슐화. M:N 객체 관계를 M:1로 단순화                                    |
+|              | Memento                 | 객체의 이전 상태 복원 또는 보관                                                           |
+|              | Observer                | One source Multiple Use                                                      |
+|              | State                   | 객체 상태 추가시 행위 수행의 원활한 변경                                                      |
+|              | Strategy                | 동일 목적의 여러 알고리즘 중 선택해서 적용                                                     |
+|              | Visitor                 | 오퍼레이션이 처리할 요소의 클래스를 변경하지 않고도 새로운 오퍼레이션을 정의, 구문트리 파싱 시 트리를 이루는 모든 노드를 방문하여 작업 |
+|              | Chain of Responsibility | 수행 가능 객체군끼리 요청 전파                                                            |
 
 
 ---
@@ -57,6 +70,7 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTE0MzA3Myw4OTY5NDk0NDcsMTY5Mj
-YzMDA1NiwzNjk0ODc0NTcsOTMxMTE3NzAyXX0=
+eyJoaXN0b3J5IjpbLTEzNjY5NTMyOTksMTgwNTE0MzA3Myw4OT
+Y5NDk0NDcsMTY5MjYzMDA1NiwzNjk0ODc0NTcsOTMxMTE3NzAy
+XX0=
 -->
