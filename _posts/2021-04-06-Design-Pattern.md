@@ -34,6 +34,15 @@ comments: true
 
 ---
 
+| 대분류          | 종류        | 사용 목적                           |
+|--------------|-----------|---------------------------------|
+| 구조 생성을 위한 패턴 | Adapter   | 기존 모듈 재사용을 위한 인터페이스 변경          |
+|              | Facade    | 서브시스템에 대한 통합된 인터페이스를 제공         |
+|              | Bridge    | 인터페이스와 구현의 명확한 분리               |
+|              | Composite | 객체간의 부분전체 관계 형성 및 관리, 재귀적 합성 이용 |
+|              | Decorator | 객체의 기능을 동적으로 추가 삭제              |
+|              | Flyweight | 작은 객체들의 공유                      |
+|              | Proxy     | 대체(대리자) 객체를 통한 작업 수행            |
 
 
 ---
@@ -48,6 +57,6 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk2OTQ5NDQ3LDE2OTI2MzAwNTYsMzY5ND
-g3NDU3LDkzMTExNzcwMl19
+eyJoaXN0b3J5IjpbMTgwNTE0MzA3Myw4OTY5NDk0NDcsMTY5Mj
+YzMDA1NiwzNjk0ODc0NTcsOTMxMTE3NzAyXX0=
 -->
