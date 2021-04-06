@@ -61,9 +61,12 @@ comments: true
 	- 운영체제는 안정상태를 유지할 수 있는 요구만을 수락하고 불안전 상태를 초래할 사용자의 요구는 나중에 만족될 수 있을 때까지 계속 거절하는 교착상태 회피 알고리즘
 - 문제점
 	- 쉽게 구현할 수 있지만 추가비용이 큼
-	- 은행원(Banker)에게 통신하는 메시지가 너무 많아 은행원(Banker)이 Bottl
+	- 은행원(Banker)에게 통신하는 메시지가 너무 많아 은행원(Banker)이 Bottleneck이 될 수  있음
+	- 할당할 자원이 일정량 존재해야 함
+	- 최대 자원 요구량을 미리 알아야 함
+	- 프로세스들은 유한한 시간 안에 자원을 반납해야 함.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODk1NjMwMzEsOTUyNjAzMTc3LDE5OT
-M4NTgzNzcsMTY5MjYzMDA1NiwzNjk0ODc0NTcsOTMxMTE3NzAy
-XX0=
+eyJoaXN0b3J5IjpbMTI3NDY3NTM4Myw5NTI2MDMxNzcsMTk5Mz
+g1ODM3NywxNjkyNjMwMDU2LDM2OTQ4NzQ1Nyw5MzExMTc3MDJd
+fQ==
 -->
