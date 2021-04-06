@@ -25,7 +25,7 @@ comments: true
 - ​부인방지
 - 기밀성 보장하려면 메시지와 서명에 비밀키 or 공개키로 암호화해야한다
 
-
+2. 
 
 
 
@@ -52,5 +52,5 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDc4NjAyXX0=
+eyJoaXN0b3J5IjpbMTg2NDY5OTEyNl19
 -->
