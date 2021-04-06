@@ -57,7 +57,8 @@ comments: true
 11. -
 12. -
 13.  -
-- 
+- **생일 공격**(birthday attack)은 암호학적 해시 함수의 해시 충돌을 찾아내는 암호해독 **공격**으로, **생일** 문제의 확률적 결과를 기반으로 한다. **생일** 문제에 따르면 해시 함수의 입력값을 다양하게 할수록 해시 값이 같은 두 입력값을 발견할 확률은 빠르게 증가한다.
+- 레인보우 테이블은 하나의 패스워드에서 시작해 특정한 변이 함수를 이용해 여러변이된 형태의 패스워드를 생성한다. 그리고 각 변이된 패스워드의 해시를 고리처럼 연결하여 일정 수의 패스워드와 해시로 이루어진 체인(Chain)을 무수히 만들어 놓은 테이블이다. 해시 테이블과 R(Reduction)함수의 반복 수행을 통해 일치하는 해시값을 통해서 패스워드를 찾아내는 방식이다.
 14. -
 15. -
 16. -
@@ -91,5 +92,6 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMTg5NTMwNCwxODY0Njk5MTI2XX0=
+eyJoaXN0b3J5IjpbLTc1NjgzNjg3MSwtNzIxODk1MzA0LDE4Nj
+Q2OTkxMjZdfQ==
 -->
