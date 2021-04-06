@@ -38,6 +38,10 @@ comments: true
 
 4. -
 5. RSN
+- TKIP ; 무선 네트워킹 표준으로 사용되는 보안 프로토콜.
+- 확장형 인증 프레임워크 EAP Extensible Authentication Protocol
+- 
+6. 
 
 
 
@@ -64,5 +68,5 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMzk4ODg2NCwxODY0Njk5MTI2XX0=
+eyJoaXN0b3J5IjpbMTE4MzE2MTI0MywxODY0Njk5MTI2XX0=
 -->
