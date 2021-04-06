@@ -31,6 +31,7 @@ comments: true
 
 ---
 
+## 교착상태 해결방안
 
 - 교착상태 해결방안
 	- 예방, 회피, 발견, 회복
@@ -52,8 +53,14 @@ comments: true
 		- Deadlock이 없어질 때까지 프로세스를 순차적으로 Kill하여 제거
 		- 프로세스 종료비용 최소화 ; 우선순위, 진행비용, 복귀비용 등
 		- 자원의 우선순위 할당 ; 희생자 선택, 복귀, 기아상태
+
+## Banker's 알고리즘 은행가 알고리즘
+
+- 개념
+	- 운영체제는 자원의 상태를 감시하고, 사용자 프로세스는 사전에 자신의 작업에서 필요한 자원의 수를 제시하는 교착상태 회피 알고리즘
+	- 운영체제는 안정상태를 유지할 수 있는 요구만을 수락하고 불안전 상태를 초래할 사용자의 요구는 나중에 만족될 수 있을 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4NjgwNjYsOTUyNjAzMTc3LDE5OTM4NT
-gzNzcsMTY5MjYzMDA1NiwzNjk0ODc0NTcsOTMxMTE3NzAyXX0=
+eyJoaXN0b3J5IjpbNDExNzM3MDc1LDk1MjYwMzE3NywxOTkzOD
+U4Mzc3LDE2OTI2MzAwNTYsMzY5NDg3NDU3LDkzMTExNzcwMl19
 
 -->
