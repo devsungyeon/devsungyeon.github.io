@@ -49,9 +49,11 @@ comments: true
 		- 시스템의 자원할당 그래프로 교착상태검출 Graph reduction, cycle Detection, Knot detection
 		- 교착상태 발생 시 자원할당 소거
 	- 회복 Recovery
-		- 
+		- Deadlock이 없어질 때까지 프로세스를 순차적으로 Kill하여 제거
+		- 프로세스 종료비용 최소화 ; 우선순위, 진행비용, 복귀비용 등
+		- 자원의 우선순위 할당 ; 희생자 선택, 복귀, 기아상태
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgzMzcwNDc0LDk1MjYwMzE3NywxOTkzOD
-U4Mzc3LDE2OTI2MzAwNTYsMzY5NDg3NDU3LDkzMTExNzcwMl19
+eyJoaXN0b3J5IjpbOTU4NjgwNjYsOTUyNjAzMTc3LDE5OTM4NT
+gzNzcsMTY5MjYzMDA1NiwzNjk0ODc0NTcsOTMxMTE3NzAyXX0=
 
 -->
