@@ -18,7 +18,7 @@ comments: true
 궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! ":)"
 
 
-
+1. 
 0
 0
 0
@@ -42,5 +42,5 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTc2MTIyODldfQ==
+eyJoaXN0b3J5IjpbMTY5MzAzMTEzMF19
 -->
