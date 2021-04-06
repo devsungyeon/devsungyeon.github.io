@@ -37,9 +37,15 @@ comments: true
 	- 예방 Prevention
 		- 상호배제 예방 ; 상호배제 사용하지 않음(동시액세스 허락)
 		- 부분할당 예방 ; 프로세스가 필요로 하는 자원을 일시에 요구/할당
-		- 비선점 예방 ; 자원임시 할당해제 및 원상복구(다루기가 
+		- 비선점 예방 ; 자원임시 할당해제 및 원상복구(다루기가 힘듦)
+		- 환형대기 예방 ; 모든 자원 고유번호 지정하여 환형대기 예방
+	- 회피(Avoidance) - Banker's Algorithm 은행가 알고리즘
+		- OS는 자원의 상태를 감시
+		- 프로세스는 사전에 자기 작업에서 필요한 자원의 수를 제시
+		- OS는 사용자 프로세스로부터 자원의 요청이 있으면 모든 프로세스가 일정기간 내에 성공적으로 종료될 수 있는 안전한 상태인지 면밀하게 분석
+		- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3MDMzNzkzLDk1MjYwMzE3NywxOTkzOD
-U4Mzc3LDE2OTI2MzAwNTYsMzY5NDg3NDU3LDkzMTExNzcwMl19
-
+eyJoaXN0b3J5IjpbLTExNzQ0NTIwNzMsOTUyNjAzMTc3LDE5OT
+M4NTgzNzcsMTY5MjYzMDA1NiwzNjk0ODc0NTcsOTMxMTE3NzAy
+XX0=
 -->
