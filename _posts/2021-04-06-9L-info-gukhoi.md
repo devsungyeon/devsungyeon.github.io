@@ -37,12 +37,14 @@ comments: true
 - IDS는 외내부 사이 뿐만 아니라 네트워크 어디에도 위치 가능.
 
 4. -
-5. RSN
+5. [RSN](https://www.boannews.com/media/view.asp?idx=7561)
 - TKIP ; 무선 네트워킹 표준으로 사용되는 보안 프로토콜.
 - TKIP ; 임시키 무결성 프로토콜
 - 확장형 인증 프레임워크 EAP Extensible Authentication Protocol
 - EAP = 범용 인증 프레임워크
-6. 
+- 802.1X ; TKIP를 통해 향상된 데이터 무결성
+6. -
+7. 
 
 
 
@@ -69,5 +71,5 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODI5NDE3MywxODY0Njk5MTI2XX0=
+eyJoaXN0b3J5IjpbLTUxODkxMjY5MCwxODY0Njk5MTI2XX0=
 -->
