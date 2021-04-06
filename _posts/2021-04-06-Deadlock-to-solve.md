@@ -20,10 +20,13 @@ comments: true
 ## 교착상태 발생 조건
 
 - 상호 배제 ; Mutual Exclusion
-	- 
+	- At least one resource must be held in a non-shareable way.
 - 점유와 대기 ; Hold and wait
+	- A process must be holding a resource and waiting for another.
 - 비선점 ; No preemption
+	- Resource cannot be preempted.
 - 환형대기 ; Circular wait
+	- A waits for B, B waits for C, C waits for
 
 
 
@@ -39,6 +42,6 @@ comments: true
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzcwNjUxMCwxNjkyNjMwMDU2LDM2OT
+eyJoaXN0b3J5IjpbLTcxMzY0MTgxNiwxNjkyNjMwMDU2LDM2OT
 Q4NzQ1Nyw5MzExMTc3MDJdfQ==
 -->
