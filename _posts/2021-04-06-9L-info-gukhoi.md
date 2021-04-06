@@ -50,20 +50,21 @@ comments: true
 - 사용자 기반 언어가 아닌 서버 기반 언어로 필터링
 8. -
 - 파일 소유주나 슈퍼 유저만 가능.
-9. -[IPSec](
- 
+9. -[IPSec](https://m.blog.naver.com/PostView.nhn?blogId=kim10322&logNo=150047962264&proxyReferer=https:%2F%2Fwww.google.com%2F)
+ - SA란 단방향  Connection 때문에 패킷을 송수신 하려면, 2개의  SA가 필요합니다. 만약, SA는 프로토콜 마다 확립되기 위해서  AH와  ESP를 동시에 사용하여 양방향 통신을 실시하는 경우에는  4개의  SA가 필요합니다.
 10.-
+10. -
 11. -
 12. -
-13. -
-14.  -
+13.  -
+- 
+14. -
 15. -
 16. -
 17. -
 18. -
 19. -
-20. -
-21. 
+20. 
 
 
 
@@ -90,5 +91,5 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxNzYzODQyLDE4NjQ2OTkxMjZdfQ==
+eyJoaXN0b3J5IjpbLTcyMTg5NTMwNCwxODY0Njk5MTI2XX0=
 -->
