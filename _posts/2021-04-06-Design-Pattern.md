@@ -64,13 +64,19 @@ comments: true
 
 ---
 
+| 목적          | 생성 패턴 Creation                                           | 구조 패턴 Structural                                                       | 행위 패턴 Behavioral                                                                                                          |
+|-------------|----------------------------------------------------------|------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| 외우기<br/>TIP | FSABP                                                    | ABCD2FP                                                                | T2I2C2S2MVO                                                                                                               |
+| 의미          | 객체의 생성방식을 결정하는 패턴                                        | 객체를 조직화하는데 유용한 패턴                                                      | 객체의 행위를 조직, 관리, 연합하는데 사용하는 패턴                                                                                             |
+| 클래스         | Factory method                                           | Adapter                                                                | Template method<br/>Interpreter                                                                                           |
+| 객체          | Singleton<br/>Abstract factory<br/>Builder<br/>Prototype | Bridge<br/>Composite<br/>Decorator<br/>Facade<br/>Fly weight<br/>Proxy | Iterator<br/>Command<br/>Chain of Responsibility<br/>State<br/>Strategy<br/>Mediator<br/>Memento<br/>Visitor<br/>Observer |
 
 
 ---
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjY5NTMyOTksMTgwNTE0MzA3Myw4OT
-Y5NDk0NDcsMTY5MjYzMDA1NiwzNjk0ODc0NTcsOTMxMTE3NzAy
-XX0=
+eyJoaXN0b3J5IjpbMTIxMjYxNTcxOCwtMTM2Njk1MzI5OSwxOD
+A1MTQzMDczLDg5Njk0OTQ0NywxNjkyNjMwMDU2LDM2OTQ4NzQ1
+Nyw5MzExMTc3MDJdfQ==
 -->
