@@ -28,7 +28,8 @@ comments: true
 2. AES
 - 대칭키 중 BLOCK 방식
 	- Feistel ; DES, SEED
-	- SPN
+	- SPN ; Rijndael, ARIA, AES
+- 비대칭키 ; RSA, ECC, ElGamal, DH
 
 3.  IDS
 - IDS는 외내부 사이 뿐만 아니라 네트워크 어디에도 위치 가능.
@@ -60,5 +61,5 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDEwMDc4MzIsMTg2NDY5OTEyNl19
+eyJoaXN0b3J5IjpbNTc1ODYwMzE5LDE4NjQ2OTkxMjZdfQ==
 -->
