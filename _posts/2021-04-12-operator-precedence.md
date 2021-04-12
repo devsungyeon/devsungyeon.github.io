@@ -32,7 +32,7 @@ int main() {
 	printf("%d\n", z); //8
 	int chk = ((x<10) && (++y));
 	// 전위로 더해서 0이 되었으므로 false
-	printf("%d\n", chk);
+	printf("%d\n", chk);//0
 	return 0;
 }
 ~~~
@@ -107,6 +107,6 @@ int main() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE1NjU3OTUxLC04NDY5OTg3NzAsLTE0OD
-M2MDkwNTBdfQ==
+eyJoaXN0b3J5IjpbLTE1OTgyNjk3NSwtODQ2OTk4NzcwLC0xND
+gzNjA5MDUwXX0=
 -->
