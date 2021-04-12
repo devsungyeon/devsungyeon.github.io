@@ -17,6 +17,18 @@ comments: true
 
 궁금한 점이나 오류는 댓글로 달아주시면, 답변 혹은 수정하겠습니다! ":)"
 
+## 문제
+
+~~~c
+#include <stdio.h>
+
+int main() {
+	int x=5, y
+}
+~~~
+
+
+
 
 
 |우선순위|연산자                          |설명    |
@@ -85,5 +97,6 @@ comments: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0Njk5ODc3MCwtMTQ4MzYwOTA1MF19
+eyJoaXN0b3J5IjpbMTgwODI5OTA1MiwtODQ2OTk4NzcwLC0xND
+gzNjA5MDUwXX0=
 -->
