@@ -23,7 +23,11 @@ comments: true
 #include <stdio.h>
 
 int main() {
-	int x=5, y
+	int x=5, y=0, z=7;
+	if((x<10) && (y--) || (z++)) ;
+	//y는 후행연산, 따라서 0이므로 false
+	//(x<10) && (y--) = false
+	printf("%d", 
 }
 ~~~
 
@@ -97,6 +101,6 @@ int main() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwODI5OTA1MiwtODQ2OTk4NzcwLC0xND
-gzNjA5MDUwXX0=
+eyJoaXN0b3J5IjpbLTExMjI2MzY3OTEsLTg0Njk5ODc3MCwtMT
+Q4MzYwOTA1MF19
 -->
