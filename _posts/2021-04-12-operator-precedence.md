@@ -27,7 +27,13 @@ int main() {
 	if((x<10) && (y--) || (z++)) ;
 	//y는 후행연산, 따라서 0이므로 false
 	//(x<10) && (y--) = false
-	printf("%d", 
+	printf("%d\n", x); //5
+	printf("%d\n", y); //-1
+	printf("%d\n", z); //8
+	int chk = ((x<10) && (++y));
+	// 전위로 더해서 0이 되었으므로 false
+	printf("%d\n", chk);
+	return 0;
 }
 ~~~
 
@@ -101,6 +107,6 @@ int main() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjI2MzY3OTEsLTg0Njk5ODc3MCwtMT
-Q4MzYwOTA1MF19
+eyJoaXN0b3J5IjpbNjE1NjU3OTUxLC04NDY5OTg3NzAsLTE0OD
+M2MDkwNTBdfQ==
 -->
